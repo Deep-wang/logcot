@@ -344,12 +344,12 @@ def analyze(PROMPT_STRATEGIES,INPUT_FILE,raw_file_name,API_URL,API_KEYS,analyze_
     if PROMPT_STRATEGIES == 'CoT':
         df=df.sample(frac=1).reset_index(drop=True)
         # answer_desc="a binary choice between normal and abnormal"
-        prompt_header="Classify the given log entries into normal and abnormal categories. Do it with these steps: \
-        (a) Mark it normal when values (such as memory address, floating number and register value) in a log are invalid. \
-        (b) Mark it normal when lack of information. (c) Never consider <*> and missing values as abnormal patterns. \
-        (d) Mark it abnormal when and only when the alert is explicitly expressed in textual content (such as keywords like error or interrupt). \
-        Common label prompts do not explan and cannot be skipped. Organize your answer to be the following format: (x,y) x is log index and y is a binary choice between normal and abnormal \
-        There are !!NumberControl!! logs, the logs begin: "
+        # prompt_header="Classify the given log entries into normal and abnormal categories. Do it with these steps: \
+        # (a) Mark it normal when values (such as memory address, floating number and register value) in a log are invalid. \
+        # (b) Mark it normal when lack of information. (c) Never consider <*> and missing values as abnormal patterns. \
+        # (d) Mark it abnormal when and only when the alert is explicitly expressed in textual content (such as keywords like error or interrupt). \
+        # Common label prompts do not explan and cannot be skipped. Organize your answer to be the following format: (x,y) x is log index and y is a binary choice between normal and abnormal \
+        # There are !!NumberControl!! logs, the logs begin: "
 
         prompt_header='''You are a log anomaly classifier.
 
@@ -471,6 +471,9 @@ def main():
     # 设置默认编码为UTF-8，避免Windows下的GBK编码问题
     import sys
     import io
+
+    import os
+    import platform
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
     
@@ -482,16 +485,33 @@ def main():
         "sk-qgsqryixuqdmtzkgubxpvdzollysgtonnvcrwmikwegmaogn",
         "sk-hvxqvahoplbhdadwtaomisdamxqhquvummcfpvlafeovpqus",
     ]
-    INPUT_DIR = 'C:/Users/pc/Desktop/code/log/logcot/log/OUTPUT_FILE'
-    OUTPUT_DIR = 'C:/Users/pc/Desktop/code/log/logcot/Find_detect/output_528'  
-    PROMPT_STRATEGIES = 'CoT'
-    analyze_log_path = 'C:/Users/pc/Desktop/code/log/logcot/Find_detect/output_528'
+    if platform.system() == "Darwin":
+        # macOS 系统
+        INPUT_DIR = './log/OUTPUT_FILE'
+        OUTPUT_DIR = './Find_detect/output_528'  
+        PROMPT_STRATEGIES = 'CoT'
+        analyze_log_path = './Find_detect/output_528'
+    elif platform.system() == "Windows":
+        # Windows 系统
+        INPUT_DIR = "C:\\Users\\yourname\\somepath"
+        OUTPUT_DIR = './Find_detect/output_528'  
+        PROMPT_STRATEGIES = 'CoT'
+        analyze_log_path = './Find_detect/output_528'
+    else:
+        # 其他系统（如 Linux）
+        INPUT_DIR = '/home/yourname/somepath'
+        OUTPUT_DIR = './Find_detect/output_528'  
+        PROMPT_STRATEGIES = 'CoT'
+        analyze_log_path = './Find_detect/output_528'
+
     file_list = UpLoad_File(INPUT_DIR)
     # file_list = file_list[:1]   # debug 
+    file_list
     Results = []
     Error_logs = []
-    for file in file_list:
-        INPUT_FILE = file
+    for i, file in enumerate(file_list):
+        INPUT_FILE = file_list[len(file_list)-i-1]
+        # INPUT_FILE = file
         raw_file_name = os.path.join(OUTPUT_DIR, os.path.basename(file).replace('.xlsx', '_raw.xlsx'))
         print(raw_file_name)
         results, error_log = analyze(PROMPT_STRATEGIES, INPUT_FILE, raw_file_name, API_URL, API_KEYS,analyze_log_path)
