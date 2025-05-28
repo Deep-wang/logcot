@@ -1,0 +1,13 @@
+分析结果：
+
+**日志异常**
+
+**错误时间**: 2025-04-23T12:04:01
+
+**异常点附近15行日志**:
+
+```
+2025-04-23T12:04:01.235459+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+2025-04-23T12:04:01.235461+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+2025-04-23T12:04:01.235476+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+2025-04-23T12：04：01.235465+08：00 Dky_app_00 kernel：sd 7：0：2：6：[sdu] CDB：Read(10)：28 00 00 00 00 00 00

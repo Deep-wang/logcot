@@ -1,0 +1,63 @@
+Template: ckpt2 log adjust: ckpt lsn(<:NUM:>), ckpt fil(<:NUM:>), ckpt off(<:NUM:>), cur lsn(<:NUM:>), l next seq(<:NUM:>), g next seq(<:NUM:>), cur free(<:NUM:>), total space(<:NUM:>), used space(<:NUM:>), free space(<:NUM:>), n ep(<:NUM:>)
+Size: 11
+
+Template: checkpoint end, <:NUM:> pages flushed, used space[<:NUM:>], free space[<:NUM:>].
+Size: 2
+
+Template: checkpoint requested by CKPT DIRTY PAGES, rlog free space[<:NUM:>], used space[<:NUM:>]
+Size: 2
+
+Template: checkpoint generate by dirty pages[<:NUM:>] > ckpt dirty pages[<:NUM:>]
+Size: 2
+
+Template: checkpoint begin, used space[<:NUM:>], free space[<:NUM:>]...
+Size: 2
+
+Template: ckpt2 log adjust: full status: <:NUM:>, ptx reserved: <:NUM:>
+Size: 10
+
+Template: utsk get dw svr info used <:NUM:> seconds
+Size: 2
+
+Template: Get svr info time used:<:NUM:>
+Size: 2
+
+Template: utsk dw udp bro used <:*:> cur bro time = <:NUM:>, last bro time = <:NUM:>
+Size: 2
+
+Template: socket err should retry errno:<:NUM:>
+Size: 59
+
+Template: Reached the max session limit.
+Size: 149
+
+Template: sigterm handler receive signal <:NUM:>
+Size: 1
+
+Template: hpc heart beat halt and wait change hdisk flag from <:NUM:> to <:NUM:>
+Size: 1
+
+Template: hpc heart beat dsk thread halt, sys status:OPEN, vtd status:SYSHALT
+Size: 1
+
+Template: VTD CMD SYS HALT
+Size: 1
+
+Template: total <:NUM:> rfil opened!
+Size: 1
+
+Template: INI parameter <:*:> <:*:> changed, the original value <:NUM:>, new value <:NUM:>
+Size: 76
+
+Template: info get from dcr disk, asm host = localhost, asm port = <:NUM:>, global dcr ep host = , global dcr ep port = <:NUM:>, global dcr css host = <:IP:>, global dcr css port = <:NUM:>
+Size: 37
+
+Template: dmshm2 attach, success, shm id <:NUM:>
+Size: 37
+
+Template: os asm env init success(dest host:localhost, dest port:<:NUM:>), conn info: comm port:<:NUM:>, host:localhost, port:<:NUM:>
+Size: 37
+
+Template: version info: enterprise
+Size: 37
+

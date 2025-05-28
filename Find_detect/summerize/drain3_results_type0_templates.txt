@@ -1,0 +1,2328 @@
+Template: (root) CMD (sh /usr/bin/msmp >> /var/log/msmp.log )
+Size: 730
+
+Template: (sysadmin) CMD (/usr/sbin/system load average every day.sh)
+Size: 1
+
+Template: (sysadmin) CMD (/usr/sbin/get max mem process.sh)
+Size: 1459
+
+Template: (sysadmin) CMD (/usr/sbin/get system load average <:NUM:> minutes.sh)
+Size: 98
+
+Template: (sysadmin) CMD (/usr/sbin/update time.sh)
+Size: 24
+
+Template: (root) CMD (/usr/local/rising/ravmonsys.sh >> /usr/local/rising/sys.log)
+Size: 24
+
+Template: (root) CMD (find /home/dmdba/dm/nmon log -type f -mtime <:NUM:> -exec rm -f {} \;)
+Size: 1
+
+Template: (root) CMD (/home/dmdba/dm/dmdbms/tool/nmon -s20 -c4320 -fT -m /home/dmdba/dm/nmon log > /dev/null <:NUM:>>&<:NUM:>)
+Size: 1
+
+Template: (dmdba) CMD (/home/dmdba/dm/dmdbms/dm monitor shell/cpu check.sh <:NUM:>>&<:NUM:>)
+Size: 1459
+
+Template: (root) CMD (/usr/local/rising/linuxRav/bin/ravdaemon > /dev/null <:NUM:>>&<:NUM:>)
+Size: 294
+
+Template: uptime
+Size: 1459
+
+Template: system load average every day = <:NUM:>.<:NUM:>
+Size: 1
+
+Template: <:NUM:>:<:NUM:>:<:NUM:> up <:NUM:> days, <:NUM:>:<:NUM:>, <:NUM:> users, load average: <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>
+Size: 1123
+
+Template: free -m
+Size: 1460
+
+Template: total used free shared buffers cached
+Size: 1460
+
+Template: Mem: <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>
+Size: 1460
+
+Template: -/+ buffers/cache: <:NUM:> <:NUM:>
+Size: 1460
+
+Template: Swap: <:NUM:> <:NUM:> <:NUM:>
+Size: 1460
+
+Template: df -h
+Size: 1460
+
+Template: Filesystem Size Used Avail Use% Mounted on
+Size: 1460
+
+Template: /dev/sda2 93G <:*:> 34G <:NUM:>% /
+Size: 1203
+
+Template: /dev/sda3 185G 199M 176G <:NUM:>% /home/d5000/zhejiang
+Size: 1460
+
+Template: /dev/sda5 139G 188M 132G <:NUM:>% /home/d5000/zhejiang/var
+Size: 1460
+
+Template: /dev/sda6 356G <:*:> 314G <:NUM:>% /home/dmdba
+Size: 141
+
+Template: /dev/mapper/vg01-lv--dbarch
+Size: 2870
+
+Template: 493G 48G 420G <:NUM:>% /dbarch
+Size: 958
+
+Template: tmpfs 20M <:*:> 20M <:NUM:>% /tmp/smp
+Size: 1460
+
+Template: df -ih
+Size: 1460
+
+Template: Filesystem Inodes IUsed IFree IUse% Mounted on
+Size: 1460
+
+Template: /dev/sda2 <:NUM:>.9M 178K <:NUM:>.7M <:NUM:>% /
+Size: 1460
+
+Template: /dev/sda3 12M <:NUM:> 12M <:NUM:>% /home/d5000/zhejiang
+Size: 1460
+
+Template: /dev/sda5 <:NUM:>.8M <:NUM:> <:NUM:>.8M <:NUM:>% /home/d5000/zhejiang/var
+Size: 1460
+
+Template: /dev/sda6 23M <:*:> 23M <:NUM:>% /home/dmdba
+Size: 1460
+
+Template: 32M <:NUM:> 32M <:NUM:>% /dbarch
+Size: 1435
+
+Template: tmpfs 32M <:NUM:> 32M <:NUM:>% /tmp/smp
+Size: 1460
+
+Template: netstat -an |grep -i 'established'|wc -l
+Size: 1460
+
+Template: <:NUM:>
+Size: 1460
+
+Template: receive: KoD packet from <:IP:> has inconsistent xmt/org/rec timestamps. Ignoring.
+Size: 27
+
+Template: /dev/sda6 356G <:*:> 313G <:NUM:>% /home/dmdba
+Size: 476
+
+Template: /dev/sda6 356G <:*:> 312G <:NUM:>% /home/dmdba
+Size: 505
+
+Template: <:NUM:>:<:NUM:>: mark as failed
+Size: 2
+
+Template: <:SEQ:>: remaining active paths: <:NUM:>
+Size: 2
+
+Template: sdd: remove path (uevent)
+Size: 1
+
+Template: shutting down for system reboot
+Size: 3
+
+Template: Switching to runlevel: <:NUM:>
+Size: 3
+
+Template: iscsid shutting down.
+Size: 3
+
+Template: Started dispatcher: /sbin/audispd pid: <:NUM:>
+Size: 4
+
+Template: af unix plugin initialized
+Size: 4
+
+Template: audispd initialized with q depth=<:NUM:> and <:NUM:> active plugins
+Size: 4
+
+Template: Init complete, auditd <:NUM:>.<:NUM:>.<:NUM:> listening for events (startup state enable)
+Size: 4
+
+Template: iSCSI logger with pid=<:NUM:> started!
+Size: 4
+
+Template: smartd version <:NUM:>.<:NUM:> [x86 <:NUM:>-unknown-linux-gnu] Copyright (C) <:NUM:>-<:NUM:> Bruce Allen
+Size: 4
+
+Template: Home page is http://smartmontools.sourceforge.net/
+Size: 4
+
+Template: Opened configuration file /etc/smartd.conf
+Size: 4
+
+Template: Drive: DEVICESCAN, implied '-a' Directive on line <:NUM:> of file /etc/smartd.conf
+Size: 4
+
+Template: Configuration file /etc/smartd.conf was parsed, found DEVICESCAN, scanning devices
+Size: 4
+
+Template: Device: /dev/sda, opened
+Size: 4
+
+Template: Device: <:*:> IE (SMART) not enabled, skip device Try 'smartctl -s on <:*:> to turn on SMART features
+Size: 60
+
+Template: Device: /dev/sdb, opened
+Size: 4
+
+Template: Device: /dev/sdc, opened
+Size: 4
+
+Template: Device: /dev/sdd, opened
+Size: 4
+
+Template: Device: /dev/sde, opened
+Size: 4
+
+Template: Device: /dev/sdf, opened
+Size: 4
+
+Template: Device: /dev/sdg, opened
+Size: 4
+
+Template: Device: /dev/sdh, opened
+Size: 4
+
+Template: Device: /dev/sdi, opened
+Size: 4
+
+Template: Device: /dev/sdj, opened
+Size: 4
+
+Template: Device: /dev/sdk, opened
+Size: 4
+
+Template: Device: /dev/sdl, opened
+Size: 4
+
+Template: Device: /dev/sdm, opened
+Size: 4
+
+Template: Device: /dev/sdn, opened
+Size: 4
+
+Template: Device: /dev/sdo, opened
+Size: 4
+
+Template: Unable to monitor any SMART enabled devices. Try debug (-d) option. Exiting...
+Size: 4
+
+Template: LINX mount,spec:tmpfs,node:/tmp/smp,type:tmpfs,opt:size=20M,freq:<:NUM:>,pass:<:NUM:>,ro:<:NUM:>
+Size: 4
+
+Template: <:*:> - ProFTPD Ftp (maint) (built Mon Nov <:NUM:> <:NUM:> <:NUM:>:<:NUM:>:<:NUM:> CST) standalone mode STARTUP
+Size: 4
+
+Template: Online and ready (<:NUM:> sockets)
+Size: 4
+
+Template: LINX mount,spec:fusectl,node:/sys/fs/fuse/connections,type:fusectl,opt:(null),freq:<:NUM:>,pass:<:NUM:>,ro:<:NUM:>
+Size: 4
+
+Template: ntpd <:*:> <:*:> <:*:> <:NUM:> <:NUM:>:<:NUM:>:<:NUM:> UTC <:NUM:> (<:NUM:>): Starting
+Size: 4
+
+Template: Command line: /usr/sbin/ntpd -g
+Size: 4
+
+Template: proto: precision = <:NUM:>.<:NUM:> usec (<:NUM:>)
+Size: 4
+
+Template: Listen and drop on <:NUM:> v4wildcard <:IP:>:<:NUM:>
+Size: 4
+
+Template: Listening on routing socket on fd #<:NUM:> for interface updates
+Size: 4
+
+Template: (CRON) STARTUP (V5.<:NUM:>)
+Size: 4
+
+Template: (*system*) NOT REGULAR <:*:>
+Size: 12
+
+Template: LINX mount,spec:devpts,node:/dev/pts,type:devpts,opt:defaults,freq:<:NUM:>,pass:<:NUM:>,ro:<:NUM:>
+Size: 4
+
+Template: LINX mount,spec:tmpfs,node:/dev/shm,type:tmpfs,opt:defaults,freq:<:NUM:>,pass:<:NUM:>,ro:<:NUM:>
+Size: 4
+
+Template: LINX mount,spec:/dev/vg01/lv-dbarch,node:/dbarch,type:ext3,opt:defaults,freq:<:NUM:>,pass:<:NUM:>,ro:<:NUM:>
+Size: 2
+
+Template: <:NUM:>:<:NUM:>:<:NUM:> up <:NUM:> min, <:NUM:> <:*:> load average: <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>
+Size: 143
+
+Template: mapathb: load table [<:NUM:> <:NUM:> multipath <:NUM:> queue if no path <:NUM:> <:NUM:> <:NUM:> round-robin <:NUM:> <:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:>]
+Size: 1
+
+Template: <:SEQ:>: load table [<:NUM:> <:NUM:> multipath <:NUM:> queue if no path <:NUM:> <:NUM:> <:NUM:> round-robin <:NUM:> <:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:> <:NUM:>:<:NUM:> <:NUM:>]
+Size: 1
+
+Template: mapathb: event checker started
+Size: 1
+
+Template: <:SEQ:>: event checker started
+Size: 1
+
+Template: path checkers start up
+Size: 1
+
+Template: Listen normally on <:NUM:> <:*:> <:IP:>:<:NUM:>
+Size: 6
+
+Template: LINX mount,spec:/dev/mapper/vg01-lv--dbarch,node:/dbarch,type:ext3,opt:defaults,freq:<:NUM:>,pass:<:NUM:>,ro:<:NUM:>
+Size: 2
+
+Template: 493G 47G 421G <:NUM:>% /dbarch
+Size: 1
+
+Template: 493G 49G 419G <:NUM:>% /dbarch
+Size: 152
+
+Template: /dev/sda2 93G 54G 35G <:NUM:>% /
+Size: 256
+
+Template: /dev/sda2 93G 56G 33G <:NUM:>% /
+Size: 1
+
+Template: <:NUM:>:<:NUM:>:<:NUM:> up <:NUM:>:<:NUM:>, <:NUM:> <:*:> load average: <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>
+Size: 193
+
+Template: (root) LIST (d5000)
+Size: 2
+
+Template: pam unix acct(sshd:account): expired password for user sysadmin (password aged)
+Size: 2
+
+Template: Accepted password for <:*:> from <:IP:> port <:NUM:> ssh2
+Size: 33
+
+Template: linx pam sm <:*:> session
+Size: 45
+
+Template: pam unix session(sshd:session): session opened for user <:*:> by (uid=<:NUM:>)
+Size: 33
+
+Template: Received disconnect from <:IP:> port <:NUM:>:<:NUM:>: disconnected by user
+Size: 4
+
+Template: Disconnected from user <:*:> <:IP:> port <:NUM:>
+Size: 8
+
+Template: pam unix session(sshd:session): session closed for user <:*:>
+Size: 12
+
+Template: pam unix passwd(passwd:chauthtok): password changed for sysadmin
+Size: 2
+
+Template: error: Received disconnect from <:IP:> port <:NUM:>:<:NUM:>:
+Size: 4
+
+Template: Successful su for root by <:*:>
+Size: 15
+
+Template: + pts/<:NUM:> sysadmin:root
+Size: 3
+
+Template: pam unix(su:session): session opened for user <:*:> by (uid=<:NUM:>)
+Size: 30
+
+Template: pam unix(su:session): session closed for user <:*:>
+Size: 19
+
+Template: Successful su for <:*:> by root
+Size: 15
+
+Template: + ??? root:d5000
+Size: 2
+
+Template: pam <:*:> Error opening /var/log/faillog for update
+Size: 3
+
+Template: + pts/<:NUM:> dmdba:root
+Size: 12
+
+Template: password check failed for user (root)
+Size: 3
+
+Template: pam unix auth(su:auth): authentication failure; logname= uid=<:NUM:> euid=<:NUM:> tty=pts/<:NUM:> <:*:> rhost= user=root
+Size: 3
+
+Template: pam authenticate: 鉴定故障
+Size: 3
+
+Template: FAILED su for root by <:*:>
+Size: 3
+
+Template: - pts/<:NUM:> dmdba:root
+Size: 2
+
+Template: :<:NUM:>[<:NUM:>]: linx pam sm <:*:> session
+Size: 6
+
+Template: :<:NUM:>[<:NUM:>]: BUILD=(Jun <:NUM:> <:NUM:>)
+Size: 7
+
+Template: :<:NUM:>[<:NUM:>]: service name:kde
+Size: 7
+
+Template: :<:NUM:>[<:NUM:>]: xdisplay:
+Size: 7
+
+Template: :<:NUM:>[<:NUM:>]: local sender:pid=<:NUM:> <:*:>
+Size: 7
+
+Template: :<:NUM:>[<:NUM:>]: TO (<:IP:>):(<:NUM:>)
+Size: 7
+
+Template: :<:NUM:>[<:NUM:>]: udp sender:start send to <:IP:>:<:NUM:>
+Size: 7
+
+Template: :<:NUM:>[<:NUM:>]: pam unix session(kde:session): session closed for user <:*:>
+Size: 3
+
+Template: + ??? root:dmdba
+Size: 6
+
+Template: Server listening on <:IP:> port <:NUM:>.
+Size: 4
+
+Template: :<:NUM:>[<:NUM:>]: pam unix session(kde:session): session opened for user <:*:> by (uid=<:NUM:>)
+Size: 3
+
+Template: looking for plugins in '/usr/lib/sasl2', failed to open directory, error: No such file or directory
+Size: 4
+
+Template: :<:NUM:>[<:NUM:>]: pam unix auth(kde:auth): authentication failure; logname= uid=<:NUM:> euid=<:NUM:> tty=:<:NUM:> ruser= rhost= user=root
+Size: 1
+
+Template: :<:NUM:>[<:NUM:>]: linx pam logfail
+Size: 1
+
+Template: + pts/<:NUM:> root:dmdba
+Size: 3
+
+Template: + pts/<:NUM:> root:d5000
+Size: 4
+
+Template: rport-<:NUM:>:<:NUM:>-<:NUM:>: blocked FC remote port time out: removing target and saving binding
+Size: 2
+
+Template: lpfc <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: <:NUM:>:(<:NUM:>):<:NUM:> Devloss timeout on WWPN <:ID:> NPort x1f0400 Data: x0 x8 x0
+Size: 2
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: rejecting I/O to offline device
+Size: 2
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> killing request
+Size: 2
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> Result: hostbyte=DID NO CONNECT driverbyte=DRIVER OK
+Size: 2
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> CDB: Write(<:NUM:>): 2a <:NUM:> <:*:> <:NUM:> <:*:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>
+Size: 2
+
+Template: end request: I/O error, dev <:*:> sector <:NUM:>
+Size: 2
+
+Template: device-mapper: multipath: Failing path <:NUM:>:<:NUM:>.
+Size: 2
+
+Template: usb <:*:> <:*:> <:*:> speed USB device number <:NUM:> using xhci hcd
+Size: 18
+
+Template: usb <:NUM:>-<:NUM:>: New USB device found, <:*:> <:*:>
+Size: 13
+
+Template: usb <:*:> New USB device strings: Mfr=<:NUM:>, Product=<:NUM:>, SerialNumber=<:NUM:>
+Size: 23
+
+Template: usb <:NUM:>-<:NUM:>: Product: USB NetVista Full Width Keyboard
+Size: 5
+
+Template: usb <:NUM:>-<:NUM:>: Manufacturer: <:*:>
+Size: 10
+
+Template: usb <:*:> configuration #<:NUM:> chosen from <:NUM:> choice
+Size: 23
+
+Template: usb <:NUM:>-<:NUM:>: ep <:HEX:> - rounding interval to <:NUM:> microframes, ep desc says <:NUM:> microframes
+Size: 11
+
+Template: input: CHICONY USB NetVista Full Width Keyboard as <:*:>
+Size: 5
+
+Template: generic-usb <:NUM:>:04B3:<:NUM:>.<:NUM:>: <:*:> USB HID v1.<:NUM:> Keyboard [CHICONY USB NetVista Full Width Keyboard] on usb-<:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>-<:NUM:>/input0
+Size: 5
+
+Template: usb <:NUM:>-<:NUM:>: USB disconnect, device number <:NUM:>
+Size: 6
+
+Template: usb <:NUM:>-<:NUM:>: Product: USB Optical Mouse
+Size: 5
+
+Template: input: Logitech USB Optical Mouse as <:*:>
+Size: 5
+
+Template: generic-usb <:NUM:>:046D:C018.<:NUM:>: <:*:> USB HID v1.<:NUM:> Mouse [Logitech USB Optical Mouse] on usb-<:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>-<:NUM:>/input0
+Size: 5
+
+Template: xhci hcd <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: Setup ERROR: setup context command for slot <:NUM:>.
+Size: 2
+
+Template: xhci hcd <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: xHCI xhci drop endpoint called with disabled ep ffff8810438a0540
+Size: 1
+
+Template: Kernel logging (proc) stopped.
+Size: 3
+
+Template: Kernel log daemon terminating.
+Size: 3
+
+Template: klogd <:NUM:>.<:NUM:>.<:NUM:>, log source = /proc/kmsg started.
+Size: 4
+
+Template: Inspecting /boot/System.map-<:IP:>-Rocky4.<:NUM:>-x86 <:NUM:>
+Size: 4
+
+Template: Inspecting /usr/src/linux/System.map
+Size: 4
+
+Template: Cannot find map file.
+Size: 4
+
+Template: Loaded <:NUM:> symbols from <:NUM:> modules.
+Size: 4
+
+Template: Initializing cgroup subsys <:*:>
+Size: 32
+
+Template: Linux version <:IP:>-Rocky4.<:NUM:>-x86 <:NUM:> (root@Auto-builder) (gcc version <:NUM:>.<:NUM:>.<:NUM:> (Linx <:NUM:>.<:NUM:>.<:NUM:>-8linx1) ) #<:NUM:> SMP Mon May <:NUM:> <:NUM:>:<:NUM:>:<:NUM:> CST <:NUM:>
+Size: 4
+
+Template: Command line: BOOT IMAGE=/boot/vmlinuz-<:IP:>-Rocky4.<:NUM:>-x86 <:NUM:> <:*:> ro linx <:*:> security=linx rootflags=data=writeback elevator=deadline quiet <:*:>
+Size: 4
+
+Template: KERNEL supported cpus:
+Size: 4
+
+Template: Intel GenuineIntel
+Size: 4
+
+Template: AMD AuthenticAMD
+Size: 4
+
+Template: Centaur CentaurHauls
+Size: 4
+
+Template: BIOS-provided physical RAM map:
+Size: 4
+
+Template: BIOS-e820: <:SEQ:>- <:*:> (usable)
+Size: 8
+
+Template: BIOS-e820: 000000000009a000 - 00000000000a0000 (reserved)
+Size: 4
+
+Template: BIOS-e820: <:*:> - <:SEQ:>(reserved)
+Size: 12
+
+Template: BIOS-e820: 000000006a52a000 - 000000006c62a000 (reserved)
+Size: 4
+
+Template: BIOS-e820: 000000006c62a000 - 000000006c73a000 (usable)
+Size: 4
+
+Template: BIOS-e820: 000000006c73a000 - 000000006d328000 (ACPI NVS)
+Size: 4
+
+Template: BIOS-e820: 000000006d328000 - 000000006f232000 (reserved)
+Size: 4
+
+Template: BIOS-e820: 000000006f232000 - 000000006f800000 (usable)
+Size: 4
+
+Template: BIOS-e820: 00000000fd000000 - 00000000fe800000 (reserved)
+Size: 4
+
+Template: BIOS-e820: 00000000fed20000 - 00000000fed45000 (reserved)
+Size: 4
+
+Template: BIOS-e820: <:SEQ:>- <:SEQ:>(usable)
+Size: 4
+
+Template: SMBIOS version <:NUM:>.<:NUM:> @ <:HEX:>
+Size: 4
+
+Template: SMBIOS <:NUM:>.<:NUM:> present.
+Size: 4
+
+Template: DMI: Sugon I840-G30/80P48-US, BIOS 0THSY016 <:NUM:>/<:NUM:>/<:NUM:>
+Size: 4
+
+Template: AMI BIOS detected: BIOS may corrupt low RAM, working around it.
+Size: 4
+
+Template: e820 update range: <:SEQ:>- <:SEQ:>(usable) ==> (reserved)
+Size: 8
+
+Template: e820 remove range: 00000000000a0000 - <:SEQ:>(usable)
+Size: 4
+
+Template: last pfn = <:HEX:> max arch pfn = <:HEX:>
+Size: 8
+
+Template: x86 PAT enabled: cpu <:NUM:>, old <:HEX:>, new <:HEX:>
+Size: 4
+
+Template: original variable MTRRs
+Size: 4
+
+Template: reg <:NUM:>, base: <:*:> range: <:*:> type WB
+Size: 16
+
+Template: reg <:NUM:>, base: <:*:> range: <:*:> type UC
+Size: 16
+
+Template: total RAM covered: 262128M
+Size: 4
+
+Template: Found optimal setting for mtrr clean up
+Size: 4
+
+Template: gran size: 64K ^Ichunk size: 256G ^Inum reg: <:NUM:> ^Ilose cover RAM: 0G
+Size: 4
+
+Template: New variable MTRRs
+Size: 4
+
+Template: e820 update range: 000000007f000000 - <:SEQ:>(usable) ==> (reserved)
+Size: 4
+
+Template: initial memory mapped : <:NUM:> - <:NUM:>
+Size: 4
+
+Template: Using GB pages for direct mapping
+Size: 4
+
+Template: init memory mapping: <:*:>
+Size: 8
+
+Template: <:NUM:> - <:NUM:> page 1G
+Size: 8
+
+Template: <:NUM:> - 006f800000 page 2M
+Size: 4
+
+Template: kernel direct mapping tables up to <:*:> @ <:NUM:>-<:NUM:>
+Size: 8
+
+Template: Use unified mapping for non-reserved e820 regions.
+Size: 4
+
+Template: RAMDISK: 376e1000 - 37fef88a
+Size: 4
+
+Template: ACPI: Deleted OSI(Windows <:NUM:>)
+Size: 8
+
+Template: ACPI: RSDP 00000000000f05b0 <:NUM:> (v02 ALASKA)
+Size: 4
+
+Template: ACPI: <:*:> <:*:> <:*:> (v01 ALASKA A M I <:NUM:> AMI <:NUM:>)
+Size: 12
+
+Template: ACPI: <:*:> <:*:> <:NUM:> <:*:> ALASKA A M I <:NUM:> INTL <:NUM:>)
+Size: 52
+
+Template: ACPI: <:*:> <:*:> <:*:> (v02 ALASKA A M I <:NUM:> INTL <:NUM:>)
+Size: 8
+
+Template: ACPI: FACS 000000006d326080 <:NUM:>
+Size: 4
+
+Template: ACPI: SPMI 000000006c783ea8 <:NUM:> (v05 ALASKA A M I <:NUM:> AMI. <:NUM:>)
+Size: 2
+
+Template: ACPI: UEFI <:*:> 0005C (v01 INTEL RstUefiV <:NUM:> <:NUM:>)
+Size: 4
+
+Template: ACPI: UEFI <:*:> <:NUM:> (v01 ALASKA A M I <:NUM:> <:NUM:>)
+Size: 4
+
+Template: ACPI: <:*:> <:*:> 0003C (v01 ALASKA A M I <:NUM:> <:*:> <:NUM:>)
+Size: 8
+
+Template: ACPI: APIC <:*:> 016DE (v03 ALASKA A M I <:NUM:> INTL <:NUM:>)
+Size: 4
+
+Template: ACPI: NFIT <:*:> <:NUM:> (v01 <:NUM:> <:NUM:>)
+Size: 4
+
+Template: ACPI: <:*:> <:*:> <:*:> (v01 ALASKA A M I <:NUM:> INTL <:NUM:>)
+Size: 8
+
+Template: ACPI: OEM4 <:*:> A27C4 (v02 INTEL CPU CST <:NUM:> INTL <:NUM:>)
+Size: 4
+
+Template: ACPI: OEM1 <:*:> 2A2C4 (v02 INTEL CPU EIST <:NUM:> INTL <:NUM:>)
+Size: 4
+
+Template: ACPI: OEM2 <:*:> <:NUM:> (v02 INTEL CPU HWP <:NUM:> INTL <:NUM:>)
+Size: 4
+
+Template: ACPI: SSDT <:*:> <:NUM:> (v02 INTEL SSDT PM <:NUM:> INTL <:NUM:>)
+Size: 4
+
+Template: ACPI: SPCR <:*:> <:NUM:> (v02 A M I APTIO V <:NUM:> AMI. 0005000C)
+Size: 4
+
+Template: ACPI: SSDT <:*:> 02AF6 (v02 INTEL SpsNm <:NUM:> INTL <:NUM:>)
+Size: 4
+
+Template: ACPI: Local APIC address <:HEX:>
+Size: 8
+
+Template: Setting APIC routing to flat.
+Size: 8
+
+Template: SRAT: PXM <:NUM:> -> APIC <:NUM:> -> Node <:NUM:>
+Size: 576
+
+Template: SRAT: Node <:NUM:> PXM <:NUM:> <:NUM:>-<:NUM:>
+Size: 20
+
+Template: NUMA: Allocated memnodemap from <:NUM:> - <:NUM:>
+Size: 4
+
+Template: NUMA: Using <:NUM:> for the hash shift.
+Size: 4
+
+Template: Bootmem setup node <:NUM:> <:SEQ:>-<:SEQ:>
+Size: 16
+
+Template: NODE DATA [<:SEQ:>- <:*:>
+Size: 12
+
+Template: bootmap [<:SEQ:>- <:*:> pages <:NUM:>
+Size: 16
+
+Template: (<:NUM:> early reservations) ==> bootmem [<:NUM:> - <:NUM:>]
+Size: 16
+
+Template: #<:NUM:> [<:NUM:> - <:NUM:>] BIOS data page ==> [<:NUM:> - <:NUM:>]
+Size: 4
+
+Template: #<:NUM:> [<:NUM:> - <:NUM:>] <:*:> ==> [<:NUM:> - <:NUM:>]
+Size: 12
+
+Template: #<:NUM:> [<:NUM:> - 000204aae4] TEXT DATA BSS ==> [<:NUM:> - 000204aae4]
+Size: 4
+
+Template: #<:NUM:> [00376e1000 - 0037fef88a] RAMDISK ==> [00376e1000 - 0037fef88a]
+Size: 4
+
+Template: #<:NUM:> [000009a000 - <:NUM:>] BIOS reserved ==> [000009a000 - <:NUM:>]
+Size: 4
+
+Template: #<:NUM:> [000204b000 - 000204bf1c] BRK ==> [000204b000 - 000204bf1c]
+Size: 4
+
+Template: #<:NUM:> [<:NUM:> - 000001103c] ACPI SLIT ==> [<:NUM:> - 000001103c]
+Size: 4
+
+Template: #<:NUM:> [<:NUM:> - <:NUM:>] BIOS data page
+Size: 12
+
+Template: #<:NUM:> [<:NUM:> - <:NUM:>] <:*:>
+Size: 36
+
+Template: #<:NUM:> [<:NUM:> - 000204aae4] TEXT DATA BSS
+Size: 12
+
+Template: #<:NUM:> [00376e1000 - 0037fef88a] RAMDISK
+Size: 12
+
+Template: #<:NUM:> [000009a000 - <:NUM:>] BIOS reserved
+Size: 12
+
+Template: #<:NUM:> [000204b000 - 000204bf1c] BRK
+Size: 12
+
+Template: #<:NUM:> [<:NUM:> - 000001103c] ACPI SLIT
+Size: 12
+
+Template: NODE DATA [00000030800000c0 - 00000030800340bf]
+Size: 4
+
+Template: <:*:> PMD -> <:*:> on node <:NUM:>
+Size: 32
+
+Template: Zone PFN ranges:
+Size: 4
+
+Template: DMA <:HEX:> -> <:HEX:>
+Size: 4
+
+Template: <:*:> <:HEX:> -> <:HEX:>
+Size: 40
+
+Template: Movable zone start PFN for each node
+Size: 4
+
+Template: early node map[<:NUM:>] active PFN ranges
+Size: 4
+
+Template: On node <:NUM:> totalpages: <:NUM:>
+Size: 16
+
+Template: DMA zone: <:NUM:> pages used for memmap
+Size: 4
+
+Template: DMA zone: <:NUM:> pages reserved
+Size: 4
+
+Template: DMA zone: <:NUM:> pages, LIFO batch:<:NUM:>
+Size: 4
+
+Template: <:*:> zone: <:NUM:> pages used for memmap
+Size: 20
+
+Template: <:*:> zone: <:NUM:> pages, LIFO batch:<:NUM:>
+Size: 20
+
+Template: ACPI: PM-Timer IO Port: <:HEX:>
+Size: 4
+
+Template: ACPI: LAPIC (acpi id[<:HEX:>] lapic id[<:HEX:>] <:*:>
+Size: 580
+
+Template: ACPI: X2APIC (apic id[<:HEX:>] uid[<:HEX:>] disabled)
+Size: 896
+
+Template: ACPI: X2APIC NMI (uid[<:HEX:>] high level lint[<:HEX:>])
+Size: 4
+
+Template: ACPI: LAPIC NMI (acpi id[<:HEX:>] high level lint[<:HEX:>])
+Size: 4
+
+Template: ACPI: IOAPIC (id[<:HEX:>] address[<:HEX:>] gsi base[<:NUM:>])
+Size: 68
+
+Template: IOAPIC[<:NUM:>]: apic id <:NUM:>, version <:NUM:>, address <:HEX:>, GSI <:NUM:>-<:NUM:>
+Size: 68
+
+Template: ACPI: INT SRC OVR (bus <:NUM:> bus irq <:NUM:> global irq <:NUM:> <:*:> <:*:>
+Size: 8
+
+Template: ACPI: <:*:> used by override.
+Size: 12
+
+Template: Using ACPI (MADT) for SMP configuration information
+Size: 4
+
+Template: ACPI: HPET id: <:HEX:> base: <:HEX:>
+Size: 4
+
+Template: SMP: Allowing <:NUM:> CPUs, <:NUM:> hotplug CPUs
+Size: 4
+
+Template: nr irqs gsi: <:NUM:>
+Size: 4
+
+Template: PM: Registered nosave memory: <:*:> - <:*:>
+Size: 48
+
+Template: PM: Registered nosave memory: <:SEQ:>- 00000000fd000000
+Size: 4
+
+Template: Allocating PCI resources starting at <:NUM:> (gap: <:NUM:>:6d000000)
+Size: 4
+
+Template: Booting paravirtualized kernel on bare hardware
+Size: 4
+
+Template: NR CPUS:<:NUM:> nr cpumask bits:<:NUM:> nr cpu ids:<:NUM:> nr node ids:<:NUM:>
+Size: 4
+
+Template: PERCPU: Embedded <:NUM:> pages/cpu @ffff880060e00000 s104088 r8192 d22888 u262144
+Size: 4
+
+Template: pcpu-alloc: s104088 r8192 d22888 u262144 alloc=<:NUM:>*<:NUM:>
+Size: 4
+
+Template: pcpu-alloc: [<:NUM:>] <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>
+Size: 224
+
+Template: Built <:NUM:> zonelists in Zone order, mobility grouping on. Total pages: <:NUM:>
+Size: 4
+
+Template: Policy zone: Normal
+Size: 4
+
+Template: Kernel command line: BOOT IMAGE=/boot/vmlinuz-<:IP:>-Rocky4.<:NUM:>-x86 <:NUM:> <:*:> ro linx <:*:> security=linx rootflags=data=writeback elevator=deadline quiet <:*:>
+Size: 4
+
+Template: PID hash table entries: <:NUM:> (order: <:NUM:>, <:NUM:> bytes)
+Size: 4
+
+Template: x86/fpu: xstate offset[<:NUM:>]: <:*:> xstate sizes[<:NUM:>]: <:NUM:>
+Size: 24
+
+Template: xsave/xrstor: enabled xstate bv <:HEX:>, cntxt size <:HEX:>
+Size: 4
+
+Template: dmar: Queued invalidation will be enabled to support x2apic and Intr-remapping.
+Size: 4
+
+Template: Memory: 264266108k/270532608k available (5501k kernel code, 2445752k absent, 3820748k reserved, 6929k data, 1328k init)
+Size: 4
+
+Template: x86/pti: Kernel page table isolation enabled
+Size: 4
+
+Template: Hierarchical RCU implementation.
+Size: 4
+
+Template: NR IRQS:<:NUM:> nr irqs:<:NUM:>
+Size: 4
+
+Template: Extended CMOS year: <:NUM:>
+Size: 4
+
+Template: Console: colour VGA+ 80x25
+Size: 4
+
+Template: console [tty0] enabled
+Size: 4
+
+Template: allocated <:NUM:> bytes of page cgroup
+Size: 4
+
+Template: please try 'cgroup disable=memory' option if you don't want memory cgroups
+Size: 4
+
+Template: hpet clockevent registered
+Size: 4
+
+Template: TSC: PIT calibration matches HPET. <:NUM:> loops
+Size: 4
+
+Template: Detected <:NUM:>.<:NUM:> MHz processor.
+Size: 4
+
+Template: Calibrating delay loop (skipped), value calculated using timer frequency.. <:NUM:>.<:NUM:> BogoMIPS (lpj=<:NUM:>)
+Size: 4
+
+Template: pid max: default: <:NUM:> minimum: <:NUM:>
+Size: 4
+
+Template: Security Framework initialized
+Size: 4
+
+Template: Dentry cache hash table entries: <:NUM:> (order: <:NUM:>, <:NUM:> bytes)
+Size: 4
+
+Template: Inode-cache hash table entries: <:NUM:> (order: <:NUM:>, <:NUM:> bytes)
+Size: 4
+
+Template: Mount-cache hash table entries: <:NUM:>
+Size: 4
+
+Template: Initializing cgroup subsys net <:*:>
+Size: 8
+
+Template: Initializing cgroup subsys perf event
+Size: 4
+
+Template: CPU: Physical Processor ID: <:NUM:>
+Size: 4
+
+Template: CPU: Processor Core ID: <:NUM:>
+Size: 4
+
+Template: FEATURE SPEC CTRL Present
+Size: 4
+
+Template: FEATURE IBPB SUPPORT Present
+Size: 4
+
+Template: mce: CPU supports <:NUM:> MCE banks
+Size: 4
+
+Template: CPU0: Thermal monitoring enabled (TM1)
+Size: 4
+
+Template: ACPI: Core revision <:NUM:>
+Size: 4
+
+Template: ftrace: converting mcount calls to 0f 1f <:NUM:> <:NUM:> <:NUM:>
+Size: 4
+
+Template: ftrace: allocating <:NUM:> entries in <:NUM:> pages
+Size: 4
+
+Template: dmar: Host address width <:NUM:>
+Size: 4
+
+Template: dmar: DRHD base: <:HEX:> flags: <:HEX:>
+Size: 64
+
+Template: dmar: IOMMU <:NUM:>: reg base addr <:*:> ver <:NUM:>:<:NUM:> cap 8d2078c106f0466 ecap f020df
+Size: 64
+
+Template: dmar: RMRR base: <:HEX:> end: <:HEX:>
+Size: 4
+
+Template: dmar: ATSR flags: <:HEX:>
+Size: 4
+
+Template: dmar: RHSA base: <:HEX:> proximity domain: <:HEX:>
+Size: 64
+
+Template: IOAPIC id <:NUM:> under DRHD base <:HEX:>
+Size: 68
+
+Template: HPET id <:NUM:> under DRHD base <:HEX:>
+Size: 4
+
+Template: Your BIOS is broken and requested that x2apic be disabled.
+Size: 4
+
+Template: This will slightly decrease performance.
+Size: 4
+
+Template: Use 'intremap=no x2apic optout' to override BIOS request.
+Size: 4
+
+Template: Enabled IRQ remapping in xapic mode
+Size: 4
+
+Template: x2apic not enabled, IRQ remapping is in xapic mode
+Size: 4
+
+Template: APIC routing finalized to physical flat.
+Size: 4
+
+Template: alloc irq desc for <:NUM:> on node <:NUM:>
+Size: 2824
+
+Template: alloc kstat irqs on node <:NUM:>
+Size: 2824
+
+Template: alloc irq <:NUM:> iommu on node <:NUM:>
+Size: 2764
+
+Template: ..TIMER: vector=<:HEX:> apic1=<:NUM:> pin1=<:NUM:> apic2=<:NUM:> pin2=<:NUM:>
+Size: 4
+
+Template: CPU0: Intel(R) Xeon(R) Gold <:NUM:> CPU @ <:NUM:>.30GHz stepping <:NUM:>
+Size: 4
+
+Template: Performance Events: PEBS fmt3+, generic architected perfmon, full-width counters, Intel PMU driver.
+Size: 4
+
+Template: ... version: <:NUM:>
+Size: 4
+
+Template: ... bit width: <:NUM:>
+Size: 4
+
+Template: ... generic registers: <:NUM:>
+Size: 4
+
+Template: ... value mask: 0000ffffffffffff
+Size: 4
+
+Template: ... max period: 0000ffffffffffff
+Size: 4
+
+Template: ... fixed-purpose events: <:NUM:>
+Size: 4
+
+Template: ... event mask: 000000070000000f
+Size: 4
+
+Template: NMI watchdog enabled, takes one hw-pmu counter.
+Size: 4
+
+Template: Booting Node <:NUM:>, Processors #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> <:*:>
+Size: 8
+
+Template: Booting Node <:NUM:>, Processors #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> #<:NUM:> Ok.
+Size: 24
+
+Template: Brought up <:NUM:> CPUs
+Size: 4
+
+Template: Total of <:NUM:> processors activated (<:NUM:>.<:NUM:> BogoMIPS).
+Size: 4
+
+Template: sizeof(vma)=<:NUM:> bytes
+Size: 4
+
+Template: sizeof(page)=<:NUM:> bytes
+Size: 4
+
+Template: sizeof(inode)=<:NUM:> bytes
+Size: 4
+
+Template: sizeof(dentry)=<:NUM:> bytes
+Size: 4
+
+Template: sizeof(ext3inode)=<:NUM:> bytes
+Size: 4
+
+Template: sizeof(buffer head)=<:NUM:> bytes
+Size: 4
+
+Template: sizeof(skbuff)=<:NUM:> bytes
+Size: 4
+
+Template: sizeof(task struct)=<:NUM:> bytes
+Size: 4
+
+Template: devtmpfs: initialized
+Size: 4
+
+Template: PM: Registering ACPI NVS region at 6c73a000 (<:NUM:> bytes)
+Size: 4
+
+Template: regulator: core version <:NUM:>.<:NUM:>
+Size: 4
+
+Template: NET: Registered protocol family <:NUM:>
+Size: 16
+
+Template: ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+Size: 4
+
+Template: ACPI: bus type <:*:> registered
+Size: 8
+
+Template: PCI: MCFG configuration <:NUM:>: base <:NUM:> segment <:NUM:> buses <:NUM:> - <:NUM:>
+Size: 4
+
+Template: PCI: MCFG area at <:NUM:> reserved in E820
+Size: 4
+
+Template: PCI: Using MMCONFIG at <:NUM:> - 8fffffff
+Size: 4
+
+Template: PCI: Using configuration type <:NUM:> for base access
+Size: 4
+
+Template: bio: create slab <bio-<:NUM:>> at <:NUM:>
+Size: 4
+
+Template: ACPI: EC: Look up EC in DSDT
+Size: 4
+
+Template: ACPI: BIOS OSI(Linux) query ignored
+Size: 4
+
+Template: ACPI: Interpreter enabled
+Size: 4
+
+Template: ACPI: (supports S0 S4 S5)
+Size: 4
+
+Template: ACPI: Using IOAPIC for interrupt routing
+Size: 4
+
+Template: ACPI: No dock devices found.
+Size: 4
+
+Template: HEST: Table parsing has been initialized.
+Size: 4
+
+Template: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Size: 4
+
+Template: ACPI: PCI Root Bridge <:*:> (domain <:NUM:> [bus <:*:>
+Size: 64
+
+Template: pci root <:*:> host bridge window <:*:> <:HEX:>-<:HEX:>]
+Size: 208
+
+Template: PCI host bridge to bus <:*:>
+Size: 64
+
+Template: pci bus <:*:> root bus resource <:*:> <:HEX:>-<:HEX:>]
+Size: 208
+
+Template: pci <:*:> reg <:NUM:>: [mem <:HEX:>-<:HEX:> <:*:>
+Size: 99
+
+Template: pci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: reg <:NUM:>: <:*:> <:HEX:>-<:HEX:>]
+Size: 96
+
+Template: pci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: reg 1c: [io <:HEX:>-<:HEX:>]
+Size: 8
+
+Template: pci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: PME# supported from D3hot
+Size: 20
+
+Template: pci <:*:> PME# disabled
+Size: 172
+
+Template: pci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: PME# supported from D3hot D3cold
+Size: 4
+
+Template: pci <:*:> PME# supported from D0 D3hot D3cold
+Size: 132
+
+Template: pci <:NUM:>:<:NUM:>:1f.<:NUM:>: reg <:NUM:>: <:*:> <:HEX:>-<:HEX:>]
+Size: 12
+
+Template: pci <:*:> PCI bridge to [bus <:*:>
+Size: 240
+
+Template: pci <:NUM:>:<:NUM:>:1c.<:NUM:>: bridge window <:*:> <:HEX:>-<:HEX:>]
+Size: 28
+
+Template: pci <:*:> bridge window [mem <:HEX:>-<:HEX:> 64bit pref]
+Size: 56
+
+Template: pci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: supports D1 D2
+Size: 12
+
+Template: pci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: PME# supported from D0 D1 D2 D3hot D3cold
+Size: 8
+
+Template: pci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: bridge window <:*:> <:HEX:>-<:HEX:>]
+Size: 64
+
+Template: pci bus <:*:> on NUMA node <:NUM:>
+Size: 64
+
+Template: ACPI: PCI Interrupt Routing Table [\ SB <:*:> PRT]
+Size: 180
+
+Template: <:*:> Requesting ACPI OSC control (<:HEX:>)
+Size: 64
+
+Template: <:*:> ACPI OSC control (<:HEX:>) granted
+Size: 64
+
+Template: pci <:*:> reg <:*:> [mem <:HEX:>-<:HEX:> 64bit pref]
+Size: 80
+
+Template: pci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: reg <:*:> [mem <:HEX:>-<:HEX:> 64bit]
+Size: 121
+
+Template: pci <:*:> reg <:NUM:>: [mem <:HEX:>-<:HEX:>]
+Size: 32
+
+Template: pci root <:*:> host bridge window [<:HEX:>-<:HEX:>] (ignored, not CPU addressable)
+Size: 12
+
+Template: pci <:*:> bridge window [mem <:HEX:>-<:HEX:>]
+Size: 32
+
+Template: pci <:NUM:>:ee:<:NUM:>.<:NUM:>: reg <:NUM:>: [io <:HEX:>-<:HEX:>]
+Size: 8
+
+Template: pci <:NUM:>:ee:<:NUM:>.<:NUM:>: reg 1c: [mem <:HEX:>-<:HEX:>]
+Size: 8
+
+Template: pci <:NUM:>:ee:<:NUM:>.<:NUM:>: PME# supported from D0 D3hot
+Size: 8
+
+Template: pci <:NUM:>:ec:<:NUM:>.<:NUM:>: bridge window [io <:HEX:>-<:HEX:>]
+Size: 8
+
+Template: ACPI: PCI Interrupt Link <:*:> (IRQs <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:*:> <:*:> <:NUM:> <:NUM:> <:NUM:>)
+Size: 24
+
+Template: ACPI: PCI Interrupt Link <:*:> (IRQs <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> *<:NUM:> <:NUM:> <:NUM:> <:NUM:>)
+Size: 8
+
+Template: vgaarb: device added: PCI:<:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>,decodes=io+mem,owns=io+mem,locks=none
+Size: 4
+
+Template: vgaarb: loaded
+Size: 4
+
+Template: vgaarb: bridge control possible <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>
+Size: 4
+
+Template: SCSI subsystem initialized
+Size: 4
+
+Template: libata version <:NUM:>.<:NUM:> loaded.
+Size: 4
+
+Template: usbcore: registered new interface driver <:*:>
+Size: 16
+
+Template: usbcore: registered new device driver usb
+Size: 4
+
+Template: PCI: Using ACPI for IRQ routing
+Size: 4
+
+Template: PCI: old code would have set cacheline size to <:NUM:> bytes, but clflush size = <:NUM:>
+Size: 4
+
+Template: PCI: pci cache line size set to <:NUM:> bytes
+Size: 4
+
+Template: NetLabel: Initializing
+Size: 4
+
+Template: NetLabel: domain hash size = <:NUM:>
+Size: 4
+
+Template: NetLabel: protocols = UNLABELED CIPSOv4
+Size: 4
+
+Template: NetLabel: unlabeled traffic allowed by default
+Size: 4
+
+Template: HPET: <:NUM:> timers in total, <:NUM:> timers will be used for per-cpu timer
+Size: 4
+
+Template: hpet0: at MMIO <:HEX:>, IRQs <:NUM:>, <:NUM:>, <:NUM:>, <:NUM:>, <:NUM:>, <:NUM:>, <:NUM:>, <:NUM:>
+Size: 4
+
+Template: hpet0: <:NUM:> comparators, <:NUM:>-bit <:NUM:>.<:NUM:> MHz counter
+Size: 4
+
+Template: hpet: <:*:> irq <:NUM:> for MSI
+Size: 20
+
+Template: Switching to clocksource <:*:>
+Size: 8
+
+Template: pnp: PnP ACPI init
+Size: 4
+
+Template: pnp <:NUM:>:<:NUM:>: <:*:> <:HEX:>-<:HEX:>]
+Size: 132
+
+Template: pnp <:*:> Plug and Play ACPI device, IDs PNP0a08 PNP0a03 (active)
+Size: 64
+
+Template: pnp <:*:> Plug and Play ACPI device, IDs <:*:> (active)
+Size: 54
+
+Template: pnp <:*:> [io <:HEX:>]
+Size: 48
+
+Template: pnp <:NUM:>:<:NUM:>: <:*:> <:NUM:>]
+Size: 16
+
+Template: pnp <:NUM:>:<:NUM:>: [io <:HEX:>-<:HEX:> disabled]
+Size: 4
+
+Template: pnp <:NUM:>:<:NUM:>: [dma <:NUM:> disabled]
+Size: 4
+
+Template: pnp <:*:> [irq <:NUM:>]
+Size: 8
+
+Template: pnp <:*:> [mem <:HEX:>-<:HEX:>]
+Size: 32
+
+Template: pnp <:*:> [io <:HEX:>-<:HEX:>]
+Size: 4
+
+Template: pnp: PnP ACPI: found <:NUM:> devices
+Size: 4
+
+Template: ACPI: ACPI bus type pnp unregistered
+Size: 4
+
+Template: system <:*:> <:*:> <:HEX:>-<:HEX:>] has been reserved
+Size: 104
+
+Template: system <:NUM:>:<:NUM:>: [mem <:HEX:>-<:HEX:>] could not be reserved
+Size: 4
+
+Template: pci <:*:> bridge window <:*:> <:HEX:>-<:HEX:>] to [bus <:*:> add size <:NUM:>
+Size: 36
+
+Template: pci <:NUM:>:c4:<:NUM:>.<:NUM:>: bridge window [mem <:HEX:>-<:HEX:> 64bit pref] to [bus <:*:> add size <:NUM:>
+Size: 16
+
+Template: pci <:*:> <:*:> <:HEX:>-<:HEX:>] get res add size add size <:NUM:>
+Size: 36
+
+Template: pci <:*:> BAR <:NUM:>: assigned <:*:> <:HEX:>-<:HEX:>]
+Size: 20
+
+Template: pci <:NUM:>:<:NUM:>:1f.<:NUM:>: BAR <:NUM:>: assigned [mem <:HEX:>-<:HEX:> 64bit]
+Size: 4
+
+Template: pci <:NUM:>:c4:<:NUM:>.<:NUM:>: res[<:NUM:>]=[mem <:HEX:>-<:HEX:> 64bit pref] get res add size add size <:NUM:>
+Size: 16
+
+Template: pci <:NUM:>:c4:<:NUM:>.<:NUM:>: BAR <:NUM:>: assigned [mem <:HEX:>-<:HEX:> 64bit pref]
+Size: 16
+
+Template: pci <:NUM:>:c4:<:NUM:>.<:NUM:>: BAR <:NUM:>: can't assign io (size <:HEX:>)
+Size: 16
+
+Template: pci <:*:> PCI INT <:*:> -> GSI <:NUM:> (level, low) -> IRQ <:NUM:>
+Size: 124
+
+Template: pci <:*:> setting latency timer to <:NUM:>
+Size: 120
+
+Template: pci bus <:*:> resource <:NUM:> <:*:> <:HEX:>-<:HEX:>]
+Size: 284
+
+Template: pci bus <:*:> resource <:NUM:> [mem <:HEX:>-<:HEX:> 64bit pref]
+Size: 36
+
+Template: IP route cache hash table entries: <:NUM:> (order: <:NUM:>, <:NUM:> bytes)
+Size: 4
+
+Template: TCP <:*:> hash table entries: <:NUM:> (order: <:NUM:>, <:NUM:> bytes)
+Size: 8
+
+Template: TCP: Hash tables configured (established <:NUM:> bind <:NUM:>)
+Size: 4
+
+Template: TCP reno registered
+Size: 4
+
+Template: pci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: power state changed by ACPI to D0
+Size: 8
+
+Template: pci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: PCI INT A disabled
+Size: 4
+
+Template: pci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: Boot video device
+Size: 4
+
+Template: pci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: [Firmware Bug]: VPD access disabled
+Size: 4
+
+Template: Trying to unpack rootfs image as initramfs...
+Size: 4
+
+Template: Freeing initrd memory: 9274k freed
+Size: 4
+
+Template: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Size: 4
+
+Template: Placing 64MB software IO TLB between ffff880020000000 - ffff880024000000
+Size: 4
+
+Template: software IO TLB at phys <:HEX:> - <:HEX:>
+Size: 4
+
+Template: Intel CQM monitoring enabled
+Size: 4
+
+Template: sha256 ssse3: Using AVX optimized SHA-<:NUM:> implementation
+Size: 4
+
+Template: futex hash table entries: <:NUM:> (order: <:NUM:>, <:NUM:> bytes)
+Size: 4
+
+Template: audit: initializing netlink socket (disabled)
+Size: 4
+
+Template: type=<:NUM:> audit(<:NUM:>.<:NUM:>:<:NUM:>): initialized
+Size: 4
+
+Template: HugeTLB registered <:NUM:> MB page size, pre-allocated <:NUM:> pages
+Size: 4
+
+Template: VFS: Disk quotas dquot <:NUM:>.<:NUM:>.<:NUM:>
+Size: 4
+
+Template: Dquot-cache hash table entries: <:NUM:> (order <:NUM:>, <:NUM:> bytes)
+Size: 4
+
+Template: msgmni has been set to <:NUM:>
+Size: 4
+
+Template: Block layer SCSI generic (bsg) driver version <:NUM:>.<:NUM:> loaded (major <:NUM:>)
+Size: 4
+
+Template: io scheduler <:*:> registered
+Size: 12
+
+Template: io scheduler deadline registered (default)
+Size: 4
+
+Template: pcieport <:*:> setting latency timer to <:NUM:>
+Size: 108
+
+Template: pcieport <:*:> irq <:NUM:> for MSI/MSI-X
+Size: 108
+
+Template: pci hotplug: PCI Hot Plug PCI Core version: <:NUM:>.<:NUM:>
+Size: 4
+
+Template: pciehp <:*:> HPC vendor id <:NUM:> device id <:*:> ss vid <:NUM:> ss did <:NUM:>
+Size: 20
+
+Template: pciehp <:*:> service driver pciehp loaded
+Size: 20
+
+Template: Refined TSC clocksource calibration: <:NUM:>.<:NUM:> MHz.
+Size: 4
+
+Template: pciehp: PCI Express Hot Plug Controller Driver version: <:NUM:>.<:NUM:>
+Size: 4
+
+Template: acpiphp: ACPI Hot Plug PCI Controller Driver version: <:NUM:>.<:NUM:>
+Size: 4
+
+Template: input: Power Button as /devices/LNXSYSTM:<:NUM:>/LNXPWRBN:<:NUM:>/input/input0
+Size: 4
+
+Template: ACPI: Power Button [PWRF]
+Size: 4
+
+Template: ACPI: acpi idle registered with cpuidle
+Size: 4
+
+Template: ACPI: Dynamic OEM Table Load - <:*:> OemId [INTEL] OemTableId [CPU <:*:>
+Size: 8
+
+Template: [Firmware Bug]: No valid trip found
+Size: 4
+
+Template: ERST: Error Record Serialization Table (ERST) support is initialized.
+Size: 4
+
+Template: GHES: APEI firmware first mode is enabled by APEI bit and WHEA OSC.
+Size: 4
+
+Template: Non-volatile memory driver v1.<:NUM:>
+Size: 4
+
+Template: Linux agpgart interface v0.<:NUM:>
+Size: 4
+
+Template: crash memory driver: version <:NUM:>.<:NUM:>
+Size: 4
+
+Template: Serial: <:NUM:>/<:NUM:> driver, <:NUM:> ports, IRQ sharing enabled
+Size: 4
+
+Template: <:*:> ttyS0 at I/O <:HEX:> (irq = <:NUM:>) is a 16550A
+Size: 8
+
+Template: brd: module loaded
+Size: 4
+
+Template: loop: module loaded
+Size: 4
+
+Template: input: Macintosh mouse button emulation as /devices/virtual/input/input1
+Size: 4
+
+Template: Fixed MDIO Bus: probed
+Size: 4
+
+Template: ehci hcd: USB <:NUM:>.<:NUM:> 'Enhanced' Host Controller (EHCI) Driver
+Size: 4
+
+Template: ohci hcd: USB <:NUM:>.<:NUM:> 'Open' Host Controller (OHCI) Driver
+Size: 4
+
+Template: uhci hcd: USB Universal Host Controller Interface driver
+Size: 4
+
+Template: PNP: PS/<:NUM:> Controller [PNP0303:PS2K,PNP0f03:PS2M] at <:HEX:>,<:HEX:> irq <:NUM:>,<:NUM:>
+Size: 4
+
+Template: mice: PS/<:NUM:> mouse device common for all mice
+Size: 4
+
+Template: rtc cmos <:NUM:>:<:NUM:>: RTC can wake from S4
+Size: 4
+
+Template: rtc cmos <:NUM:>:<:NUM:>: rtc core: registered rtc cmos as rtc0
+Size: 4
+
+Template: rtc0: alarms up to one month, y3k, <:NUM:> bytes nvram, hpet irqs
+Size: 4
+
+Template: cpuidle: using governor <:*:>
+Size: 8
+
+Template: EFI Variables Facility v0.<:NUM:> <:NUM:>-May-<:NUM:>
+Size: 4
+
+Template: usbhid: v2.<:NUM:>:USB HID core driver
+Size: 4
+
+Template: GRE over IPv4 demultiplexor driver
+Size: 4
+
+Template: TCP cubic registered
+Size: 4
+
+Template: Initializing XFRM netlink socket
+Size: 4
+
+Template: registered taskstats version <:NUM:>
+Size: 4
+
+Template: rtc cmos <:NUM:>:<:NUM:>: setting system clock to <:NUM:>-<:NUM:>-<:NUM:> <:NUM:>:<:NUM:>:<:NUM:> UTC (<:NUM:>)
+Size: 4
+
+Template: Initalizing network drop monitor service
+Size: 4
+
+Template: Freeing unused kernel memory: <:*:> freed
+Size: 12
+
+Template: Write protecting the kernel read-only data: 10240k
+Size: 4
+
+Template: udev[<:NUM:>]: starting version <:NUM:>
+Size: 8
+
+Template: ahci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: version <:NUM:>.<:NUM:>
+Size: 4
+
+Template: ahci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: PCI INT A -> GSI <:NUM:> (level, low) -> IRQ <:NUM:>
+Size: 8
+
+Template: ahci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: irq <:NUM:> for MSI/MSI-X
+Size: 8
+
+Template: ahci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: AHCI <:NUM:>.<:NUM:> <:NUM:> slots <:NUM:> ports <:NUM:> Gbps <:HEX:> impl SATA mode
+Size: 8
+
+Template: ahci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: flags: 64bit ncq sntf pm led clo only pio slum part ems apst
+Size: 8
+
+Template: ahci <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: setting latency timer to <:NUM:>
+Size: 8
+
+Template: megasas: <:IP:>-rc1
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: PCI INT A -> GSI <:NUM:> (level, low) -> IRQ <:NUM:>
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: setting latency timer to <:NUM:>
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: FW now in Ready state
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: irq <:NUM:> for MSI/MSI-X
+Size: 384
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: firmware supports msix^I: (<:NUM:>)
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: current msix/online cpus^I: (<:NUM:>/<:NUM:>)
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: RDPQ mode^I: (disabled)
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: Current firmware maximum commands: <:NUM:>^I LDIO threshold: <:NUM:>
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: FW supports sync cache^I: Yes
+Size: 4
+
+Template: scsi1 : ahci
+Size: 4
+
+Template: scsi2 : ahci
+Size: 4
+
+Template: scsi3 : ahci
+Size: 4
+
+Template: scsi4 : ahci
+Size: 4
+
+Template: scsi5 : ahci
+Size: 4
+
+Template: scsi6 : ahci
+Size: 4
+
+Template: <:*:> SATA max UDMA/<:NUM:> abar m524288@<:HEX:> port <:HEX:> irq <:NUM:>
+Size: 56
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: Init cmd success
+Size: 4
+
+Template: Emulex LightPulse Fibre Channel SCSI driver <:IP:>
+Size: 4
+
+Template: Copyright(c) <:NUM:>-<:NUM:> Emulex. All rights reserved.
+Size: 4
+
+Template: lpfc <:*:> PCI INT A -> GSI <:NUM:> (level, low) -> IRQ <:NUM:>
+Size: 8
+
+Template: lpfc <:*:> setting latency timer to <:NUM:>
+Size: 8
+
+Template: <:*:> : Emulex LPe1250 PCIe Fibre Channel Adapter on PCI bus <:*:> device <:NUM:> irq <:NUM:>
+Size: 8
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: firmware type^I: Extended VD(<:NUM:> VD)firmware
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: controller type^I: MR(2048MB)
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: Online Controller Reset(OCR)^I: Enabled
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: Secure JBOD support^I: Yes
+Size: 4
+
+Template: scsi8 : ahci
+Size: 4
+
+Template: scsi9 : ahci
+Size: 4
+
+Template: scsi10 : ahci
+Size: 4
+
+Template: scsi11 : ahci
+Size: 4
+
+Template: scsi12 : ahci
+Size: 4
+
+Template: scsi13 : ahci
+Size: 4
+
+Template: scsi14 : ahci
+Size: 4
+
+Template: scsi15 : ahci
+Size: 3
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: INIT adapter done
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: pci id^I^I: (<:HEX:>)/(<:HEX:>)/(<:HEX:>)/(<:HEX:>)
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: unevenspan support^I: no
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: firmware crash dump^I: yes
+Size: 4
+
+Template: megaraid sas <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: jbod sync map^I^I: yes
+Size: 4
+
+Template: scsi0 : Avago SAS based MegaRAID driver
+Size: 4
+
+Template: scsi <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: Direct-Access <:*:> <:*:> <:*:> PQ: <:NUM:> ANSI: <:NUM:>
+Size: 88
+
+Template: <:*:> SATA link down (SStatus <:NUM:> SControl <:NUM:>)
+Size: 56
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> <:NUM:> <:NUM:>-byte logical blocks: (<:NUM:> GB/<:NUM:> GiB)
+Size: 32
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> Write Protect is off
+Size: 60
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> Mode Sense: <:*:> <:NUM:> <:NUM:> <:NUM:>
+Size: 60
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Size: 60
+
+Template: sda: sda1 sda2 sda3 sda4 < sda5 sda6 >
+Size: 4
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> Attached SCSI disk
+Size: 60
+
+Template: lpfc <:*:> irq <:NUM:> for MSI/MSI-X
+Size: 16
+
+Template: lpfc <:*:> <:NUM:>:<:NUM:> Link Up Event x1 received Data: x1 xf7 x20 x0 x0 x0 <:NUM:>
+Size: 8
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> <:NUM:> <:NUM:>-byte logical blocks: (<:NUM:>.<:NUM:> TB/<:NUM:>.<:NUM:> TiB)
+Size: 28
+
+Template: sdb: unknown partition table
+Size: 3
+
+Template: sdc: unknown partition table
+Size: 3
+
+Template: sdd:
+Size: 3
+
+Template: sde: unknown partition table
+Size: 3
+
+Template: unknown partition table
+Size: 18
+
+Template: sdf:
+Size: 1
+
+Template: sdg: unknown partition table
+Size: 3
+
+Template: device-mapper: uevent: version <:NUM:>.<:NUM:>.<:NUM:>
+Size: 4
+
+Template: device-mapper: ioctl: <:NUM:>.<:NUM:>.<:NUM:>-ioctl (<:NUM:>-<:NUM:>-<:NUM:>) initialised: dm-devel@redhat.com
+Size: 4
+
+Template: md: <:*:> personality registered for level <:NUM:>
+Size: 28
+
+Template: async tx: api initialized (async)
+Size: 4
+
+Template: xor: automatically using best checksumming function: avx
+Size: 4
+
+Template: avx : <:NUM:>.<:NUM:> MB/sec
+Size: 4
+
+Template: xor: using function: avx (<:NUM:>.<:NUM:> MB/sec)
+Size: 4
+
+Template: raid6: <:*:> <:NUM:> MB/s
+Size: 12
+
+Template: raid6: using algorithm sse2x4 (<:NUM:> MB/s)
+Size: 4
+
+Template: raid6: using ssse3x2 recovery algorithm
+Size: 4
+
+Template: EXT3-fs (sda2): recovery required on readonly filesystem
+Size: 2
+
+Template: EXT3-fs (sda2): write access will be enabled during recovery
+Size: 2
+
+Template: kjournald starting. Commit interval <:NUM:> seconds
+Size: 18
+
+Template: EXT3-fs (sda2): orphan cleanup on readonly fs
+Size: 2
+
+Template: ext3 orphan cleanup: deleting unreferenced inode <:NUM:>
+Size: 12
+
+Template: EXT3-fs (sda2): <:NUM:> orphan <:*:> deleted
+Size: 2
+
+Template: EXT3-fs <:*:> recovery complete
+Size: 8
+
+Template: EXT3-fs <:*:> mounted filesystem with <:*:> data mode
+Size: 18
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: Attached scsi generic <:*:> type <:NUM:>
+Size: 60
+
+Template: scsi <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: Attached scsi generic <:*:> type <:NUM:>
+Size: 28
+
+Template: shpchp: Standard Hot Plug PCI Controller Driver version: <:NUM:>.<:NUM:>
+Size: 4
+
+Template: ipmi message handler version <:NUM:>.<:NUM:>
+Size: 4
+
+Template: IPMI System Interface driver.
+Size: 6
+
+Template: ipmi si: probing via <:*:>
+Size: 6
+
+Template: ipmi si <:NUM:>:0a: [io <:HEX:>] regsize <:NUM:> spacing <:NUM:> irq <:NUM:>
+Size: 2
+
+Template: ipmi si: Adding <:*:> <:*:> state machine
+Size: 14
+
+Template: ipmi si: <:*:> io <:HEX:> regsize <:NUM:> spacing <:NUM:> irq <:NUM:>
+Size: 4
+
+Template: ipmi si: Adding <:*:> kcs state machine duplicate interface
+Size: 4
+
+Template: ipmi si: Trying <:*:> <:*:> state machine at i/o address <:HEX:>, slave address <:HEX:>, irq <:NUM:>
+Size: 14
+
+Template: ACPI: WMI: Mapper loaded
+Size: 4
+
+Template: xhci hcd <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: power state changed by ACPI to D0
+Size: 8
+
+Template: xhci hcd <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: PCI INT A -> GSI <:NUM:> (level, low) -> IRQ <:NUM:>
+Size: 4
+
+Template: xhci hcd <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: setting latency timer to <:NUM:>
+Size: 4
+
+Template: xhci hcd <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: xHCI Host Controller
+Size: 8
+
+Template: xhci hcd <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: new USB bus registered, assigned bus number <:NUM:>
+Size: 8
+
+Template: xhci hcd <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: cache line size of <:NUM:> is not supported
+Size: 4
+
+Template: xhci hcd <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>: irq <:NUM:> for MSI/MSI-X
+Size: 4
+
+Template: usb <:*:> New USB device found, idVendor=1d6b, idProduct=<:NUM:>
+Size: 8
+
+Template: usb <:*:> Product: xHCI Host Controller
+Size: 8
+
+Template: usb <:*:> Manufacturer: Linux <:IP:>-Rocky4.<:NUM:>-x86 <:NUM:> xhci hcd
+Size: 8
+
+Template: usb <:*:> SerialNumber: <:NUM:>:<:NUM:>:<:NUM:>.<:NUM:>
+Size: 8
+
+Template: pps core: LinuxPPS API ver. <:NUM:> registered
+Size: 4
+
+Template: pps core: Software ver. <:NUM:>.<:NUM:>.<:NUM:> - Copyright <:NUM:>-<:NUM:> Rodolfo Giometti <giometti@linux.it>
+Size: 4
+
+Template: hub <:NUM:>-<:NUM:>:<:NUM:>.<:NUM:>: USB hub found
+Size: 10
+
+Template: hub <:NUM:>-<:NUM:>:<:NUM:>.<:NUM:>: <:NUM:> ports detected
+Size: 10
+
+Template: usb usb2: config <:NUM:> interface <:NUM:> altsetting <:NUM:> endpoint <:HEX:> has no SuperSpeed companion descriptor
+Size: 4
+
+Template: lpc ich <:NUM:>:<:NUM:>:1f.<:NUM:>: I/O space for ACPI uninitialized
+Size: 4
+
+Template: lpc ich <:NUM:>:<:NUM:>:1f.<:NUM:>: No MFD cells added
+Size: 4
+
+Template: PTP clock support registered
+Size: 4
+
+Template: i801 smbus <:NUM:>:<:NUM:>:1f.<:NUM:>: enabling device (<:NUM:> -> <:NUM:>)
+Size: 4
+
+Template: i801 smbus <:NUM:>:<:NUM:>:1f.<:NUM:>: PCI INT A -> GSI <:NUM:> (level, low) -> IRQ <:NUM:>
+Size: 4
+
+Template: i801 smbus <:NUM:>:<:NUM:>:1f.<:NUM:>: SMBus using PCI interrupt
+Size: 4
+
+Template: ipmi si <:NUM:>:0a: Found new BMC (man id: <:HEX:>, prod id: <:HEX:>, dev id: <:HEX:>)
+Size: 2
+
+Template: ipmi si <:NUM:>:0a: IPMI kcs interface initialized
+Size: 2
+
+Template: dca service started, version <:NUM:>.<:NUM:>.<:NUM:>
+Size: 4
+
+Template: i40e: Intel(R) Ethernet Connection XL710 Network Driver - version <:NUM:>.<:NUM:>.<:NUM:>-k
+Size: 4
+
+Template: i40e: Copyright (c) <:NUM:> - <:NUM:> Intel Corporation.
+Size: 4
+
+Template: <:*:> <:*:> PCI INT <:*:> -> GSI <:NUM:> (level, low) -> IRQ <:NUM:>
+Size: 24
+
+Template: <:*:> <:*:> setting latency timer to <:NUM:>
+Size: 17
+
+Template: iTCO vendor support: vendor-support=<:NUM:>
+Size: 4
+
+Template: igb: Intel(R) Gigabit Ethernet Network Driver - version <:NUM:>.<:NUM:>.<:NUM:>-k
+Size: 4
+
+Template: igb: Copyright (c) <:NUM:>-<:NUM:> Intel Corporation.
+Size: 4
+
+Template: iTCO wdt: Intel TCO WatchDog Timer Driver v1.11rh
+Size: 4
+
+Template: iTCO wdt: unable to reset NO REBOOT flag, device disabled by hardware/BIOS
+Size: 4
+
+Template: i40e <:NUM:>:1a:<:NUM:>.<:NUM:>: fw <:NUM:>.<:NUM:>.<:NUM:> api <:NUM:>.<:NUM:> nvm <:NUM:>.<:NUM:> <:HEX:> <:NUM:>.<:NUM:>.<:NUM:>
+Size: 16
+
+Template: i40e <:NUM:>:1a:<:NUM:>.<:NUM:>: MAC address: <:ID:>
+Size: 16
+
+Template: i40e <:NUM:>:1a:<:NUM:>.<:NUM:>: irq <:NUM:> for MSI/MSI-X
+Size: 2064
+
+Template: igb <:NUM:>:ee:<:NUM:>.<:NUM:>: irq <:NUM:> for MSI/MSI-X
+Size: 80
+
+Template: igb <:NUM:>:ee:<:NUM:>.<:NUM:>: added PHC on <:*:>
+Size: 8
+
+Template: igb <:NUM:>:ee:<:NUM:>.<:NUM:>: Intel(R) Gigabit Ethernet Network Connection
+Size: 8
+
+Template: igb <:NUM:>:ee:<:NUM:>.<:NUM:>: <:*:> (PCIe:<:NUM:>.0Gb/s:Width x4) <:ID:>
+Size: 8
+
+Template: igb <:NUM:>:ee:<:NUM:>.<:NUM:>: <:*:> PBA No: <:NUM:>-<:NUM:>
+Size: 8
+
+Template: igb <:NUM:>:ee:<:NUM:>.<:NUM:>: Using MSI-X interrupts. <:NUM:> rx queue(s), <:NUM:> tx queue(s)
+Size: 8
+
+Template: igb <:NUM:>:ee:<:NUM:>.<:NUM:>: setting latency timer to <:NUM:>
+Size: 7
+
+Template: i40e <:NUM:>:1a:<:NUM:>.<:NUM:>: Features: PF-id[<:NUM:>] VFs: <:NUM:> VSIs: <:NUM:> QP: <:NUM:> RX: 1BUF RSS FD ATR VxLAN PTP VEPA
+Size: 16
+
+Template: sdh:
+Size: 1
+
+Template: sdi: unknown partition table
+Size: 2
+
+Template: sdj:
+Size: 1
+
+Template: sdk: unknown partition table
+Size: 4
+
+Template: sdl:
+Size: 2
+
+Template: sdm: unknown partition table
+Size: 3
+
+Template: sdn: unknown partition table
+Size: 2
+
+Template: sdo: unknown partition table
+Size: 3
+
+Template: power meter ACPI000D:<:NUM:>: Found ACPI power meter.
+Size: 4
+
+Template: usb <:NUM:>-<:NUM:>: Product: Virtual Hub
+Size: 2
+
+Template: usb <:*:> Manufacturer: American Megatrends Inc.
+Size: 4
+
+Template: usb <:NUM:>-<:NUM:>: SerialNumber: serial
+Size: 2
+
+Template: usb <:NUM:>-<:NUM:>.<:NUM:>: New USB device found, idVendor=046b, idProduct=ff10
+Size: 2
+
+Template: usb <:NUM:>-<:NUM:>.<:NUM:>: Product: Virtual Keyboard and Mouse
+Size: 2
+
+Template: input: American Megatrends Inc. Virtual Keyboard and Mouse as <:*:>
+Size: 4
+
+Template: generic-usb <:NUM:>:046B:FF10.<:NUM:>: <:*:> USB HID v1.<:NUM:> <:*:> [American Megatrends Inc. Virtual Keyboard and Mouse] on <:*:>
+Size: 4
+
+Template: event filter module success
+Size: 4
+
+Template: user MAC list initialized with <:NUM:> entry
+Size: 4
+
+Template: LINX LSM initialized
+Size: 4
+
+Template: ipmi device interface
+Size: 4
+
+Template: Copyright (C) <:NUM:> MontaVista Software - IPMI Powerdown via sys reboot.
+Size: 4
+
+Template: IPMI poweroff: ATCA Detect mfg <:HEX:> prod <:HEX:>
+Size: 2
+
+Template: IPMI poweroff: Found a chassis style poweroff function
+Size: 2
+
+Template: IPMI Watchdog: driver initialized
+Size: 4
+
+Template: device-mapper: multipath: version <:NUM:>.<:NUM:>.<:NUM:> loaded
+Size: 4
+
+Template: Adding 62499836k swap on /dev/sda1. Priority:<:NUM:> extents:<:NUM:> across:62499836k
+Size: 4
+
+Template: rport-<:NUM:>:<:NUM:>-<:NUM:>: blocked FC remote port time out: removing rport
+Size: 12
+
+Template: EXT3-fs <:*:> using internal journal
+Size: 18
+
+Template: EXT3-fs <:*:> warning: checktime reached, running e2fsck is recommended
+Size: 14
+
+Template: linx serial number check failed.
+Size: 2
+
+Template: Loading iSCSI transport class v2.<:NUM:>-<:NUM:>.
+Size: 4
+
+Template: iscsi: registered transport (tcp)
+Size: 4
+
+Template: fuse init (API version <:NUM:>.<:NUM:>)
+Size: 4
+
+Template: ip tables: (C) <:NUM:>-<:NUM:> Netfilter Core Team
+Size: 4
+
+Template: Ethernet Channel Bonding Driver: v3.<:NUM:>.<:NUM:> (April <:NUM:>, <:NUM:>)
+Size: 4
+
+Template: <:*:> Setting MII monitoring interval to <:NUM:>
+Size: 8
+
+Template: bond0: Adding slave <:*:>
+Size: 8
+
+Template: i40e <:NUM:>:1a:<:NUM:>.<:NUM:>: eth0: already using mac address <:ID:>
+Size: 4
+
+Template: i40e <:NUM:>:1a:<:NUM:>.<:NUM:>: <:*:> NIC Link is Up <:NUM:> Gbps Full Duplex, Flow Control: None
+Size: 8
+
+Template: <:*:> making interface <:*:> the new active one
+Size: 11
+
+Template: bond0: Enslaving <:*:> as <:*:> <:*:> interface with an up link
+Size: 8
+
+Template: i40e <:NUM:>:1a:<:NUM:>.<:NUM:>: eth1: set new mac address <:ID:>
+Size: 4
+
+Template: bond1: Adding slave <:*:>
+Size: 8
+
+Template: igb <:NUM:>:ee:<:NUM:>.<:NUM:>: <:*:> igb: <:*:> NIC Link is Up <:NUM:> Mbps Full Duplex, Flow Control: None
+Size: 12
+
+Template: bond1: Enslaving <:*:> as <:*:> <:*:> interface with an up link
+Size: 8
+
+Template: LINX CHK MODULE LOADED!
+Size: 4
+
+Template: Linx System Information Driver - version <:NUM:>.<:NUM:>.<:NUM:>(<:NUM:>)
+Size: 4
+
+Template: Copyright (c) <:NUM:>-<:NUM:> Linx Technology Co.,Ltd.
+Size: 4
+
+Template: mtrr: type mismatch for <:NUM:>,<:NUM:> old: write-back new: write-combining
+Size: 4
+
+Template: Netfilter messages via NETLINK v0.<:NUM:>.
+Size: 4
+
+Template: device-mapper: multipath round-robin: version <:NUM:>.<:NUM:>.<:NUM:> loaded
+Size: 3
+
+Template: sdc:
+Size: 1
+
+Template: sdf: unknown partition table
+Size: 3
+
+Template: sdh: unknown partition table
+Size: 3
+
+Template: sdi:
+Size: 2
+
+Template: sdj: unknown partition table
+Size: 3
+
+Template: sdl: unknown partition table
+Size: 2
+
+Template: sdn:
+Size: 2
+
+Template: <:*:> link status definitely down for interface <:*:> disabling it
+Size: 7
+
+Template: <:*:> now running without any active interface!
+Size: 3
+
+Template: <:*:> link status definitely up for interface <:*:> <:NUM:> Mbps full duplex
+Size: 7
+
+Template: <:*:> first active interface up!
+Size: 3
+
+Template: nf conntrack version <:NUM:>.<:NUM:>.<:NUM:> (<:NUM:> buckets, <:NUM:> max)
+Size: 2
+
+Template: faillog[<:NUM:>]: segfault at <:NUM:> ip <:*:> sp <:*:> error <:NUM:> in <:*:>
+Size: 2
+
+Template: /dev/sda6 356G 53G 285G <:NUM:>% /home/dmdba
+Size: 338
+
+Template: 493G 236G 232G <:NUM:>% /dbarch
+Size: 324
+
+Template: (dmdba) CMD (/home/dmdba/dm/ckpt point mon.sh)
+Size: 22
+
+Template: (dmdba) MAIL (mailed <:NUM:> bytes of output but got status <:HEX:> )
+Size: 7
+
+Template: sdh: remove path (uevent)
+Size: 1
+
+Template: ----------------------------------------------------
+Size: 4
+
+Template: ntp-<:NUM:> is maintained by Network Time Foundation,
+Size: 2
+
+Template: Inc. (NTF), a non-profit <:NUM:>(c)(<:NUM:>) public-benefit
+Size: 2
+
+Template: corporation. Support and training for ntp-<:NUM:> are
+Size: 2
+
+Template: available at https://www.nwtime.org/support
+Size: 2
+
+Template: basedate set to <:NUM:>-<:NUM:>-<:NUM:>
+Size: 2
+
+Template: gps base set to <:NUM:>-<:NUM:>-<:NUM:> (week <:NUM:>)
+Size: 2
+
+Template: kernel reports TIME ERROR: <:HEX:>: Clock Unsynchronized
+Size: 5
+
+Template: Invalid user dmbba from <:IP:> port <:NUM:>
+Size: 1
+
+Template: pam unix auth(sshd:auth): check pass; user unknown
+Size: 1
+
+Template: pam unix auth(sshd:auth): authentication failure; logname= uid=<:NUM:> euid=<:NUM:> tty=ssh ruser= rhost=<:IP:>
+Size: 1
+
+Template: linx pam logfail
+Size: 1
+
+Template: BUILD=(Jun <:NUM:> <:NUM:>)
+Size: 1
+
+Template: service name:sshd
+Size: 1
+
+Template: SSH SND:(dmbba)PID(<:NUM:>)S(<:NUM:>)(<:IP:>)(<:NUM:>)D(<:NUM:>)(<:IP:>)
+Size: 1
+
+Template: TO (<:IP:>):(<:NUM:>)
+Size: 1
+
+Template: udp sender:start send to <:IP:>:<:NUM:>
+Size: 1
+
+Template: pam tally(sshd:auth): pam get uid; no such user dmbba
+Size: 1
+
+Template: Failed password for invalid user dmbba from <:IP:> port <:NUM:> ssh2
+Size: 1
+
+Template: error: Received disconnect from <:IP:> port <:NUM:>:<:NUM:>: [preauth]
+Size: 1
+
+Template: Disconnected from invalid user dmbba <:IP:> port <:NUM:> [preauth]
+Size: 1
+
+Template: - pts/<:NUM:> sysadmin:root
+Size: 1
+
+Template: sdg:
+Size: 1
+
+Template: ipmi si: Interface detection failed
+Size: 12
+
+Template: ipmi si: Unable to find any System Interface(s)
+Size: 4
+
+Template: sdm:
+Size: 1
+
+Template: sdo:
+Size: 1
+
+Template: usb <:NUM:>-<:NUM:>: not running at top speed; connect to a high speed hub
+Size: 1
+
+Template: input: HID b706:<:NUM:> as <:*:>
+Size: 2
+
+Template: generic-usb <:NUM:>:B706:<:NUM:>.<:NUM:>: <:*:> USB HID v1.<:NUM:> <:*:> [HID b706:<:NUM:>] on <:*:>
+Size: 2
+
+Template: scsi7 : ahci
+Size: 1
+
+Template: sdb:
+Size: 1
+
+Template: sdd: unknown partition table
+Size: 1
+
+Template: sde:
+Size: 1
+
+Template: bond1: link status up again after <:NUM:> ms for interface eth4
+Size: 1
+

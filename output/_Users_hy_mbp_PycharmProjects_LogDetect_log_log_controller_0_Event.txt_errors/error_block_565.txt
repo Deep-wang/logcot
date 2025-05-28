@@ -1,0 +1,31 @@
+分析结果：
+
+**日志异常**
+
+**错误时间**: 2019-03-20 20:50:49
+
+**异常点附近15行日志**:
+
+```
+9816    2019-03-20 20:51:04    0x200F00C90045    Event    Informational    --    None    admin:10.33.34.100 started to power off the system.
+N/A
+9815    2019-03-20 20:50:49    0xF0060004    Fault    Major    Recovered    2019-03-21 10:20:21    FC host port (controller enclosure CTE0, -- controller A, port number H1) is disconnected.
+Step1 Check cable connections.
+1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]. 
+1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]. 
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4]. 
+1.4 If no exceptions are detected=>[Step3]. 
+Step2 Check whether optical modules of the peer port are damaged. 
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2]. 
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3]. 
+Step3 Check the port configuration. 
+3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]. 
+3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]. 
+Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]. 
+Step5 Contact technical support engineers.
+N/A
+```
+
+**简单说明**: 
+
+日志第9815条记录了一个故障事件，指出FC主机端口（控制器机箱CTE0，控制器A，端口号H1）断开连接。虽然该故障最终被恢复，但断开连接本身仍然是一个异常情况，需要调查原因并采取措施防止再次发生。

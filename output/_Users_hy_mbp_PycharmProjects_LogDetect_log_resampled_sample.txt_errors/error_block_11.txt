@@ -1,0 +1,22 @@
+分析结果：
+
+**日志异常，错误时间：2025-04-23T12:18:01.863175+08:00**
+
+**异常点附近15行日志：**
+
+```
+2025-04-23T12:18:01.863175+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+2025-04-23T12:18:01.863443+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+2025-04-23T12:18:01.863452+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+2025-04-23T12:18:01.863456+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+2025-04-23T12:18:01.863457+08:00 Dky_app_00 kernel:
+2025-04-23T12：18：01.863461+08：00 Dky_app_00 kernel:
+2025-04-23T12：18：01.863473+08：00 Dky_app_00 kernel:
+2025-04-23T12：18：01.863477+08：00 Dky_app_00 multipathd:
+2025-04-23T12：18：01.863644+08：00 Dky_app_00 multipathd:
+2025-04-23T12：18：01.864418+08：00 Dky_app_00 kernel:
+```
+
+**简单说明**：
+
+日志中显示多路径设备 `363c7843100c5453e3fb2197100000035` 的路径 `sdg` 和 `sdu` 被直接IO检查器报告为down。随后内核日志显示这两个设备在进行读取操作时出现I/O错误，并返回 "Sense Key : Illegal Request [current]" 和 "Add. Sense : Logical unit not supported" 的错误信息。这表明设备可能存在故障或配置问题，导致无法进行正常的读写操作。

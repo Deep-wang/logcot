@@ -1,0 +1,32 @@
+分析结果：
+
+日志异常，错误时间：第 294335 部分
+
+截取出现异常点附近15行日志：
+
+```
+N/A
+294335    2019-04-09 11:15:34    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 4) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+294334    2019-04-09 11:15:34    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 4) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+294330    2019-04-09 11:15:27    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 4) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+294329    2019-04-09 11:15:27    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 5) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related信息 and contact technical support engineers.
+294328    2019-04-09 11:15:27    0x100F0015001C    Event    Major    --   None   UltraPath push information from host (ID 4) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+294327     2019-04-09 11:15:27     0x100F0015001C     Event     Major     --      None      UltraPath push information from host (ID5) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+294245     2019-04-09 11:12:03     0x100F0015001C     Event     Major     --      None      UltraPath push information from host (ID5) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If The fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+```
+
+简单说明：第294335部分日志中，"UltraPath push information from host (ID5)" 应为 "UltraPath push information from host (ID4)"，与前后日志内容不一致。

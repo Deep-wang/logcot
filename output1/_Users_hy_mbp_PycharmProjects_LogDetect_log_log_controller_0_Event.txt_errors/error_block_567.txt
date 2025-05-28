@@ -1,0 +1,28 @@
+分析结果：
+
+日志异常，错误时间：2019-03-20 16:12:46
+
+```
+4778    2019-03-20 16:12:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+4777    2019-03-20 16:12:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+4775    2019-03-20 16:12:38    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+4774    2019-03-20 16:12:38    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+4773    2019-03-20 16:12:34    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+4748    2019-03-20 16:08:35    0x100F02440006    Event    Informational    --    None
+``` 
+
+**简单说明**： 多条日志记录了同一时间点（2019-03-20 16:12:46）从两个不同主机（ID 0 和 ID 1）收不到 UltraPath 推送信息的错误，但重复了四次。这可能是日志记录或传输过程中的错误。

@@ -1,0 +1,41 @@
+分析结果：
+
+日志异常，错误时间：2020-11-27 15:50:15
+
+```
+21135206    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135205    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135204    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135203    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --   None   UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135202     ... (省略中间部分日志)
+...
+21135187     ... (省略中间部分日志)
+...
+21135172     ... (省略中间部分日志)
+...
+21135161     ... (省略中间部分日志)
+...
+21135150     ... (省略中间部分日志)
+...
+21135139     ... (省略中间部分日志)
+...
+21135128     ... (省略中间部分日志)
+...
+21135117     ... (省略中间部分日志)
+...
+21135096     ... (省略中间部分日志)
+```
+
+简单说明：在错误时间点附近，多条日志记录了UltraPath推送信息未在预设时间点接收或处理失败的事件，且每条事件后都跟着相同的故障处理步骤。这表明系统可能存在持续的UltraPath推送问题，需要进一步排查和处理。

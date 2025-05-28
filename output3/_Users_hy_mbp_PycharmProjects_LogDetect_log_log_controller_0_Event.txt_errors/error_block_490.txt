@@ -1,0 +1,18 @@
+分析结果：
+
+日志异常，错误时间：2019-04-10 13:26:41
+
+截取出现异常点附近15行日志：
+
+332352    2019-04-10 13:26:41    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 3) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+332351    2019-04-10 13:26:41    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 3) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+332243    2019-04-10 13:22:06    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090faac6c46) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 13:22:6, host: ID 3.
+N/A.
+
+332242

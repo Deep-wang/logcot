@@ -1,0 +1,303 @@
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> Sense Key : Illegal Request [current]
+Size: 165
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> Add. Sense: Logical unit not supported
+Size: 165
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> CDB: Read(<:NUM:>): <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>
+Size: 165
+
+Template: end request: I/O error, dev <:*:> sector <:NUM:>
+Size: 165
+
+Template: <:SEQ:>: <:*:> - directio checker reports path is down
+Size: 164
+
+Template: sd <:NUM:>:<:NUM:>:<:NUM:>:<:NUM:>: <:*:> Result: hostbyte=DID OK driverbyte=DRIVER SENSE
+Size: 164
+
+Template: (root) CMD (sh /usr/bin/msmp >> /var/log/msmp.log )
+Size: 73
+
+Template: (sysadmin) CMD (/usr/sbin/get max mem process.sh)
+Size: 73
+
+Template: (sysadmin) CMD (/usr/sbin/get system load average <:NUM:> minutes.sh)
+Size: 5
+
+Template: (root) CMD (/usr/local/rising/ravmonsys.sh >> /usr/local/rising/sys.log)
+Size: 3
+
+Template: (sysadmin) CMD (/usr/sbin/update time.sh)
+Size: 3
+
+Template: (root) CMD (/home/dmdba/drop cached.sh)
+Size: 44
+
+Template: (root) CMD (/usr/local/rising/linuxRav/bin/ravdaemon > /dev/null <:NUM:>>&<:NUM:>)
+Size: 15
+
+Template: (dmdba) CMD (sh /home/dmdba/dm/db sessmon.sh)
+Size: 73
+
+Template: (dmdba) CMD (sh net colsewait mon.sh)
+Size: 73
+
+Template: uptime
+Size: 73
+
+Template: <:NUM:>:<:NUM:>:<:NUM:> up <:NUM:> days, <:NUM:>:<:NUM:>, <:NUM:> users, load average: <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>
+Size: 71
+
+Template: free -m
+Size: 72
+
+Template: total used free shared buffers cached
+Size: 72
+
+Template: Mem: <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>
+Size: 72
+
+Template: -/+ buffers/cache: <:NUM:> <:NUM:>
+Size: 72
+
+Template: Swap: <:NUM:> <:NUM:> <:NUM:>
+Size: 72
+
+Template: df -h
+Size: 72
+
+Template: Filesystem Size Used Avail Use% Mounted on
+Size: 72
+
+Template: /dev/sda2 185G 75G 101G <:NUM:>% /
+Size: 72
+
+Template: /dev/sda3 585G 296G 260G <:NUM:>% /home
+Size: 27
+
+Template: /dev/sdav <:NUM:>.0T <:NUM:>.3T <:NUM:>.6T <:NUM:>% /dbbak
+Size: 72
+
+Template: /dev/mapper/dmarch <:NUM:>-arch
+Size: 143
+
+Template: 886G 680G 162G <:NUM:>% /dbarch
+Size: 72
+
+Template: tmpfs 20M <:*:> 20M <:NUM:>% /tmp/smp
+Size: 72
+
+Template: <:IP:>:/dbarch/arch rac1
+Size: 143
+
+Template: 788G 681G 68G <:NUM:>% /dbarch/arch dsc1 kafka
+Size: 72
+
+Template: df -ih
+Size: 71
+
+Template: Filesystem Inodes IUsed IFree IUse% Mounted on
+Size: 71
+
+Template: /dev/sda2 12M <:NUM:>.1M <:NUM:>.7M <:NUM:>% /
+Size: 71
+
+Template: /dev/sda3 37M 28K 37M <:NUM:>% /home
+Size: 71
+
+Template: /dev/sdav 192M 11K 192M <:NUM:>% /dbbak
+Size: 71
+
+Template: 57M <:NUM:> 57M <:NUM:>% /dbarch
+Size: 71
+
+Template: tmpfs 64M <:NUM:> 64M <:NUM:>% /tmp/smp
+Size: 71
+
+Template: 50M <:NUM:> 50M <:NUM:>% /dbarch/arch dsc1 kafka
+Size: 71
+
+Template: iostat -x
+Size: 71
+
+Template: Linux <:NUM:>.<:NUM:>.<:NUM:>-Rocky4.<:NUM:>-x86 <:NUM:> (Dky app <:NUM:>) #<:NUM:>/<:NUM:>/<:NUM:> #<:NUM:> x86 <:NUM:>
+Size: 71
+
+Template: avg-cpu: %user %nice %system %iowait %steal %idle
+Size: 70
+
+Template: <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:>
+Size: 70
+
+Template: Device: rrqm/s wrqm/s r/s w/s rsec/s wsec/s avgrq-sz avgqu-sz await svctm %util
+Size: 69
+
+Template: sda <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:>
+Size: 69
+
+Template: <:*:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:> <:NUM:>.<:NUM:>
+Size: 4694
+
+Template: netstat -an |grep -i 'established'|wc -l
+Size: 69
+
+Template: <:NUM:>
+Size: 66
+
+Template: date
+Size: 66
+
+Template: Wed Apr <:NUM:> <:NUM:>:<:NUM:>:<:NUM:> CST <:NUM:>
+Size: 66
+
+Template: cat /proc/buddyinfo
+Size: 66
+
+Template: Node <:NUM:>, zone <:*:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>
+Size: 651
+
+Template: top-detail:
+Size: 66
+
+Template: Node <:NUM:>, zone Normal <:SEQ:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>
+Size: 3
+
+Template: Node <:NUM:>, zone Normal <:NUM:> <:SEQ:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:>
+Size: 6
+
+Template: login pmc: post req fail(<:NUM:>)
+Size: 5
+
+Template: Pmcagent login error.
+Size: 5
+
+Template: <:IP:>,GetSrcIP conn fail
+Size: 6
+
+Template: top - <:NUM:>:<:NUM:>:<:NUM:> up <:NUM:> days, <:NUM:>:<:NUM:>, <:NUM:> users, load average: <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>, <:*:>
+Size: 18
+
+Template: Tasks: <:NUM:> total, <:NUM:> running, <:NUM:> sleeping, <:NUM:> stopped, <:NUM:> zombie
+Size: 19
+
+Template: Cpu(s): <:NUM:>.<:NUM:>%us, <:NUM:>.<:NUM:>%sy, <:NUM:>.<:NUM:>%ni, <:NUM:>.<:NUM:>%id, <:NUM:>.<:NUM:>%wa, <:NUM:>.<:NUM:>%hi, <:NUM:>.<:NUM:>%si, <:NUM:>.<:NUM:>%st
+Size: 19
+
+Template: Mem: 529310592k total, 308670376k used, 220640216k free, 10124k buffers
+Size: 1
+
+Template: Swap: 62499836k total, 0k used, 62499836k free, <:*:> cached
+Size: 19
+
+Template: PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+ COMMAND
+Size: 19
+
+Template: <:NUM:> dmdba <:NUM:> <:NUM:> <:*:> <:*:> 214m S <:NUM:> <:NUM:>.<:NUM:> <:NUM:>,<:NUM:> dmserver
+Size: 8
+
+Template: <:NUM:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> R <:NUM:> <:NUM:>.<:NUM:> <:*:> <:*:>
+Size: 29
+
+Template: <:NUM:> dmdba <:NUM:> <:NUM:> <:*:> <:*:> <:NUM:> S <:NUM:> <:NUM:>.<:NUM:> <:NUM:>:<:NUM:> <:*:>
+Size: 6
+
+Template: <:NUM:> sysadmin <:NUM:> <:NUM:> <:*:> <:*:> <:NUM:> S <:NUM:> <:NUM:>.<:NUM:> <:NUM:>:<:NUM:> linx smp
+Size: 18
+
+Template: <:NUM:> <:*:> <:*:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> S <:NUM:> <:NUM:>.<:NUM:> <:NUM:>:<:NUM:>.<:NUM:> <:*:>
+Size: 157
+
+Template: rss(KB) pmem%M pcpu%C vsize(SWAP+RES,KB) process
+Size: 2
+
+Template: <:NUM:>:<:NUM:>:<:NUM:> up <:NUM:> days, <:NUM:> min, <:NUM:> users, load average: <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>
+Size: 1
+
+Template: top - <:NUM:>:<:NUM:>:<:NUM:> up <:NUM:> days, <:NUM:> min, <:NUM:> users, load average: <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>, <:NUM:>.<:NUM:>
+Size: 1
+
+Template: Mem: 529310592k total, 308100696k used, 221209896k free, 10880k buffers
+Size: 1
+
+Template: <:NUM:> sysadmin RT <:NUM:> 169m <:NUM:> <:NUM:> S <:NUM:> <:NUM:>.<:NUM:> <:NUM:>:<:NUM:>.<:NUM:> multipathd
+Size: 1
+
+Template: <:NUM:> dmdba <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> S <:NUM:> <:NUM:>.<:NUM:> <:NUM:>:<:NUM:>.<:NUM:> lcm script
+Size: 2
+
+Template: Mem: 529310592k total, 360832860k used, 168477732k free, 61940k buffers
+Size: 1
+
+Template: <:NUM:> root <:NUM:> <:NUM:> <:*:> <:NUM:> <:NUM:> S <:NUM:> <:NUM:>.<:NUM:> <:*:> <:*:>
+Size: 24
+
+Template: Mem: 529310592k total, 362924136k used, 166386456k free, 64904k buffers
+Size: 1
+
+Template: <:NUM:> dmdba <:NUM:> <:NUM:> 1937m <:NUM:>.7g <:NUM:>.0g S <:NUM:> <:NUM:>.<:NUM:> <:NUM:>:<:NUM:> dmasmsvr
+Size: 1
+
+Template: Mem: 529310592k total, 363079188k used, 166231404k free, 65516k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 363233880k used, 166076712k free, 66884k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 367311436k used, 161999156k free, 74968k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 367368792k used, 161941800k free, 75532k buffers
+Size: 1
+
+Template: <:NUM:> snmpd <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> S <:NUM:> <:NUM:>.<:NUM:> <:NUM:>:<:NUM:> snmpd
+Size: 1
+
+Template: /dev/sda3 585G 245G 311G <:NUM:>% /home
+Size: 1
+
+Template: /dev/sda3 585G 197G 359G <:NUM:>% /home
+Size: 44
+
+Template: Mem: 529310592k total, 371320772k used, 157989820k free, 105436k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 372037708k used, 157272884k free, 105988k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 387515176k used, 141795416k free, 110540k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 388861244k used, 140449348k free, 110952k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 390161140k used, 139149452k free, 111380k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 395723624k used, 133586968k free, 114900k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 397109680k used, 132200912k free, 115320k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 398494560k used, 130816032k free, 115716k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 408948324k used, 120362268k free, 119792k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 410344708k used, 118965884k free, 120364k buffers
+Size: 1
+
+Template: Mem: 529310592k total, 411026864k used, 118283728k free, 120764k buffers
+Size: 1
+
+Template: reply monitor state: post req fail,ret:<:NUM:>,req:{"EpGuid":"93E3BF40-501D-8E13-E811-C066A67241DA","Data":[{"Property":"VirusLibVer","Value":"<:NUM:>.<:NUM:>.<:NUM:>"}, {"Property":"ExecVer","Value":"<:IP:>"}]}
+Size: 1
+
+Template: reply monitor state: reply is
+Size: 1
+
+Template: ReportEpData error.
+Size: 1
+

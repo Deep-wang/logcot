@@ -1,0 +1,35 @@
+分析结果：
+
+**日志异常**
+
+**错误时间**: 2021-03-10 15:06:24
+
+**异常点附近15行日志**:
+
+```
+24744023    2021-03-10 15:06:24    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 10) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+24744022    2021-03-10 15:06:24    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 10) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+24744021    2021-03-10 15:06:24    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 10) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+24744020    2021-03-10 15:06:24    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 10) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+24743942    2021-03-10 15:03:17    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 10) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+24743941    2021-03-10 15:03:17    0x100F0015001C    Event   ...(此处省略11行)
+```
+
+**简单说明**: 
+
+日志中连续出现了多行关于 "UltraPath push information from host (ID 10) is not received" 的错误信息，这表明主机 ID 为 10 的设备存在 UltraPath 推送信息失败的问题。虽然日志中提供了相应的故障排除步骤，但连续出现相同的错误信息仍然需要关注并进一步调查原因。

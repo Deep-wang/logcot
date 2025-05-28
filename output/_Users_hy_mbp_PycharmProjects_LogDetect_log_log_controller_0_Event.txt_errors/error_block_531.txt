@@ -1,0 +1,25 @@
+分析结果：
+
+日志异常，错误时间：2019-03-30 20:18:35
+
+截取出现异常点附近15行日志：
+
+```
+166582    2019-03-30 20:18:35    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+166583    2019-03-30 20:18:35    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+166566    2019-03-30 20:17:36    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+
+166565    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 24, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166564    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 24, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166563    2019-03-30 20:17:36

@@ -1,0 +1,37 @@
+分析结果：
+
+日志异常，错误时间：2020-04-27 17:16:12
+
+```
+13644982    2020-04-27 17:16:12    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 11) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+13644981    2020-04-27 17:16:12    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 11) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+13644980    2020-04-27 17:16:12    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 11) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+13644940    2020-04-27 17:14:37    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 11) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+13644939    2020-04-27 17:14:37    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 11) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+13644938    2020-04-27 17:14:37    0x100F0015001C   Event   Major   --   None   UltraPath push information from host (ID 11) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+13644937   **2020-04-27 **17:14:37   **0x100F0015001C**   **Event**   **Major**   **--**   **None**   **UltraPath push information from host (ID 11) is not received at the preset time point or fails to be processed.**
+**Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].**
+**Step2 Collect related information and contact technical support engineers.**
+
+13644889   **2020-04-27** **17:12:42**   **0x100F0015001C**   **Event**   **Major**   **--**   **None**   **UltraPath push information from host (ID 10) is not received at the preset time point or fails to be processed.**
+```
+
+说明：日志中出现了两处相同的错误信息，且在错误信息下方重复出现了两遍“Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. Step2 Collect related information and contact technical support engineers.”，这是异常行为。

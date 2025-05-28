@@ -1,0 +1,27 @@
+分析结果：
+
+日志异常，错误时间：2019-07-10 09:55:53
+
+以下是出现异常点附近的15行日志：
+
+```
+3471702    2019-07-10 09:55:53    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+3471701    2019-07-10 09:55:53    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+3471700    2019-07-10 09:55:53    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+3471699    2019-07-10 09:55:53    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related信息 and contact technical support engineers.
+
+3471690    
+```
+
+简单说明：日志中多次出现相同的错误信息，表明主机（ID 6）的UltraPath推送信息未在预设时间点收到或处理失败。这可能是由于UltraPath软件问题或网络连接问题导致的。建议按照日志中提供的步骤进行排查，如果问题仍然存在，则需要联系技术支持工程师。

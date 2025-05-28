@@ -1,0 +1,26 @@
+分析结果：
+
+日志异常，错误时间：2019-03-20 11:18:09
+
+```
+1826    2019-03-20 11:18:09    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+1825    2019-03-20 11:18:09    N/A
+1824    2019-03-20 11:18:09    N/A
+1823    2019-03-20 11:18:09    N/A
+1822    2019-03-20 11:18:09    N/A
+1821    2019-03-20 11:18:09    N/A
+1820    2019-03-20 11:18:09    N/A
+1819    2019-03-20 11:18:09    N/A
+1818    2019-03-20 11:18:09    N/A
+1817    2019-03-20 11:18:09   **0x100F0108005B**   Event   Informational   --     None     The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+1816   **N/A**
+1815   **N/A**
+1814   **N/A**
+1813   **N/A**
+1812   **N/A**
+```
+
+**简单说明**： 在出现 UltraPath 推送信息异常的日志行（1826）之前，出现了多条 `N/A` 日志和与 Management Network Port 连接相关的信息（1817），这些 `N/A` 日志不应该出现在这里，导致日志顺序混乱。

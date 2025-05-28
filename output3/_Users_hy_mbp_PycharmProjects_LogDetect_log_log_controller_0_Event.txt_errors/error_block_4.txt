@@ -1,0 +1,16 @@
+分析结果：
+
+日志异常，错误时间：2025-04-23 13:05:35
+
+```
+77490895    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ae38) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 8.
+N/A.
+
+77490894    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f63a2) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 10.
+N/A.
+
+77490893    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6531) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 9.
+N/A.
+
+77490892    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10b340) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 
+```

@@ -1,0 +1,23 @@
+分析结果：
+
+日志异常，异常时间：2023年4月23日 16:13:26
+
+**异常点附近15行日志**：
+
+```
+Apr 23 16:13:26 czp-db2 kernel: ACPI: X2APIC (apic_id[0xffffffff] uid[0x9c] disabled)
+Apr 23 16:13:26 czp-db2 kernel: ACPI: X2APIC (apic_id[0xffffffff] uid[0x9d] disabled)
+Apr 23 16:13:26 czp-db2 kernel: ACPI: X2APIC (apic_id[0xffffffff] uid[0x9e] disabled)
+Apr 23 16:13:26 czp-db2 kernel: ACPI: X2APIC (apic_id[0xffffffff] uid[0x9f] disabled)
+Apr 23 16:13:26 czp-db2 kernel: ACPI: X2APIC (apic_id[0xffffffff] uid[0xa0] disabled)
+Apr 23 16:13:26 czp-db2 kernel: ACPI: X2APIC (apic_id[0xffffffff] uid[0xa1] disabled)
+Apr 23 16:13:26 czp-db2 kernel: ACPI: X2APIC (apic_id[0xffffffff] uid[0xa2] disabled)
+Apr 23 16:13:26 czp-db2 kernel: ACPI: X2APIC (apic_id[0xffffffff] uid[0xa3] disabled)
+Apr 23 16:13:26 czp-db2 kernel: ACPI: X2APIC (apic_id[0xffffffff] uid[0xa4] disabled)
+Apr 23 16:13:26 czp-db2 kernel:
+Apr 23 16十三条消息被省略...
+```
+
+**简单说明**：
+
+日志中大量重复出现 "ACPI:X2APIC (apic_id[0xffffffff] uid[X] disabled)" 的信息，其中 apic_id 为非法值 `0xffffffff`，uid 从 `6d` 到 `ff` 不等。这表明系统中的 XAPIC 控制器存在异常，无法正确识别 CPU 核心或 IPI 线路。

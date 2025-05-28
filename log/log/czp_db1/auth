@@ -1,0 +1,142 @@
+登入日志
+Apr 23 14:56:46 czp-db1 sshd[307434]: Accepted password for dmdba from 10.33.240.40 port 52131 ssh2
+Apr 23 14:56:46 czp-db1 sshd[307434]: linx pam_sm_open_session
+Apr 23 14:56:46 czp-db1 sshd[307434]: pam_unix_session(sshd:session): session opened for user dmdba by (uid=58)
+Apr 23 14:56:46 czp-db1 sshd[307586]: Accepted password for dmdba from 10.33.240.40 port 52133 ssh2
+Apr 23 14:56:46 czp-db1 sshd[307586]: linx pam_sm_open_session
+Apr 23 14:56:46 czp-db1 sshd[307586]: pam_unix_session(sshd:session): session opened for user dmdba by (uid=58)
+Apr 23 14:57:29 czp-db1 sshd[308611]: Accepted password for dmdba from 10.33.240.40 port 52136 ssh2
+Apr 23 14:57:29 czp-db1 sshd[308611]: linx pam_sm_open_session
+Apr 23 14:57:29 czp-db1 sshd[308611]: pam_unix_session(sshd:session): session opened for user dmdba by (uid=58)
+Apr 23 15:17:51 czp-db1 sshd[335633]: Accepted password for dmdba from 10.33.9.25 port 36104 ssh2
+Apr 23 15:17:51 czp-db1 sshd[335633]: linx pam_sm_open_session
+Apr 23 15:17:51 czp-db1 sshd[335633]: pam_unix_session(sshd:session): session opened for user dmdba by (uid=58)
+Apr 23 15:29:05 czp-db1 su[350629]: Successful su for root by dmdba
+Apr 23 15:29:05 czp-db1 su[350629]: + pts/11 dmdba:root
+Apr 23 15:29:05 czp-db1 su[350629]: pam_unix(su:session): session opened for user root by (uid=102)
+Apr 23 15:30:15 czp-db1 sshd[352204]: Accepted password for dmdba from 10.33.9.25 port 36676 ssh2
+Apr 23 15:30:15 czp-db1 sshd[352204]: linx pam_sm_open_session
+Apr 23 15:30:15 czp-db1 sshd[352204]: pam_unix_session(sshd:session): session opened for user dmdba by (uid=58)
+Apr 23 15:30:22 czp-db1 su[352365]: Successful su for root by dmdba
+Apr 23 15:30:22 czp-db1 su[352365]: + pts/15 dmdba:root
+Apr 23 15:30:22 czp-db1 su[352365]: pam_unix(su:session): session opened for user root by (uid=102)
+Apr 23 15:32:01 czp-db1 unix_chkpwd[354643]: password check failed for user (root)
+Apr 23 15:32:01 czp-db1 su[354482]: pam_unix_auth(su:auth): authentication failure; logname= uid=102 euid=102 tty=pts/9 ruser=dmdba rhost=  user=root
+Apr 23 15:32:03 czp-db1 su[354482]: pam_authenticate: 鉴定故障
+Apr 23 15:32:03 czp-db1 su[354482]: FAILED su for root by dmdba
+Apr 23 15:32:03 czp-db1 su[354482]: - pts/9 dmdba:root
+Apr 23 15:32:17 czp-db1 su[354743]: Successful su for root by dmdba
+Apr 23 15:32:17 czp-db1 su[354743]: + pts/9 dmdba:root
+Apr 23 15:32:17 czp-db1 su[354743]: pam_unix(su:session): session opened for user root by (uid=102)
+Apr 23 15:36:51 czp-db1 su[360971]: Successful su for dmdba by root
+Apr 23 15:36:51 czp-db1 su[360971]: + pts/11 root:dmdba
+Apr 23 15:36:51 czp-db1 su[360971]: pam_unix(su:session): session opened for user dmdba by (uid=0)
+Apr 23 15:42:00 czp-db1 sshd[367899]: Accepted password for dmdba from 10.33.3.10 port 64734 ssh2
+Apr 23 15:42:00 czp-db1 sshd[367899]: linx pam_sm_open_session
+Apr 23 15:42:00 czp-db1 sshd[367899]: pam_unix_session(sshd:session): session opened for user dmdba by (uid=58)
+Apr 23 15:42:08 czp-db1 su[368199]: Successful su for root by dmdba
+Apr 23 15:42:08 czp-db1 su[368199]: + pts/17 dmdba:root
+Apr 23 15:42:08 czp-db1 su[368199]: pam_unix(su:session): session opened for user root by (uid=102)
+Apr 23 15:43:38 czp-db1 sshd[352272]: Received disconnect from 10.33.9.25 port 36676:11: disconnected by user
+Apr 23 15:43:38 czp-db1 sshd[352272]: Disconnected from user dmdba 10.33.9.25 port 36676
+Apr 23 15:43:38 czp-db1 sshd[352204]: linx pam_sm_close_session
+Apr 23 15:43:38 czp-db1 sshd[352204]: pam_unix_session(sshd:session): session closed for user dmdba
+Apr 23 15:43:38 czp-db1 su[352365]: pam_unix(su:session): session closed for user root
+Apr 23 15:49:35 czp-db1 sshd[378372]: Accepted password for dmdba from 10.33.3.10 port 57294 ssh2
+Apr 23 15:49:35 czp-db1 sshd[378372]: linx pam_sm_open_session
+Apr 23 15:49:35 czp-db1 sshd[378372]: pam_unix_session(sshd:session): session opened for user dmdba by (uid=58)
+Apr 23 15:49:46 czp-db1 su[378680]: Successful su for root by dmdba
+Apr 23 15:49:46 czp-db1 su[378680]: + pts/18 dmdba:root
+Apr 23 15:49:46 czp-db1 su[378680]: pam_unix(su:session): session opened for user root by (uid=102)
+Apr 23 15:50:03 czp-db1 sshd[335673]: Received disconnect from 10.33.9.25 port 36104:11: disconnected by user
+Apr 23 15:50:03 czp-db1 sshd[335673]: Disconnected from user dmdba 10.33.9.25 port 36104
+Apr 23 15:50:03 czp-db1 sshd[335633]: linx pam_sm_close_session
+Apr 23 15:50:03 czp-db1 sshd[335633]: pam_unix_session(sshd:session): session closed for user dmdba
+Apr 23 15:59:10 czp-db1 su[6998]: Successful su for dmdba by root
+Apr 23 15:59:10 czp-db1 su[6998]: + ??? root:dmdba
+Apr 23 15:59:10 czp-db1 su[6998]: pam_unix(su:session): session opened for user dmdba by (uid=0)
+Apr 23 15:59:10 czp-db1 su[6998]: pam_unix(su:session): session closed for user dmdba
+Apr 23 15:59:25 czp-db1 su[7149]: Successful su for dmdba by root
+Apr 23 15:59:25 czp-db1 su[7149]: + ??? root:dmdba
+Apr 23 15:59:25 czp-db1 su[7149]: pam_unix(su:session): session opened for user dmdba by (uid=0)
+Apr 23 15:59:25 czp-db1 su[7149]: pam_unix(su:session): session closed for user dmdba
+Apr 23 15:59:41 czp-db1 sshd[7429]: Server listening on 0.0.0.0 port 22.
+Apr 23 15:59:52 czp-db1 linx_smp: looking for plugins in '/usr/lib/sasl2', failed to open directory, error: No such file or directory
+Apr 23 16:11:06 czp-db1 kdm: :0[8014]: linx pam_sm_open_session
+Apr 23 16:11:06 czp-db1 kdm: :0[8014]: BUILD=(Jun 19 2023) 
+Apr 23 16:11:06 czp-db1 kdm: :0[8014]: service name:kde 
+Apr 23 16:11:06 czp-db1 kdm: :0[8014]: xdisplay: 
+Apr 23 16:11:06 czp-db1 kdm: :0[8014]: local_sender:pid=8014 username=root 
+Apr 23 16:11:06 czp-db1 kdm: :0[8014]: TO (127.0.0.1):(9999) 
+Apr 23 16:11:06 czp-db1 kdm: :0[8014]: udp_sender:start send to 127.0.0.1:9999 
+Apr 23 16:11:06 czp-db1 kdm: :0[8014]: pam_unix_session(kde:session): session opened for user root by (uid=0)
+Apr 23 16:13:35 czp-db1 kdm: :0[8014]: linx pam_sm_close_session
+Apr 23 16:13:35 czp-db1 kdm: :0[8014]: BUILD=(Jun 19 2023) 
+Apr 23 16:13:35 czp-db1 kdm: :0[8014]: service name:kde 
+Apr 23 16:13:35 czp-db1 kdm: :0[8014]: xdisplay: 
+Apr 23 16:13:35 czp-db1 kdm: :0[8014]: local_sender:pid=8014 username=root 
+Apr 23 16:13:35 czp-db1 kdm: :0[8014]: TO (127.0.0.1):(9999) 
+Apr 23 16:13:35 czp-db1 kdm: :0[8014]: udp_sender:start send to 127.0.0.1:9999 
+Apr 23 16:13:35 czp-db1 kdm: :0[8014]: pam_unix_session(kde:session): session closed for user root
+Apr 23 16:16:56 czp-db1 su[6930]: Successful su for dmdba by root
+Apr 23 16:16:56 czp-db1 su[6930]: + ??? root:dmdba
+Apr 23 16:16:56 czp-db1 su[6930]: pam_unix(su:session): session opened for user dmdba by (uid=0)
+Apr 23 16:16:56 czp-db1 su[6930]: pam_unix(su:session): session closed for user dmdba
+Apr 23 16:17:11 czp-db1 su[7081]: Successful su for dmdba by root
+Apr 23 16:17:11 czp-db1 su[7081]: + ??? root:dmdba
+Apr 23 16:17:11 czp-db1 su[7081]: pam_unix(su:session): session opened for user dmdba by (uid=0)
+Apr 23 16:17:11 czp-db1 su[7081]: pam_unix(su:session): session closed for user dmdba
+Apr 23 16:17:27 czp-db1 sshd[7361]: Server listening on 0.0.0.0 port 22.
+Apr 23 16:17:40 czp-db1 linx_smp: looking for plugins in '/usr/lib/sasl2', failed to open directory, error: No such file or directory
+Apr 23 16:19:11 czp-db1 sshd[10186]: Accepted password for dmdba from 10.33.240.40 port 52853 ssh2
+Apr 23 16:19:11 czp-db1 sshd[10186]: linx pam_sm_open_session
+Apr 23 16:19:11 czp-db1 sshd[10186]: pam_unix_session(sshd:session): session opened for user dmdba by (uid=58)
+Apr 23 16:19:11 czp-db1 sshd[10301]: Accepted password for dmdba from 10.33.240.40 port 52854 ssh2
+Apr 23 16:19:11 czp-db1 sshd[10301]: linx pam_sm_open_session
+Apr 23 16:19:11 czp-db1 sshd[10301]: pam_unix_session(sshd:session): session opened for user dmdba by (uid=58)
+Apr 23 16:23:03 czp-db1 sshd[15780]: Invalid user dmbba from 10.33.3.10 port 60598
+Apr 23 16:23:06 czp-db1 sshd[15780]: pam_unix_auth(sshd:auth): check pass; user unknown
+Apr 23 16:23:06 czp-db1 sshd[15780]: pam_unix_auth(sshd:auth): authentication failure; logname= uid=58 euid=58 tty=ssh ruser= rhost=10.33.3.10 
+Apr 23 16:23:06 czp-db1 sshd[15780]: linx pam logfail
+Apr 23 16:23:06 czp-db1 sshd[15780]: BUILD=(Jun 19 2023) 
+Apr 23 16:23:06 czp-db1 sshd[15780]: service name:sshd 
+Apr 23 16:23:06 czp-db1 sshd[15780]: SSH_SND:(dmbba)PID(15780)S(169935626)(10.33.3.10)(60598)D(169937176)(10.33.9.24) 
+Apr 23 16:23:06 czp-db1 sshd[15780]: TO (127.0.0.1):(9999) 
+Apr 23 16:23:06 czp-db1 sshd[15780]: udp_sender:start send to 127.0.0.1:9999 
+Apr 23 16:23:06 czp-db1 sshd[15780]: pam_tally(sshd:auth): pam_get_uid; no such user dmbba
+Apr 23 16:23:08 czp-db1 sshd[15780]: Failed password for invalid user dmbba from 10.33.3.10 port 60598 ssh2
+Apr 23 16:23:11 czp-db1 sshd[15780]: error: Received disconnect from 10.33.3.10 port 60598:0:  [preauth]
+Apr 23 16:23:11 czp-db1 sshd[15780]: Disconnected from invalid user dmbba 10.33.3.10 port 60598 [preauth]
+Apr 23 16:25:02 czp-db1 sshd[16544]: Accepted password for dmdba from 10.33.3.10 port 63168 ssh2
+Apr 23 16:25:02 czp-db1 sshd[16544]: linx pam_sm_open_session
+Apr 23 16:25:02 czp-db1 sshd[16544]: pam_unix_session(sshd:session): session opened for user dmdba by (uid=58)
+Apr 23 16:25:11 czp-db1 su[19296]: Successful su for root by dmdba
+Apr 23 16:25:11 czp-db1 su[19296]: + pts/3 dmdba:root
+Apr 23 16:25:11 czp-db1 su[19296]: pam_unix(su:session): session opened for user root by (uid=102)
+Apr 23 16:58:06 czp-db1 sshd[67649]: Accepted password for dmdba from 10.33.3.10 port 54109 ssh2
+Apr 23 16:58:06 czp-db1 sshd[67649]: linx pam_sm_open_session
+Apr 23 16:58:06 czp-db1 sshd[67649]: pam_unix_session(sshd:session): session opened for user dmdba by (uid=58)
+Apr 23 16:59:31 czp-db1 sshd[16544]: linx pam_sm_close_session
+Apr 23 16:59:31 czp-db1 sshd[16544]: pam_unix_session(sshd:session): session closed for user dmdba
+Apr 23 16:59:31 czp-db1 su[19296]: pam_unix(su:session): session closed for user root
+Apr 23 16:59:36 czp-db1 sshd[67649]: linx pam_sm_close_session
+Apr 23 16:59:36 czp-db1 sshd[67649]: pam_unix_session(sshd:session): session closed for user dmdba
+Apr 23 18:45:01 czp-db1 sshd[221995]: Accepted password for sysadmin from 10.33.3.10 port 53412 ssh2
+Apr 23 18:45:01 czp-db1 sshd[221995]: linx pam_sm_open_session
+Apr 23 18:45:01 czp-db1 sshd[221995]: pam_unix_session(sshd:session): session opened for user sysadmin by (uid=58)
+Apr 23 18:45:06 czp-db1 unix_chkpwd[222317]: password check failed for user (root)
+Apr 23 18:45:06 czp-db1 su[222250]: pam_unix_auth(su:auth): authentication failure; logname= uid=96 euid=96 tty=pts/3 ruser=sysadmin rhost=  user=root
+Apr 23 18:45:08 czp-db1 su[222250]: pam_authenticate: 鉴定故障
+Apr 23 18:45:08 czp-db1 su[222250]: FAILED su for root by sysadmin
+Apr 23 18:45:08 czp-db1 su[222250]: - pts/3 sysadmin:root
+Apr 23 18:45:14 czp-db1 su[222384]: Successful su for root by sysadmin
+Apr 23 18:45:14 czp-db1 su[222384]: + pts/3 sysadmin:root
+Apr 23 18:45:14 czp-db1 su[222384]: pam_unix(su:session): session opened for user root by (uid=96)
+Apr 23 18:47:03 czp-db1 su[225781]: Successful su for d5000 by root
+Apr 23 18:47:03 czp-db1 su[225781]: + pts/3 root:d5000
+Apr 23 18:47:03 czp-db1 su[225781]: pam_unix(su:session): session opened for user d5000 by (uid=0)
+Apr 23 18:47:03 czp-db1 su[225781]: pam_unix(su:session): session closed for user d5000
+Apr 23 18:47:03 czp-db1 su[225794]: Successful su for d5000 by root
+Apr 23 18:47:03 czp-db1 su[225794]: + pts/3 root:d5000
+Apr 23 18:47:03 czp-db1 su[225794]: pam_unix(su:session): session opened for user d5000 by (uid=0)
+Apr 23 18:47:03 czp-db1 su[225794]: pam_unix(su:session): session closed for user d5000

@@ -1,0 +1,27 @@
+分析结果：
+
+**日志异常**
+
+**错误时间**: 2025-04-23T13:34:00.313428+08:00
+
+**异常点附近15行日志**:
+
+```
+2025-04-23T13:34:00.313428+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+2025-04-23T13:34:00.313437+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+2025-04-23T13:34:00.313439+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+2025-04-23T13:34:00.313449+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+2025-04-23T13：34：**Dky_app_** **_00 kernel**: end\_request：I/O error, dev sdu, sector **0**
+2025-04-23T13：34：**Dky\_app\_** **_00 kernel**: sd **8**:0:**1**:6:** [sdap] **Result**: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+2025-04-23T13：34：**Dky\_app\_** **_00 kernel**: sd **8**:0:**1**:6:** [sdap] **Sense Key**: Illegal Request [current]
+2025-04-23T13：34：**Dky\_app\_** **_00 kernel**: sd **8**:0:**1**:6:** [sdap] Add. Sense:** Logical unit not supported**
+2025-04-23T13：34：**Dky\_app\_** **_00 kernel**: sd **8**:0:**1**:6:** [sdap] CDB:** Read(10)**:* **28** **0** **0** **0** **0** **0** **0** **0** **8** **0**
+2025-04-23T13：34：**Dky\_app\_** **_00 kernel**: end\_request：I/O error, dev sdap, sector 0
+2025-04-23T13：34：**Dky\_app\_** **_00 kernel**: sd 8:
+``` 
+
+## 简单说明
+
+日志中多次出现 `end_request` 错误，并且错误信息为 `I/O error, dev sdu, sector 0` 和 `I/O error, dev sdap, sector 0` 等。这表明设备 `sdu`、`sdap` 等存在输入/输出错误，无法正常读取数据。 
+
+此外，日志中还出现了 `Sense Key : Illegal Request [current]` 和 `Add. Sense : Logical unit not supported` 的信息，这通常表示设备驱动程序与设备之间的协议不兼容，或者设备本身存在问题。

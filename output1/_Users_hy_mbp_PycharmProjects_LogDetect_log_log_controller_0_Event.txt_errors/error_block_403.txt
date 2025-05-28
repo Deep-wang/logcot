@@ -1,0 +1,20 @@
+分析结果：
+
+日志异常，错误时间：2020-04-25 17:29:14
+
+截取出现异常点附近15行日志：
+
+```
+13575186    2020-04-25 17:29:14    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 8) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+13575185    2020-04-25 17:29:14    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 8) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+13575179    2020-04-25 17:28:58    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN group (ID 6) to the mapping view (ID 7).
+N/A
+13575178    2020-04-25 17:28:58    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host group (ID 6) to the mapping view (ID 7).
+N/A
+13575177    2020-04-25 17:28:58    0x200F00F50014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the mapping view (name DMDB_YDgroup01 , ID 7).
+N/A
+13575163    2020-04-25 17:28:27    0x200F0100001D    Event    Informational    --

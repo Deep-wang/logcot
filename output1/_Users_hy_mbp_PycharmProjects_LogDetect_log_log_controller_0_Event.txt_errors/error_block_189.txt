@@ -1,0 +1,21 @@
+分析结果：
+
+**日志异常**，错误时间：2023-05-23 15:33:40
+
+**异常点附近15行日志**：
+
+```
+52926760    2023-05-23 15:33:40    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 10) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+52926614    2023-05-23 15:27:40    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10b27b) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 15:27:40, host: ID 11.
+N/A.
+
+52926613    2023-05-23 15:27:40    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10b27b) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 15:27:40, host: ID 11.
+N/A.
+
+52926612    2023-05-23 15:27:40    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10b27b) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 15:27:40, host: ID 11.
+N/A.
+
+52926611    2023-05-23 15:27:40    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10b27b) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 15:27:40, host: ID

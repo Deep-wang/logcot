@@ -1,0 +1,28 @@
+分析结果：
+
+**日志异常**
+
+**错误时间**: 2025-04-23T11:52:18.732433+08:00
+
+**异常点附近15行日志**:
+
+```
+2025-04-23T11:52:18.732433+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+2025-04-23T11:52:18.732437+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+2025-04-23T11:52:18.732439+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+2025-04-23T11:52：18.732440+08：00 Dky_app_00 kernel： end_request： I/O error, dev sdai, sector 0
+2025-04-23T11：54：00.805249+08：00 Dky_app_00 multipathd： 363c7843100c5453e3fb2197100000035： sdg - directio checker reports path is down
+2025-04-23T11：54：00.805317+08：00 Dky_app_00 multipathd： 363c7843100c5453e3fb2197100000035： sdu - directio checker reports path is down
+2025-04-23T11：54：00.805428+08：00 Dky_app_00 kernel： sd 7：0：0：6： [sdg]   Result : hostbyte=DID_OK driverbyte=DRIVER_SENSE
+2025-04-23T11：54：00.805436+08： 
+``` 
+
+**简单说明**: 
+
+日志中多次出现 `Sense Key : Illegal Request` 和 `Add. Sense : Logical unit not supported` 的错误信息，这通常表示设备无法识别或访问。这可能是由多种原因引起的，例如：
+
+* **设备故障**: 硬盘或控制器可能存在硬件故障。
+* **驱动程序问题**: 驱动程序可能与设备不兼容或已损坏。
+* **配置错误**: 设备配置可能不正确。
+
+需要进一步调查以确定具体原因并采取相应的解决措施。

@@ -1,0 +1,26 @@
+分析结果：
+
+日志异常，错误时间：2019-03-18 14:32:14
+
+**异常点附近15行日志**：
+
+157    2019-03-18 14:32:14    0xF00170014    Fault    Major    Recovered    2019-04-08 15:01:10    No power is input to power module (disk enclosure DAE011, power module PSU 0).
+Step1 Check whether power cables are connected correctly.
+    1.1 If yes=>[Step2].
+    1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2].
+Step2 Check power cables.
+    2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+    3.1 If yes=>[Step4].
+    3.2 If no, reinsert the power module. If the alarm persists=>[Step4].
+Step4 Check whether any external power is input to the power module.
+    4.1 If yes=>[Step5].
+    4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5].
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+156    2019-03-18 14:31:48    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 24) is inserted.
+N/A
+155    2019-03-18 14:31:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 20) is inserted.
+N/A
+154   

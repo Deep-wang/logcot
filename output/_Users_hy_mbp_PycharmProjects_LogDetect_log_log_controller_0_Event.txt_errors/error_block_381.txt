@@ -1,0 +1,30 @@
+分析结果：
+
+日志异常，错误时间：2020-06-30 11:27:44
+
+截取出现异常点附近15行日志：
+
+```
+15873190    2020-06-30 11:27:44    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 12) is not received at the preset time point or fails to be processed.
+Step2 Collect related information and contact technical support engineers.
+
+15873144    2020-06-30 11:25:52    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 12) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+15873143    2020-06-30 11:25:52    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 12) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+15873142    2020-06-30 11:25:52    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 12) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+15873141    2020-06-30 11:25:52    0x100F0015001C    Event    Major    --   None   UltraPath push information from host (ID 12) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+15873045
+```
+
+简单说明：日志中出现了重复的故障信息，且在出现故障信息后没有按照步骤进行下一步操作，直接跳过了步骤1，直接执行了步骤2。

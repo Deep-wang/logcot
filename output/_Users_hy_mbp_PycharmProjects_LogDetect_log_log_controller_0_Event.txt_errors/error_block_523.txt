@@ -1,0 +1,36 @@
+分析结果：
+
+**日志异常**
+
+**错误时间**: 2019-04-08 20:28:08
+
+**异常点附近15行日志**:
+
+```
+273042    2019-04-08 20:28:08    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+273041    2019-04-08 20:28:08    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+272957    2019-04-08 20:23:21    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 20:23:21, host: ID 1.
+N/A.
+
+272956    2019-04-08 20:23:21    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 20:23:21, host: ID 1.
+N/A.
+
+272955    2019-04-08 20:23:21    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 20:23:21, host: ID 1.
+N/A.
+
+272954
+272953
+272952
+272951
+272950
+```
+
+**简单说明**: 
+
+日志中连续出现了多条关于 "UltraPath push information from host" 无法接收或处理的错误信息，这表明主机与存储设备之间的路径信息传递存在问题，可能导致数据传输失败或性能下降。需要进一步排查原因，例如检查UltraPath软件版本、网络连接、设备配置等。

@@ -1,0 +1,36 @@
+分析结果：
+
+**日志异常**
+
+**错误时间**: 2020-06-23 18:23:33
+
+**异常点附近15行日志**:
+
+```
+15638344    2020-06-23 18:23:33    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 13) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+15638343    2020-06-23 18:23:33    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 12) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+15638317    2020-06-23 18:22:33    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN group (ID 16) to the mapping view (ID 16).
+N/A
+
+15638316    2020-06-23 18:22:33    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host group (ID 15) to the mapping view (ID 16).
+N/A
+
+15638315    2020-06-23 18:22:33    0x200F00F50014    Event    Informational    --   None admin:10.33.36.225 succeeded in creating the mapping view (name SH_DB_02-5T , ID 16).
+N/A
+
+15638302   ... (省略11行) ...
+
+15637641   ... (省略8行) ...
+
+15617519   ... (省略)
+```
+
+**简单说明**: 
+
+日志中出现两处 Major 级别的错误，提示从主机 (ID 13) 和 (ID 12) 收到 UltraPath 推送信息失败。这表明主机与存储系统之间的通信出现问题，可能导致数据同步失败或其他问题。需要进一步调查原因并采取相应的解决措施。

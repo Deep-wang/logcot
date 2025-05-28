@@ -1,0 +1,30 @@
+分析结果：
+
+**日志异常**
+
+**错误时间**: 2020-11-27 15:49:46
+
+**异常点附近15行日志**:
+
+```
+21135205    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135204    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135203    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135202    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135201    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135200    2020-11-27 15:49:46    0x100F0015001C    Event  

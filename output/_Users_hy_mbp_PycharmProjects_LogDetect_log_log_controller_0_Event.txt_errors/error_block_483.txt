@@ -1,0 +1,40 @@
+分析结果：
+
+日志异常，错误时间：2019-04-10 14:29:49
+
+```
+334077    2019-04-10 14:29:49    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 3) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+334004    2019-04-10 14:26:24    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+334003    2019-04-10 14:26:24    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+334002    2019-04-10 14:26:24    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 14:26:24, host: ID 0.
+N/A.
+
+334001    2019-04-10 14:26:24    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 14:26:24, host: ID 0.
+N/A.
+
+334000
+333999
+333996
+333995
+333990
+333989
+333988
+333987
+333986
+333985
+333984
+333983
+333982
+333981
+```
+
+说明：日志中出现了多次重复的UltraPath push信息未接收的错误，这可能是由于系统配置或软件问题导致的。需要进一步调查并解决此问题。

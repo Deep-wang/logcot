@@ -1,0 +1,13 @@
+分析结果：
+
+日志异常，错误时间：2019-04-09 11:06:57
+
+截取出现异常点附近15行日志：
+
+294096    2019-04-09 11:06:51    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090faac6c46) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 11:6:51, host: ID 3.
+N/A.
+294095    2019-04-09 11:06:51    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090faac6c46) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 11:6:51, host: ID 3.
+N/A.
+294094    2019-04-09 11:06:51    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090faac6c46) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 11:6:51, host: ID 3.
+N/A.
+294093    2019-04-09 11:06:51    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier

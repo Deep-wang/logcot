@@ -1,0 +1,16 @@
+分析结果：
+
+**日志异常**
+
+**错误时间**: 2025-04-23T12:18:01.863175+08:00
+
+**异常点附近15行日志**:
+
+```
+2025-04-23T12:18:01.863175+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+2025-04-23T12:18:01.863443+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+2025-04-23T12:18:01.863452+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+2025-04-23T12：18：01.863456+08：00 Dky_app_00 kernel：sd 7：0：0：6：[sdg] Add. Sense：Logical unit not supported
+2025-04-23T12：18：01.863457+08：00 Dky_app_00 kernel：sd 7：0：0：6：[sdg] CDB：
+2025-04-23T12：18：01.863461+08：
+```

@@ -1,0 +1,15 @@
+分析结果：
+
+**日志异常**
+
+**错误时间**: 2025-04-23T12:02:01
+
+**异常点附近15行日志**:
+
+```
+2025-04-23T12:02:01.150833+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+2025-04-23T12:02:01.150884+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+2025-04-23T12:02:01.151011+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+2025-04-23T12:02:01.151251+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+2025-04-23T12:02:01.151446+08:00 Dky_app_00 kernel:
+2025-04-23T12：02：01。151454+08：Dky_app_00 kernel：sd 7：0：0：6：[sdg] Result：hostbyte=DI
