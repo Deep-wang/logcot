@@ -266,9 +266,9 @@ def read_error_logs(file_path):
    unknown_error_logs = df[bool_logs]['log_content'].tolist()
    return unkonwn_logs, error_logs, unknown_error_logs
 
-def anylysis_error_logs(unkonwn_logs, error_logs, api_keys, api_url, analyze_out_dir):
+def anylysis_error_logs(unknown_error_logs, api_keys, api_url, analyze_out_dir):
     def analyze_batch(batch, log_type, api_key):
-        prompt = f"分析以下{log_type}日志的共同特征和可能原因:\n" + "\n".join(batch)
+        prompt = f"分析以下{str(log_type)}日志的共同特征和可能原因:\n" + "\n".join(str(batch))
         payload = {
             "model": "THUDM/GLM-4-9B-0414",
             "messages": [{"role": "user", "content": prompt}]
@@ -326,7 +326,7 @@ def anylysis_error_logs(unkonwn_logs, error_logs, api_keys, api_url, analyze_out
                 else:
                     f.write(f"=== {result['type']}日志分析失败 ===\n")
                     f.write(f"错误信息:\n{result['error']}\n")
-    
+    print(results)
     return results
 
 
@@ -364,20 +364,18 @@ def analyze(PROMPT_STRATEGIES,INPUT_FILE,raw_file_name,API_URL,API_KEYS,analyze_
 
         ## Input Logs:
         '''
-
-
         logs=df['log'].tolist()
 
         ########## generate prompts ######################
         prompt_parts,prompt_parts_count,log_parts= generate_prompt(prompt_header,logs,max_len=5000)    
-        ########### obtain raw answers from GPT ###########
+        ########## obtain raw answers from GPT ###########
         lst = parse_logs(API_KEYS,API_URL,prompt_parts,prompt_parts_count,log_parts,raw_file_name)
         ######### Align each log with its results #######
         df_raw_answer = pd.read_excel(raw_file_name)
         OUT_raw_path = write_to_excel(raw_file_name,df_raw_answer,logs)
         unkonwn_logs, error_logs, unknown_error_logs = read_error_logs(OUT_raw_path)
-        results = anylysis_error_logs(unkonwn_logs, error_logs, API_KEYS, API_URL,analyze_log_directory)
-        return results, {'unkonwn_logs':unkonwn_logs, 'error_logs':error_logs, 'unknown_error_logs':unknown_error_logs}
+        # results = anylysis_error_logs(unknown_error_logs, API_KEYS, API_URL,analyze_log_directory)
+        return {'unkonwn_logs':unkonwn_logs, 'error_logs':error_logs, 'unknown_error_logs':unknown_error_logs}
 
         # write_to_excel(raw_file_name,df_raw_answer,logs,'sk-dpadryupxccpbkigoduasfosszucawczlmfraqhtevaxlokx',API_URL)
     # region 
@@ -503,23 +501,20 @@ def main():
 
     file_list = UpLoad_File(INPUT_DIR)
     # file_list = file_list[:1]   # debug 
-    file_list
-    Results = []
     Error_logs = []
     for i, file in enumerate(file_list):
-        INPUT_FILE = file_list[len(file_list)-i-1]
+        INPUT_FILE = file
         # INPUT_FILE = file
         raw_file_name = os.path.join(OUTPUT_DIR, os.path.basename(file).replace('.xlsx', '_raw.xlsx'))
         print(raw_file_name)
-        results, error_log = analyze(PROMPT_STRATEGIES, INPUT_FILE, raw_file_name, API_URL, API_KEYS,analyze_log_path)
-        Results.append(results)
+        error_log = analyze(PROMPT_STRATEGIES, INPUT_FILE, raw_file_name, API_URL, API_KEYS,analyze_log_path)
         Error_logs.append(error_log)
     # 根据每个日志的分析result和error_logs，再次调用最终模型完成最终的分析
     error_logs = []
     for i in range(len(Error_logs)): 
         error_logs.extend(Error_logs[i]['unknown_error_logs'])
     error_logs = '\n'.join(error_logs)
-    print(error_logs)
+
 
     # 将error_logs保存为txt文件
     # error_logs_file = os.path.join(OUTPUT_DIR, 'error_logs.txt')
