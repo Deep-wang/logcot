@@ -1,0 +1,4 @@
+=== 错误日志分析结果 ===
+分析批次:
+['Apr 23 16:17:27 czp-db1 sshd[7361]: Server listening on 0.0.0.0 port 22.', 'Apr 23 16:11:06 czp-db1 kdm: :0[8014]: service name:kde', 'Apr 23 15:32:03 czp-db1 su[354482]: FAILED su for root by dmdba', 'Apr 23 16:23:06 czp-db1 sshd[15780]: pam_tally(sshd:auth): pam_get_uid; no such user dmbba', 'Apr 23 15:59:41 czp-db1 sshd[7429]: Server listening on 0.0.0.0 port 22.', 'Apr 23 16:23:06 czp-db1 sshd[15780]: BUILD=(Jun 19 2023)', 'Apr 23 16:25:02 czp-db1 sshd[16544]: linx pam_sm_open_session', 'Apr 23 15:30:22 czp-db1 su[352365]: Successful su for root by dmdba', 'Apr 23 16:11:06 czp-db1 kdm: :0[8014]: TO (127.0.0.1):(9999)', 'Apr 23 16:23:11 czp-db1 sshd[15780]: error: Received disconnect from 10.33.3.10 port 60598:0:  [preauth]']
+

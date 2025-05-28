@@ -53,9 +53,12 @@ def split_text_into_chunks(text, max_chars):
     return [text[i:i + max_chars] for i in range(0, len(text), max_chars)]
 
 # 主逻辑：读取+分段分析+最终总结
-def analyze_log_directory(root_dir):
-    all_logs = load_all_logs_to_string(root_dir)
-    print(f"📄 日志总长度：{len(all_logs)} 字符")
+def analyze_log_directory(root_dir, option='dir'):
+    if option == 'dir':
+        all_logs = load_all_logs_to_string(root_dir)
+        print(f"📄 日志总长度：{len(all_logs)} 字符")
+    elif option == 'str':
+        all_logs = root_dir
 
     chunks = split_text_into_chunks(all_logs, MAX_CHARS_PER_CHUNK)
     print(f"🔍 分为 {len(chunks)} 段进行分析")

@@ -20,7 +20,7 @@ def convert_log_to_excel(DIR_path):
     file_ls = UpLoad_File(DIR_path)
     for file in file_ls:
         # 生成安全的 Excel 文件名（替换路径中的斜杠为下划线）
-        safe_filename = file.replace('/', '_') 
+        safe_filename = file.replace('\\', '_') 
         safe_filename = safe_filename.replace('.', '_') + '.xlsx'  # 替换 Windows 路径分隔符
         OUTPUT_EXCEL_PATH = os.path.join(OUTPUT_DIR, safe_filename)
         
@@ -38,7 +38,7 @@ def convert_log_to_excel(DIR_path):
         print(f"转换完成！Excel 文件已保存至：{OUTPUT_EXCEL_PATH}")
 
 def main():
-    DIR_path = '/Users/hy_mbp/PycharmProjects/LogDetect/log/log'
+    DIR_path = 'C:/Users/pc/Desktop/code/log/logcot/log/log'
     convert_log_to_excel(DIR_path)
 
 if __name__ == "__main__":

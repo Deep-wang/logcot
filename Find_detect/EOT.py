@@ -1,3 +1,6 @@
+"""
+EOT 方法, 目前没用上
+"""
 import re
 from drain3 import TemplateMiner
 from drain3.file_persistence import FilePersistence

@@ -1,3 +1,7 @@
+"""
+COT 方法，最新方法
+"""
+
 from math import log
 from tkinter import W
 import pandas as pd
@@ -18,6 +22,7 @@ import numpy as np
 from concurrent.futures import ThreadPoolExecutor, as_completed
 # 基于Prompt的分析
 from tenacity import retry, stop_after_attempt, wait_exponential
+import scan.summerize as analyze_log_final
 
 @retry(stop=stop_after_attempt(7), wait=wait_exponential(multiplier=2, min=2, max=100))
 def post_with_retry(payload, headers, API_URL):
@@ -93,10 +98,10 @@ def reprompt(raw_file_name,j,df_raw_answer,api_key,api_url,temperature):
     prompt=df_raw_answer.loc[j,"prompt"]
     msgs=[]
     payload = {
-        "model": "THUDM/GLM-4-9B-0414",
+        "model": "Qwen/Qwen3-8B",  #  "THUDM/GLM-4-9B-0414",
         "stream": False,
         "max_tokens": 8192,
-        "enable_thinking": True,
+        "enable_thinking": False,
         "thinking_budget": 4096,
         "min_p": 0.05,
         "temperature": temperature,
@@ -166,11 +171,14 @@ def write_to_excel(raw_file_name,df_raw_answer,logs):
     #     print(logs[i])
     ANSWER_LIST = []
     for rel in sorted_results:
-        index=rel[0]
-        result=rel[1]
-        # print(index)
-        log_content = logs[index]
-        ANSWER_LIST.append([index, log_content, result])
+        try:
+            index=rel[0]
+            result=rel[1]
+            # print(index)
+            log_content = logs[index]
+            ANSWER_LIST.append([index, log_content, result])
+        except:
+            continue
     # 将结果写入Excel文件
     # 找出缺失的index
     all_indices = set(range(1, len(logs)))  # 所有可能的index
@@ -180,10 +188,13 @@ def write_to_excel(raw_file_name,df_raw_answer,logs):
     # 创建结果DataFrame
     ANSWER_LIST = []
     for rel in sorted_results:
-        index = rel[0]
-        result = rel[1]
-        log_content = logs[index] if index < len(logs) else ""
-        ANSWER_LIST.append([index, log_content, result])
+        try:   # todo: 这块后续要解决掉
+            index = rel[0]
+            result = rel[1]
+            log_content = logs[index] if index < len(logs) else ""
+            ANSWER_LIST.append([index, log_content, result])
+        except:
+            continue
     
     # 添加缺失的index记录
     for missing_idx in missing_indices:
@@ -210,10 +221,14 @@ def parse_logs(api_keys, api_url, prompt_parts: List[str], prompt_parts_count,lo
             "enable_thinking": True,
             "thinking_budget": 4096,
             "min_p": 0.05,
-            "temperature": 0.4,
-            "top_p": 0.7,
-            "top_k": 50,
-            "frequency_penalty": 0.5,
+            # "temperature": 0.4,
+            # "top_p": 0.7,
+            # "top_k": 50,
+            # "frequency_penalty": 0.5,
+            "temperature": 0.1,        # 降低随机性，提高准确性
+            "top_p": 0.3,             # 更保守的选择
+            "top_k": 20,              # 减少候选词数量
+            "frequency_penalty": 0.2,  # 轻微减少重复
             "n": 1,
             "stop": [],
             "messages": [{"role": "user", "content": prompt}]
@@ -250,7 +265,9 @@ def read_error_logs(file_path):
    df = pd.read_excel(file_path)
    unkonwn_logs = df[df['result'] == 'UNKNOWN']['log_content'].tolist()
    error_logs = df[df['result'] == 'abnormal']['log_content'].tolist()
-   return unkonwn_logs, error_logs
+   bool_logs = (df['result'] == 'abnormal') | (df['result'] == 'UNKNOWN')
+   unknown_error_logs = df[bool_logs]['log_content'].tolist()
+   return unkonwn_logs, error_logs, unknown_error_logs
 
 def anylysis_error_logs(unkonwn_logs, error_logs, api_keys, api_url, analyze_out_dir):
     def analyze_batch(batch, log_type, api_key):
@@ -304,7 +321,7 @@ def anylysis_error_logs(unkonwn_logs, error_logs, api_keys, api_url, analyze_out
             filename = f"{result['type']}_analysis_{timestamp}.txt"
             filepath = os.path.join(analyze_out_dir, filename)
             
-            with open(filepath, 'w') as f:
+            with open(filepath, 'w', encoding='utf-8') as f:
                 if 'analysis' in result:
                     f.write(f"=== {result['type']}日志分析结果 ===\n")
                     f.write(f"分析批次:\n{result['batch']}\n\n")
@@ -327,7 +344,7 @@ def analyze(PROMPT_STRATEGIES,INPUT_FILE,raw_file_name,API_URL,API_KEYS,analyze_
     if PROMPT_STRATEGIES == 'CoT':
         df=df.sample(frac=1).reset_index(drop=True)
         # answer_desc="a binary choice between normal and abnormal"
-        prompt_header="Classify the given log entries into normal an abnormal categories. Do it with these steps: \
+        prompt_header="Classify the given log entries into normal and abnormal categories. Do it with these steps: \
         (a) Mark it normal when values (such as memory address, floating number and register value) in a log are invalid. \
         (b) Mark it normal when lack of information. (c) Never consider <*> and missing values as abnormal patterns. \
         (d) Mark it abnormal when and only when the alert is explicitly expressed in textual content (such as keywords like error or interrupt). \
@@ -336,16 +353,18 @@ def analyze(PROMPT_STRATEGIES,INPUT_FILE,raw_file_name,API_URL,API_KEYS,analyze_
         logs=df['log'].tolist()
 
         ########## generate prompts ######################
-        prompt_parts,prompt_parts_count ,log_parts= generate_prompt(prompt_header,logs,max_len=5000)    
+        prompt_parts,prompt_parts_count,log_parts= generate_prompt(prompt_header,logs,max_len=5000)    
         ########### obtain raw answers from GPT ###########
         lst = parse_logs(API_KEYS,API_URL,prompt_parts,prompt_parts_count,log_parts,raw_file_name)
         ######### Align each log with its results #######
         df_raw_answer = pd.read_excel(raw_file_name)
         OUT_raw_path = write_to_excel(raw_file_name,df_raw_answer,logs)
-        unkonwn_logs, error_logs = read_error_logs(OUT_raw_path)
-        anylysis_error_logs(unkonwn_logs, error_logs, API_KEYS, API_URL,analyze_log_directory)
+        unkonwn_logs, error_logs, unknown_error_logs = read_error_logs(OUT_raw_path)
+        results = anylysis_error_logs(unkonwn_logs, error_logs, API_KEYS, API_URL,analyze_log_directory)
+        return results, {'unkonwn_logs':unkonwn_logs, 'error_logs':error_logs, 'unknown_error_logs':unknown_error_logs}
 
         # write_to_excel(raw_file_name,df_raw_answer,logs,'sk-dpadryupxccpbkigoduasfosszucawczlmfraqhtevaxlokx',API_URL)
+    # region 
     # if PROMPT_STRATEGIES == 'InContext':
     #     df_examples=pd.read_excel(EXAMPLE_FILE)
     #     df=df.sample(frac=1).reset_index(drop=True)
@@ -361,7 +380,8 @@ def analyze(PROMPT_STRATEGIES,INPUT_FILE,raw_file_name,API_URL,API_KEYS,analyze_
     #     ########### Align each log with its results #######
     #     df_raw_answer = pd.read_excel(OUTPUT_FILE)
     #     write_to_excel(OUTPUT_FILE,df_raw_answer,logs)   
-     
+    # endregion
+
     if PROMPT_STRATEGIES == "Self":
         #candidate selection
         df=df[:100]
@@ -383,7 +403,7 @@ def analyze(PROMPT_STRATEGIES,INPUT_FILE,raw_file_name,API_URL,API_KEYS,analyze_
             ########## Align each log with its results #######
             # df_raw_answer = pd.read_excel(raw_file_name)
             # write_to_excel(raw_file_name+'Candidate_%d_'%(i+1)+'.xlsx',df_raw_answer,logs,'sk-dpadryupxccpbkigoduasfosszucawczlmfraqhtevaxlokx',API_URL)
-
+        return None
 
 
 # analyze('CoT','/Users/hy_mbp/PycharmProjects/LogDetect/log/OUTPUT_FILE/kernel.xlsx','/Users/hy_mbp/PycharmProjects/temp/raw_file_name1.xlsx','','')
@@ -429,6 +449,12 @@ def convert_log_to_excel(DIR_path):
 
 
 def main():
+    # 设置默认编码为UTF-8，避免Windows下的GBK编码问题
+    import sys
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+    
     API_URL = "https://api.siliconflow.cn/v1/chat/completions"
     API_KEYS = [
         "sk-dpadryupxccpbkigoduasfosszucawczlmfraqhtevaxlokx",
@@ -437,15 +463,35 @@ def main():
         "sk-qgsqryixuqdmtzkgubxpvdzollysgtonnvcrwmikwegmaogn",
         "sk-hvxqvahoplbhdadwtaomisdamxqhquvummcfpvlafeovpqus",
     ]
-    INPUT_DIR = '/Users/hy_mbp/PycharmProjects/LogDetect/log/OUTPUT_FILE'
-    OUTPUT_DIR = '/Users/hy_mbp/PycharmProjects/LogDetect/output'
+    INPUT_DIR = 'C:/Users/pc/Desktop/code/log/logcot/log/OUTPUT_FILE'
+    OUTPUT_DIR = 'C:/Users/pc/Desktop/code/log/logcot/Find_detect/output_528'  
     PROMPT_STRATEGIES = 'CoT'
-    analyze_log_directory = '/Users/hy_mbp/PycharmProjects/LogDetect/output'
+    analyze_log_path = 'C:/Users/pc/Desktop/code/log/logcot/Find_detect/output_528'
     file_list = UpLoad_File(INPUT_DIR)
+    # file_list = file_list[:1]   # debug 
+    Results = []
+    Error_logs = []
     for file in file_list:
         INPUT_FILE = file
         raw_file_name = os.path.join(OUTPUT_DIR, os.path.basename(file).replace('.xlsx', '_raw.xlsx'))
         print(raw_file_name)
-        analyze(PROMPT_STRATEGIES, INPUT_FILE, raw_file_name, API_URL, API_KEYS,analyze_log_directory)
+        results, error_log = analyze(PROMPT_STRATEGIES, INPUT_FILE, raw_file_name, API_URL, API_KEYS,analyze_log_path)
+        Results.append(results)
+        Error_logs.append(error_log)
+    # 根据每个日志的分析result和error_logs，再次调用最终模型完成最终的分析
+    error_logs = []
+    for i in range(len(Error_logs)): 
+        error_logs.extend(Error_logs[i]['unknown_error_logs'])
+    error_logs = '\n'.join(error_logs)
+    print(error_logs)
+
+    # 将error_logs保存为txt文件
+    # error_logs_file = os.path.join(OUTPUT_DIR, 'error_logs.txt')
+    # with open(error_logs_file, 'w', encoding='utf-8') as f:
+    #     f.write(error_logs)
+    # print(f"错误日志已保存至: {error_logs_file}")
+
+    analyze_log_final.analyze_log_directory(error_logs, option='str')
+    
 if __name__ == "__main__":
     main()

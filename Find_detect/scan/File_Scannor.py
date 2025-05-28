@@ -475,4 +475,7 @@ def analyze(PROMPT_STRATEGIES,INPUT_FILE,OUTPUT_FILE,raw_file_name,api_url,api_k
             ########## Align each log with its results #######
             # df_raw_answer = pd.read_excel(raw_file_name)
             # write_to_excel(raw_file_name+'Candidate_%d_'%(i+1)+'.xlsx',df_raw_answer,logs,'sk-dpadryupxccpbkigoduasfosszucawczlmfraqhtevaxlokx',API_URL)
-analyze('CoT','/Users/hy_mbp/PycharmProjects/LogDetect/log/OUTPUT_FILE/kernel.xlsx','','/Users/hy_mbp/PycharmProjects/temp/raw_file_name1.xlsx','','')
+
+            
+if __name__ == "__main__":
+    analyze('CoT','/Users/hy_mbp/PycharmProjects/LogDetect/log/OUTPUT_FILE/kernel.xlsx','','/Users/hy_mbp/PycharmProjects/temp/raw_file_name1.xlsx','','')

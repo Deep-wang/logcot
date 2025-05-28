@@ -1,0 +1,4 @@
+=== 错误日志分析结果 ===
+分析批次:
+['Apr 23 16:16:55 czp-db1 kernel:   alloc kstat_irqs on node 0', 'Apr 23 16:16:55 czp-db1 kernel:   alloc kstat_irqs on node 0', 'Apr 23 16:16:55 czp-db1 kernel: i40e 0000:1a:00.0: irq 465 for MSI/MSI-X', 'Apr 23 15:59:10 czp-db1 kernel: pci_root PNP0A08:07: host bridge window [io  0xa000-0xafff]', 'Apr 23 16:16:55 czp-db1 kernel: pci 0000:ac:00.0: PME# supported from D0 D3hot D3cold', 'Apr 23 16:16:55 czp-db1 kernel: ACPI: IOAPIC (id[0x08] address[0xfec00000] gsi_base[0])', 'Apr 23 16:16:55 czp-db1 kernel: io scheduler noop registered', 'Apr 23 15:59:10 czp-db1 kernel: ACPI: X2APIC (apic_id[0xffffffff] uid[0xd2] disabled)', 'Apr 23 15:59:10 czp-db1 kernel:   alloc kstat_irqs on node 1', 'Apr 23 15:59:10 czp-db1 kernel:   alloc kstat_irqs on node 0']
+
