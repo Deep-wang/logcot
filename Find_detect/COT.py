@@ -350,6 +350,25 @@ def analyze(PROMPT_STRATEGIES,INPUT_FILE,raw_file_name,API_URL,API_KEYS,analyze_
         (d) Mark it abnormal when and only when the alert is explicitly expressed in textual content (such as keywords like error or interrupt). \
         Common label prompts do not explan and cannot be skipped. Organize your answer to be the following format: (x,y) x is log index and y is a binary choice between normal and abnormal \
         There are !!NumberControl!! logs, the logs begin: "
+
+        prompt_header='''You are a log anomaly classifier.
+
+        You will be given a list of log entries, each with a unique index.  
+        Your task is to determine whether each log is **abnormal (1)** or **normal (0)**.  
+        Only output in the following format, without any extra explanation or comments.
+
+        ## Output Format:
+        (log_idx, status)
+
+        ## Output Rules:
+        - status must be 1 if the log entry indicates an error, failure, crash, or unusual behavior.
+        - status must be 0 if the log entry is a normal operation or informational message.
+        - Output **only** a list of tuples. No extra text or explanation.
+
+        ## Input Logs:
+        '''
+
+
         logs=df['log'].tolist()
 
         ########## generate prompts ######################
