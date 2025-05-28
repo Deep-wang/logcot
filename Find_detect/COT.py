@@ -258,9 +258,6 @@ def parse_logs(api_keys, api_url, prompt_parts: List[str], prompt_parts_count,lo
     return parsed_logs
 
 
-
-
-
 def read_error_logs(file_path):
    df = pd.read_excel(file_path)
    unkonwn_logs = df[df['result'] == 'UNKNOWN']['log_content'].tolist()
@@ -482,10 +479,10 @@ def main():
         "sk-qgsqryixuqdmtzkgubxpvdzollysgtonnvcrwmikwegmaogn",
         "sk-hvxqvahoplbhdadwtaomisdamxqhquvummcfpvlafeovpqus",
     ]
-    INPUT_DIR = 'C:/Users/pc/Desktop/code/log/logcot/log/OUTPUT_FILE'
-    OUTPUT_DIR = 'C:/Users/pc/Desktop/code/log/logcot/Find_detect/output_528'  
+    INPUT_DIR = './log/OUTPUT_FILE'
+    OUTPUT_DIR = './Find_detect/output_528'  
     PROMPT_STRATEGIES = 'CoT'
-    analyze_log_path = 'C:/Users/pc/Desktop/code/log/logcot/Find_detect/output_528'
+    analyze_log_path = './Find_detect/output_528'
     file_list = UpLoad_File(INPUT_DIR)
     # file_list = file_list[:1]   # debug 
     Results = []
