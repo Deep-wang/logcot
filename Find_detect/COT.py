@@ -258,9 +258,6 @@ def parse_logs(api_keys, api_url, prompt_parts: List[str], prompt_parts_count,lo
     return parsed_logs
 
 
-
-
-
 def read_error_logs(file_path):
    df = pd.read_excel(file_path)
    unkonwn_logs = df[df['result'] == 'UNKNOWN']['log_content'].tolist()
