@@ -295,21 +295,14 @@ def anylysis_error_logs(unknown_error_logs, api_keys, api_url, analyze_out_dir):
     with ThreadPoolExecutor(max_workers=len(api_keys)) as executor:
         # 提交错误日志分析任务
         error_futures = []
-        for i in range(0, len(error_logs), 10):
-            batch = error_logs[i:i+10]
+        for i in range(0, len(unknown_error_logs), 10):
+            batch = unknown_error_logs[i:i+10]
             selected_key = api_keys[i % len(api_keys)]
             error_futures.append(executor.submit(analyze_batch, batch, "错误", selected_key))
         
-        # 提交未知日志分析任务
-        unknown_futures = []
-        for i in range(0, len(unkonwn_logs), 10):
-            batch = unkonwn_logs[i:i+10]
-            selected_key = api_keys[i % len(api_keys)]
-            unknown_futures.append(executor.submit(analyze_batch, batch, "未知", selected_key))
-        
         # 收集并保存结果
         results = []
-        for future in as_completed(error_futures + unknown_futures):
+        for future in as_completed(error_futures):
             result = future.result()
             results.append(result)
             
@@ -488,16 +481,10 @@ def main():
         analyze_log_path = './Find_detect/output_528'
     elif platform.system() == "Windows":
         # Windows 系统
-        INPUT_DIR = "C:\\Users\\yourname\\somepath"
-        OUTPUT_DIR = './Find_detect/output_528'  
+        INPUT_DIR = ".\\log\\OUTPUT_FILE"
+        OUTPUT_DIR = '.\\Find_detect\\output_528'  
         PROMPT_STRATEGIES = 'CoT'
-        analyze_log_path = './Find_detect/output_528'
-    else:
-        # 其他系统（如 Linux）
-        INPUT_DIR = '/home/yourname/somepath'
-        OUTPUT_DIR = './Find_detect/output_528'  
-        PROMPT_STRATEGIES = 'CoT'
-        analyze_log_path = './Find_detect/output_528'
+        analyze_log_path = '.\\Find_detect\\output_528' 
 
     file_list = UpLoad_File(INPUT_DIR)
     # file_list = file_list[:1]   # debug 

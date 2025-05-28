@@ -1,3 +1,9 @@
+"""
+整合分析
+输入：output_529文件夹
+输出：整合一个总结，分析错误日志
+"""
+
 import os
 import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
@@ -88,8 +94,9 @@ def analyze_log_directory(root_dir, option='dir'):
     final_result = call_model(final_prompt)
     print("\n✅ 最终整合总结：\n")
     print(final_result)
-    
+    return final_result
 
 # 示例使用
-# if __name__ == "__main__":
-#     analyze_log_directory('/Users/hy_mbp/output3')  # 将此路径替换为你的实际日志文件目录
+if __name__ == "__main__":
+    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'output_529')
+    analyze_log_directory(path)  # 将此路径替换为你的实际日志文件目录
