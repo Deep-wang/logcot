@@ -214,68 +214,72 @@ def drain3(log_lists: list, output_path: str = "/Users/hy_mbp/PycharmProjects/Lo
             for cluster in templates:
                 f.write(f"Template: {cluster.get_template()}\n")
                 f.write(f"Size: {cluster.size}\n\n")
-# drain3(parse_logs('/Users/hy_mbp/PycharmProjects/LogDetect/log/log'))
+print(parse_logs('/Users/hy_mbp/PycharmProjects/LogDetect/log/log'))
 
 
-def sge_analysis(log_data: list, analysis_type: str = "abnormal") -> dict:
-    """
-    应用SGE方法进行日志异常分析
-    :param log_data: 解析后的日志列表
-    :param analysis_type: 分析类型(abnormal/performance)
-    :return: 分析结果字典
-    """
-    trajectories = []
+
+
+
+
+# def sge_analysis(log_data: list, analysis_type: str = "abnormal") -> dict:
+#     """
+#     应用SGE方法进行日志异常分析
+#     :param log_data: 解析后的日志列表
+#     :param analysis_type: 分析类型(abnormal/performance)
+#     :return: 分析结果字典
+#     """
+#     trajectories = []
     
-    # 生成3条分析轨迹
-    for i in range(3):
-        trajectory = {
-            "id": f"trajectory_{i+1}",
-            "steps": [],
-            "hypothesis": ""
-        }
+#     # 生成3条分析轨迹
+#     for i in range(3):
+#         trajectory = {
+#             "id": f"trajectory_{i+1}",
+#             "steps": [],
+#             "hypothesis": ""
+#         }
         
-        # 轨迹1: 基于时间序列的异常检测
-        if i == 0:
-            trajectory["hypothesis"] = "时间序列异常检测"
-            trajectory["steps"] = [
-                "统计日志时间分布",
-                "检测时间间隔异常",
-                "标记异常时间点"
-            ]
+#         # 轨迹1: 基于时间序列的异常检测
+#         if i == 0:
+#             trajectory["hypothesis"] = "时间序列异常检测"
+#             trajectory["steps"] = [
+#                 "统计日志时间分布",
+#                 "检测时间间隔异常",
+#                 "标记异常时间点"
+#             ]
         
-        # 轨迹2: 基于内容模式的异常检测
-        elif i == 1:
-            trajectory["hypothesis"] = "内容模式异常检测" 
-            trajectory["steps"] = [
-                "提取日志模板",
-                "建立正常模式基线",
-                "检测偏离基线的异常"
-            ]
+#         # 轨迹2: 基于内容模式的异常检测
+#         elif i == 1:
+#             trajectory["hypothesis"] = "内容模式异常检测" 
+#             trajectory["steps"] = [
+#                 "提取日志模板",
+#                 "建立正常模式基线",
+#                 "检测偏离基线的异常"
+#             ]
         
-        # 轨迹3: 基于资源使用的异常检测
-        else:
-            trajectory["hypothesis"] = "资源使用异常检测"
-            trajectory["steps"] = [
-                "解析资源相关字段",
-                "建立资源使用基线",
-                "检测资源异常波动"
-            ]
+#         # 轨迹3: 基于资源使用的异常检测
+#         else:
+#             trajectory["hypothesis"] = "资源使用异常检测"
+#             trajectory["steps"] = [
+#                 "解析资源相关字段",
+#                 "建立资源使用基线",
+#                 "检测资源异常波动"
+#             ]
         
-        trajectories.append(trajectory)
+#         trajectories.append(trajectory)
     
-    # 执行分析并生成报告
-    report = {
-        "analysis_type": analysis_type,
-        "trajectories": trajectories,
-        "abnormal_findings": [],
-        "suggestions": []
-    }
+#     # 执行分析并生成报告
+#     report = {
+#         "analysis_type": analysis_type,
+#         "trajectories": trajectories,
+#         "abnormal_findings": [],
+#         "suggestions": []
+#     }
     
-    # 实际分析逻辑(示例)
-    for log in log_data:
-        # 这里添加实际分析代码
-        pass
+#     # 实际分析逻辑(示例)
+#     for log in log_data:
+#         # 这里添加实际分析代码
+#         pass
         
-    return report
+#     return report
 
 

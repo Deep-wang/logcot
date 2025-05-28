@@ -59,6 +59,7 @@ def analyze_log_directory(root_dir, option='dir'):
         print(f"📄 日志总长度：{len(all_logs)} 字符")
     elif option == 'str':
         all_logs = root_dir
+        print(f"📄 日志总长度：{len(all_logs)} 字符")
 
     chunks = split_text_into_chunks(all_logs, MAX_CHARS_PER_CHUNK)
     print(f"🔍 分为 {len(chunks)} 段进行分析")
@@ -91,5 +92,5 @@ def analyze_log_directory(root_dir, option='dir'):
     
 
 # 示例使用
-# if __name__ == "__main__":
-#     analyze_log_directory('/Users/hy_mbp/output3')  # 将此路径替换为你的实际日志文件目录
+if __name__ == "__main__":
+    analyze_log_directory('./Find_detect/output_528/error_logs')  # 将此路径替换为你的实际日志文件目录

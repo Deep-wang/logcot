@@ -295,21 +295,13 @@ def anylysis_error_logs(unknown_error_logs, api_keys, api_url, analyze_out_dir):
     with ThreadPoolExecutor(max_workers=len(api_keys)) as executor:
         # 提交错误日志分析任务
         error_futures = []
-        for i in range(0, len(error_logs), 10):
-            batch = error_logs[i:i+10]
+        for i in range(0, len(unknown_error_logs), 10):
+            batch = unknown_error_logs[i:i+10]
             selected_key = api_keys[i % len(api_keys)]
             error_futures.append(executor.submit(analyze_batch, batch, "错误", selected_key))
-        
-        # 提交未知日志分析任务
-        unknown_futures = []
-        for i in range(0, len(unkonwn_logs), 10):
-            batch = unkonwn_logs[i:i+10]
-            selected_key = api_keys[i % len(api_keys)]
-            unknown_futures.append(executor.submit(analyze_batch, batch, "未知", selected_key))
-        
         # 收集并保存结果
         results = []
-        for future in as_completed(error_futures + unknown_futures):
+        for future in as_completed(error_futures):
             result = future.result()
             results.append(result)
             
@@ -367,9 +359,9 @@ def analyze(PROMPT_STRATEGIES,INPUT_FILE,raw_file_name,API_URL,API_KEYS,analyze_
         logs=df['log'].tolist()
 
         ########## generate prompts ######################
-        prompt_parts,prompt_parts_count,log_parts= generate_prompt(prompt_header,logs,max_len=5000)    
+        prompt_parts,prompt_parts_count,log_parts= generate_prompt(prompt_header,logs,max_len=8000)    
         ########## obtain raw answers from GPT ###########
-        lst = parse_logs(API_KEYS,API_URL,prompt_parts,prompt_parts_count,log_parts,raw_file_name)
+        # lst = parse_logs(API_KEYS,API_URL,prompt_parts,prompt_parts_count,log_parts,raw_file_name)
         ######### Align each log with its results #######
         df_raw_answer = pd.read_excel(raw_file_name)
         OUT_raw_path = write_to_excel(raw_file_name,df_raw_answer,logs)
@@ -488,7 +480,7 @@ def main():
         analyze_log_path = './Find_detect/output_528'
     elif platform.system() == "Windows":
         # Windows 系统
-        INPUT_DIR = "C:\\Users\\yourname\\somepath"
+        INPUT_DIR = ".\\log\\OUTPUT_FILE"
         OUTPUT_DIR = './Find_detect/output_528'  
         PROMPT_STRATEGIES = 'CoT'
         analyze_log_path = './Find_detect/output_528'
@@ -510,19 +502,26 @@ def main():
         error_log = analyze(PROMPT_STRATEGIES, INPUT_FILE, raw_file_name, API_URL, API_KEYS,analyze_log_path)
         Error_logs.append(error_log)
     # 根据每个日志的分析result和error_logs，再次调用最终模型完成最终的分析
+
     error_logs = []
     for i in range(len(Error_logs)): 
         error_logs.extend(Error_logs[i]['unknown_error_logs'])
-    error_logs = '\n'.join(error_logs)
-
+    error_texts = ""
+    for i in error_logs:
+        try:
+            error_texts = error_texts + str(i) + '\n'
+        except:
+            continue
+        # error_texts = error_log + str(i)+ '\n'
+    # error_logs = '\n'.join(str(error_logs))
+    # print(error_texts)
 
     # 将error_logs保存为txt文件
-    # error_logs_file = os.path.join(OUTPUT_DIR, 'error_logs.txt')
-    # with open(error_logs_file, 'w', encoding='utf-8') as f:
-    #     f.write(error_logs)
-    # print(f"错误日志已保存至: {error_logs_file}")
-
-    analyze_log_final.analyze_log_directory(error_logs, option='str')
+    error_logs_file = os.path.join(OUTPUT_DIR, 'error_logs.txt')
+    with open(error_logs_file, 'w', encoding='utf-8') as f:
+        f.write(error_texts)
+    print(f"错误日志已保存至: {error_logs_file}")
+    # analyze_log_final.analyze_log_directory(error_texts, option='str')
     
 if __name__ == "__main__":
     main()
