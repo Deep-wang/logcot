@@ -1,15 +1,22 @@
 """
 分块分析
 输出output529,里面包含诊断为错误日志的块，txt文件
+主函数做时间分组，然后调用File_D函数，然后调用analyze_log_directory函数，然后保存分析结果到output529/analysis_result目录下
 """
 
 import os
+import sys
 import requests
 import json
 from concurrent.futures import ThreadPoolExecutor
 from tenacity import retry, stop_after_attempt, wait_exponential
 from pathlib import Path
+
+# 添加上级目录到路径，以便导入LLMClient和其他模块
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from summerize import analyze_log_directory
+from llm_client import LLMClient
 
 # 导入日志预处理模块
 import sys
@@ -46,35 +53,29 @@ def post_with_retry(payload, headers, API_URL):
     return response.json()
 
 def analyze_log_chunk(chunk, idx, api_key, error_dir, API_URL):
-    payload = {
-        "model": "THUDM/GLM-4-9B-0414",
-        "stream": False,
-        "max_tokens": 8192,   # debug
-        "enable_thinking": True,
-        "thinking_budget": 4096,
-        "min_p": 0.1,
-        "temperature": 0.1,
-        "top_p": 0.3,
-        "top_k": 20,
-        "frequency_penalty": 0.1,
-        "presence_penalty": 0.0,
-        "n": 1,
-        "stop": [],
-        "messages": [
-            {
-                "role": "user",
-                "content": f"日志第 {idx + 1} 部分：\n{chunk}\n\n请明确标注该部分是否正确，正确写为：日志正确，异常写为：日志异常，标明错误时间并截取出现异常点附近15行日志并给出简单说明"
-            }
-        ],
-    }
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json"
-    }
+    # 创建LLM客户端实例
+    llm = LLMClient(
+        api_url=API_URL,
+        api_key=api_key,
+        model="THUDM/GLM-4-9B-0414",
+        stream=False,
+        max_tokens=8192,
+        enable_thinking=True,
+        thinking_budget=4096,
+        min_p=0.1,
+        temperature=0.1,
+        top_p=0.3,
+        top_k=20,
+        frequency_penalty=0.1,
+        presence_penalty=0.0,
+        n=1,
+        stop=[]
+    )
 
     try:
-        text = post_with_retry(payload, headers, API_URL)
-        result = text['choices'][0]['message']['content']
+        # 使用LLM客户端进行调用
+        content = f"日志第 {idx + 1} 部分：\n{chunk}\n\n请明确标注该部分是否正确，正确写为：日志正确，异常写为：日志异常，标明错误时间并截取出现异常点附近15行日志并给出简单说明"
+        result = llm.forward(content)
         print(f"✅ 第 {idx + 1} 块日志分析完成")
 
         if "日志异常" in result:
@@ -293,7 +294,7 @@ def process_files_by_time_batches(output_base_dir, api_url, output_dir):
         # 调用大模型汇总分析结果
         print(f"   🚀 开始汇总分析时间批次 {time_range} 的文件...")
         dir = f'./Find_detect/output_529/{time_range}'
-        final_result = analyze_log_directory(dir)
+        final_result = analyze_log_directory(dir)                                                                   #     调用最后的复杂模型完整根因分析
         # 保存日志分析结果
         analysis_result_dir = './Find_detect/output_529/analysis_result'
         os.makedirs(analysis_result_dir, exist_ok=True)
