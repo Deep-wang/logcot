@@ -1,0 +1,539 @@
+log
+66137836    2024-06-03 15:04:15    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66137783    2024-06-03 15:02:06    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+66137653    2024-06-03 14:56:49    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+66137574    2024-06-03 14:53:37    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+66137440    2024-06-03 14:48:11    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+66136451    2024-06-03 14:07:29    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136409    2024-06-03 14:05:51    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136405    2024-06-03 14:05:45    0x200F00CA0009    Event    Informational    --    None    admin:10.33.36.228 succeeded in deleting the exported files in system memory (FileType event).
+N/A.
+66136404    2024-06-03 14:05:44    0x200F00310005    Event    Informational    --    None    admin:10.33.36.228 succeeded in collecting the event (type event).
+N/A.
+66136401    2024-06-03 14:05:38    0x200F00CA0009    Event    Informational    --    None    admin:10.33.36.228 succeeded in deleting the exported files in system memory (FileType running data).
+N/A.
+66136399    2024-06-03 14:05:37    0x200F00C90024    Event    Informational    --    None    admin:10.33.36.228 succeeded in exporting running data.
+N/A
+66136389    2024-06-03 14:05:13    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136387    2024-06-03 14:05:12    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136373    2024-06-03 14:04:38    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136372    2024-06-03 14:04:38    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136370    2024-06-03 14:04:37    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136369    2024-06-03 14:04:37    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the developer view to developer view.
+N/A
+66136365    2024-06-03 14:04:27    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136363    2024-06-03 14:04:27    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136362    2024-06-03 14:04:26    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136361    2024-06-03 14:04:26    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136359    2024-06-03 14:04:23    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136356    2024-06-03 14:04:20    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136353    2024-06-03 14:04:13    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136351    2024-06-03 14:04:11    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136349    2024-06-03 14:04:08    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136342    2024-06-03 14:03:53    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136341    2024-06-03 14:03:52    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136339    2024-06-03 14:03:52    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136338    2024-06-03 14:03:51    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136336    2024-06-03 14:03:48    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136334    2024-06-03 14:03:45    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136328    2024-06-03 14:03:35    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136327    2024-06-03 14:03:34    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136326    2024-06-03 14:03:34    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136325    2024-06-03 14:03:33    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136323    2024-06-03 14:03:31    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136321    2024-06-03 14:03:28    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136316    2024-06-03 14:03:19    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136315    2024-06-03 14:03:19    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136314    2024-06-03 14:03:18    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136312    2024-06-03 14:03:17    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136310    2024-06-03 14:03:15    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136308    2024-06-03 14:03:12    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136305    2024-06-03 14:03:07    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136300    2024-06-03 14:02:56    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136299    2024-06-03 14:02:55    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the developer view to developer view.
+N/A
+66136295    2024-06-03 14:02:48    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136293    2024-06-03 14:02:47    0x200F00CA0009    Event    Informational    --    None    admin:10.33.36.228 succeeded in deleting the exported files in system memory (FileType running data).
+N/A.
+66136292    2024-06-03 14:02:46    0x200F00C90024    Event    Informational    --    None    admin:10.33.36.228 succeeded in exporting running data.
+N/A
+66136290    2024-06-03 14:02:45    0x200F00CA0009    Event    Informational    --    None    admin:10.33.36.228 succeeded in deleting the exported files in system memory (FileType running data).
+N/A.
+66136289    2024-06-03 14:02:44    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136287    2024-06-03 14:02:41    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136286    2024-06-03 14:02:40    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136284    2024-06-03 14:02:39    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136283    2024-06-03 14:02:39    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136282    2024-06-03 14:02:38    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136281    2024-06-03 14:02:37    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136279    2024-06-03 14:02:36    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136278    2024-06-03 14:02:36    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136277    2024-06-03 14:02:35    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136275    2024-06-03 14:02:35    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136273    2024-06-03 14:02:32    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136272    2024-06-03 14:02:31    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136271    2024-06-03 14:02:30    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136269    2024-06-03 14:02:30    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136267    2024-06-03 14:02:26    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136266    2024-06-03 14:02:25    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136258    2024-06-03 14:02:09    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136256    2024-06-03 14:02:06    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136252    2024-06-03 14:01:59    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136251    2024-06-03 14:01:58    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136250    2024-06-03 14:01:58    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136248    2024-06-03 14:01:56    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136247    2024-06-03 14:01:55    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136245    2024-06-03 14:01:55    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136244    2024-06-03 14:01:54    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136243    2024-06-03 14:01:53    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136242    2024-06-03 14:01:52    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136240    2024-06-03 14:01:52    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136238    2024-06-03 14:01:49    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136237    2024-06-03 14:01:48    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136236    2024-06-03 14:01:48    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136234    2024-06-03 14:01:46    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136233    2024-06-03 14:01:46    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136231    2024-06-03 14:01:45    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136230    2024-06-03 14:01:44    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136229    2024-06-03 14:01:43    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136228    2024-06-03 14:01:43    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136226    2024-06-03 14:01:42    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136222    2024-06-03 14:01:33    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136221    2024-06-03 14:01:33    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136220    2024-06-03 14:01:33    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136217    2024-06-03 14:01:31    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136216    2024-06-03 14:01:30    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136214    2024-06-03 14:01:28    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136213    2024-06-03 14:01:28    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136211    2024-06-03 14:01:26    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136209    2024-06-03 14:01:25    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136208    2024-06-03 14:01:23    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136207    2024-06-03 14:01:22    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136205    2024-06-03 14:01:20    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136203    2024-06-03 14:01:20    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136202    2024-06-03 14:01:18    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136201    2024-06-03 14:01:17    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136199    2024-06-03 14:01:15    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136197    2024-06-03 14:01:15    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136196    2024-06-03 14:01:13    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136195    2024-06-03 14:01:12    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136193    2024-06-03 14:01:11    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136190    2024-06-03 14:01:08    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136188    2024-06-03 14:01:07    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136187    2024-06-03 14:01:07    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136185    2024-06-03 14:01:05    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136184    2024-06-03 14:01:04    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136183    2024-06-03 14:01:02    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136181    2024-06-03 14:01:02    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136179    2024-06-03 14:01:00    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136178    2024-06-03 14:00:59    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136176    2024-06-03 14:00:57    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136175    2024-06-03 14:00:56    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136173    2024-06-03 14:00:55    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136172    2024-06-03 14:00:54    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136171    2024-06-03 14:00:52    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136169    2024-06-03 14:00:52    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136167    2024-06-03 14:00:50    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136166    2024-06-03 14:00:49    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136165    2024-06-03 14:00:47    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136163    2024-06-03 14:00:47    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136162    2024-06-03 14:00:45    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136160    2024-06-03 14:00:44    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136159    2024-06-03 14:00:43    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136158    2024-06-03 14:00:43    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136156    2024-06-03 14:00:42    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136155    2024-06-03 14:00:41    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136154    2024-06-03 14:00:40    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136152    2024-06-03 14:00:39    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136151    2024-06-03 14:00:38    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136150    2024-06-03 14:00:38    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136148    2024-06-03 14:00:37    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136147    2024-06-03 14:00:36    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136145    2024-06-03 14:00:34    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136144    2024-06-03 14:00:33    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136141    2024-06-03 14:00:30    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136140    2024-06-03 14:00:29    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136137    2024-06-03 14:00:24    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136136    2024-06-03 14:00:23    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136132    2024-06-03 14:00:17    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136131    2024-06-03 14:00:16    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136130    2024-06-03 14:00:15    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136128    2024-06-03 14:00:15    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136127    2024-06-03 14:00:14    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136126    2024-06-03 14:00:13    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136124    2024-06-03 14:00:11    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136123    2024-06-03 14:00:11    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136121    2024-06-03 14:00:07    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136119    2024-06-03 14:00:07    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136117    2024-06-03 14:00:02    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136115    2024-06-03 14:00:02    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136113    2024-06-03 13:59:58    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136111    2024-06-03 13:59:57    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136105    2024-06-03 13:59:44    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136104    2024-06-03 13:59:44    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136103    2024-06-03 13:59:43    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136102    2024-06-03 13:59:43    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136101    2024-06-03 13:59:42    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136100    2024-06-03 13:59:42    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136098    2024-06-03 13:59:42    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136097    2024-06-03 13:59:41    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136096    2024-06-03 13:59:41    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136095    2024-06-03 13:59:41    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136093    2024-06-03 13:59:39    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136092    2024-06-03 13:59:39    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136091    2024-06-03 13:59:37    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136086    2024-06-03 13:59:28    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136081    2024-06-03 13:59:18    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136078    2024-06-03 13:59:15    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136077    2024-06-03 13:59:14    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136076    2024-06-03 13:59:12    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136069    2024-06-03 13:58:57    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136065    2024-06-03 13:58:49    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66136060    2024-06-03 13:58:40    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136059    2024-06-03 13:58:40    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136058    2024-06-03 13:58:39    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136057    2024-06-03 13:58:39    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136056    2024-06-03 13:58:38    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136055    2024-06-03 13:58:38    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136054    2024-06-03 13:58:37    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136052    2024-06-03 13:58:37    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136049    2024-06-03 13:58:31    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136048    2024-06-03 13:58:31    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136045    2024-06-03 13:58:27    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136044    2024-06-03 13:58:26    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136043    2024-06-03 13:58:25    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136041    2024-06-03 13:58:25    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136040    2024-06-03 13:58:22    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136038    2024-06-03 13:58:22    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136037    2024-06-03 13:58:21    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136036    2024-06-03 13:58:20    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136034    2024-06-03 13:58:20    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136033    2024-06-03 13:58:19    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136026    2024-06-03 13:58:04    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136025    2024-06-03 13:58:04    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the developer view to developer view.
+N/A
+66136024    2024-06-03 13:58:04    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the developer view to developer view.
+N/A
+66136019    2024-06-03 13:57:54    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66136018    2024-06-03 13:57:54    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136017    2024-06-03 13:57:53    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136016    2024-06-03 13:57:52    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66136010    2024-06-03 13:57:42    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66136008    2024-06-03 13:57:39    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66136000    2024-06-03 13:57:21    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135999    2024-06-03 13:57:21    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135998    2024-06-03 13:57:20    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66135996    2024-06-03 13:57:19    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135994    2024-06-03 13:57:17    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66135992    2024-06-03 13:57:14    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66135986    2024-06-03 13:57:02    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135985    2024-06-03 13:57:02    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135984    2024-06-03 13:57:01    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66135983    2024-06-03 13:57:00    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135981    2024-06-03 13:56:58    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66135978    2024-06-03 13:56:55    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66135975    2024-06-03 13:56:50    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135961    2024-06-03 13:56:19    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135960    2024-06-03 13:56:19    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135959    2024-06-03 13:56:18    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135958    2024-06-03 13:56:17    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135956    2024-06-03 13:56:17    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135955    2024-06-03 13:56:16    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135954    2024-06-03 13:56:15    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135952    2024-06-03 13:56:15    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135951    2024-06-03 13:56:14    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135950    2024-06-03 13:56:13    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135944    2024-06-03 13:56:04    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66135942    2024-06-03 13:56:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66135938    2024-06-03 13:55:54    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135937    2024-06-03 13:55:53    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66135935    2024-06-03 13:55:52    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135934    2024-06-03 13:55:50    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66135932    2024-06-03 13:55:50    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135931    2024-06-03 13:55:49    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+66135929    2024-06-03 13:55:46    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+66135927    2024-06-03 13:55:44    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135926    2024-06-03 13:55:44    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135925    2024-06-03 13:55:43    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135923    2024-06-03 13:55:42    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135922    2024-06-03 13:55:41    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135921    2024-06-03 13:55:40    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135919    2024-06-03 13:55:40    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135916    2024-06-03 13:55:35    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66135912    2024-06-03 13:55:27    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66135906    2024-06-03 13:55:15    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135905    2024-06-03 13:55:14    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135850    2024-06-03 13:53:00    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135849    2024-06-03 13:53:00    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the developer view to developer view.
+N/A
+66135848    2024-06-03 13:52:59    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135839    2024-06-03 13:52:40    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135838    2024-06-03 13:52:40    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135836    2024-06-03 13:52:36    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66135835    2024-06-03 13:52:36    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66135828    2024-06-03 13:52:20    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66133752    2024-06-03 12:26:58    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66133747    2024-06-03 12:26:50    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66133746    2024-06-03 12:26:50    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66133744    2024-06-03 12:26:47    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66133726    2024-06-03 12:26:06    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+66133722    2024-06-03 12:25:58    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from a mode (developer view) to the user view.
+N/A
+66133721    2024-06-03 12:25:58    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.228 succeeded in switching from the user view to developer view.
+N/A
+66133718    2024-06-03 12:25:55    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A

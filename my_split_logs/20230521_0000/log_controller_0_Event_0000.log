@@ -1,0 +1,111 @@
+52839766    2023-05-21 04:07:37    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+52839765    2023-05-21 04:07:37    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+52839603    2023-05-21 04:01:02    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+52839602    2023-05-21 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+52839053    2023-05-21 03:38:30    0xF000A0015    Fault    Major    Recovered    2023-05-30 10:06:48    The system failed to monitor disk (disk enclosure DAE011, slot ID 2). Error code:0x40400293.
+Step1 Check whether alarms are generated indicating disk faults.
+    1.1 If yes, replace the faulty disks. If alarm The System Failed to Monitor a Disk persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+52839052    2023-05-21 03:38:30    0x200F000A005B    Fault    Major    Recovered    2023-05-30 10:06:48    Disk (Disk Enclosure DAE011, controller 0B, slot 2, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+52839043    2023-05-21 03:38:06    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE011, slot ID 2, serial number WBM100330000K92814CX) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+52839038    2023-05-21 03:37:56    0x200F000A005B    Fault    Major    Recovered    2023-05-30 10:06:48    Disk (Disk Enclosure DAE011, controller 0A, slot 2, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+52839018    2023-05-21 03:37:08    0x1000010A000D    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE011, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+52838602    2023-05-21 03:20:07    0x1000010A000C    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE011, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+52838601    2023-05-21 03:20:07    0xF000A0121    Fault    Major    Recovered    2023-05-30 10:06:48    Disk (Disk Enclosure DAE011, slot ID 2, controller 0A, serial number WBM100330000K92814CX, bar code 2102351SGF9WK3800166) responds slowly. The disk will be isolated. Error code: 0x40400291. This may cause the storage pool that houses the disk to degrade and the system read/write performance to deteriorate.
+Step1 Check whether alarms are generated indicating disk faults.
+    1.1 If yes, replace the faulty disks. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether any expansion port is faulty.
+    2.1 If yes, replace the interface module where the faulty port resides. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Check whether the disk is firmly inserted.
+    3.1 If no, reinsert the disk. If the alarm persists=>[Step4].
+    3.2 If yes=>[Step4].
+Step4 Check whether alarms are generated indicating expansion module faults.
+    4.1 If yes, replace the faulty expansion modules. If the alarm persists=>[Step5].
+    4.2 If no=>[Step5].
+Step5 Collect related information and contact technical support engineers.
+
+52838589    2023-05-21 03:19:39    0x1000010A0010    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) completed.
+N/A
+
+52838583    2023-05-21 03:19:27    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+
+52838582    2023-05-21 03:19:27    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+52838580    2023-05-21 03:19:24    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+52838575    2023-05-21 03:19:14    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 2) completed. The check result is successfully.
+N/A
+
+52838536    2023-05-21 03:17:41    0x1000010A000B    Event    Major    --    None    The disk (disk enclosure DAE011, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) failed to reconstruct. The error code is --.
+Step1 Check whether alarms are generated indicating insufficient disk domain capacity.
+    1.1 If yes, add disks to the disk domain. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether alarms are generated indicating disk removal.
+    2.1 If yes, reinsert the removed disks. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Check whether alarms are generated indicating disk faults.
+    3.1 If yes, replace the faulty disks. If the alarm persists=>[Step4].
+    3.2 If no=>[Step4].
+Step4 Collect related information and contact technical support engineers.
+
+52838534    2023-05-21 03:17:40    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+52838531    2023-05-21 03:17:33    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 2) started. Check type: 0x6673736563637573.
+N/A
+
+52838528    2023-05-21 03:17:30    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+52838527    2023-05-21 03:17:29    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 2) completed. The check result is successfully.
+N/A
+
+52838515    2023-05-21 03:17:02    0x1000010A000B    Event    Major    --    None    The disk (disk enclosure DAE011, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) failed to reconstruct. The error code is --.
+Step1 Check whether alarms are generated indicating insufficient disk domain capacity.
+    1.1 If yes, add disks to the disk domain. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether alarms are generated indicating disk removal.
+    2.1 If yes, reinsert the removed disks. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Check whether alarms are generated indicating disk faults.
+    3.1 If yes, replace the faulty disks. If the alarm persists=>[Step4].
+    3.2 If no=>[Step4].
+Step4 Collect related information and contact technical support engineers.
+
+52838514    2023-05-21 03:17:01    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 2) started. Check type: 0x6673736563637573.
+N/A
+
+52838507    2023-05-21 03:16:46    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+

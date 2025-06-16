@@ -1,0 +1,138 @@
+66717721    2024-06-20 04:07:30    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+66717720    2024-06-20 04:07:30    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+66717561    2024-06-20 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+66717560    2024-06-20 04:01:00    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+66714149    2024-06-20 01:40:59    0xF000A0015    Fault    Major    Recovered    2024-06-25 12:55:11    The system failed to monitor disk (disk enclosure DAE011, slot ID 20). Error code:0x40400293.
+Step1 Check whether alarms are generated indicating disk faults.
+    1.1 If yes, replace the faulty disks. If alarm The System Failed to Monitor a Disk persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+66714148    2024-06-20 01:40:59    0x200F000A005B    Fault    Major    Recovered    2024-06-25 12:55:13    Disk (Disk Enclosure DAE011, controller 0A, slot 20, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+66714146    2024-06-20 01:40:58    0x200F000A005B    Fault    Major    Recovered    2024-06-25 12:55:11    Disk (Disk Enclosure DAE011, controller 0B, slot 20, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+66714143    2024-06-20 01:40:54    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE011, slot ID 20, serial number WBM1003V0000K928142A) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+66714122    2024-06-20 01:40:01    0x1000010A000D    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+66713671    2024-06-20 01:21:35    0x1000010A000C    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+66713670    2024-06-20 01:21:35    0xF000A0121    Fault    Major    Recovered    2024-06-25 12:55:11    Disk (Disk Enclosure DAE011, slot ID 20, controller 0A, serial number WBM1003V0000K928142A, bar code 2102351SGF9WK3800139) responds slowly. The disk will be isolated. Error code: 0x40400291. This may cause the storage pool that houses the disk to degrade and the system read/write performance to deteriorate.
+Step1 Check whether alarms are generated indicating disk faults.
+    1.1 If yes, replace the faulty disks. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether any expansion port is faulty.
+    2.1 If yes, replace the interface module where the faulty port resides. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Check whether the disk is firmly inserted.
+    3.1 If no, reinsert the disk. If the alarm persists=>[Step4].
+    3.2 If yes=>[Step4].
+Step4 Check whether alarms are generated indicating expansion module faults.
+    4.1 If yes, replace the faulty expansion modules. If the alarm persists=>[Step5].
+    4.2 If no=>[Step5].
+Step5 Collect related information and contact technical support engineers.
+
+66713668    2024-06-20 01:21:33    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) completed. The check result is successfully.
+N/A
+
+66713628    2024-06-20 01:19:54    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) started. Check type: 0x6673736563637573.
+N/A
+
+66713543    2024-06-20 01:16:27    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+66713542    2024-06-20 01:16:26    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+66713537    2024-06-20 01:16:16    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) completed. The check result is successfully.
+N/A
+
+66713495    2024-06-20 01:14:37    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) started. Check type: 0x6673736563637573.
+N/A
+
+66713417    2024-06-20 01:11:26    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+66713416    2024-06-20 01:11:25    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+66713411    2024-06-20 01:11:15    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) completed. The check result is successfully.
+N/A
+
+66713369    2024-06-20 01:09:35    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) started. Check type: 0x6673736563637573.
+N/A
+
+66713318    2024-06-20 01:07:31    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+66713315    2024-06-20 01:07:28    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+66713310    2024-06-20 01:07:18    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) completed. The check result is successfully.
+N/A
+
+66713267    2024-06-20 01:05:39    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) started. Check type: 0x6673736563637573.
+N/A
+
+66713193    2024-06-20 01:02:35    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+66713190    2024-06-20 01:02:33    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+66713185    2024-06-20 01:02:23    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) completed. The check result is successfully.
+N/A
+
+66713142    2024-06-20 01:00:42    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) started. Check type: 0x6673736563637573.
+N/A
+
+66713061    2024-06-20 00:57:22    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+66713060    2024-06-20 00:57:20    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+66713055    2024-06-20 00:57:10    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) completed. The check result is successfully.
+N/A
+
+66713012    2024-06-20 00:55:30    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) started. Check type: 0x6673736563637573.
+N/A
+
+66711989    2024-06-20 00:13:34    0x1000010A0010    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) completed.
+N/A
+
+66711985    2024-06-20 00:13:25    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+
+66711984    2024-06-20 00:13:25    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+66711981    2024-06-20 00:13:23    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+66711976    2024-06-20 00:13:13    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) completed. The check result is successfully.
+N/A
+
+66711936    2024-06-20 00:11:35    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 20) started. Check type: 0x6673736563637573.
+N/A
+

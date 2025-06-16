@@ -1,0 +1,472 @@
+log
+272160    2019-04-08 15:08:19    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+272157    2019-04-08 15:06:36    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+272156    2019-04-08 15:02:23    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"272155    2019-04-08 15:01:12    0xF0060002    Fault    Major    Recovered    2019-04-08 15:01:12    SAS expansion port (disk enclosure DAE011, 12G BackBoard expansion module B, port number P1) is disconnected."
+Step1 Check expansion cables.
+"1.1 If any expansion cable is removed, reinsert it. If the alarm persists=>[1.2]."
+1.2 Replace the expansion cable. If the alarm persists=>[Step2].
+Step2 Check whether alarms on offline disk enclosures are generated.
+"2.1 If yes, perform recommended actions to handle alarms. If the alarm persists=>[Step3]."
+2.2 If no=>[Step3].
+Step3 Check whether alarms on the expansion module faults are generated.
+"3.1 If yes, replace the faulty expansion module. If the alarm persists=>[Step4]."
+3.2 If no=>[Step4].
+Step4 Collect all related information and contact technical support engineers.
+272154    2019-04-08 15:01:44    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+272153    2019-04-08 15:01:26    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+272152    2019-04-08 15:01:24    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+272151    2019-04-08 15:01:21    0x100F0C90066    Event    Informational    --    None    Powering on the system succeeded.
+N/A
+272149    2019-04-08 15:01:10    0x100F0C90064    Event    Informational    --    None    The Engine 0 has restored to work in dual-controller mode.
+N/A
+"272148    2019-04-08 15:01:09    0x100F00CF0027    Event    Major    --    None    Controller (engine ENG0, controller A) restarts or powers on successfully. Error code: 0x404033DB."
+Step1 Check whether the controller is manually powered off or restarted.
+"1.1 If yes, ignore this fault."
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+272147    2019-04-08 15:01:07    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE060) has been inserted.
+N/A
+272146    2019-04-08 15:01:07    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE050) has been inserted.
+N/A
+272145    2019-04-08 15:01:07    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE021) has been inserted.
+N/A
+272144    2019-04-08 15:01:07    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE040) has been inserted.
+N/A
+272143    2019-04-08 15:01:07    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE020) has been inserted.
+N/A
+272142    2019-04-08 15:01:07    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE011) has been inserted.
+N/A
+272141    2019-04-08 15:01:07    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE030) has been inserted.
+N/A
+272140    2019-04-08 15:01:06    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE010) has been inserted.
+N/A
+"272139    2019-04-08 15:01:06    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 1) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely."
+N/A
+"272138    2019-04-08 15:01:06    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 0) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely."
+N/A
+"272137    2019-04-08 15:01:05    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+"272136    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 14) is inserted."
+N/A
+"272135    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 15) is inserted."
+N/A
+"272134    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 13) is inserted."
+N/A
+"272133    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 22) is inserted."
+N/A
+"272132    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 20) is inserted."
+N/A
+"272131    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 18) is inserted."
+N/A
+"272130    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 19) is inserted."
+N/A
+"272129    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 24) is inserted."
+N/A
+"272128    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 23) is inserted."
+N/A
+"272127    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 21) is inserted."
+N/A
+"272126    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 17) is inserted."
+N/A
+"272125    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 16) is inserted."
+N/A
+"272124    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 11) is inserted."
+N/A
+"272123    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 6) is inserted."
+N/A
+"272122    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 4) is inserted."
+N/A
+"272121    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 7) is inserted."
+N/A
+"272120    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 12) is inserted."
+N/A
+"272119    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 5) is inserted."
+N/A
+"272118    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 9) is inserted."
+N/A
+"272117    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 8) is inserted."
+N/A
+"272116    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 10) is inserted."
+N/A
+"272115    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 1) is inserted."
+N/A
+"272114    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 10) is inserted."
+N/A
+"272113    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 7) is inserted."
+N/A
+"272112    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 8) is inserted."
+N/A
+"272111    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 24) is inserted."
+N/A
+"272110    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 22) is inserted."
+N/A
+"272109    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 7) is inserted."
+N/A
+"272108    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 4) is inserted."
+N/A
+"272107    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 12) is inserted."
+N/A
+"272106    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 10) is inserted."
+N/A
+"272105    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 3) is inserted."
+N/A
+"272104    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 16) is inserted."
+N/A
+"272103    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 22) is inserted."
+N/A
+"272102    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 2) is inserted."
+N/A
+"272101    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 13) is inserted."
+N/A
+"272100    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 21) is inserted."
+N/A
+"272099    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 0) is inserted."
+N/A
+"272098    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 7) is inserted."
+N/A
+"272097    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 16) is inserted."
+N/A
+"272096    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 16) is inserted."
+N/A
+"272095    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 23) is inserted."
+N/A
+"272094    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 11) is inserted."
+N/A
+"272093    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 20) is inserted."
+N/A
+"272092    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 21) is inserted."
+N/A
+"272091    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 10) is inserted."
+N/A
+"272090    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 8) is inserted."
+N/A
+"272089    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 4) is inserted."
+N/A
+"272088    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 23) is inserted."
+N/A
+"272087    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 23) is inserted."
+N/A
+"272086    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 19) is inserted."
+N/A
+"272085    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 20) is inserted."
+N/A
+"272084    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 14) is inserted."
+N/A
+"272083    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 18) is inserted."
+N/A
+"272082    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 24) is inserted."
+N/A
+"272081    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 13) is inserted."
+N/A
+"272080    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 5) is inserted."
+N/A
+"272079    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 20) is inserted."
+N/A
+"272078    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 24) is inserted."
+N/A
+"272077    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 15) is inserted."
+N/A
+"272076    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 23) is inserted."
+N/A
+"272075    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 17) is inserted."
+N/A
+"272074    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 17) is inserted."
+N/A
+"272073    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 21) is inserted."
+N/A
+"272072    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 18) is inserted."
+N/A
+"272071    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 17) is inserted."
+N/A
+"272070    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 11) is inserted."
+N/A
+"272069    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 22) is inserted."
+N/A
+"272068    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 12) is inserted."
+N/A
+"272067    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 24) is inserted."
+N/A
+"272066    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 19) is inserted."
+N/A
+"272065    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 22) is inserted."
+N/A
+"272064    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 16) is inserted."
+N/A
+"272063    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 19) is inserted."
+N/A
+"272062    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 14) is inserted."
+N/A
+"272061    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 15) is inserted."
+N/A
+"272060    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 19) is inserted."
+N/A
+"272059    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 5) is inserted."
+N/A
+"272058    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 20) is inserted."
+N/A
+"272057    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 17) is inserted."
+N/A
+"272056    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 18) is inserted."
+N/A
+"272055    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 21) is inserted."
+N/A
+"272054    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 15) is inserted."
+N/A
+"272053    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 11) is inserted."
+N/A
+"272052    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 14) is inserted."
+N/A
+"272051    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 18) is inserted."
+N/A
+"272050    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 13) is inserted."
+N/A
+"272049    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 12) is inserted."
+N/A
+"272048    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 13) is inserted."
+N/A
+"272047    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 15) is inserted."
+N/A
+"272046    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 6) is inserted."
+N/A
+"272045    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 1) is inserted."
+N/A
+"272044    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 14) is inserted."
+N/A
+"272043    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 12) is inserted."
+N/A
+"272042    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 8) is inserted."
+N/A
+"272041    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 11) is inserted."
+N/A
+"272040    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 10) is inserted."
+N/A
+"272039    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 0) is inserted."
+N/A
+"272038    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 8) is inserted."
+N/A
+"272037    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 9) is inserted."
+N/A
+"272036    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 6) is inserted."
+N/A
+"272035    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 3) is inserted."
+N/A
+"272034    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 2) is inserted."
+N/A
+"272033    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 6) is inserted."
+N/A
+"272032    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 5) is inserted."
+N/A
+"272031    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 9) is inserted."
+N/A
+"272029    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 1) is inserted."
+N/A
+"272028    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 3) is inserted."
+N/A
+"272027    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 4) is inserted."
+N/A
+"272026    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 5) is inserted."
+N/A
+"272025    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 9) is inserted."
+N/A
+"272024    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 24) is inserted."
+N/A
+"272023    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 23) is inserted."
+N/A
+"272022    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 9) is inserted."
+N/A
+"272021    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 17) is inserted."
+N/A
+"272020    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 13) is inserted."
+N/A
+"272019    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 4) is inserted."
+N/A
+"272018    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 20) is inserted."
+N/A
+"272017    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 1) is inserted."
+N/A
+"272016    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 16) is inserted."
+N/A
+"272015    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 3) is inserted."
+N/A
+"272014    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 7) is inserted."
+N/A
+"272013    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 11) is inserted."
+N/A
+"272012    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 23) is inserted."
+N/A
+"272011    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 2) is inserted."
+N/A
+"272010    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 18) is inserted."
+N/A
+"272009    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 6) is inserted."
+N/A
+"272008    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 2) is inserted."
+N/A
+"272007    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 19) is inserted."
+N/A
+"272006    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 8) is inserted."
+N/A
+"272005    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 5) is inserted."
+N/A
+"272004    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 22) is inserted."
+N/A
+"272003    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 24) is inserted."
+N/A
+"272002    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 6) is inserted."
+N/A
+"272001    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 12) is inserted."
+N/A
+"272000    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 11) is inserted."
+N/A
+"271999    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 13) is inserted."
+N/A
+"271998    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 18) is inserted."
+N/A
+"271997    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 10) is inserted."
+N/A
+"271996    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 21) is inserted."
+N/A
+"271995    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 3) is inserted."
+N/A
+"271994    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 22) is inserted."
+N/A
+"271993    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 3) is inserted."
+N/A
+"271992    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 19) is inserted."
+N/A
+"271991    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 2) is inserted."
+N/A
+"271990    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 17) is inserted."
+N/A
+"271989    2019-04-08 15:01:09    0x200F0D1000F    Event    Informational    --    None    System succeeded in powering on the interface module (controller enclosure CTE0, FC interface module B.IOM1)."
+N/A
+"271988    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 1) is inserted."
+N/A
+"271987    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 9) is inserted."
+N/A
+"271986    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 7) is inserted."
+N/A
+"271985    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 8) is inserted."
+N/A
+"271984    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 4) is inserted."
+N/A
+"271983    2019-04-08 15:01:09    0x100F00CF0027    Event    Major    --    None    Controller (engine ENG0, controller B) restarts or powers on successfully. Error code: 0x404033DB."
+Step1 Check whether the controller is manually powered off or restarted.
+"1.1 If yes, ignore this fault."
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"271982    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 20) is inserted."
+N/A
+"271981    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 4) is inserted."
+N/A
+"271980    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 10) is inserted."
+N/A
+"271979    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 7) is inserted."
+N/A
+"271978    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 14) is inserted."
+N/A
+"271977    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 19) is inserted."
+N/A
+"271976    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 6) is inserted."
+N/A
+"271975    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 20) is inserted."
+N/A
+"271974    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 2) is inserted."
+N/A
+"271973    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 23) is inserted."
+N/A
+"271972    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 15) is inserted."
+N/A
+"271971    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 24) is inserted."
+N/A
+"271970    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 1) is inserted."
+N/A
+"271969    2019-04-08 15:01:06    0x200F0D1000F    Event    Informational    --    None    System succeeded in powering on the interface module (controller enclosure CTE0, SAS interface module B.IOM0)."
+N/A
+"271968    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 21) is inserted."
+N/A
+"271967    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 21) is inserted."
+N/A
+"271966    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 6) is inserted."
+N/A
+"271965    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 16) is inserted."
+N/A
+"271964    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 14) is inserted."
+N/A
+"271963    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 14) is inserted."
+N/A
+"271962    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 13) is inserted."
+N/A
+"271961    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 15) is inserted."
+N/A
+"271960    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 16) is inserted."
+N/A
+"271959    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 12) is inserted."
+N/A
+"271958    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 5) is inserted."
+N/A
+"271957    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 5) is inserted."
+N/A
+"271956    2019-04-08 15:01:05    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller B, port number MGMT) has been disconnected."
+N/A
+"271955    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 18) is inserted."
+N/A
+"271954    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 7) is inserted."
+N/A
+"271953    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 22) is inserted."
+N/A
+"271952    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 9) is inserted."
+N/A
+"271951    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 10) is inserted."
+N/A
+"271950    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 17) is inserted."
+N/A
+"271949    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 15) is inserted."
+N/A
+"271948    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 8) is inserted."
+N/A
+"271947    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 9) is inserted."
+N/A
+"271946    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 12) is inserted."
+N/A
+"271945    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 1) is inserted."
+N/A
+"271944    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 11) is inserted."
+N/A
+"271943    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 0) is inserted."
+N/A
+"271942    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 4) is inserted."
+N/A
+"271941    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 0) is inserted."
+N/A
+"271940    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 2) is inserted."
+N/A
+"271939    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 0) is inserted."
+N/A
+"271938    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 3) is inserted."
+N/A
+"271937    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 0) is inserted."
+N/A
+"271936    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 0) is inserted."
+N/A
+"271935    2019-04-08 15:00:43    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 0) is inserted."
+N/A
+"271934    2019-04-08 15:00:28    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 1) is inserted."
+N/A
+"271933    2019-04-08 15:00:28    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 3) is inserted."
+N/A
+"271932    2019-04-08 15:00:28    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 2) is inserted."
+N/A
+"271931    2019-04-08 15:00:28    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 0) is inserted."
+N/A
+"272150    2019-04-08 15:01:14    0x50000004    Diagnose code    Informational    --        In module 252 of node 0, diagnostic point 65 diagnosed that the LOGZONE node is faulty."
+N/A
+"272030    2019-04-08 15:01:14    0x50000004    Diagnose code    Informational    --        In module 252 of node 1, diagnostic point 65 diagnosed that the LOGZONE node is faulty."
+N/A

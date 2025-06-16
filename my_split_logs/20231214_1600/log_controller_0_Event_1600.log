@@ -1,0 +1,138 @@
+60122195    2023-12-14 23:35:48    0xF000A0015    Fault    Major    Recovered    2023-12-26 13:18:17    The system failed to monitor disk (disk enclosure DAE010, slot ID 13). Error code:0x40400293.
+Step1 Check whether alarms are generated indicating disk faults.
+    1.1 If yes, replace the faulty disks. If alarm The System Failed to Monitor a Disk persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+60122194    2023-12-14 23:35:48    0x200F000A005B    Fault    Major    Recovered    2023-12-26 13:18:17    Disk (Disk Enclosure DAE010, controller 0B, slot 13, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+60122182    2023-12-14 23:35:25    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE010, slot ID 13, serial number WBM0ZZ0H0000E9262JU2) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+60122175    2023-12-14 23:35:10    0x200F000A005B    Fault    Major    Recovered    2023-12-26 13:18:17    Disk (Disk Enclosure DAE010, controller 0A, slot 13, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+60122161    2023-12-14 23:34:33    0x1000010A000D    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+60121669    2023-12-14 23:14:25    0x1000010A000C    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+60121668    2023-12-14 23:14:25    0xF000A0121    Fault    Major    Recovered    2023-12-26 13:18:17    Disk (Disk Enclosure DAE010, slot ID 13, controller 0A, serial number WBM0ZZ0H0000E9262JU2, bar code 2102351SGF9WK3800232) responds slowly. The disk will be isolated. Error code: 0x40400291. This may cause the storage pool that houses the disk to degrade and the system read/write performance to deteriorate.
+Step1 Check whether alarms are generated indicating disk faults.
+    1.1 If yes, replace the faulty disks. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether any expansion port is faulty.
+    2.1 If yes, replace the interface module where the faulty port resides. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Check whether the disk is firmly inserted.
+    3.1 If no, reinsert the disk. If the alarm persists=>[Step4].
+    3.2 If yes=>[Step4].
+Step4 Check whether alarms are generated indicating expansion module faults.
+    4.1 If yes, replace the faulty expansion modules. If the alarm persists=>[Step5].
+    4.2 If no=>[Step5].
+Step5 Collect related information and contact technical support engineers.
+
+60121667    2023-12-14 23:14:23    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) completed. The check result is successfully.
+N/A
+
+60121626    2023-12-14 23:12:43    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) started. Check type: 0x6673736563637573.
+N/A
+
+60121611    2023-12-14 23:12:08    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+60121608    2023-12-14 23:12:06    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+60121603    2023-12-14 23:11:56    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) completed. The check result is successfully.
+N/A
+
+60121563    2023-12-14 23:10:17    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) started. Check type: 0x6673736563637573.
+N/A
+
+60121482    2023-12-14 23:07:01    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+60121481    2023-12-14 23:06:59    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+60121476    2023-12-14 23:06:49    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) completed. The check result is successfully.
+N/A
+
+60121434    2023-12-14 23:05:11    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) started. Check type: 0x6673736563637573.
+N/A
+
+60114719    2023-12-14 18:29:12    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+60114717    2023-12-14 18:29:10    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+60114712    2023-12-14 18:29:00    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) completed. The check result is successfully.
+N/A
+
+60114671    2023-12-14 18:27:21    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) started. Check type: 0x6673736563637573.
+N/A
+
+60114617    2023-12-14 18:25:10    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+60114616    2023-12-14 18:25:09    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+60114611    2023-12-14 18:24:59    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) completed. The check result is successfully.
+N/A
+
+60114570    2023-12-14 18:23:19    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) started. Check type: 0x6673736563637573.
+N/A
+
+60114529    2023-12-14 18:21:39    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+60114528    2023-12-14 18:21:37    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+60114523    2023-12-14 18:21:27    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) completed. The check result is successfully.
+N/A
+
+60114480    2023-12-14 18:19:48    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) started. Check type: 0x6673736563637573.
+N/A
+
+60114384    2023-12-14 18:15:51    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+60114382    2023-12-14 18:15:50    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+60114377    2023-12-14 18:15:40    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) completed. The check result is successfully.
+N/A
+
+60114336    2023-12-14 18:14:01    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) started. Check type: 0x6673736563637573.
+N/A
+
+60114320    2023-12-14 18:13:22    0x1000010A0010    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) completed.
+N/A
+
+60114306    2023-12-14 18:12:52    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+
+60114305    2023-12-14 18:12:52    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+60114303    2023-12-14 18:12:50    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE010, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+60114298    2023-12-14 18:12:40    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) completed. The check result is successfully.
+N/A
+
+60114256    2023-12-14 18:11:00    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE010, slot ID 13) started. Check type: 0x6673736563637573.
+N/A
+

@@ -1,0 +1,9 @@
+log
+27618921    2021-05-31 15:22:37    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+27618497    2021-05-31 15:05:12    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+27618281    2021-05-31 14:56:23    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+27618187    2021-05-31 14:52:35    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A

@@ -1,0 +1,17 @@
+log
+48459462    2023-01-16 04:07:17    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+48459461    2023-01-16 04:07:17    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+48459308    2023-01-16 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+48459306    2023-01-16 04:01:00    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"48455792    2023-01-16 01:36:30    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed."
+N/A
+"48455791    2023-01-16 01:36:29    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain."
+N/A
+"48455785    2023-01-16 01:36:19    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 13) completed. The check result is successfully."
+N/A
+"48455745    2023-01-16 01:34:41    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 13) started. Check type: 0x6673736563637573."
+N/A

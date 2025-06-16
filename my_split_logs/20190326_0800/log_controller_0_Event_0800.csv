@@ -1,0 +1,53 @@
+log
+51090    2019-03-26 13:09:32    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+50994    2019-03-26 13:05:15    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.2) succeeded.
+N/A
+50985    2019-03-26 13:05:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"50185    2019-03-26 12:25:26    0x200F000A003E    Event    Informational    --    None    admin:10.33.34.2 succeeded in setting the disk location indicator (controller enclosure CTE0, slot ID 3, state on)."
+N/A
+49871    2019-03-26 12:10:11    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+49769    2019-03-26 12:05:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+49246    2019-03-26 11:35:34    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.2) succeeded.
+N/A
+48233    2019-03-26 10:29:20    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.10) succeeded.
+N/A
+48175    2019-03-26 10:24:23    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+48172    2019-03-26 10:24:19    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+48131    2019-03-26 10:20:53    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+48129    2019-03-26 10:20:48    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"48099    2019-03-26 10:18:04    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 10:18:4, host: ID 1."
+N/A.
+"48098    2019-03-26 10:18:04    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 10:18:4, host: ID 1."
+N/A.
+"48092    2019-03-26 10:16:31    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 10:16:31, host: ID 0."
+N/A.
+"48091    2019-03-26 10:16:30    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 10:16:30, host: ID 0."
+N/A.
+48086    2019-03-26 10:10:04    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+48083    2019-03-26 10:04:30    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"48082    2019-03-26 10:02:42    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"48081    2019-03-26 10:02:14    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+48078    2019-03-26 09:58:17    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.10) succeeded.
+N/A
+"48075    2019-03-26 09:54:41    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"48074    2019-03-26 09:54:39    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+"48073    2019-03-26 09:51:44    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A

@@ -1,0 +1,27 @@
+log
+47092671    2022-12-08 04:07:19    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+47092670    2022-12-08 04:07:19    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+47092515    2022-12-08 04:01:02    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+47092514    2022-12-08 04:01:00    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"47090981    2022-12-08 02:58:00    0x100F00310002    Event    Informational    --    None    Succeeded in deleting the key of application ISCSI_INI (application ID 7, key ID 15)."
+N/A
+"47090980    2022-12-08 02:57:59    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application ISCSI_INI (application ID 7, key ID 16)."
+N/A
+"47090976    2022-12-08 02:57:54    0x100F00310002    Event    Informational    --    None    Succeeded in deleting the key of application ISCSI_TGT (application ID 6, key ID 15)."
+N/A
+"47090975    2022-12-08 02:57:53    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application ISCSI_TGT (application ID 6, key ID 16)."
+N/A
+"47090971    2022-12-08 02:57:47    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_NDMP (application ID 4, key ID 16)."
+N/A
+"47090968    2022-12-08 02:57:42    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_LDAPS (application ID 3, key ID 16)."
+N/A
+"47090965    2022-12-08 02:57:36    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_AD (application ID 2, key ID 16)."
+N/A
+"47090962    2022-12-08 02:57:30    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_USER (application ID 1, key ID 16)."
+N/A
+"47090958    2022-12-08 02:57:24    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application KMM (application ID 0, key ID 16)."
+N/A

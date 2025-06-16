@@ -1,0 +1,211 @@
+57610311    2023-10-04 07:23:45    0xF00170019    Fault    Major    Recovered    2023-10-04 07:23:55    Power module (Disk Enclosure DAE010, power module PSU 1, item 02311DEP, SN 2102311DEPHVK1007728) is faulty. Error code: --.
+Step1 Check whether the power cable is securely connected. If not, reinsert the power cable. If the alarm persists=>[Step2].
+Step2 Replace the power module. If the alarm persists=>[Step3].
+Step3 Collect related information and contact technical support engineers.
+
+57610310    2023-10-04 07:23:45    0xF00170019    Fault    Major    Recovered    2023-10-04 07:23:55    Power module (Disk Enclosure DAE050, power module PSU 1, item 02311DEP, SN 2102311DEPHVK1005902) is faulty. Error code: --.
+Step1 Check whether the power cable is securely connected. If not, reinsert the power cable. If the alarm persists=>[Step2].
+Step2 Replace the power module. If the alarm persists=>[Step3].
+Step3 Collect related information and contact technical support engineers.
+
+57610309    2023-10-04 07:23:45    0xF00170019    Fault    Major    Recovered    2023-10-04 07:23:55    Power module (Disk Enclosure DAE030, power module PSU 1, item 02311DEP, SN 2102311DEPHVK1004477) is faulty. Error code: --.
+Step1 Check whether the power cable is securely connected. If not, reinsert the power cable. If the alarm persists=>[Step2].
+Step2 Replace the power module. If the alarm persists=>[Step3].
+Step3 Collect related information and contact technical support engineers.
+
+57610308    2023-10-04 07:23:45    0xF00170019    Fault    Major    Recovered    2023-10-04 07:23:55    Power module (Disk Enclosure DAE021, power module PSU 1, item 02311DEP, SN 2102311DEPHVK1006110) is faulty. Error code: --.
+Step1 Check whether the power cable is securely connected. If not, reinsert the power cable. If the alarm persists=>[Step2].
+Step2 Replace the power module. If the alarm persists=>[Step3].
+Step3 Collect related information and contact technical support engineers.
+
+57610307    2023-10-04 07:23:45    0xF00170019    Fault    Major    Recovered    2023-10-04 07:23:55    Power module (Disk Enclosure DAE011, power module PSU 1, item 02311DEP, SN 2102311DEPHVK1006638) is faulty. Error code: --.
+Step1 Check whether the power cable is securely connected. If not, reinsert the power cable. If the alarm persists=>[Step2].
+Step2 Replace the power module. If the alarm persists=>[Step3].
+Step3 Collect related information and contact technical support engineers.
+
+57610302    2023-10-04 07:23:37    0xF00170014    Fault    Major    Recovered    2023-10-04 07:23:45    No power is input to power module (disk enclosure DAE010, power module PSU 1).
+Step1 Check whether power cables are connected correctly.
+    1.1 If yes=>[Step2].
+    1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2].
+Step2 Check power cables.
+    2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+    3.1 If yes=>[Step4].
+    3.2 If no, reinsert the power module. If the alarm persists=>[Step4].
+Step4 Check whether any external power is input to the power module.
+    4.1 If yes=>[Step5].
+    4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5].
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+
+57610300    2023-10-04 07:23:34    0xF00170014    Fault    Major    Recovered    2023-10-04 07:23:52    No power is input to power module (disk enclosure DAE060, power module PSU 1).
+Step1 Check whether power cables are connected correctly.
+    1.1 If yes=>[Step2].
+    1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2].
+Step2 Check power cables.
+    2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+    3.1 If yes=>[Step4].
+    3.2 If no, reinsert the power module. If the alarm persists=>[Step4].
+Step4 Check whether any external power is input to the power module.
+    4.1 If yes=>[Step5].
+    4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5].
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+
+57610299    2023-10-04 07:23:34    0xF00170014    Fault    Major    Recovered    2023-10-04 07:23:52    No power is input to power module (disk enclosure DAE050, power module PSU 1).
+Step1 Check whether power cables are connected correctly.
+    1.1 If yes=>[Step2].
+    1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2].
+Step2 Check power cables.
+    2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+    3.1 If yes=>[Step4].
+    3.2 If no, reinsert the power module. If the alarm persists=>[Step4].
+Step4 Check whether any external power is input to the power module.
+    4.1 If yes=>[Step5].
+    4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5].
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+
+57610298    2023-10-04 07:23:34    0xF00170014    Fault    Major    Recovered    2023-10-04 07:23:45    No power is input to power module (disk enclosure DAE040, power module PSU 1).
+Step1 Check whether power cables are connected correctly.
+    1.1 If yes=>[Step2].
+    1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2].
+Step2 Check power cables.
+    2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+    3.1 If yes=>[Step4].
+    3.2 If no, reinsert the power module. If the alarm persists=>[Step4].
+Step4 Check whether any external power is input to the power module.
+    4.1 If yes=>[Step5].
+    4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5].
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+
+57610297    2023-10-04 07:23:34    0xF00170014    Fault    Major    Recovered    2023-10-04 07:23:52    No power is input to power module (disk enclosure DAE020, power module PSU 1).
+Step1 Check whether power cables are connected correctly.
+    1.1 If yes=>[Step2].
+    1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2].
+Step2 Check power cables.
+    2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+    3.1 If yes=>[Step4].
+    3.2 If no, reinsert the power module. If the alarm persists=>[Step4].
+Step4 Check whether any external power is input to the power module.
+    4.1 If yes=>[Step5].
+    4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5].
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+
+57610296    2023-10-04 07:23:34    0xF00170014    Fault    Major    Recovered    2023-10-04 07:23:52    No power is input to power module (controller enclosure CTE0, power module PSU 1).
+Step1 Check whether power cables are connected correctly.
+    1.1 If yes=>[Step2].
+    1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2].
+Step2 Check power cables.
+    2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+    3.1 If yes=>[Step4].
+    3.2 If no, reinsert the power module. If the alarm persists=>[Step4].
+Step4 Check whether any external power is input to the power module.
+    4.1 If yes=>[Step5].
+    4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5].
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+
+57610294    2023-10-04 07:23:29    0xF00170014    Fault    Major    Recovered    2023-10-04 07:23:45    No power is input to power module (disk enclosure DAE030, power module PSU 1).
+Step1 Check whether power cables are connected correctly.
+    1.1 If yes=>[Step2].
+    1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2].
+Step2 Check power cables.
+    2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+    3.1 If yes=>[Step4].
+    3.2 If no, reinsert the power module. If the alarm persists=>[Step4].
+Step4 Check whether any external power is input to the power module.
+    4.1 If yes=>[Step5].
+    4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5].
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+
+57610293    2023-10-04 07:23:29    0xF00170014    Fault    Major    Recovered    2023-10-04 07:23:45    No power is input to power module (disk enclosure DAE011, power module PSU 1).
+Step1 Check whether power cables are connected correctly.
+    1.1 If yes=>[Step2].
+    1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2].
+Step2 Check power cables.
+    2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+    3.1 If yes=>[Step4].
+    3.2 If no, reinsert the power module. If the alarm persists=>[Step4].
+Step4 Check whether any external power is input to the power module.
+    4.1 If yes=>[Step5].
+    4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5].
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+
+57610291    2023-10-04 07:23:29    0xF00170014    Fault    Major    Recovered    2023-10-04 07:23:45    No power is input to power module (disk enclosure DAE021, power module PSU 1).
+Step1 Check whether power cables are connected correctly.
+    1.1 If yes=>[Step2].
+    1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2].
+Step2 Check power cables.
+    2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+    3.1 If yes=>[Step4].
+    3.2 If no, reinsert the power module. If the alarm persists=>[Step4].
+Step4 Check whether any external power is input to the power module.
+    4.1 If yes=>[Step5].
+    4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5].
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+
+57606262    2023-10-04 04:38:04    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 1) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely.
+N/A
+
+57605522    2023-10-04 04:07:39    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+57605521    2023-10-04 04:07:39    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+57605358    2023-10-04 04:01:02    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+57605357    2023-10-04 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+57603438    2023-10-04 02:42:11    0x100F00D20017    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 1) was charging.
+N/A
+
+57603032    2023-10-04 02:25:36    0x100F0D20006    Event    Informational    --    None    BBU module (controller enclosure CTE0, BBU module PSU 1) has insufficient power. When a power failure occurs, the BBU module cannot provide sufficient power to save data.
+Step 1 Check whether the BBU module is faulty.
+    1.1 If yes, replace the BBU module. 
+    1.2 If no=>[step 2].
+Step 2 Wait until the BBU module is fully charged.
+
+57602995    2023-10-04 02:24:09    0x100F00D20015    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 1) was in periodic discharge test.
+N/A
+
+57602990    2023-10-04 02:23:58    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 0) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely.
+N/A
+
+57599925    2023-10-04 00:17:58    0x100F00D20017    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 0) was charging.
+N/A
+
+57599523    2023-10-04 00:01:31    0x100F0D20006    Event    Informational    --    None    BBU module (controller enclosure CTE0, BBU module PSU 0) has insufficient power. When a power failure occurs, the BBU module cannot provide sufficient power to save data.
+Step 1 Check whether the BBU module is faulty.
+    1.1 If yes, replace the BBU module. 
+    1.2 If no=>[step 2].
+Step 2 Wait until the BBU module is fully charged.
+
+57599491    2023-10-04 00:00:17    0x100F00D20015    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 0) was in periodic discharge test.
+N/A
+

@@ -1,0 +1,7 @@
+log
+21513680    2020-12-08 10:57:42    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+21512921    2020-12-08 10:26:40    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+21512894    2020-12-08 10:25:31    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.36.225).The error code is 0x40403285.
+N/A

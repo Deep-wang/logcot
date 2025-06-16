@@ -1,0 +1,27 @@
+log
+28058322    2021-06-13 04:07:12    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+28058321    2021-06-13 04:07:12    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+28058169    2021-06-13 04:01:02    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+28058168    2021-06-13 04:01:00    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"28056667    2021-06-13 02:59:16    0x100F00310002    Event    Informational    --    None    Succeeded in deleting the key of application ISCSI_INI (application ID 7, key ID 9)."
+N/A
+"28056666    2021-06-13 02:59:15    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application ISCSI_INI (application ID 7, key ID 10)."
+N/A
+"28056663    2021-06-13 02:59:10    0x100F00310002    Event    Informational    --    None    Succeeded in deleting the key of application ISCSI_TGT (application ID 6, key ID 9)."
+N/A
+"28056661    2021-06-13 02:59:10    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application ISCSI_TGT (application ID 6, key ID 10)."
+N/A
+"28056658    2021-06-13 02:59:04    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_NDMP (application ID 4, key ID 10)."
+N/A
+"28056654    2021-06-13 02:58:58    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_LDAPS (application ID 3, key ID 10)."
+N/A
+"28056651    2021-06-13 02:58:52    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_AD (application ID 2, key ID 10)."
+N/A
+"28056648    2021-06-13 02:58:46    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_USER (application ID 1, key ID 10)."
+N/A
+"28056645    2021-06-13 02:58:40    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application KMM (application ID 0, key ID 10)."
+N/A

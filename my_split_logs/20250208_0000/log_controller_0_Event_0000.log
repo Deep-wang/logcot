@@ -1,0 +1,63 @@
+74884392    2025-02-08 04:07:10    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+74884391    2025-02-08 04:07:10    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+74884242    2025-02-08 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+74884241    2025-02-08 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+74882305    2025-02-08 02:41:38    0xF000A0015    Fault    Major    Recovered    2025-02-13 08:23:05    The system failed to monitor disk (disk enclosure DAE060, slot ID 12). Error code:0x40400293.
+Step1 Check whether alarms are generated indicating disk faults.
+    1.1 If yes, replace the faulty disks. If alarm The System Failed to Monitor a Disk persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+74882304    2025-02-08 02:41:38    0x200F000A005B    Fault    Major    Recovered    2025-02-13 08:22:51    Disk (Disk Enclosure DAE060, controller 0B, slot 12, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+74882295    2025-02-08 02:41:17    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE060, slot ID 12, serial number WBM0ZVJ80000K9284T91) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+74882283    2025-02-08 02:40:54    0x200F000A005B    Fault    Major    Recovered    2025-02-13 08:23:05    Disk (Disk Enclosure DAE060, controller 0A, slot 12, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+74882272    2025-02-08 02:40:28    0x1000010A000D    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE060, slot ID 12, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+74881782    2025-02-08 02:20:22    0x1000010A000C    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE060, slot ID 12, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+74881781    2025-02-08 02:20:22    0xF000A011E    Fault    Major    Recovered    2025-02-13 08:23:08    Disk (Disk Enclosure DAE060, slot 12, serial number WBM0ZVJ80000K9284T91, item 02351SGF, BarCode 2102351SGF9WK3800188) is about to fail. Error code:0x40000a4e.
+Step1 Check whether it is a member disk.
+    1.1 If yes, pre-copy the disk, and replace the disk after a message is displayed indicating that the precopy succeeds. If the alarm persists=>[Step2].
+    1.2 If no, replace the disk. If the alarm persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+74880875    2025-02-08 01:43:09    0x1000010A0010    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) completed.
+N/A
+
+74880870    2025-02-08 01:42:59    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+
+74880869    2025-02-08 01:42:59    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE060, slot ID 12, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+74880868    2025-02-08 01:42:57    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE060, slot ID 12, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+74880863    2025-02-08 01:42:47    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE060, slot ID 12) completed. The check result is successfully.
+N/A
+
+74880822    2025-02-08 01:41:07    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE060, slot ID 12) started. Check type: 0x6673736563637573.
+N/A
+

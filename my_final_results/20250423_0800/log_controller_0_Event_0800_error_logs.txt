@@ -1,0 +1,53 @@
+=== log_controller_0_Event_0800 异常日志 ===
+文件路径: ./my_split_logs/20250423_0800/log_controller_0_Event_0800.csv
+异常日志数量: 48
+生成时间: 2025-06-16 15:14:09
+
+1. 77493432    2025-04-23 14:46:08    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+2. 77492920    2025-04-23 14:26:45    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+3. 77492749    2025-04-23 14:20:42    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 14:20:42, host: ID 7.
+4. 77492870    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+5. 77492867    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+6. 77493431    2025-04-23 14:46:08    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+7. N/A.
+8. 77493383    2025-04-23 14:44:17    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+9. 77492917    2025-04-23 14:26:45    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+10. 77492869    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+11. 77492871    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+12. 77493338    2025-04-23 14:42:37    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+13. 77493290    2025-04-23 14:40:47    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+14. 77492732    2025-04-23 14:20:09    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 14:20:9, host: ID 6.
+15. 77492874    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+16. 77492918    2025-04-23 14:26:45    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+17. N/A.
+18. Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+19. Step2 Collect related information and contact technical support engineers.
+20. Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+21. Step2 Collect related information and contact technical support engineers.
+22. 77493384    2025-04-23 14:44:17    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+23. 77493337    2025-04-23 14:42:37    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+24. 77493289    2025-04-23 14:40:47    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+25. Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+26. Step3 Check the port configuration.
+27. 1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2].
+28. Step2 Collect related information and contact technical support engineers.
+29. 1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2].
+30. 77493339    2025-04-23 14:42:37    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+31. 77493382    2025-04-23 14:44:17    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+32. 77493340    2025-04-23 14:42:37    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+33. 77492921    2025-04-23 14:26:45    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+34. 77492868    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+35. 77492916    2025-04-23 14:26:45    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+36. N/A.
+37. 77490863    2025-04-23 13:05:26    0xF0060004    Fault    Major    Unrecovered    None    FC host port (controller enclosure CTE0, -- controller A, port number H0) is disconnected.
+38. N/A.
+39. 77492872    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+40. 77490746    2025-04-23 13:01:21    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.227) succeeded.
+41. N/A.
+42. 77493291    2025-04-23 14:40:47    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.
+43. N/A.
+44. 77493433    2025-04-23 14:46:08    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+45. 77492873    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.
+46. N/A.
+47. 3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2].
+48. 77492919    2025-04-23 14:26:45    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.

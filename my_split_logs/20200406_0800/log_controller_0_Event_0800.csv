@@ -1,0 +1,17 @@
+log
+"12911232    2020-04-06 15:54:40    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 15:54:40, host: ID 0."
+N/A.
+"12911231    2020-04-06 15:54:40    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 15:54:40, host: ID 0."
+N/A.
+"12911230    2020-04-06 15:54:40    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 15:54:40, host: ID 0."
+N/A.
+"12911229    2020-04-06 15:54:40    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 15:54:40, host: ID 0."
+N/A.
+"12911228    2020-04-06 15:54:40    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 15:54:40, host: ID 0."
+N/A.
+"12911227    2020-04-06 15:54:40    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 15:54:40, host: ID 0."
+N/A.
+"12911226    2020-04-06 15:54:40    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 15:54:40, host: ID 0."
+N/A.
+"12911225    2020-04-06 15:54:40    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 15:54:40, host: ID 0."
+N/A.

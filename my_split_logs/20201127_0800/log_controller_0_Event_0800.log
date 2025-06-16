@@ -1,0 +1,273 @@
+21135479    2020-11-27 15:59:23    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135478    2020-11-27 15:59:23    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135477    2020-11-27 15:59:23    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135476    2020-11-27 15:59:23    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135475    2020-11-27 15:59:23    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135474    2020-11-27 15:59:23    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135473    2020-11-27 15:59:23    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135472    2020-11-27 15:59:23    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135347    2020-11-27 15:54:16    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab954b5) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 15:54:16, host: ID 14.
+N/A.
+
+21135346    2020-11-27 15:54:16    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab954b5) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 15:54:16, host: ID 14.
+N/A.
+
+21135345    2020-11-27 15:54:16    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab954b5) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 15:54:16, host: ID 14.
+N/A.
+
+21135344    2020-11-27 15:54:16    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab954b5) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 15:54:16, host: ID 14.
+N/A.
+
+21135341    2020-11-27 15:54:13    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab9476b) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 15:54:13, host: ID 14.
+N/A.
+
+21135340    2020-11-27 15:54:13    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab9476b) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 15:54:13, host: ID 14.
+N/A.
+
+21135339    2020-11-27 15:54:13    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab9476b) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 15:54:13, host: ID 14.
+N/A.
+
+21135338    2020-11-27 15:54:13    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab9476b) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 15:54:13, host: ID 14.
+N/A.
+
+21135326    2020-11-27 15:53:45    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac0642b) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 15:53:45, host: ID 15.
+N/A.
+
+21135325    2020-11-27 15:53:45    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac0642b) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 15:53:45, host: ID 15.
+N/A.
+
+21135324    2020-11-27 15:53:45    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac0642b) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 15:53:45, host: ID 15.
+N/A.
+
+21135323    2020-11-27 15:53:45    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac0642b) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 15:53:45, host: ID 15.
+N/A.
+
+21135321    2020-11-27 15:53:41    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06442) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 15:53:41, host: ID 15.
+N/A.
+
+21135320    2020-11-27 15:53:41    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06442) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 15:53:41, host: ID 15.
+N/A.
+
+21135319    2020-11-27 15:53:41    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06442) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 15:53:41, host: ID 15.
+N/A.
+
+21135318    2020-11-27 15:53:41    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06442) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 15:53:41, host: ID 15.
+N/A.
+
+21135244    2020-11-27 15:50:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab9476b) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 15:50:43, host: ID 14.
+N/A.
+
+21135243    2020-11-27 15:50:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab9476b) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 15:50:43, host: ID 14.
+N/A.
+
+21135242    2020-11-27 15:50:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab9476b) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 15:50:43, host: ID 14.
+N/A.
+
+21135241    2020-11-27 15:50:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab9476b) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 15:50:43, host: ID 14.
+N/A.
+
+21135240    2020-11-27 15:50:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab954b5) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 15:50:43, host: ID 14.
+N/A.
+
+21135239    2020-11-27 15:50:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab954b5) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 15:50:43, host: ID 14.
+N/A.
+
+21135238    2020-11-27 15:50:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab954b5) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 15:50:43, host: ID 14.
+N/A.
+
+21135237    2020-11-27 15:50:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab954b5) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 15:50:43, host: ID 14.
+N/A.
+
+21135225    2020-11-27 15:50:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06442) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 15:50:15, host: ID 15.
+N/A.
+
+21135224    2020-11-27 15:50:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac0642b) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 15:50:15, host: ID 15.
+N/A.
+
+21135223    2020-11-27 15:50:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06442) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 15:50:15, host: ID 15.
+N/A.
+
+21135222    2020-11-27 15:50:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac0642b) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 15:50:15, host: ID 15.
+N/A.
+
+21135221    2020-11-27 15:50:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06442) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 15:50:15, host: ID 15.
+N/A.
+
+21135220    2020-11-27 15:50:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac0642b) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 15:50:15, host: ID 15.
+N/A.
+
+21135219    2020-11-27 15:50:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac0642b) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 15:50:15, host: ID 15.
+N/A.
+
+21135218    2020-11-27 15:50:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06442) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 15:50:15, host: ID 15.
+N/A.
+
+21135206    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135205    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135204    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135203    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135202    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135201    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135200    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135199    2020-11-27 15:49:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135176    2020-11-27 15:48:52    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135175    2020-11-27 15:48:52    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135174    2020-11-27 15:48:52    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135173    2020-11-27 15:48:52    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135172    2020-11-27 15:48:52    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135171    2020-11-27 15:48:52    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135170    2020-11-27 15:48:52    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 15) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135169    2020-11-27 15:48:52    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 14) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+21135130    2020-11-27 15:47:18    0x200F00150025    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the initiator (type FC, identifier 10000090fac06442) to host (host ID 15).
+N/A
+
+21135129    2020-11-27 15:47:18    0x200F00150025    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the initiator (type FC, identifier 10000090fac0642b) to host (host ID 15).
+N/A
+
+21135122    2020-11-27 15:47:02    0x200F00150025    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the initiator (type FC, identifier 10000090fab954b5) to host (host ID 14).
+N/A
+
+21135121    2020-11-27 15:47:02    0x200F00150025    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the initiator (type FC, identifier 10000090fab9476b) to host (host ID 14).
+N/A
+
+21134117    2020-11-27 15:05:46    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+21133970    2020-11-27 14:59:48    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+21133781    2020-11-27 14:52:05    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+21128833    2020-11-27 11:28:35    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+21128274    2020-11-27 11:05:32    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+21128144    2020-11-27 11:00:15    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+21128099    2020-11-27 10:58:28    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN group (ID 18) to the mapping view (ID 19).
+N/A
+
+21128098    2020-11-27 10:58:28    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host group (ID 18) to the mapping view (ID 19).
+N/A
+
+21128097    2020-11-27 10:58:28    0x200F00F50014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the mapping view (name PI6000-1T , ID 19).
+N/A
+
+21128074    2020-11-27 10:57:28    0x200F000E001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host(15) to the host group (ID 18).
+N/A
+
+21128073    2020-11-27 10:57:28    0x200F000E001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host(14) to the host group (ID 18).
+N/A
+
+21128072    2020-11-27 10:57:28    0x200F000E0014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the host group (name PI6000).
+N/A
+
+21128055    2020-11-27 10:56:48    0x200F0015001F    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the host (name PI6000_02, operating system Linux).
+N/A
+
+21128039    2020-11-27 10:56:11    0x200F0015002B    Event    Informational    --    None    admin:10.33.36.225 succeeded in modifying the information of the host (host ID 14, name PI6000_01, operating system Linux, location --, IP --, model --, network name --).
+N/A
+
+21128029    2020-11-27 10:55:49    0x200F0015001F    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the host (name PI6000, operating system Linux).
+N/A
+
+21127674    2020-11-27 10:41:19    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN (52) to the LUN group (ID 18).
+N/A
+
+21127673    2020-11-27 10:41:19    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN (51) to the LUN group (ID 18).
+N/A
+
+21127672    2020-11-27 10:41:19    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN (50) to the LUN group (ID 18).
+N/A
+
+21127671    2020-11-27 10:41:19    0x200F01000014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the LUN group (name PI6000group).
+N/A
+
+21127644    2020-11-27 10:40:15    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the thick LUN (name PI6000-100G, type thick, capacity 100GB, storage pool ID 1, ID 52, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0B, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e02f603d200000034).
+N/A.
+
+21127635    2020-11-27 10:39:54    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the thick LUN (name PI6000-200G, type thick, capacity 200GB, storage pool ID 1, ID 51, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0A, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e02f5eedc00000033).
+N/A.
+
+21127624    2020-11-27 10:39:30    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the thick LUN (name PI6000-700G, type thick, capacity 700GB, storage pool ID 1, ID 50, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0B, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e02f5d73c00000032).
+N/A.
+
+21127403    2020-11-27 10:30:24    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+

@@ -1,0 +1,9 @@
+75065803    2025-02-13 08:23:08    0x100F00310004    Event    Informational    --    None    The replacement of disk (disk enclosure DAE060, slot ID 12, type SAS) in disk domain (ID 7, name SAS) is completed.
+N/A
+
+75065802    2025-02-13 08:23:08    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 12) is inserted.
+N/A
+
+75065801    2025-02-13 08:23:08    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+

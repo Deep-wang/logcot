@@ -1,0 +1,84 @@
+76752362    2025-04-02 11:23:38    0xF00EA0015    Fault    Major    Unrecovered    None    FC port optical module (controller enclosure CTE0, -- controller A, port ID H1) cannot be monitored.
+Step1 Check whether alarms on optical module faults are generated.
+    1.1 If yes, replace the optical module. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether the optical module is supported by the device.
+    2.1 If yes=>[Step3].
+    2.2 If no, replace the optical module with an optical module supported by the device. If the alarm persists=>[Step3].
+Step3 Replace the module where the optical module resides. If the alarm persists=>[Step4].
+Step4 Collect related information and contact technical support engineers.
+
+76752361    2025-04-02 11:23:38    0xF00EA0015    Fault    Major    Unrecovered    None    FC port optical module (controller enclosure CTE0, -- controller A, port ID H3) cannot be monitored.
+Step1 Check whether alarms on optical module faults are generated.
+    1.1 If yes, replace the optical module. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether the optical module is supported by the device.
+    2.1 If yes=>[Step3].
+    2.2 If no, replace the optical module with an optical module supported by the device. If the alarm persists=>[Step3].
+Step3 Replace the module where the optical module resides. If the alarm persists=>[Step4].
+Step4 Collect related information and contact technical support engineers.
+
+76752355    2025-04-02 11:23:28    0xF00EA0015    Fault    Major    Unrecovered    None    FC port optical module (controller enclosure CTE0, -- controller A, port ID H0) cannot be monitored.
+Step1 Check whether alarms on optical module faults are generated.
+    1.1 If yes, replace the optical module. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether the optical module is supported by the device.
+    2.1 If yes=>[Step3].
+    2.2 If no, replace the optical module with an optical module supported by the device. If the alarm persists=>[Step3].
+Step3 Replace the module where the optical module resides. If the alarm persists=>[Step4].
+Step4 Collect related information and contact technical support engineers.
+
+76752354    2025-04-02 11:23:28    0xF00EA0015    Fault    Major    Unrecovered    None    FC port optical module (controller enclosure CTE0, -- controller A, port ID H2) cannot be monitored.
+Step1 Check whether alarms on optical module faults are generated.
+    1.1 If yes, replace the optical module. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether the optical module is supported by the device.
+    2.1 If yes=>[Step3].
+    2.2 If no, replace the optical module with an optical module supported by the device. If the alarm persists=>[Step3].
+Step3 Replace the module where the optical module resides. If the alarm persists=>[Step4].
+Step4 Collect related information and contact technical support engineers.
+
+
+Event list    
+Sequence    Raised  Local Time    Alarm ID    Type    Alarm Level    State    Recovered Local Time    Description    Suggestion
+
+76752362    2025-04-02 11:23:38    0xF00EA0015    Fault    Major    Unrecovered    None    FC port optical module (controller enclosure CTE0, -- controller A, port ID H1) cannot be monitored.
+Step1 Check whether alarms on optical module faults are generated.
+    1.1 If yes, replace the optical module. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether the optical module is supported by the device.
+    2.1 If yes=>[Step3].
+    2.2 If no, replace the optical module with an optical module supported by the device. If the alarm persists=>[Step3].
+Step3 Replace the module where the optical module resides. If the alarm persists=>[Step4].
+Step4 Collect related information and contact technical support engineers.
+
+76752361    2025-04-02 11:23:38    0xF00EA0015    Fault    Major    Unrecovered    None    FC port optical module (controller enclosure CTE0, -- controller A, port ID H3) cannot be monitored.
+Step1 Check whether alarms on optical module faults are generated.
+    1.1 If yes, replace the optical module. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether the optical module is supported by the device.
+    2.1 If yes=>[Step3].
+    2.2 If no, replace the optical module with an optical module supported by the device. If the alarm persists=>[Step3].
+Step3 Replace the module where the optical module resides. If the alarm persists=>[Step4].
+Step4 Collect related information and contact technical support engineers.
+
+76752355    2025-04-02 11:23:28    0xF00EA0015    Fault    Major    Unrecovered    None    FC port optical module (controller enclosure CTE0, -- controller A, port ID H0) cannot be monitored.
+Step1 Check whether alarms on optical module faults are generated.
+    1.1 If yes, replace the optical module. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether the optical module is supported by the device.
+    2.1 If yes=>[Step3].
+    2.2 If no, replace the optical module with an optical module supported by the device. If the alarm persists=>[Step3].
+Step3 Replace the module where the optical module resides. If the alarm persists=>[Step4].
+Step4 Collect related information and contact technical support engineers.
+
+76752354    2025-04-02 11:23:28    0xF00EA0015    Fault    Major    Unrecovered    None    FC port optical module (controller enclosure CTE0, -- controller A, port ID H2) cannot be monitored.
+Step1 Check whether alarms on optical module faults are generated.
+    1.1 If yes, replace the optical module. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether the optical module is supported by the device.
+    2.1 If yes=>[Step3].
+    2.2 If no, replace the optical module with an optical module supported by the device. If the alarm persists=>[Step3].
+Step3 Replace the module where the optical module resides. If the alarm persists=>[Step4].
+Step4 Collect related information and contact technical support engineers.
+

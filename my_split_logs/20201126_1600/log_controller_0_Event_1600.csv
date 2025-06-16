@@ -1,0 +1,127 @@
+log
+21100648    2020-11-26 16:11:09    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+21100642    2020-11-26 16:10:56    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.225 succeeded in switching from a mode (developer view) to the user view.
+N/A
+21100640    2020-11-26 16:10:53    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.225 succeeded in switching from the user view to developer view.
+N/A
+21100622    2020-11-26 16:10:12    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.225 succeeded in switching from a mode (developer view) to the user view.
+N/A
+21100621    2020-11-26 16:10:11    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.225 succeeded in switching from the user view to developer view.
+N/A
+21100619    2020-11-26 16:10:11    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.225 succeeded in switching from a mode (developer view) to the user view.
+N/A
+21100618    2020-11-26 16:10:10    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+21100617    2020-11-26 16:10:09    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+21100615    2020-11-26 16:10:08    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+21100614    2020-11-26 16:10:07    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+21100602    2020-11-26 16:09:40    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+21100601    2020-11-26 16:09:39    0x200F00C90082    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from a mode (developer view) to the user view.
+N/A
+21100599    2020-11-26 16:09:38    0x200F00CA0005    Event    Informational    --    None    admin:127.127.127.10 succeeded in switching from the user view to developer view.
+N/A
+21100597    2020-11-26 16:09:35    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (127.127.127.10) succeeded.
+N/A
+21100596    2020-11-26 16:09:34    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.225 succeeded in switching from the user view to developer view.
+N/A
+21100594    2020-11-26 16:09:33    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.225 succeeded in switching from a mode (developer view) to the user view.
+N/A
+21100581    2020-11-26 16:09:06    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.225 succeeded in switching from the user view to developer view.
+N/A
+21100579    2020-11-26 16:09:02    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.225 succeeded in switching from a mode (developer view) to the user view.
+N/A
+21100578    2020-11-26 16:09:01    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.225 succeeded in switching from the user view to developer view.
+N/A
+21100576    2020-11-26 16:09:00    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.225 succeeded in switching from a mode (developer view) to the user view.
+N/A
+21100575    2020-11-26 16:08:59    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.225 succeeded in switching from the user view to developer view.
+N/A
+21100570    2020-11-26 16:08:50    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0A in system memory or disk (FileType isolated disk log).
+N/A.
+21100569    2020-11-26 16:08:50    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type isolated disk log) of controller 0A.
+N/A.
+21100560    2020-11-26 16:08:30    0x200F00310005    Event    Informational    --    None    admin:10.33.36.225 succeeded in collecting the event (type isolated disk log).
+N/A.
+21100552    2020-11-26 16:08:12    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0B in system memory or disk (FileType disk DHA log).
+N/A.
+21100551    2020-11-26 16:08:12    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type disk DHA log) of controller 0B.
+N/A.
+21100550    2020-11-26 16:08:11    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0A in system memory or disk (FileType disk DHA log).
+N/A.
+21100548    2020-11-26 16:08:10    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type disk DHA log) of controller 0A.
+N/A.
+21100538    2020-11-26 16:07:47    0x200F00310005    Event    Informational    --    None    admin:10.33.36.225 succeeded in collecting the event (type disk DHA log).
+N/A.
+21100524    2020-11-26 16:07:15    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0B in system memory or disk (FileType disk DHA log).
+N/A.
+21100523    2020-11-26 16:07:15    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type disk DHA log) of controller 0B.
+N/A.
+21100522    2020-11-26 16:07:15    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0A in system memory or disk (FileType disk DHA log).
+N/A.
+21100521    2020-11-26 16:07:14    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type disk DHA log) of controller 0A.
+N/A.
+21100511    2020-11-26 16:06:53    0x200F00310005    Event    Informational    --    None    admin:10.33.36.225 succeeded in collecting the event (type disk DHA log).
+N/A.
+21100496    2020-11-26 16:06:21    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0B in system memory or disk (FileType disk DHA log).
+N/A.
+21100495    2020-11-26 16:06:21    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type disk DHA log) of controller 0B.
+N/A.
+21100494    2020-11-26 16:06:20    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0A in system memory or disk (FileType disk DHA log).
+N/A.
+21100493    2020-11-26 16:06:19    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type disk DHA log) of controller 0A.
+N/A.
+21100484    2020-11-26 16:05:58    0x200F00310005    Event    Informational    --    None    admin:10.33.36.225 succeeded in collecting the event (type disk DHA log).
+N/A.
+21100470    2020-11-26 16:05:26    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0B in system memory or disk (FileType disk DHA log).
+N/A.
+21100469    2020-11-26 16:05:26    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type disk DHA log) of controller 0B.
+N/A.
+21100467    2020-11-26 16:05:25    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0A in system memory or disk (FileType disk DHA log).
+N/A.
+21100466    2020-11-26 16:05:25    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type disk DHA log) of controller 0A.
+N/A.
+21100457    2020-11-26 16:05:04    0x200F00310005    Event    Informational    --    None    admin:10.33.36.225 succeeded in collecting the event (type disk DHA log).
+N/A.
+21100443    2020-11-26 16:04:32    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0B in system memory or disk (FileType disk DHA log).
+N/A.
+21100442    2020-11-26 16:04:32    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type disk DHA log) of controller 0B.
+N/A.
+21100441    2020-11-26 16:04:32    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0A in system memory or disk (FileType disk DHA log).
+N/A.
+21100439    2020-11-26 16:04:31    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type disk DHA log) of controller 0A.
+N/A.
+21100429    2020-11-26 16:04:09    0x200F00310005    Event    Informational    --    None    admin:10.33.36.225 succeeded in collecting the event (type disk DHA log).
+N/A.
+21100419    2020-11-26 16:03:46    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0B in system memory or disk (FileType disk smart information).
+N/A.
+21100417    2020-11-26 16:03:46    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type disk smart information) of controller 0B.
+N/A.
+21100416    2020-11-26 16:03:45    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0A in system memory or disk (FileType disk smart information).
+N/A.
+21100415    2020-11-26 16:03:44    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type disk smart information) of controller 0A.
+N/A.
+21100405    2020-11-26 16:03:22    0x200F00310005    Event    Informational    --    None    admin:10.33.36.225 succeeded in collecting the event (type disk smart information).
+N/A.
+21100356    2020-11-26 16:01:25    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+21100355    2020-11-26 16:01:23    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+21100352    2020-11-26 16:01:20    0x200F00CA0009    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files in system memory (FileType running data).
+N/A.
+21100350    2020-11-26 16:01:18    0x200F00C90024    Event    Informational    --    None    admin:10.33.36.225 succeeded in exporting running data.
+N/A
+21100347    2020-11-26 16:01:11    0x200F00CA0009    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files in system memory (FileType event).
+N/A.
+21100345    2020-11-26 16:01:11    0x200F00310005    Event    Informational    --    None    admin:10.33.36.225 succeeded in collecting the event (type event).
+N/A.
+21100333    2020-11-26 16:00:42    0x200F0031001C    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the exported files of controller 0B in system memory or disk (FileType all log).
+N/A.
+21100321    2020-11-26 16:00:16    0x200F0031001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in downloading a file (type all log) of controller 0B.
+N/A.
+21100320    2020-11-26 16:00:14    0x200F0031001B    Event    Informational    --    None    admin:10.33.36.225 failed to download a file (type all log) of controller 0A. Error code: 0x404032b6.
+N/A.

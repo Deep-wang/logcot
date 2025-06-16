@@ -1,0 +1,17 @@
+log
+7909925    2019-11-14 21:27:38    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.200) succeeded.
+N/A
+"7909177    2019-11-14 20:56:50    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+7909139    2019-11-14 20:55:14    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.200) succeeded.
+N/A
+"7909088    2019-11-14 20:53:12    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"7909087    2019-11-14 20:53:09    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+"7909080    2019-11-14 20:52:56    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"7909077    2019-11-14 20:52:52    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+"7909072    2019-11-14 20:52:43    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A

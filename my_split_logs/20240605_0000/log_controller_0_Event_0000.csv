@@ -1,0 +1,35 @@
+log
+66191951    2024-06-05 04:07:19    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+66191950    2024-06-05 04:07:19    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+66191794    2024-06-05 04:01:02    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+66191793    2024-06-05 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"66189644    2024-06-05 02:32:43    0xF000A0015    Fault    Major    Recovered    2024-06-10 07:52:21    The system failed to monitor disk (disk enclosure DAE040, slot ID 7). Error code:0x40400293."
+Step1 Check whether alarms are generated indicating disk faults.
+"1.1 If yes, replace the faulty disks. If alarm The System Failed to Monitor a Disk persists=>[Step2]."
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"66189643    2024-06-05 02:32:43    0x200F000A005B    Fault    Major    Recovered    2024-06-10 07:52:10    Disk (Disk Enclosure DAE040, controller 0B, slot 7, serial number --) is isolated."
+Step1 Check whether an alarm is generated indicating disk faults.
+"1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2]."
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"66189640    2024-06-05 02:32:37    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE040, slot ID 7, serial number WBM0ZYJ50000K927BR2T) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance."
+Reinsert the disk.
+"66189638    2024-06-05 02:32:35    0x200F000A005B    Fault    Major    Recovered    2024-06-10 07:52:21    Disk (Disk Enclosure DAE040, controller 0A, slot 7, serial number --) is isolated."
+Step1 Check whether an alarm is generated indicating disk faults.
+"1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2]."
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"66189618    2024-06-05 02:31:46    0x1000010A000D    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE040, slot ID 7, type SAS) in the disk domain (ID 7, name SAS) completed."
+N/A
+"66189183    2024-06-05 02:14:00    0xF000A011E    Fault    Major    Recovered    2024-06-10 07:52:36    Disk (Disk Enclosure DAE040, slot 7, serial number WBM0ZYJ50000K927BR2T, item 02351SGF, BarCode 2102351SGF9WK3800220) is about to fail. Error code:0x40000a4e."
+Step1 Check whether it is a member disk.
+"1.1 If yes, pre-copy the disk, and replace the disk after a message is displayed indicating that the precopy succeeds. If the alarm persists=>[Step2]."
+"1.2 If no, replace the disk. If the alarm persists=>[Step2]."
+Step2 Collect related information and contact technical support engineers.
+"66189182    2024-06-05 02:14:00    0x1000010A000C    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE040, slot ID 7, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain."
+N/A

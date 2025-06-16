@@ -1,0 +1,39 @@
+2769546    2019-06-20 04:07:02    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+2769545    2019-06-20 04:07:02    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+2769399    2019-06-20 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+2769398    2019-06-20 04:01:00    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+2767954    2019-06-20 03:00:59    0x100F00310002    Event    Informational    --    None    Succeeded in deleting the key of application ISCSI_INI (application ID 7, key ID 1).
+N/A
+
+2767953    2019-06-20 03:00:58    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application ISCSI_INI (application ID 7, key ID 2).
+N/A
+
+2767950    2019-06-20 03:00:53    0x100F00310002    Event    Informational    --    None    Succeeded in deleting the key of application ISCSI_TGT (application ID 6, key ID 1).
+N/A
+
+2767949    2019-06-20 03:00:52    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application ISCSI_TGT (application ID 6, key ID 2).
+N/A
+
+2767946    2019-06-20 03:00:46    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_NDMP (application ID 4, key ID 2).
+N/A
+
+2767943    2019-06-20 03:00:40    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_LDAPS (application ID 3, key ID 2).
+N/A
+
+2767939    2019-06-20 03:00:35    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_AD (application ID 2, key ID 2).
+N/A
+
+2767935    2019-06-20 03:00:29    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_USER (application ID 1, key ID 2).
+N/A
+
+2767932    2019-06-20 03:00:23    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application KMM (application ID 0, key ID 2).
+N/A
+

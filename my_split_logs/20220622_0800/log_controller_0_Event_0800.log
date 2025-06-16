@@ -1,0 +1,54 @@
+41182830    2022-06-22 13:18:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 13:18:15, host: ID 10.
+N/A.
+
+41182829    2022-06-22 13:18:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 13:18:15, host: ID 10.
+N/A.
+
+41182819    2022-06-22 13:17:54    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 13:17:54, host: ID 10.
+N/A.
+
+41182734    2022-06-22 13:14:28    0x100F00D40001    Event    Major    --    None    Host FC initiator (Local port ID CTE0.A.H1, Remote port NportID 0x200e00, Remote port wwpn 0x100000109b2f6529) has the pure initiator attribute. In the process of setting up the connection, it does not send the PRLI to the array FC driver, so the connection cannot be established successfully.
+Step1 Isolate the host in the alarm and clear the alarm manually=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+41182717    2022-06-22 13:13:48    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 13:13:48, host: ID 10.
+N/A.
+
+41182699    2022-06-22 13:13:05    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 13:13:5, host: ID 10.
+N/A.
+
+41182691    2022-06-22 13:12:48    0x100F00D40001    Event    Major    --    None    Host FC initiator (Local port ID CTE0.B.H1, Remote port NportID 0x200e00, Remote port wwpn 0x100000109b2f6529) has the pure initiator attribute. In the process of setting up the connection, it does not send the PRLI to the array FC driver, so the connection cannot be established successfully.
+Step1 Isolate the host in the alarm and clear the alarm manually=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+41182688    2022-06-22 13:12:44    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 13:12:44, host: ID 10.
+N/A.
+
+41182687    2022-06-22 13:12:44    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 13:12:44, host: ID 10.
+N/A.
+
+41182686    2022-06-22 13:12:44    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 13:12:44, host: ID 10.
+N/A.
+
+41182410    2022-06-22 13:01:29    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 13:1:29, host: ID 10.
+N/A.
+
+41182409    2022-06-22 13:01:29    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 13:1:29, host: ID 10.
+N/A.
+
+41182408    2022-06-22 13:01:29    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 13:1:29, host: ID 10.
+N/A.
+
+41182407    2022-06-22 13:01:29    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 13:1:29, host: ID 10.
+N/A.
+
+41181925    2022-06-22 12:41:43    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 12:41:43, host: ID 10.
+N/A.
+
+41181918    2022-06-22 12:41:26    0x100F00D40001    Event    Major    --    None    Host FC initiator (Local port ID CTE0.A.H3, Remote port NportID 0x200e00, Remote port wwpn 0x100000109b2f6529) has the pure initiator attribute. In the process of setting up the connection, it does not send the PRLI to the array FC driver, so the connection cannot be established successfully.
+Step1 Isolate the host in the alarm and clear the alarm manually=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+41181914    2022-06-22 12:41:24    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6529) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 12:41:24, host: ID 10.
+N/A.
+

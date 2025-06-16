@@ -1,0 +1,23 @@
+log
+"271928    2019-04-03 10:23:18    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 10:23:18, host: ID 1."
+N/A.
+"271927    2019-04-03 10:23:18    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 10:23:18, host: ID 0."
+N/A.
+"271926    2019-04-03 10:23:18    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 10:23:18, host: ID 1."
+N/A.
+"271925    2019-04-03 10:23:18    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 10:23:18, host: ID 0."
+N/A.
+271924    2019-04-03 10:23:15    0x200F00C90045    Event    Informational    --    None    admin:10.33.34.2 started to power off the system.
+N/A
+271915    2019-04-03 10:22:58    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.2) succeeded.
+N/A
+"269799    2019-04-03 08:41:12    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"269798    2019-04-03 08:41:10    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+"269794    2019-04-03 08:41:00    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"269791    2019-04-03 08:40:57    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+"269783    2019-04-03 08:40:39    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A

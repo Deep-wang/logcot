@@ -1,0 +1,25 @@
+log
+75251614    2025-02-18 15:36:55    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+75250753    2025-02-18 15:01:33    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+75250622    2025-02-18 14:56:12    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+75250595    2025-02-18 14:55:09    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+75250466    2025-02-18 14:49:53    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+75250370    2025-02-18 14:45:56    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.228 succeeded in adding the LUN group (ID 23) to the mapping view (ID 11).
+N/A
+75250369    2025-02-18 14:45:56    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.228 succeeded in adding the host group (ID 17) to the mapping view (ID 11).
+N/A
+"75250368    2025-02-18 14:45:56    0x200F00F50014    Event    Informational    --    None    admin:10.33.36.228 succeeded in creating the mapping view (name 20250218ceshi , ID 11)."
+N/A
+75250277    2025-02-18 14:42:14    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.228 succeeded in adding the LUN (63) to the LUN group (ID 23).
+N/A
+75250276    2025-02-18 14:42:14    0x200F01000014    Event    Informational    --    None    admin:10.33.36.228 succeeded in creating the LUN group (name 20250218ceshi).
+N/A
+"75250239    2025-02-18 14:40:48    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.228 succeeded in creating the thick LUN (name 20250218ceshi, type thick, capacity 10GB, storage pool ID 1, ID 63, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0B, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453ec7051acf0000003f)."
+N/A.
+75249599    2025-02-18 14:14:30    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A

@@ -1,0 +1,98 @@
+20609405    2020-11-12 15:56:00    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 9) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+20609404    2020-11-12 15:56:00    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 9) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+20609403    2020-11-12 15:56:00    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 9) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+20609402    2020-11-12 15:56:00    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 9) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+20609377    2020-11-12 15:55:01    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 9) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+20609376    2020-11-12 15:55:01    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 9) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+20609375    2020-11-12 15:55:01    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 9) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+20609374    2020-11-12 15:55:01    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 9) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+20609238    2020-11-12 15:49:28    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6521) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 15:49:28, host: ID 9.
+N/A.
+
+20609237    2020-11-12 15:49:28    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6521) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 15:49:28, host: ID 9.
+N/A.
+
+20609236    2020-11-12 15:49:28    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6521) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 15:49:28, host: ID 9.
+N/A.
+
+20609235    2020-11-12 15:49:28    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6521) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 15:49:28, host: ID 9.
+N/A.
+
+20609233    2020-11-12 15:49:25    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6531) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 15:49:25, host: ID 9.
+N/A.
+
+20609232    2020-11-12 15:49:25    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6531) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 15:49:25, host: ID 9.
+N/A.
+
+20609231    2020-11-12 15:49:25    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6531) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 15:49:25, host: ID 9.
+N/A.
+
+20609230    2020-11-12 15:49:25    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6531) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 15:49:25, host: ID 9.
+N/A.
+
+20608722    2020-11-12 15:28:32    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6531) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 15:28:32, host: ID 9.
+N/A.
+
+20608721    2020-11-12 15:28:32    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6521) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 15:28:32, host: ID 9.
+N/A.
+
+20608720    2020-11-12 15:28:32    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6531) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 15:28:32, host: ID 9.
+N/A.
+
+20608719    2020-11-12 15:28:32    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6521) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 15:28:32, host: ID 9.
+N/A.
+
+20608718    2020-11-12 15:28:32    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6521) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 15:28:32, host: ID 9.
+N/A.
+
+20608717    2020-11-12 15:28:32    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6531) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 15:28:32, host: ID 9.
+N/A.
+
+20608716    2020-11-12 15:28:32    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6521) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 15:28:32, host: ID 9.
+N/A.
+
+20608715    2020-11-12 15:28:32    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6531) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 15:28:32, host: ID 9.
+N/A.
+
+20607741    2020-11-12 14:48:29    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+20606937    2020-11-12 14:15:27    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+20606455    2020-11-12 13:55:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 12) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+20606454    2020-11-12 13:55:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 12) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+20606392    2020-11-12 13:53:15    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 12) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+

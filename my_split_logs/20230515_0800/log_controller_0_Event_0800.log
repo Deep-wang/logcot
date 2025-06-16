@@ -1,0 +1,30 @@
+52646056    2023-05-15 15:39:42    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+52646055    2023-05-15 15:39:40    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+52645926    2023-05-15 15:34:24    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+52645176    2023-05-15 15:03:38    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+52645031    2023-05-15 14:57:42    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+52644592    2023-05-15 14:39:36    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+52644465    2023-05-15 14:34:24    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+52643243    2023-05-15 13:44:22    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+52643231    2023-05-15 13:43:56    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.36.225).The error code is 0x40403285.
+N/A
+
+52643130    2023-05-15 13:39:47    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.36.225).The error code is 0x40403285.
+N/A
+

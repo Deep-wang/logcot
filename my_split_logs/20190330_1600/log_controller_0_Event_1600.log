@@ -1,0 +1,844 @@
+170120    2019-03-30 23:39:46    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 0) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely.
+N/A
+
+167948    2019-03-30 21:36:59    0x100F00D20017    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 0) was charging.
+N/A
+
+167609    2019-03-30 21:18:13    0x100F0D20006    Event    Informational    --    None    BBU module (controller enclosure CTE0, BBU module PSU 0) has insufficient power. When a power failure occurs, the BBU module cannot provide sufficient power to save data.
+Step 1 Check whether the BBU module is faulty.
+    1.1 If yes, replace the BBU module. 
+    1.2 If no=>[step 2].
+Step 2 Wait until the BBU module is fully charged.
+
+167590    2019-03-30 21:17:11    0x100F00D20015    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 0) was in periodic discharge test.
+N/A
+
+167582    2019-03-30 21:16:41    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 1) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely.
+N/A
+
+167146    2019-03-30 20:50:51    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.20) succeeded.
+N/A
+
+166757    2019-03-30 20:29:51    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+
+166744    2019-03-30 20:28:54    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+166653    2019-03-30 20:23:29    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+166617    2019-03-30 20:20:44    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+166594    2019-03-30 20:19:10    0x1000010A0010    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) completed.
+N/A
+
+166583    2019-03-30 20:18:35    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+166582    2019-03-30 20:18:35    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+166566    2019-03-30 20:17:36    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+
+166565    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 24, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166564    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 24, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166563    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 21, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166562    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 21, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166561    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 23, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166560    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 23, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166559    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166558    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166557    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 22, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166556    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 22, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166555    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 17, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166554    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 17, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166553    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 16, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166552    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 16, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166551    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 19, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166550    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 19, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166549    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 18, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166548    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 18, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166547    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 15, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166546    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 15, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166545    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166544    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166543    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166542    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166541    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 12, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166540    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 12, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166539    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 9, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166538    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 9, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166537    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 11, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166536    2019-03-30 20:17:36    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 11, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166535    2019-03-30 20:17:36    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 8, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166534    2019-03-30 20:17:35    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 8, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166533    2019-03-30 20:17:35    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 10, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166532    2019-03-30 20:17:35    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 10, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166531    2019-03-30 20:17:35    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 6, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166530    2019-03-30 20:17:35    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 6, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166529    2019-03-30 20:17:35    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 5, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166528    2019-03-30 20:17:35    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 5, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166527    2019-03-30 20:17:35    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 4, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166526    2019-03-30 20:17:35    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 4, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166525    2019-03-30 20:17:35    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 7, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166524    2019-03-30 20:17:35    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 7, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166523    2019-03-30 20:17:35    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166522    2019-03-30 20:17:35    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166521    2019-03-30 20:17:35    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 1, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166520    2019-03-30 20:17:35    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 1, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166519    2019-03-30 20:17:35    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 3, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166518    2019-03-30 20:17:35    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 3, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166517    2019-03-30 20:17:35    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 0, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+166516    2019-03-30 20:17:35    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 0, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166512    2019-03-30 20:17:25    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 24, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+166510    2019-03-30 20:17:22    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 24, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166509    2019-03-30 20:17:22    0x10A0001    Fault    Major    Recovered    2019-03-30 20:17:25    Disk domain (name SAS, ID 7) degrades, and the service performance of hosts may decrease.
+Step1 Check whether alarms are generated indicating disk removal.
+    1.1 If yes, reinsert the removed disks. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether alarms are generated indicating disk faults.
+    2.1 If yes, replace faulty disks. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Collect all related information and contact technical support engineers.
+
+166508    2019-03-30 20:17:22    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 21, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+166507    2019-03-30 20:17:19    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 21, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166506    2019-03-30 20:17:19    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+166505    2019-03-30 20:17:18    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 24) is inserted.
+N/A
+
+166502    2019-03-30 20:17:17    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 20, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166501    2019-03-30 20:17:17    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 17, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+166500    2019-03-30 20:17:13    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 21) is inserted.
+N/A
+
+166499    2019-03-30 20:17:13    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 23) is inserted.
+N/A
+
+166498    2019-03-30 20:17:13    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 20) is inserted.
+N/A
+
+166496    2019-03-30 20:17:13    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 17, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166495    2019-03-30 20:17:13    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 16, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+166494    2019-03-30 20:17:11    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 16, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166493    2019-03-30 20:17:11    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 15, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+166492    2019-03-30 20:17:10    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 22) is inserted.
+N/A
+
+166491    2019-03-30 20:17:08    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 16) is inserted.
+N/A
+
+166490    2019-03-30 20:17:08    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 19) is inserted.
+N/A
+
+166489    2019-03-30 20:17:08    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 17) is inserted.
+N/A
+
+166487    2019-03-30 20:17:08    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 18) is inserted.
+N/A
+
+166486    2019-03-30 20:17:07    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 15, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166485    2019-03-30 20:17:07    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+166484    2019-03-30 20:17:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 13) is inserted.
+N/A
+
+166483    2019-03-30 20:17:03    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166482    2019-03-30 20:17:03    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 12, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+166481    2019-03-30 20:17:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 14) is inserted.
+N/A
+
+166479    2019-03-30 20:17:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 15) is inserted.
+N/A
+
+166478    2019-03-30 20:17:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 12) is inserted.
+N/A
+
+166477    2019-03-30 20:17:03    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 12, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166476    2019-03-30 20:17:03    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 9, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+166475    2019-03-30 20:16:59    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 9, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166474    2019-03-30 20:16:58    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 9) is inserted.
+N/A
+
+166473    2019-03-30 20:16:59    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 6, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+166472    2019-03-30 20:16:58    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 11) is inserted.
+N/A
+
+166471    2019-03-30 20:16:58    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 8) is inserted.
+N/A
+
+166470    2019-03-30 20:16:58    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 10) is inserted.
+N/A
+
+166468    2019-03-30 20:16:53    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 6, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166467    2019-03-30 20:16:53    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 5, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+166465    2019-03-30 20:16:53    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 6) is inserted.
+N/A
+
+166464    2019-03-30 20:16:53    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 5) is inserted.
+N/A
+
+166463    2019-03-30 20:16:53    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 4) is inserted.
+N/A
+
+166462    2019-03-30 20:16:53    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 7) is inserted.
+N/A
+
+166460    2019-03-30 20:16:51    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 5, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166459    2019-03-30 20:16:51    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+166458    2019-03-30 20:16:51    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 2) is inserted.
+N/A
+
+166457    2019-03-30 20:16:51    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 3) is inserted.
+N/A
+
+166456    2019-03-30 20:16:51    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 0) is inserted.
+N/A
+
+166455    2019-03-30 20:16:51    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 1) is inserted.
+N/A
+
+166452    2019-03-30 20:16:46    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 2, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166451    2019-03-30 20:16:46    0x1000010A000B    Event    Major    --    None    The disk (disk enclosure DAE030, slot ID 0, type SAS) in the disk domain (ID 7, name SAS) failed to reconstruct. The error code is --.
+Step1 Check whether alarms are generated indicating insufficient disk domain capacity.
+    1.1 If yes, add disks to the disk domain. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether alarms are generated indicating disk removal.
+    2.1 If yes, reinsert the removed disks. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Check whether alarms are generated indicating disk faults.
+    3.1 If yes, replace the faulty disks. If the alarm persists=>[Step4].
+    3.2 If no=>[Step4].
+Step4 Collect related information and contact technical support engineers.
+
+166447    2019-03-30 20:16:18    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE030) has been inserted.
+N/A
+
+166445    2019-03-30 20:16:16    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE030) has been inserted.
+N/A
+
+166442    2019-03-30 20:16:13    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE030, slot ID 0, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+166410    2019-03-30 20:14:20    0xF0060002    Fault    Major    Recovered    2019-03-30 20:16:22    SAS expansion port (controller enclosure CTE0, SAS interface module A.IOM0, port number P0) is disconnected.
+Step1 Check expansion cables.
+    1.1 If any expansion cable is removed, reinsert it. If the alarm persists=>[1.2].
+    1.2 Replace the expansion cable. If the alarm persists=>[Step2].
+Step2 Check whether alarms on offline disk enclosures are generated.
+    2.1 If yes, perform recommended actions to handle alarms. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Check whether alarms on the expansion module faults are generated.
+    3.1 If yes, replace the faulty expansion module. If the alarm persists=>[Step4].
+    3.2 If no=>[Step4].
+Step4 Collect all related information and contact technical support engineers.
+
+166407    2019-03-30 20:14:16    0xF0060002    Fault    Major    Recovered    2019-03-30 20:16:18    SAS expansion port (controller enclosure CTE0, SAS interface module B.IOM0, port number P0) is disconnected.
+Step1 Check expansion cables.
+    1.1 If any expansion cable is removed, reinsert it. If the alarm persists=>[1.2].
+    1.2 Replace the expansion cable. If the alarm persists=>[Step2].
+Step2 Check whether alarms on offline disk enclosures are generated.
+    2.1 If yes, perform recommended actions to handle alarms. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Check whether alarms on the expansion module faults are generated.
+    3.1 If yes, replace the faulty expansion module. If the alarm persists=>[Step4].
+    3.2 If no=>[Step4].
+Step4 Collect all related information and contact technical support engineers.
+
+166406    2019-03-30 20:14:13    0xF0CE0001    Fault    Critical    Recovered    2019-03-30 20:16:16    disk enclosure (ID DAE030, SN 2102351RHD9WK3800102) cannot be monitored.
+Step1 Check the disk enclosure.
+    1.1 If any power cable of the disk enclosure is not inserted, insert the power cable and power on the disk enclosure. If the alarm persists=>[1.2].
+    1.2 If any power module of the disk enclosure is faulty, replace the power module and power on the disk enclosure. If the alarm persists=>[Step2].
+    1.3 If all power supplies of the disk enclosure are normal=>[Step2].
+Step2 Check expansion cables.
+    2.1 If any expansion cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the expansion cable. If the alarm persists=>[Step3].
+Step3 Check whether any expansion module is removed.
+    3.1 If yes, reinsert the expansion module. If the alarm persists=>[Step4].
+    3.2 If no=>[Step4].
+Step4 Check whether alarms on expansion module faults are generated.
+    4.1 If yes, replace the faulty expansion modules. If the alarm persists=>[Step5].
+    4.2 If no=>[Step5].
+Step5 Collect all related information and contact technical support engineers.
+
+166404    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:16:53    Disk (disk enclosure DAE030, slot ID 4, type SAS, serial number WBM0X9960000K9284RB1) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166403    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:22    Disk (disk enclosure DAE030, slot ID 24, type SAS, serial number WBM0ZXWT0000K92705AZ) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166402    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:19    Disk (disk enclosure DAE030, slot ID 23, type SAS, serial number WBM0ZZXT0000K92813F0) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166401    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:17    Disk (disk enclosure DAE030, slot ID 22, type SAS, serial number WBM107G80000K927F594) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166400    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:19    Disk (disk enclosure DAE030, slot ID 21, type SAS, serial number WBM0ZA9W0000K9284PJ8) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166399    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:17    Disk (disk enclosure DAE030, slot ID 20, type SAS, serial number WBM0ZWYY0000K9284RPQ) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166397    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:11    Disk (disk enclosure DAE030, slot ID 19, type SAS, serial number WBM0WM130000K927EFZL) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166396    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:13    Disk (disk enclosure DAE030, slot ID 17, type SAS, serial number WBM10ABM0000K9284RXZ) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166395    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:11    Disk (disk enclosure DAE030, slot ID 18, type SAS, serial number WBM0ZXG10000K9284V0K) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166394    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:11    Disk (disk enclosure DAE030, slot ID 16, type SAS, serial number WBM0ZXZE0000K9271N9E) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166393    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:07    Disk (disk enclosure DAE030, slot ID 15, type SAS, serial number WBM0ZXP30000K9277SDV) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166392    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:03    Disk (disk enclosure DAE030, slot ID 14, type SAS, serial number WBM0ZZFZ0000K92814A6) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166391    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:03    Disk (disk enclosure DAE030, slot ID 13, type SAS, serial number WBM0ZXGL0000K9284UVQ) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166390    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:16:59    Disk (disk enclosure DAE030, slot ID 11, type SAS, serial number WBM0ZXS20000K9271R7H) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166389    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:17:03    Disk (disk enclosure DAE030, slot ID 12, type SAS, serial number WBM0ZZY10000K92813F1) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166388    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:16:59    Disk (disk enclosure DAE030, slot ID 8, type SAS, serial number WBM0ZYHK0000K9275072) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166387    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:16:59    Disk (disk enclosure DAE030, slot ID 10, type SAS, serial number WBM0Y4140000K92814A0) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166386    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:16:59    Disk (disk enclosure DAE030, slot ID 9, type SAS, serial number WBM0ZE8E0000K928A0A0) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166385    2019-03-30 20:14:12    0x10A0005    Fault    Major    Recovered    2019-03-30 20:17:11    The hot spare space of SAS disks in disk domain (name SAS, ID 7) on engine 0 does not meet the hot spare policy (High), because current hot spare capacity is 0GB, and the required hot spare capacity is 14791.67GB.
+Step1 Check whether any disk in the disk domain is removed.
+  1.1 If yes, reinsert the removed disks. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Check whether faulty disks exist in the disk domain.
+  2.1 If yes, replace the faulty disks. After the reconstruction of the faulty disk is completed, if the alarm persists=>[Step3].
+  2.2 If no=>[Step3].
+Step3 Check whether any disk is about to become faulty in the disk domain.
+  3.1 If yes, replace faulty disks after the pre-copy is completed. After the replacement, if the alarm persists=>[Step4].
+  3.2 If no=>[Step4].
+Step4 Check whether any disk with faulty flash memory chips exists within the disk domain.
+  4.1 If yes, use the CRU or FRU replacement tool to replace the disk. If the alarm persists=>[Step5].
+  4.2 If no=>[Step5].
+Step5 Add disks to the disk domain. After the disks are added, if the alarm persists=>[Step6].
+Step6 Collect all related information and contact technical support engineers.
+
+166384    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:16:53    Disk (disk enclosure DAE030, slot ID 7, type SAS, serial number WBM0ZYJ50000K927BR2T) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166383    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:16:53    Disk (disk enclosure DAE030, slot ID 6, type SAS, serial number WBM0WMZV0000K9261KS6) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166382    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:16:51    Disk (disk enclosure DAE030, slot ID 3, type SAS, serial number WBM0WMMC0000K927EF7X) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166381    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:16:51    Disk (disk enclosure DAE030, slot ID 1, type SAS, serial number WBM0WN340000K927EEP7) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166380    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:16:53    Disk (disk enclosure DAE030, slot ID 5, type SAS, serial number WBM100020000K92814KQ) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166379    2019-03-30 20:14:12    0x10A0002    Fault    Critical    Recovered    2019-03-30 20:17:22    Disk domain (name SAS, ID 7) is faulty, causing storage pools based on it to be faulty and LUNs within these storage pools to be faulty.
+Step1 Check whether alarms are generated indicating disk removal.
+    1.1 If yes, reinsert the removed disks. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether alarms are generated indicating disk faults.
+    2.1 If yes, replace the faulty disks. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Collect all related information and contact technical support engineers.
+
+166378    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:16:51    Disk (disk enclosure DAE030, slot ID 2, type SAS, serial number WBM0ZWYN0000K9284RTY) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166377    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 4, serial number WBM0X9960000K9284RB1) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166376    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 24, serial number WBM0ZXWT0000K92705AZ) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166375    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 23, serial number WBM0ZZXT0000K92813F0) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166374    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 22, serial number WBM107G80000K927F594) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166373    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 21, serial number WBM0ZA9W0000K9284PJ8) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166372    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 20, serial number WBM0ZWYY0000K9284RPQ) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166371    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 19, serial number WBM0WM130000K927EFZL) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166370    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 17, serial number WBM10ABM0000K9284RXZ) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166369    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 18, serial number WBM0ZXG10000K9284V0K) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166368    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 16, serial number WBM0ZXZE0000K9271N9E) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166367    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 15, serial number WBM0ZXP30000K9277SDV) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166366    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 14, serial number WBM0ZZFZ0000K92814A6) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166365    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 13, serial number WBM0ZXGL0000K9284UVQ) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166364    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 11, serial number WBM0ZXS20000K9271R7H) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166363    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 12, serial number WBM0ZZY10000K92813F1) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166362    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 8, serial number WBM0ZYHK0000K9275072) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166361    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 10, serial number WBM0Y4140000K92814A0) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166360    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 9, serial number WBM0ZE8E0000K928A0A0) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166359    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 7, serial number WBM0ZYJ50000K927BR2T) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166358    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 6, serial number WBM0WMZV0000K9261KS6) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166357    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 3, serial number WBM0WMMC0000K927EF7X) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166356    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 1, serial number WBM0WN340000K927EEP7) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166355    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 5, serial number WBM100020000K92814KQ) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166354    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 2, serial number WBM0ZWYN0000K9284RTY) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166353    2019-03-30 20:14:12    0x10A0008    Fault    Major    Recovered    2019-03-30 20:16:51    Disk (disk enclosure DAE030, slot ID 0, type SAS, serial number WBM1070M0000K927F3G7) is removed from disk domain (ID 7, name SAS).
+Step1 Reinsert the removed disk. If the alarm persists=>[Step2].    
+Step2 Collect all related information and contact technical support engineers.
+
+166352    2019-03-30 20:14:12    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE030, slot ID 0, serial number WBM1070M0000K927F3G7) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+166329    2019-03-30 20:12:20    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+166326    2019-03-30 20:12:10    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 20:12:10, host: ID 1.
+N/A.
+
+166325    2019-03-30 20:12:09    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 20:12:9, host: ID 0.
+N/A.
+
+166319    2019-03-30 20:11:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 20:11:35, host: ID 1.
+N/A.
+
+166318    2019-03-30 20:11:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 20:11:35, host: ID 0.
+N/A.
+
+166317    2019-03-30 20:11:35    0xF0060004    Fault    Major    Recovered    2019-03-30 20:12:12    FC host port (controller enclosure CTE0, -- controller A, port number H0) is disconnected.
+Step1 Check cable connections.
+1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]. 
+1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]. 
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4]. 
+1.4 If no exceptions are detected=>[Step3]. 
+Step2 Check whether optical modules of the peer port are damaged. 
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2]. 
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3]. 
+Step3 Check the port configuration. 
+3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]. 
+3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]. 
+Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]. 
+Step5 Contact technical support engineers.
+
+166314    2019-03-30 20:11:25    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 20:11:25, host: ID 1.
+N/A.
+
+166313    2019-03-30 20:11:24    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 20:11:24, host: ID 0.
+N/A.
+
+166304    2019-03-30 20:10:36    0xF0060004    Fault    Major    Recovered    2019-03-30 20:11:25    FC host port (controller enclosure CTE0, -- controller A, port number H0) is disconnected.
+Step1 Check cable connections.
+1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]. 
+1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]. 
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4]. 
+1.4 If no exceptions are detected=>[Step3]. 
+Step2 Check whether optical modules of the peer port are damaged. 
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2]. 
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3]. 
+Step3 Check the port configuration. 
+3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]. 
+3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]. 
+Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]. 
+Step5 Contact technical support engineers.
+
+166301    2019-03-30 20:10:30    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 20:10:30, host: ID 1.
+N/A.
+
+166300    2019-03-30 20:10:30    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 20:10:30, host: ID 0.
+N/A.
+
+166286    2019-03-30 20:09:55    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+166285    2019-03-30 20:09:55    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+166282    2019-03-30 20:09:53    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+166253    2019-03-30 20:08:03    0xF00CE002A    Fault    Major    Recovered    2019-03-30 20:08:09    Disk Enclosure(ID DAE010, expansion module B, SN 2102351RHD9WK3800097) is in single-link state.
+Step1 Locate the disk enclosure based on the user disk enclosure ID in the equipment room. Then, check expansion cables and expansion modules.
+    1.1 If any expansion cable or expansion module is removed, reinsert it. If the alarm persists=>[1.2].
+    1.2 Replace the expansion cables. If the alarm persists=>[1.3].
+    1.3 Replace the expansion modules. If the alarm persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+166239    2019-03-30 20:07:07    0xF0060002    Fault    Major    Recovered    2019-03-30 20:08:12    SAS expansion port (disk enclosure DAE011, 12G BackBoard expansion module B, port number P1) is disconnected.
+Step1 Check expansion cables.
+    1.1 If any expansion cable is removed, reinsert it. If the alarm persists=>[1.2].
+    1.2 Replace the expansion cable. If the alarm persists=>[Step2].
+Step2 Check whether alarms on offline disk enclosures are generated.
+    2.1 If yes, perform recommended actions to handle alarms. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Check whether alarms on the expansion module faults are generated.
+    3.1 If yes, replace the faulty expansion module. If the alarm persists=>[Step4].
+    3.2 If no=>[Step4].
+Step4 Collect all related information and contact technical support engineers.
+
+166227    2019-03-30 20:06:28    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+166207    2019-03-30 20:05:14    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 20:5:14, host: ID 1.
+N/A.
+
+166206    2019-03-30 20:05:14    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 20:5:14, host: ID 0.
+N/A.
+
+166203    2019-03-30 20:05:09    0x100F0C90064    Event    Informational    --    None    The Engine 0 has restored to work in dual-controller mode.
+N/A
+
+166202    2019-03-30 20:05:08    0x100F00CF0027    Event    Major    --    None    Controller (engine ENG0, controller B) restarts or powers on successfully. Error code: 0x404033DB.
+Step1 Check whether the controller is manually powered off or restarted.
+1.1 If yes, ignore this fault.
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+166201    2019-03-30 20:05:08    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+166200    2019-03-30 20:05:03    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller B, port number MGMT) has been disconnected.
+N/A
+
+166198    2019-03-30 20:05:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+166195    2019-03-30 20:04:47    0x200F00CE001E    Event    Informational    --    None    admin:10.33.34.20 succeeded in setting the enclosure location indicator (controller enclosure CTE0, state off).
+N/A
+
+166190    2019-03-30 20:04:22    0x200F00CE001E    Event    Informational    --    None    admin:10.33.34.20 succeeded in setting the enclosure location indicator (controller enclosure CTE0, state on).
+N/A
+
+166182    2019-03-30 20:03:31    0xF00170019    Fault    Major    Recovered    2019-03-30 20:03:44    Power module (Controller Enclosure CTE0, power module PSU 0, item 02310TBR, SN 2102310TBRHVK2000133) is faulty. Error code: --.
+Step1 Check whether the power cable is securely connected. If not, reinsert the power cable. If the alarm persists=>[Step2].
+Step2 Replace the power module. If the alarm persists=>[Step3].
+Step3 Collect related information and contact technical support engineers.
+
+166180    2019-03-30 20:03:20    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+166171    2019-03-30 20:02:40    0xF00170014    Fault    Major    Recovered    2019-03-30 20:03:31    No power is input to power module (controller enclosure CTE0, power module PSU 0).
+Step1 Check whether power cables are connected correctly.
+    1.1 If yes=>[Step2].
+    1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2].
+Step2 Check power cables.
+    2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+    3.1 If yes=>[Step4].
+    3.2 If no, reinsert the power module. If the alarm persists=>[Step4].
+Step4 Check whether any external power is input to the power module.
+    4.1 If yes=>[Step5].
+    4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5].
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+
+166141    2019-03-30 19:58:53    0x100F0D20006    Event    Informational    --    None    BBU module (controller enclosure CTE0, BBU module PSU 0) has insufficient power. When a power failure occurs, the BBU module cannot provide sufficient power to save data.
+Step 1 Check whether the BBU module is faulty.
+    1.1 If yes, replace the BBU module. 
+    1.2 If no=>[step 2].
+Step 2 Wait until the BBU module is fully charged.
+
+166139    2019-03-30 19:58:44    0xF0CF0006    Fault    Major    Recovered    2019-03-30 20:00:21    Controller (id B) in enclosure (Controller Enclosure CTE0) is removed.
+Step1 Check whether the controller is removed.
+    1.1 If yes, reinsert the controller. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether the controller is firmly inserted.
+    2.1 If no, reinsert the controller correctly. If the alarm persists=>[Step3].
+    2.2 If yes=>[Step3].
+Step3 Collect related information and contact technical support engineers.
+
+166137    2019-03-30 19:58:35    0x100F00CF003D    Fault    Warning    Recovered    2019-03-30 19:58:41    An exception of controller (0){0:controller enclosure; 1:disk enclosure; 2: engine}CTE0, controller A) is being processed. The controller and the interface module connected to it cannot carry services temporarily. Before clearing the alarm, do not operate the device.
+The system detects a controller exception and is experiencing self-healing. Wait until the system self-healing completes.
+
+166135    2019-03-30 19:58:35    0x100F0C90065    Event    Major    --    None    The controller (Controller Enclosure CTE0, controller A) is working in single-controller mode.
+Collect related information and contact technical support engineers.
+
+166134    2019-03-30 19:58:35    0xF00CF007E    Fault    Warning    Recovered    2019-03-30 20:05:19    Controller (Controller Enclosure CTE0, controller B) is being repaired for an inner fault. Error code: --.
+Wait about 30 minutes till the controller recovers to normal.
+
+166133    2019-03-30 19:58:35    0x100F00CF0040    Event    Warning    --    None    Controller (Controller Enclosure CTE0, controller B) is being repaired for an inner fault. Error code: --.
+Wait about 30 minutes till the controller recovers to normal.
+
+166053    2019-03-30 19:54:29    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.20) succeeded.
+N/A
+
+165977    2019-03-30 19:50:41    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+
+165976    2019-03-30 19:50:39    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+165973    2019-03-30 19:50:31    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+165971    2019-03-30 19:50:26    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+165970    2019-03-30 19:50:23    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+
+165967    2019-03-30 19:50:16    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+165884    2019-03-30 19:45:57    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+
+165846    2019-03-30 19:43:43    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 19:43:43, host: ID 1.
+N/A.
+
+165845    2019-03-30 19:43:43    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 19:43:43, host: ID 1.
+N/A.
+
+165388    2019-03-30 19:16:10    0x100F00D20017    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 1) was charging.
+N/A
+
+165074    2019-03-30 18:57:15    0x100F0D20006    Event    Informational    --    None    BBU module (controller enclosure CTE0, BBU module PSU 1) has insufficient power. When a power failure occurs, the BBU module cannot provide sufficient power to save data.
+Step 1 Check whether the BBU module is faulty.
+    1.1 If yes, replace the BBU module. 
+    1.2 If no=>[step 2].
+Step 2 Wait until the BBU module is fully charged.
+
+165053    2019-03-30 18:56:08    0x100F00D20015    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 1) was in periodic discharge test.
+N/A
+
+164786    2019-03-30 18:41:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 18:41:35, host: ID 1.
+N/A.
+
+164785    2019-03-30 18:41:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 18:41:35, host: ID 1.
+N/A.
+
+161622    2019-03-30 16:18:55    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+166205    2019-03-30 20:05:11    0x50000004    Diagnose code    Informational    --        In module 252 of node 1, diagnostic point 61 diagnosed that the LOGZONE node is faulty.
+N/A
+
+166136    2019-03-30 19:58:35    0xF0000106    Diagnose code    Informational    --        In module 730 on node 0, diagnose point 12 detects that the peer controller resets, with fault bitmap 0100.
+N/A
+

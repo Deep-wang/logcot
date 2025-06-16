@@ -1,0 +1,33 @@
+log
+"37958305    2022-03-22 13:26:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da977) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:26:22, host: ID 13."
+N/A.
+"37958304    2022-03-22 13:26:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da977) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 13:26:22, host: ID 13."
+N/A.
+"37958303    2022-03-22 13:26:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da8eb) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 13:26:22, host: ID 13."
+N/A.
+"37958302    2022-03-22 13:26:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da8eb) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 13:26:22, host: ID 13."
+N/A.
+"37958301    2022-03-22 13:26:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da977) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 13:26:22, host: ID 13."
+N/A.
+"37958300    2022-03-22 13:26:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da977) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 13:26:22, host: ID 13."
+N/A.
+"37958299    2022-03-22 13:26:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da8eb) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 13:26:22, host: ID 13."
+N/A.
+"37958298    2022-03-22 13:26:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da8eb) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 13:26:22, host: ID 13."
+N/A.
+"37958273    2022-03-22 13:25:20    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da97b) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 13:25:20, host: ID 12."
+N/A.
+"37958272    2022-03-22 13:25:20    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da8ed) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 13:25:20, host: ID 12."
+N/A.
+"37958271    2022-03-22 13:25:20    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da8ed) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 13:25:20, host: ID 12."
+N/A.
+"37958270    2022-03-22 13:25:20    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da97b) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 13:25:20, host: ID 12."
+N/A.
+"37958269    2022-03-22 13:25:20    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da97b) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 13:25:20, host: ID 12."
+N/A.
+"37958268    2022-03-22 13:25:20    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da8ed) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:25:20, host: ID 12."
+N/A.
+"37958267    2022-03-22 13:25:20    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da8ed) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 13:25:20, host: ID 12."
+N/A.
+"37958266    2022-03-22 13:25:20    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1da97b) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 13:25:20, host: ID 12."
+N/A.

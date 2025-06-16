@@ -1,0 +1,24 @@
+66161823    2024-06-04 07:29:53    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE040, slot ID 7, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+66161821    2024-06-04 07:29:52    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE040, slot ID 7, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+66161816    2024-06-04 07:29:42    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE040, slot ID 7) completed. The check result is successfully.
+N/A
+
+66161808    2024-06-04 07:29:23    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE040, slot ID 7) started. Check type: 0x6673736563637573.
+N/A
+
+66156897    2024-06-04 04:07:25    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+66156896    2024-06-04 04:07:25    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+66156738    2024-06-04 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+66156737    2024-06-04 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+

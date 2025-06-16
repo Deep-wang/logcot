@@ -1,0 +1,95 @@
+log
+14375955    2020-05-18 15:13:00    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+14375780    2020-05-18 15:05:52    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+14375643    2020-05-18 15:00:16    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+14375020    2020-05-18 14:34:27    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN group (ID 13) to the mapping view (ID 14).
+N/A
+14375019    2020-05-18 14:34:27    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host group (ID 13) to the mapping view (ID 14).
+N/A
+"14375018    2020-05-18 14:34:27    0x200F00F50014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the mapping view (name yingyongku02-3T , ID 14)."
+N/A
+14375006    2020-05-18 14:34:00    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN group (ID 12) to the mapping view (ID 13).
+N/A
+14375005    2020-05-18 14:34:00    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host group (ID 12) to the mapping view (ID 13).
+N/A
+"14375004    2020-05-18 14:34:00    0x200F00F50014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the mapping view (name yingyongku01-3T , ID 13)."
+N/A
+14374984    2020-05-18 14:33:15    0x200F000E001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host(5) to the host group (ID 13).
+N/A
+14374976    2020-05-18 14:32:57    0x200F000E001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host(4) to the host group (ID 12).
+N/A
+"14374966    2020-05-18 14:32:34    0x200F00F5001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the mapping view (name yingyongku02-3T , ID 14)."
+N/A
+14374965    2020-05-18 14:32:34    0x200F00F50029    Event    Informational    --    None    admin:10.33.36.225 succeeded in removing the LUN group (ID 13) from the mapping view (ID 14).
+N/A
+14374964    2020-05-18 14:32:34    0x200F00F50041    Event    Informational    --    None    admin:10.33.36.225 succeeded in removing the host group (ID 13) from the mapping view (ID 14).
+N/A
+"14374960    2020-05-18 14:32:27    0x200F00F5001A    Event    Informational    --    None    admin:10.33.36.225 succeeded in deleting the mapping view (name yingyongku01-3T , ID 13)."
+N/A
+14374959    2020-05-18 14:32:27    0x200F00F50029    Event    Informational    --    None    admin:10.33.36.225 succeeded in removing the LUN group (ID 12) from the mapping view (ID 13).
+N/A
+14374958    2020-05-18 14:32:27    0x200F00F50041    Event    Informational    --    None    admin:10.33.36.225 succeeded in removing the host group (ID 12) from the mapping view (ID 13).
+N/A
+14374917    2020-05-18 14:30:50    0x200F000E001E    Event    Informational    --    None    admin:10.33.36.225 failed to add the host (4) to the host group (ID 12).The error code is 0x40000e03.
+N/A
+14374899    2020-05-18 14:30:05    0x200F000E001E    Event    Informational    --    None    admin:10.33.36.225 failed to add the host (4) to the host group (ID 12).The error code is 0x40000e03.
+N/A
+14374843    2020-05-18 14:27:50    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+14374702    2020-05-18 14:22:00    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+14374510    2020-05-18 14:14:06    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN group (ID 13) to the mapping view (ID 14).
+N/A
+14374508    2020-05-18 14:14:06    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host group (ID 13) to the mapping view (ID 14).
+N/A
+"14374507    2020-05-18 14:14:06    0x200F00F50014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the mapping view (name yingyongku02-3T , ID 14)."
+N/A
+14374498    2020-05-18 14:13:44    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN group (ID 12) to the mapping view (ID 13).
+N/A
+14374497    2020-05-18 14:13:43    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host group (ID 12) to the mapping view (ID 13).
+N/A
+"14374496    2020-05-18 14:13:43    0x200F00F50014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the mapping view (name yingyongku01-3T , ID 13)."
+N/A
+14374447    2020-05-18 14:11:47    0x200F000E0014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the host group (name yingyongku02-3T).
+N/A
+14374441    2020-05-18 14:11:36    0x200F000E0014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the host group (name yingyongku01-3T).
+N/A
+14374161    2020-05-18 14:00:04    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN (38) to the LUN group (ID 12).
+N/A
+14374154    2020-05-18 13:59:49    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN (39) to the LUN group (ID 13).
+N/A
+14374153    2020-05-18 13:59:49    0x200F01000014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the LUN group (name yingyongku02Group).
+N/A
+14374138    2020-05-18 13:59:15    0x200F01000014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the LUN group (name yingyongku01Group).
+N/A
+"14374079    2020-05-18 13:56:48    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the thick LUN (name yingyongku02-3T, type thick, capacity 3TB, storage pool ID 1, ID 39, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0B, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e0aa7fd8000000027)."
+N/A.
+14374068    2020-05-18 13:56:23    0x200F000B0022    Event    Informational    --    None    admin:10.33.36.225 succeeded in modifying the name of the LUN (ID 38) to yingyongku01-3T.
+N/A
+"14374043    2020-05-18 13:55:24    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the thick LUN (name yingyongku-3T-1, type thick, capacity 3TB, storage pool ID 1, ID 38, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0A, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e0aa7ab7500000026)."
+N/A.
+14373870    2020-05-18 13:48:15    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+14371158    2020-05-18 11:56:18    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+14370461    2020-05-18 11:27:39    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+14370321    2020-05-18 11:21:57    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+14369228    2020-05-18 10:37:02    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+14369222    2020-05-18 10:36:48    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+14368995    2020-05-18 10:27:35    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+14368858    2020-05-18 10:21:57    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+14368463    2020-05-18 10:05:46    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+14368454    2020-05-18 10:05:23    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.36.225).The error code is 0x40403285.
+N/A
+14368450    2020-05-18 10:05:16    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.36.225).The error code is 0x40403285.
+N/A

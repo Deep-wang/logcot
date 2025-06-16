@@ -1,0 +1,21 @@
+log
+48575974    2023-01-19 11:54:09    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+48575070    2023-01-19 11:17:01    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+48574944    2023-01-19 11:11:54    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"48574298    2023-01-19 10:45:21    0x100F00310004    Event    Informational    --    None    The replacement of disk (controller enclosure CTE0, slot ID 13, type SAS) in disk domain (ID 7, name SAS) is completed."
+N/A
+"48574297    2023-01-19 10:45:21    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started."
+N/A
+"48574296    2023-01-19 10:45:21    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 13) is inserted."
+N/A
+"48574210    2023-01-19 10:41:51    0x200F000A003F    Event    Informational    --    None    admin:10.33.36.225 failed to set the disk location indicator (controller enclosure CTE0, slot ID 13, state on).The error code is 0x40400281."
+N/A
+48573755    2023-01-19 10:23:09    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+48571367    2023-01-19 08:45:18    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+48570611    2023-01-19 08:14:16    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A

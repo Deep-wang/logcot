@@ -1,0 +1,78 @@
+17145857    2020-08-05 20:00:34    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+17145452    2020-08-05 19:44:00    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+17145316    2020-08-05 19:38:29    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+17144839    2020-08-05 19:18:52    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN group (ID 17) to the mapping view (ID 18).
+N/A
+
+17144838    2020-08-05 19:18:52    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host group (ID 17) to the mapping view (ID 18).
+N/A
+
+17144837    2020-08-05 19:18:52    0x200F00F50014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the mapping view (name His02-5T , ID 18).
+N/A
+
+17144810    2020-08-05 19:17:46    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN (48) to the LUN group (ID 17).
+N/A
+
+17144809    2020-08-05 19:17:46    0x200F01000014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the LUN group (name His02group).
+N/A
+
+17144792    2020-08-05 19:17:06    0x200F01000020    Event    Informational    --    None    admin:10.33.36.225 succeeded in removing the LUN (48) from the LUN group (ID 0).
+N/A
+
+17144767    2020-08-05 19:16:07    0x200F000E001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host(1) to the host group (ID 17).
+N/A
+
+17144766    2020-08-05 19:16:07    0x200F000E0014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the host group (name His02).
+N/A
+
+17144594    2020-08-05 19:09:00    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+17144142    2020-08-05 18:50:24    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+17143983    2020-08-05 18:43:56    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+17143850    2020-08-05 18:38:29    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+17143241    2020-08-05 18:13:28    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+17143023    2020-08-05 18:04:36    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+17142515    2020-08-05 17:43:52    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+17142386    2020-08-05 17:38:29    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+17142265    2020-08-05 17:33:34    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+17142260    2020-08-05 17:33:25    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.36.225).The error code is 0x40403285.
+N/A
+
+17141544    2020-08-05 17:03:59    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+17141051    2020-08-05 16:43:49    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+17140920    2020-08-05 16:38:28    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+17140784    2020-08-05 16:32:53    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN (48) to the LUN group (ID 0).
+N/A
+
+17140773    2020-08-05 16:32:28    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the thick LUN (name zjk-9.21-add-5T, type thick, capacity 5TB, storage pool ID 1, ID 48, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0A, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e7081495a00000030).
+N/A.
+

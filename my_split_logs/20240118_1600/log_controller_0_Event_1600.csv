@@ -1,0 +1,113 @@
+log
+61338550    2024-01-18 16:45:56    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338549    2024-01-18 16:45:56    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338548    2024-01-18 16:45:56    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338547    2024-01-18 16:45:56    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338546    2024-01-18 16:45:56    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338545    2024-01-18 16:45:56    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338544    2024-01-18 16:45:56    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338543    2024-01-18 16:45:56    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338507    2024-01-18 16:44:31    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338506    2024-01-18 16:44:31    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338505    2024-01-18 16:44:31    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338504    2024-01-18 16:44:31    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338503    2024-01-18 16:44:31    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338502    2024-01-18 16:44:31    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338501    2024-01-18 16:44:31    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+61338500    2024-01-18 16:44:31    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"61338397    2024-01-18 16:40:15    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 16:40:15, host: ID 1."
+N/A.
+"61338396    2024-01-18 16:40:15    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 16:40:15, host: ID 1."
+N/A.
+"61338395    2024-01-18 16:40:15    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 16:40:15, host: ID 1."
+N/A.
+"61338394    2024-01-18 16:40:15    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 16:40:15, host: ID 1."
+N/A.
+"61338391    2024-01-18 16:40:13    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 16:40:13, host: ID 1."
+N/A.
+"61338390    2024-01-18 16:40:13    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 16:40:13, host: ID 1."
+N/A.
+"61338389    2024-01-18 16:40:12    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 16:40:12, host: ID 1."
+N/A.
+"61338388    2024-01-18 16:40:12    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 16:40:12, host: ID 1."
+N/A.
+"61338381    2024-01-18 16:39:56    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 16:39:56, host: ID 0."
+N/A.
+"61338380    2024-01-18 16:39:56    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 16:39:56, host: ID 0."
+N/A.
+"61338379    2024-01-18 16:39:56    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 16:39:56, host: ID 0."
+N/A.
+"61338378    2024-01-18 16:39:56    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 16:39:56, host: ID 0."
+N/A.
+"61338375    2024-01-18 16:39:54    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 16:39:54, host: ID 0."
+N/A.
+"61338374    2024-01-18 16:39:54    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 16:39:54, host: ID 0."
+N/A.
+"61338373    2024-01-18 16:39:54    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 16:39:54, host: ID 0."
+N/A.
+"61338372    2024-01-18 16:39:54    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 16:39:54, host: ID 0."
+N/A.
+"61338243    2024-01-18 16:34:31    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 16:34:31, host: ID 0."
+N/A.
+"61338242    2024-01-18 16:34:31    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 16:34:31, host: ID 0."
+N/A.
+"61338241    2024-01-18 16:34:31    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 16:34:31, host: ID 0."
+N/A.
+"61338240    2024-01-18 16:34:31    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 16:34:31, host: ID 0."
+N/A.
+"61338239    2024-01-18 16:34:31    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 16:34:31, host: ID 0."
+N/A.
+"61338238    2024-01-18 16:34:31    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 16:34:31, host: ID 0."
+N/A.
+"61338237    2024-01-18 16:34:31    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 16:34:31, host: ID 0."
+N/A.
+"61338236    2024-01-18 16:34:31    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 16:34:31, host: ID 0."
+N/A.
+"61338233    2024-01-18 16:34:26    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 16:34:26, host: ID 1."
+N/A.
+"61338232    2024-01-18 16:34:26    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 16:34:26, host: ID 1."
+N/A.
+"61338231    2024-01-18 16:34:26    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 16:34:26, host: ID 1."
+N/A.
+"61338230    2024-01-18 16:34:26    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 16:34:26, host: ID 1."
+N/A.
+"61338229    2024-01-18 16:34:26    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 16:34:26, host: ID 1."
+N/A.
+"61338228    2024-01-18 16:34:26    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 16:34:26, host: ID 1."
+N/A.
+"61338227    2024-01-18 16:34:26    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 16:34:26, host: ID 1."
+N/A.
+"61338226    2024-01-18 16:34:26    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 16:34:26, host: ID 1."
+N/A.

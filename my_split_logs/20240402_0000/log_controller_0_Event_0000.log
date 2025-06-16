@@ -1,0 +1,54 @@
+63953823    2024-04-02 07:40:39    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.36.225).The error code is 0x40403285.
+N/A
+
+63953641    2024-04-02 07:33:13    0x100F00310004    Event    Informational    --    None    The replacement of disk (disk enclosure DAE020, slot ID 12, type SAS) in disk domain (ID 7, name SAS) is completed.
+N/A
+
+63953640    2024-04-02 07:33:13    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+
+63953639    2024-04-02 07:33:13    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 12) is inserted.
+N/A
+
+63949669    2024-04-02 04:50:16    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 1) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely.
+N/A
+
+63948629    2024-04-02 04:07:30    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+63948628    2024-04-02 04:07:30    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+63948468    2024-04-02 04:01:02    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+63948466    2024-04-02 04:01:00    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+63946093    2024-04-02 02:23:28    0x100F00D20017    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 1) was charging.
+N/A
+
+63945690    2024-04-02 02:07:00    0x100F0D20006    Event    Informational    --    None    BBU module (controller enclosure CTE0, BBU module PSU 1) has insufficient power. When a power failure occurs, the BBU module cannot provide sufficient power to save data.
+Step 1 Check whether the BBU module is faulty.
+    1.1 If yes, replace the BBU module. 
+    1.2 If no=>[step 2].
+Step 2 Wait until the BBU module is fully charged.
+
+63945653    2024-04-02 02:05:33    0x100F00D20015    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 1) was in periodic discharge test.
+N/A
+
+63945651    2024-04-02 02:05:33    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 0) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely.
+N/A
+
+63943034    2024-04-02 00:18:04    0x100F00D20017    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 0) was charging.
+N/A
+
+63942635    2024-04-02 00:01:43    0x100F0D20006    Event    Informational    --    None    BBU module (controller enclosure CTE0, BBU module PSU 0) has insufficient power. When a power failure occurs, the BBU module cannot provide sufficient power to save data.
+Step 1 Check whether the BBU module is faulty.
+    1.1 If yes, replace the BBU module. 
+    1.2 If no=>[step 2].
+Step 2 Wait until the BBU module is fully charged.
+
+63942596    2024-04-02 00:00:15    0x100F00D20015    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 0) was in periodic discharge test.
+N/A
+

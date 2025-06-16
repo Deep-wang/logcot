@@ -1,0 +1,15 @@
+log
+61469967    2024-01-22 10:46:22    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+61469458    2024-01-22 10:25:36    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+61469332    2024-01-22 10:20:29    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+61469232    2024-01-22 10:16:20    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+"61469175    2024-01-22 10:14:02    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started."
+N/A
+"61469174    2024-01-22 10:14:02    0x100F00310004    Event    Informational    --    None    The replacement of disk (disk enclosure DAE020, slot ID 24, type SAS) in disk domain (ID 7, name SAS) is completed."
+N/A
+"61469173    2024-01-22 10:14:02    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 24) is inserted."
+N/A

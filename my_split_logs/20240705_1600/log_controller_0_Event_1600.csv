@@ -1,0 +1,27 @@
+log
+"67261865    2024-07-05 16:22:33    0xF000A0015    Fault    Major    Recovered    2024-07-16 12:55:28    The system failed to monitor disk (disk enclosure DAE050, slot ID 22). Error code:0x40400293."
+Step1 Check whether alarms are generated indicating disk faults.
+"1.1 If yes, replace the faulty disks. If alarm The System Failed to Monitor a Disk persists=>[Step2]."
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"67261864    2024-07-05 16:22:33    0x200F000A005B    Fault    Major    Recovered    2024-07-16 12:55:28    Disk (Disk Enclosure DAE050, controller 0B, slot 22, serial number --) is isolated."
+Step1 Check whether an alarm is generated indicating disk faults.
+"1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2]."
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"67261853    2024-07-05 16:22:09    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE050, slot ID 22, serial number WBM1063T0000K927F5N3) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance."
+Reinsert the disk.
+"67261842    2024-07-05 16:21:45    0x200F000A005B    Fault    Major    Recovered    2024-07-16 12:55:06    Disk (Disk Enclosure DAE050, controller 0A, slot 22, serial number --) is isolated."
+Step1 Check whether an alarm is generated indicating disk faults.
+"1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2]."
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"67261832    2024-07-05 16:21:21    0x1000010A000D    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE050, slot ID 22, type SAS) in the disk domain (ID 7, name SAS) completed."
+N/A
+"67261378    2024-07-05 16:02:44    0x1000010A000C    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE050, slot ID 22, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain."
+N/A
+"67261377    2024-07-05 16:02:44    0xF000A011E    Fault    Major    Recovered    2024-07-16 12:55:28    Disk (Disk Enclosure DAE050, slot 22, serial number WBM1063T0000K927F5N3, item 02351SGF, BarCode 2102351SGF9WK3800236) is about to fail. Error code:0x40000a4e."
+Step1 Check whether it is a member disk.
+"1.1 If yes, pre-copy the disk, and replace the disk after a message is displayed indicating that the precopy succeeds. If the alarm persists=>[Step2]."
+"1.2 If no, replace the disk. If the alarm persists=>[Step2]."
+Step2 Collect related information and contact technical support engineers.

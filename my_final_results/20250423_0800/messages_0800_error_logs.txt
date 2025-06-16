@@ -1,0 +1,49 @@
+=== messages_0800 异常日志 ===
+文件路径: ./my_split_logs/20250423_0800/messages_0800.csv
+异常日志数量: 44
+生成时间: 2025-06-16 15:14:09
+
+1. Apr 23 15:41:01 czp-db1 linx[366433]:  15:41:01 up 1730 days, 18:15,  8 users,  load average: 1852.30, 1852.23, 1768.48
+2. Apr 23 15:06:01 czp-db1 linx[319988]:  15:06:01 up 1730 days, 17:40,  6 users,  load average: 1852.27, 1714.26, 1052.92
+3. Apr 23 15:59:42 czp-db1 ntpd[7872]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+4. Apr 23 15:00:01 czp-db1 /usr/sbin/cron[311963]: (dmdba) MAIL (mailed 166 bytes of output but got status 0x004b )
+5. Apr 23 15:25:01 czp-db1 linx[345251]: Swap:        61034          0      61034
+6. Apr 23 15:24:01 czp-db1 linx[343923]:  15:24:01 up 1730 days, 17:58,  7 users,  load average: 1851.95, 1848.22, 1602.25
+7. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sda, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sda' to turn on SMART features
+8. Apr 23 15:53:01 czp-db1 linx[382998]:  15:53:01 up 1730 days, 18:27,  8 users,  load average: 1855.12, 1854.44, 1814.97
+9. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sdb, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sdb' to turn on SMART features
+10. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sdn, opened
+11. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sdl, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sdl' to turn on SMART features
+12. Apr 23 15:11:01 czp-db1 linx[326625]:                          32M     533     32M    1% /dbarch
+13. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sdi, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sdi' to turn on SMART features
+14. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sdg, opened
+15. Apr 23 15:59:42 czp-db1 mount: LINX mount,spec:fusectl,node:/sys/fs/fuse/connections,type:fusectl,opt:(null),freq:0,pass:0,ro:0
+16. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sdo, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sdo' to turn on SMART features
+17. Apr 23 15:45:01 czp-db1 /usr/sbin/cron[372481]: (dmdba) MAIL (mailed 166 bytes of output but got status 0x004b )
+18. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sdn, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sdn' to turn on SMART features
+19. Apr 23 15:59:42 czp-db1 ntpd[7868]: ----------------------------------------------------
+20. Apr 23 14:43:31 czp-db1 multipathd: sdh: remove path (uevent)
+21. Apr 23 15:59:09 czp-db1 syslogd 1.5.0: restart (remote reception).
+22. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sdf, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sdf' to turn on SMART features
+23. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sdg, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sdg' to turn on SMART features
+24. Apr 23 15:43:01 czp-db1 linx[369799]:  15:43:01 up 1730 days, 18:17,  9 users,  load average: 1852.23, 1852.19, 1779.01
+25. Apr 23 15:29:01 czp-db1 linx[350554]:  15:29:01 up 1730 days, 18:03,  7 users,  load average: 1851.76, 1850.50, 1671.16
+26. Apr 23 15:59:41 czp-db1 smartd[7262]: Unable to monitor any SMART enabled devices. Try debug (-d) option. Exiting...
+27. Apr 23 15:15:01 czp-db1 /usr/sbin/cron[331885]: (dmdba) MAIL (mailed 166 bytes of output but got status 0x004b )
+28. Apr 23 14:58:01 czp-db1 linx[309338]:  14:58:01 up 1730 days, 17:32,  6 users,  load average: 1838.12, 1164.61, 511.93
+29. Apr 23 15:15:01 czp-db1 linx[331903]:  15:15:01 up 1730 days, 17:49,  6 users,  load average: 1851.87, 1828.94, 1402.87
+30. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sdk, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sdk' to turn on SMART features
+31. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sde, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sde' to turn on SMART features
+32. Apr 23 15:59:42 czp-db1 ntpd[7872]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+33. Apr 23 13:32:01 czp-db1 linx[191334]: Mem:        258084     255926       2158          0      15905     107316
+34. Apr 23 15:59:41 czp-db1 smartd[7262]: Device: /dev/sdj, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sdj' to turn on SMART features
+35. Apr 23 15:37:01 czp-db1 linx[361213]:  15:37:01 up 1730 days, 18:11,  8 users,  load average: 1852.11, 1851.96, 1744.29
+36. Apr 23 15:31:01 czp-db1 linx[353271]:  15:31:01 up 1730 days, 18:05,  8 users,  load average: 1852.04, 1850.98, 1692.22
+37. Apr 23 15:50:01 czp-db1 linx[379161]:  15:50:01 up 1730 days, 18:24,  9 users,  load average: 1854.82, 1853.92, 1806.41
+38. Apr 23 15:59:42 czp-db1 /usr/sbin/cron[7883]: (*system*) NOT REGULAR (/etc/cron/weekly)
+39. Apr 23 14:43:31 czp-db1 multipathd: 8:128: mark as failed
+40. Apr 23 15:59:41 czp-db1 smartd[7262]: Drive: DEVICESCAN, implied '-a' Directive on line 23 of file /etc/smartd.conf
+41. Apr 23 13:45:01 czp-db1 /usr/sbin/cron[209181]: (dmdba) MAIL (mailed 236 bytes of output but got status 0x004b )
+42. Apr 23 13:07:01 czp-db1 linx[157075]:              total       used       free     shared    buffers     cached
+43. Apr 23 13:59:01 czp-db1 linx[228425]: 762
+44. Apr 23 13:56:01 czp-db1 linx[224336]: Filesystem            Inodes   IUsed   IFree IUse% Mounted on

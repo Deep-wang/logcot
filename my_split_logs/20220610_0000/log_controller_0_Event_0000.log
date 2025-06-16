@@ -1,0 +1,39 @@
+40748762    2022-06-10 04:07:35    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+40748761    2022-06-10 04:07:35    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+40748598    2022-06-10 04:01:02    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+40748597    2022-06-10 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+40747073    2022-06-10 02:58:24    0x100F00310002    Event    Informational    --    None    Succeeded in deleting the key of application ISCSI_INI (application ID 7, key ID 13).
+N/A
+
+40747072    2022-06-10 02:58:24    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application ISCSI_INI (application ID 7, key ID 14).
+N/A
+
+40747069    2022-06-10 02:58:18    0x100F00310002    Event    Informational    --    None    Succeeded in deleting the key of application ISCSI_TGT (application ID 6, key ID 13).
+N/A
+
+40747068    2022-06-10 02:58:18    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application ISCSI_TGT (application ID 6, key ID 14).
+N/A
+
+40747064    2022-06-10 02:58:12    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_NDMP (application ID 4, key ID 14).
+N/A
+
+40747061    2022-06-10 02:58:06    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_LDAPS (application ID 3, key ID 14).
+N/A
+
+40747058    2022-06-10 02:58:00    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_AD (application ID 2, key ID 14).
+N/A
+
+40747054    2022-06-10 02:57:54    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_USER (application ID 1, key ID 14).
+N/A
+
+40747051    2022-06-10 02:57:48    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application KMM (application ID 0, key ID 14).
+N/A
+

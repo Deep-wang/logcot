@@ -1,0 +1,65 @@
+log
+18825128    2020-09-22 18:14:29    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+18825127    2020-09-22 18:14:29    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+18825126    2020-09-22 18:14:29    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+18825125    2020-09-22 18:14:29    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+18825068    2020-09-22 18:12:12    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+18825067    2020-09-22 18:12:12    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+18825066    2020-09-22 18:12:12    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+18825065    2020-09-22 18:12:12    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"18824976    2020-09-22 18:08:37    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 18:8:37, host: ID 1."
+N/A.
+"18824975    2020-09-22 18:08:37    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 18:8:37, host: ID 1."
+N/A.
+"18824974    2020-09-22 18:08:37    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 18:8:37, host: ID 1."
+N/A.
+"18824973    2020-09-22 18:08:37    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 18:8:37, host: ID 1."
+N/A.
+"18824971    2020-09-22 18:08:35    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 18:8:35, host: ID 1."
+N/A.
+"18824970    2020-09-22 18:08:35    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 18:8:35, host: ID 1."
+N/A.
+"18824969    2020-09-22 18:08:35    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 18:8:35, host: ID 1."
+N/A.
+"18824968    2020-09-22 18:08:35    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 18:8:35, host: ID 1."
+N/A.
+"18824827    2020-09-22 18:02:48    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 18:2:48, host: ID 1."
+N/A.
+"18824826    2020-09-22 18:02:48    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 18:2:48, host: ID 1."
+N/A.
+"18824825    2020-09-22 18:02:48    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 18:2:48, host: ID 1."
+N/A.
+"18824824    2020-09-22 18:02:48    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 18:2:48, host: ID 1."
+N/A.
+"18824823    2020-09-22 18:02:48    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 18:2:48, host: ID 1."
+N/A.
+"18824822    2020-09-22 18:02:48    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 18:2:48, host: ID 1."
+N/A.
+"18824821    2020-09-22 18:02:48    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 18:2:48, host: ID 1."
+N/A.
+"18824820    2020-09-22 18:02:48    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 18:2:48, host: ID 1."
+N/A.
+18823707    2020-09-22 17:17:01    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+18823124    2020-09-22 16:53:11    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+18823001    2020-09-22 16:48:07    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+18822282    2020-09-22 16:18:36    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A

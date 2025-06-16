@@ -1,0 +1,16 @@
+=== auth_0800 异常日志 ===
+文件路径: ./my_split_logs/20250423_0800/auth_0800.csv
+异常日志数量: 11
+生成时间: 2025-06-16 15:14:09
+
+1. Apr 23 15:32:03 czp-db1 su[354482]: pam_authenticate: 鉴定故障
+2. Apr 23 15:43:38 czp-db1 su[352365]: pam_unix(su:session): session closed for user root
+3. Apr 23 15:59:10 czp-db1 su[6998]: + ??? root:dmdba
+4. Apr 23 15:32:01 czp-db1 su[354482]: pam_unix_auth(su:auth): authentication failure; logname= uid=102 euid=102 tty=pts/9 ruser=dmdba rhost=  user=root
+5. Apr 23 15:59:25 czp-db1 su[7149]: + ??? root:dmdba
+6. Apr 23 15:59:52 czp-db1 linx_smp: looking for plugins in '/usr/lib/sasl2', failed to open directory, error: No such file or directory
+7. Apr 23 14:57:29 czp-db1 sshd[308611]: linx pam_sm_open_session
+8. Apr 23 15:32:01 czp-db1 unix_chkpwd[354643]: password check failed for user (root)
+9. Apr 23 15:49:35 czp-db1 sshd[378372]: Accepted password for dmdba from 10.33.3.10 port 57294 ssh2
+10. Apr 23 15:50:03 czp-db1 sshd[335673]: Received disconnect from 10.33.9.25 port 36104:11: disconnected by user
+11. Apr 23 15:42:08 czp-db1 su[368199]: + pts/17 dmdba:root

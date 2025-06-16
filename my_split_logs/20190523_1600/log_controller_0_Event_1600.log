@@ -1,0 +1,21 @@
+1820511    2019-05-23 19:15:30    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.1) succeeded.
+N/A
+
+1820467    2019-05-23 19:13:38    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+1820340    2019-05-23 19:08:22    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+1819796    2019-05-23 18:45:20    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+1819554    2019-05-23 18:35:14    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.1) succeeded.
+N/A
+
+1819543    2019-05-23 18:34:48    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.34.1).The error code is 0x40403285.
+N/A
+
+1819486    2019-05-23 18:32:21    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+

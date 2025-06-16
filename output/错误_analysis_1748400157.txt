@@ -1,0 +1,58 @@
+=== 错误日志分析结果 ===
+分析批次:
+['2025-04-23T14:14:00.131444+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported', '2025-04-23T13:36:00.400447+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]', '2025-04-23T14:14:00.131437+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]', '2025-04-23T11:56:00.893478+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down', '2025-04-23T13:28:00.034454+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0', '2025-04-23T15:56:01.645190+08:00 Dky_app_00 linx[88451]:              total       used       free     shared    buffers     cached', '2025-04-23T12:32:00.497473+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down', '2025-04-23T12:12:01.605457+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down', '2025-04-23T16:42:01.666420+08:00 Dky_app_00 linx[11759]: dm-3              0.00     0.00   73.67  343.76  4645.38  7974.61    30.23     0.01    0.10   0.01   0.60', '2025-04-23T12:14:01.695420+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0']
+
+分析结果:
+
+好的，我们来分析这些错误日志的共同特征和可能原因：
+
+**共同特征：**
+
+1.  **高时间重叠和集中性：** 错误日志主要发生在 2025年4月23日的下午（11:56 - 16:42 UTC+8），时间跨度相对较短，表明问题在特定时间段内集中爆发。
+2.  **核心设备路径：** 多个错误明确关联到路径标识符 `363c7843100c5453e3fb2197100000035`，以及相关的设备标识 `sdg`, `sdu`, `sdab`。特别是 `sdg` 和 `sdu` 在 `kernel` 日志中反复出现与 `Sense Key: Illegal Request [current]` 相关的错误，`sdab` 在 `multipathd` 日志中报告 path down。
+3.  **内核 (`kernel:`) 和 multipathd (`multipathd:`) 日志：** 错误分布在内核和 multipathd 进程的日志中，表明问题涉及设备驱动、I/O 操作调度以及多路径软件的路径管理。
+4.  **I/O 相关错误：** 包含 `end_request: I/O error, dev ..., sector 0` 错误，表明实际的磁盘读写操作失败了。`sector 0` 尤为重要，这通常意味着问题可能出在磁盘本身、设备初始化或连接上，而不仅仅是数据块错误。
+5.  **存储设备类型：** 错误都围绕着 `sd` (SCSI Disk) 设备，表明问题在物理磁盘或其 SCSI 接口层。
+6.  **Sense Key (` Illegal Request , Logical unit not supported`):** 这是由发起存储操作的应用或系统组件直接从设备收到的响应代码。
+    *   `Illegal Request [current]`: 这是 SCSI 标准定义的一个错误码，通常表示发送给设备的要求是非法的、不正确的或不被支持的。这可能是由于命令序列错误、参数不正确或设备状态不一致导致的。
+    *   `Logical unit not supported`: 也是 SCSI 错误，表示设备无法识别或处理被请求的 LUN (逻辑单元号)。
+
+**可能原因分析：**
+
+1.  **物理存储/HBA/链路故障：**
+    *   **硬盘故障：** `sdg` 和 `sdu` 反复出现与 `Sense Key: Illegal Request` 相关的错误，强烈暗示这两个物理硬盘可能正在经历严重故障或处于不稳定状态。`Logical unit not supported` 也可能是硬盘故障的一种表现形式（例如，磁头损坏导致无法识别特定区域或 LUN）。
+    *   **HBA 卡故障或性能下降：** 关联的设备路径 `363c7843100c5453e3fb2197100000035` 可能指的是一个特定的 HBA (Host Bus Adapter) 卡或其端口组。此 HBA 卡可能存在故障、缓存故障或驱动问题，导致无法正确处理来自 `sdg` 和 `sdu` 的命令，返回非法请求。
+    *   **连接/链路稳定性问题：** SCSI 链路（可以是铜缆或光纤）可能存在干扰、信号衰减、接触不良（如连接器松动）或损坏，导致数据传输错误，从而触发出错请求。特别是 `sector 0` 错误，有时与初始化序列失败或链路稳定性问题相关。
+
+2.  **SCSI 配置和参数问题：**
+    *   **LUN 隐藏或配置错误：** 需要检查 HBA 配置和 SAN 存储阵列的配置。是否存在 LUN 隐藏配置错误导致某些 LUN 无法被系统访问？或者 `sdu` 的 LUN 是否根本就不应该在 HBA `363c...` 的这个端口上被识别？（`Logical unit not supported` 直接表明了这个问题）。
+    *   **设备 ID 冲突或分辨率问题：** 如果有多台设备使用相同的 SCSI ID 或目标别名，可能导致设备无法被正确识别，从而产生非法请求。
+    *   **命令集或参数不匹配：** 设备驱动程序可能向 HBA 发送了 HBA 不支持或不兼容的 SCSI 命令，或者使用的参数模式（如共享缓冲区模式 vs. DMA 模式切换不当）与设备或总线环境不兼容。
+
+3.  **多路径 (`multipathd`) 问题：**
+    *   `multipathd` 报告多个路径（`sdg`, `sdu`, `sdab`）down，这表明问题可能出在处理路径故障的机制上。
+    *   **HBA 或路径层故障：** 如上所述的 HBA 故障可能同时导致多个连接（路径）失去通信。
+    *   **`directio checker` 检测失误：** `directio checker` 分为 upcheck 和 downcheck，如果其本身逻辑错误或配置不当，可能错误报告路径状态。`sdu` 出现 `directio checker reports path is down` 但仍有 `I/O error`，这有点矛盾，可能 `downcheck` 警报不准确，而实际 I/O 运行时连接又暂时恢复或驱动尝试了无效路径。
+    *   **驱动错误：** multipath 软件或驱动程序在处理路径切换或故障时可能出现逻辑错误。
+    *   **脏块恢复 (Stripe Merge)：** 如果 `directio checker` 报告 path down 可能与涉及到某些 block 管理操作（如 stripe merge 跨路径操作）有关，当 path down 时操作中断可能导致后续的非法请求。
+
+4.  **驱动程序问题：** 虽然问题是 ASIs (Architecture Independent Subsystem)，但根本原因常在驱动层面。文件系统、块层或设备驱动程序本身可能存在问题，导致发送了无效的请求给设备/端口。
+
+**总结:**
+
+日志的核心问题很可能出在物理存储设备（特别是 `sdg` 和 `sdu`）或其连接的硬件（HBA 卡、链路）上。`Illegal Request` 和 `Logical unit not supported` 的错误模式，结合 `sector 0` 的 I/O 错误以及 `multipathd` 报告的多路径 down，强烈指向：
+
+*   **至少有一个物理硬盘（`sdg` 或 `sdu`）硬件故障或不稳定。**
+*   **关联的 HBA 卡可能存在故障或配置问题，导致无法正确处理来自该硬盘或其他硬盘的请求。**
+*   **连接链路不稳定或存在问题。**
+*   **虽然可能性较小，但不能完全排除 SCSI 配置错误导致设备无法被正确识别。** Multipath 机制本身也可能在处理路径状态时存在错误。
+
+**下一步建议：**
+
+1.  **检查 `sdg` 和 `sdu` 硬盘状态：** 使用 SMART 工具检查这两个硬盘的健康状况。
+2.  **检查 HBA 卡状态：** 查看设备管理器或 HBA 卡的管理软件，检查其端口状态、连接指示灯、HBA 卡自身健康和固件版本。考虑更新驱动固件。
+3.  **检查连接：** 物理检查相关的 HBA 卡、硬盘数据线和电源线连接是否牢固、有无过热。
+4.  **检查 SAN/阵列端配置：** 确认 LUN 的分配、目标 ID 配置是否正确，有无冲突或隐藏。
+5.  **检查 `multipathd` 配置和日志：** 查看更详细的 multipathd 日志，理解 `directio checker` 报告的上下文，检查 multipath 配置文件 (`/etc/multipath.conf`) 或系统配置 (`/etcisine.conf`)。
+6.  **考虑替换测试：** 如果环境允许且备件可用，尝试替换可疑的硬盘或 HBA 卡进行测试。
+7.  **监控系统资源：** 查看 `linx` 日志提到的 `dm-3`，这可能是一个 devices mapper 挂载（如 LVM）。检查其 I/O 测试状态（`dmeventd` 服务状态）或 Alan Cox 的 DMA 缓存测试结果，这可能与 multipath 故障有关。

@@ -1,0 +1,11 @@
+log
+60528961    2023-12-26 14:12:56    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+60527692    2023-12-26 13:20:55    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+"60527628    2023-12-26 13:18:17    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started."
+N/A
+"60527627    2023-12-26 13:18:17    0x100F00310004    Event    Informational    --    None    The replacement of disk (disk enclosure DAE010, slot ID 13, type SAS) in disk domain (ID 7, name SAS) is completed."
+N/A
+"60527626    2023-12-26 13:18:17    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 13) is inserted."
+N/A

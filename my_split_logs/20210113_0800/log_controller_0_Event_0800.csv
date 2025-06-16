@@ -1,0 +1,53 @@
+log
+22781593    2021-01-13 15:27:33    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+22781316    2021-01-13 15:16:13    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+22781177    2021-01-13 15:10:32    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+22781048    2021-01-13 15:05:12    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+22780911    2021-01-13 14:59:41    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+22780832    2021-01-13 14:56:27    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN group (ID 20) to the mapping view (ID 21).
+N/A
+22780830    2021-01-13 14:56:27    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host group (ID 20) to the mapping view (ID 21).
+N/A
+"22780829    2021-01-13 14:56:27    0x200F00F50014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the mapping view (name yingyongku23-400G , ID 21)."
+N/A
+22780820    2021-01-13 14:56:05    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN group (ID 19) to the mapping view (ID 20).
+N/A
+22780819    2021-01-13 14:56:05    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host group (ID 19) to the mapping view (ID 20).
+N/A
+"22780818    2021-01-13 14:56:05    0x200F00F50014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the mapping view (name yingyongku22-400G , ID 20)."
+N/A
+22780786    2021-01-13 14:54:48    0x200F000E001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host(5) to the host group (ID 20).
+N/A
+22780785    2021-01-13 14:54:47    0x200F000E0014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the host group (name yingyongku23-400G).
+N/A
+22780775    2021-01-13 14:54:29    0x200F000E001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host(4) to the host group (ID 19).
+N/A
+22780774    2021-01-13 14:54:29    0x200F000E0014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the host group (name yingyongku22-400G).
+N/A
+22780724    2021-01-13 14:52:26    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN (54) to the LUN group (ID 20).
+N/A
+22780723    2021-01-13 14:52:26    0x200F01000014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the LUN group (name yingyongku23Group).
+N/A
+22780715    2021-01-13 14:52:09    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN (53) to the LUN group (ID 19).
+N/A
+22780714    2021-01-13 14:52:09    0x200F01000014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the LUN group (name yingyongku22Group).
+N/A
+"22780686    2021-01-13 14:51:04    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the thick LUN (name yingyongku23-400G, type thick, capacity 400GB, storage pool ID 0, ID 54, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0B, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e3fb22f8900000036)."
+N/A.
+"22780676    2021-01-13 14:50:41    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the thick LUN (name yingyongku22-400G, type thick, capacity 400GB, storage pool ID 0, ID 53, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0A, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e3fb2197100000035)."
+N/A.
+22780656    2021-01-13 14:49:52    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+22775533    2021-01-13 11:19:19    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+22775451    2021-01-13 11:15:58    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+22775316    2021-01-13 11:10:29    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+22774463    2021-01-13 10:35:20    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A

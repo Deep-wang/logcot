@@ -1,0 +1,246 @@
+26357650    2021-04-25 15:59:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 15:59:35, host: ID 16.
+N/A.
+
+26357649    2021-04-25 15:59:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 15:59:35, host: ID 16.
+N/A.
+
+26357647    2021-04-25 15:59:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 15:59:35, host: ID 16.
+N/A.
+
+26357646    2021-04-25 15:59:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 15:59:35, host: ID 16.
+N/A.
+
+26357619    2021-04-25 15:58:29    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 15:58:29, host: ID 17.
+N/A.
+
+26357618    2021-04-25 15:58:29    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 15:58:29, host: ID 17.
+N/A.
+
+26357617    2021-04-25 15:58:29    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 15:58:29, host: ID 17.
+N/A.
+
+26357616    2021-04-25 15:58:29    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 15:58:29, host: ID 17.
+N/A.
+
+26357046    2021-04-25 15:35:09    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 17) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+26357045    2021-04-25 15:35:09    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 16) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+26357044    2021-04-25 15:35:09    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 17) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+26357043    2021-04-25 15:35:09    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 16) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+26357039    2021-04-25 15:35:01    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 17) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+26357038    2021-04-25 15:35:01    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 16) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+26357037    2021-04-25 15:35:01    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 17) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+26357036    2021-04-25 15:35:01    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 16) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+26356939    2021-04-25 15:31:04    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 15:31:4, host: ID 17.
+N/A.
+
+26356938    2021-04-25 15:31:04    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 15:31:4, host: ID 17.
+N/A.
+
+26356937    2021-04-25 15:31:04    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 15:31:4, host: ID 17.
+N/A.
+
+26356936    2021-04-25 15:31:04    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 15:31:4, host: ID 17.
+N/A.
+
+26356931    2021-04-25 15:30:51    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.226) succeeded.
+N/A
+
+26356917    2021-04-25 15:30:21    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 15:30:21, host: ID 16.
+N/A.
+
+26356916    2021-04-25 15:30:21    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 15:30:21, host: ID 16.
+N/A.
+
+26356915    2021-04-25 15:30:21    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 15:30:21, host: ID 16.
+N/A.
+
+26356914    2021-04-25 15:30:21    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 15:30:21, host: ID 16.
+N/A.
+
+26356834    2021-04-25 15:27:06    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 15:27:6, host: ID 17.
+N/A.
+
+26356833    2021-04-25 15:27:06    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 15:27:6, host: ID 17.
+N/A.
+
+26356832    2021-04-25 15:27:06    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 15:27:6, host: ID 17.
+N/A.
+
+26356831    2021-04-25 15:27:06    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 15:27:6, host: ID 17.
+N/A.
+
+26356810    2021-04-25 15:26:19    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 15:26:19, host: ID 16.
+N/A.
+
+26356809    2021-04-25 15:26:19    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 15:26:19, host: ID 16.
+N/A.
+
+26356808    2021-04-25 15:26:19    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 15:26:19, host: ID 16.
+N/A.
+
+26356807    2021-04-25 15:26:19    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 15:26:19, host: ID 16.
+N/A.
+
+26356275    2021-04-25 15:04:33    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+26356166    2021-04-25 15:00:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 16) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+26356165    2021-04-25 15:00:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 16) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+26356161    2021-04-25 14:59:56    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 16) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+26356160    2021-04-25 14:59:56    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 16) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+26356153    2021-04-25 14:59:42    0x200F000E001D    Event    Informational    --    None    admin:10.33.36.226 succeeded in adding the host(17) to the host group (ID 22).
+N/A
+
+26356145    2021-04-25 14:59:26    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+26356139    2021-04-25 14:59:14    0x200F00150025    Event    Informational    --    None    admin:10.33.36.226 succeeded in adding the initiator (type FC, identifier 21000024ff13abad) to host (host ID 17).
+N/A
+
+26356138    2021-04-25 14:59:14    0x200F0015001F    Event    Informational    --    None    admin:10.33.36.226 succeeded in creating the host (name OMS-GX2, operating system Linux).
+N/A
+
+26356126    2021-04-25 14:58:46    0x200F0015002B    Event    Informational    --    None    admin:10.33.36.226 succeeded in modifying the information of the host (host ID 16, name OMS-GX1, operating system Linux, location --, IP --, model --, network name --).
+N/A
+
+26356119    2021-04-25 14:58:30    0x200F00150028    Event    Informational    --    None    admin:10.33.36.226 succeeded in removing the host (name OMS-GX, host ID 16) initiator (type FC, identifier 21000024ff13abad).
+N/A
+
+26356075    2021-04-25 14:56:43    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.226 succeeded in adding the LUN group (ID 22) to the mapping view (ID 23).
+N/A
+
+26356074    2021-04-25 14:56:43    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.226 succeeded in adding the host group (ID 22) to the mapping view (ID 23).
+N/A
+
+26356073    2021-04-25 14:56:43    0x200F00F50014    Event    Informational    --    None    admin:10.33.36.226 succeeded in creating the mapping view (name OMS-2.5T , ID 23).
+N/A
+
+26355990    2021-04-25 14:53:22    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+26355965    2021-04-25 14:52:23    0x200F000E001D    Event    Informational    --    None    admin:10.33.36.226 succeeded in adding the host(16) to the host group (ID 22).
+N/A
+
+26355964    2021-04-25 14:52:23    0x200F000E0014    Event    Informational    --    None    admin:10.33.36.226 succeeded in creating the host group (name OMS).
+N/A
+
+26355932    2021-04-25 14:51:08    0x200F00150025    Event    Informational    --    None    admin:10.33.36.226 succeeded in adding the initiator (type FC, identifier 21000024ff13abad) to host (host ID 16).
+N/A
+
+26355931    2021-04-25 14:51:08    0x200F00150025    Event    Informational    --    None    admin:10.33.36.226 succeeded in adding the initiator (type FC, identifier 21000024ff13abab) to host (host ID 16).
+N/A
+
+26355930    2021-04-25 14:51:08    0x200F0015001F    Event    Informational    --    None    admin:10.33.36.226 succeeded in creating the host (name OMS-GX, operating system Linux).
+N/A
+
+26355861    2021-04-25 14:48:21    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.226 succeeded in adding the LUN (61) to the LUN group (ID 22).
+N/A
+
+26355860    2021-04-25 14:48:21    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.226 succeeded in adding the LUN (60) to the LUN group (ID 22).
+N/A
+
+26355859    2021-04-25 14:48:21    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.226 succeeded in adding the LUN (57) to the LUN group (ID 22).
+N/A
+
+26355858    2021-04-25 14:48:21    0x200F01000014    Event    Informational    --    None    admin:10.33.36.226 succeeded in creating the LUN group (name OMS-GX).
+N/A
+
+26355843    2021-04-25 14:47:45    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+26355815    2021-04-25 14:46:37    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.226 succeeded in creating the thick LUN (name OMS-GX3-200G, type thick, capacity 200GB, storage pool ID 1, ID 61, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0A, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453ec3036afe0000003d).
+N/A.
+
+26355802    2021-04-25 14:46:11    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.226 succeeded in creating the thick LUN (name OMS-GX2-700G, type thick, capacity 700GB, storage pool ID 1, ID 60, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0B, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453ec30351a00000003c).
+N/A.
+
+26355786    2021-04-25 14:45:34    0x200F000B01A0    Event    Informational    --    None    admin:10.33.36.226 succeeded in deleting the LUN (ID 59, name OMS-GX3-T, WWN 63c7843100c5453ec30301db0000003b).
+N/A.
+
+26355785    2021-04-25 14:45:33    0x200F000B01A0    Event    Informational    --    None    admin:10.33.36.226 succeeded in deleting the LUN (ID 58, name OMS-GX2-0.7T, WWN 63c7843100c5453ec302784b0000003a).
+N/A.
+
+26355765    2021-04-25 14:44:49    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.226 succeeded in creating the thick LUN (name OMS-GX3-T, type thick, capacity 204.8GB, storage pool ID 1, ID 59, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0A, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453ec30301db0000003b).
+N/A.
+
+26355708    2021-04-25 14:42:28    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.226 succeeded in creating the thick LUN (name OMS-GX2-0.7T, type thick, capacity 716.8GB, storage pool ID 1, ID 58, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0B, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453ec302784b0000003a).
+N/A.
+
+26355684    2021-04-25 14:41:33    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.226 succeeded in creating the thick LUN (name OMS-GX1-1.6T, type thick, capacity 1.6TB, storage pool ID 1, ID 57, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0B, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453ec30242a300000039).
+N/A.
+
+26355668    2021-04-25 14:40:55    0x200F000B01A0    Event    Informational    --    None    admin:10.33.36.226 succeeded in deleting the LUN (ID 56, name OMS-GX-1.6T, WWN 63c7843100c5453ec301bac000000038).
+N/A.
+
+26355625    2021-04-25 14:39:14    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.226 succeeded in creating the thick LUN (name OMS-GX-1.6T, type thick, capacity 1.6GB, storage pool ID 1, ID 56, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0B, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453ec301bac000000038).
+N/A.
+
+26354505    2021-04-25 13:53:18    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+26354369    2021-04-25 13:47:44    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+26354029    2021-04-25 13:33:51    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.226) succeeded.
+N/A
+
+26349095    2021-04-25 10:11:09    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.226) succeeded.
+N/A
+
+26348654    2021-04-25 09:53:04    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+26348523    2021-04-25 09:47:42    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+26348337    2021-04-25 09:40:07    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.226) succeeded.
+N/A
+
+26348205    2021-04-25 09:34:42    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.226) succeeded.
+N/A
+
+26347190    2021-04-25 08:53:00    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+26347060    2021-04-25 08:47:41    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+26346549    2021-04-25 08:26:40    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.226) succeeded.
+N/A
+

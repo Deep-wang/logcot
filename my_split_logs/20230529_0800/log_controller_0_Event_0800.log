@@ -1,0 +1,51 @@
+53133071    2023-05-29 12:51:18    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE020, slot ID 15, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+53133069    2023-05-29 12:51:16    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE020, slot ID 15, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+53133064    2023-05-29 12:51:06    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE020, slot ID 15) completed. The check result is successfully.
+N/A
+
+53133023    2023-05-29 12:49:24    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE020, slot ID 15) started. Check type: 0x6673736563637573.
+N/A
+
+53132720    2023-05-29 12:37:00    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE020, slot ID 15, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+53132719    2023-05-29 12:36:58    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE020, slot ID 15, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+53132714    2023-05-29 12:36:48    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE020, slot ID 15) completed. The check result is successfully.
+N/A
+
+53132672    2023-05-29 12:35:09    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE020, slot ID 15) started. Check type: 0x6673736563637573.
+N/A
+
+53130465    2023-05-29 11:04:21    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+53129934    2023-05-29 10:42:31    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+53129789    2023-05-29 10:36:37    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+53129588    2023-05-29 10:28:20    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+53129177    2023-05-29 10:11:31    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+53128468    2023-05-29 09:42:27    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+53128324    2023-05-29 09:36:37    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+53128125    2023-05-29 09:28:29    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+53128100    2023-05-29 09:27:32    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.36.225).The error code is 0x40403285.
+N/A
+

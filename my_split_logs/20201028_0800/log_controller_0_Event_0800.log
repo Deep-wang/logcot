@@ -1,0 +1,18 @@
+20078490    2020-10-28 12:28:39    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+20077734    2020-10-28 11:57:36    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+20077731    2020-10-28 11:57:31    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.36.225).The error code is 0x40403285.
+N/A
+
+20077692    2020-10-28 11:55:59    0x100F00310004    Event    Informational    --    None    The replacement of disk (disk enclosure DAE050, slot ID 6, type SAS) in disk domain (ID 7, name SAS) is completed.
+N/A
+
+20077691    2020-10-28 11:55:59    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+
+20077690    2020-10-28 11:55:59    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 6) is inserted.
+N/A
+

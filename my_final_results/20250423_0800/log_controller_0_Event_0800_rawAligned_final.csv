@@ -1,0 +1,340 @@
+log_content,result
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+"77490853    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06442) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 15.",normal
+N/A.,normal
+"77490887    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090faac6c2f) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 3.",normal
+Step5 Contact technical support engineers.,normal
+"77490888    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1cc7e3) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 5.",normal
+77493432    2025-04-23 14:46:08    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+"77493155    2025-04-23 14:35:55    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 14:35:55, host: ID 7.",normal
+N/A.,normal
+N/A.,normal
+"77492733    2025-04-23 14:20:09    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 14:20:9, host: ID 6.",normal
+"77492629    2025-04-23 14:16:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 14:16:15, host: ID 7.",normal
+77492920    2025-04-23 14:26:45    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+N/A.,normal
+"77490878    2025-04-23 13:05:30    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:30, host: ID 1.",normal
+"77490886    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 0.",normal
+N/A.,normal
+"77492749    2025-04-23 14:20:42    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 14:20:42, host: ID 7.",abnormal
+"77490852    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 17.",normal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+"77493179    2025-04-23 14:36:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 14:36:43, host: ID 6.",normal
+77492870    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,abnormal
+77492867    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+N/A.,normal
+77493431    2025-04-23 14:46:08    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+N/A.,abnormal
+N/A.,normal
+77493383    2025-04-23 14:44:17    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+77492917    2025-04-23 14:26:45    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,abnormal
+77492869    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+Step2 Collect related information and contact technical support engineers.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+N/A.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+"77490890    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 6.",normal
+N/A.,normal
+N/A.,normal
+N/A.,normal
+"77492735    2025-04-23 14:20:09    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 14:20:9, host: ID 6.",normal
+N/A.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+"77492727    2025-04-23 14:20:05    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 14:20:5, host: ID 6.",normal
+77492871    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+Step1 Check cable connections.,normal
+"77492729    2025-04-23 14:20:06    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 14:20:6, host: ID 6.",normal
+"3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4].",normal
+Step2 Collect related information and contact technical support engineers.,normal
+N/A.,normal
+"77493181    2025-04-23 14:36:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 14:36:43, host: ID 6.",normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+N/A.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+N/A.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+Step2 Collect related information and contact technical support engineers.,normal
+"77490889    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff15ace5) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 4.",normal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+N/A.,normal
+77492775    2025-04-23 14:21:25    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.227 succeeded in switching from the user view to developer view.,normal
+77493434    2025-04-23 14:46:08    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,normal
+Sequence    Raised  Local Time    Alarm ID    Type    Alarm Level    State    Recovered Local Time    Description    Suggestion:,normal
+N/A.,normal
+"77492611    2025-04-23 14:15:42    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 14:15:42, host: ID 6.",normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+77493338    2025-04-23 14:42:37    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,abnormal
+77492847    2025-04-23 14:24:18    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.227 succeeded in switching from the user view to developer view.,normal
+"77490893    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6531) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 9.",normal
+"77490891    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 7.",normal
+Step2 Collect related information and contact technical support engineers.,normal
+"77493180    2025-04-23 14:36:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 14:36:43, host: ID 6.",normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+"77490860    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 1.",normal
+"77492631    2025-04-23 14:16:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 14:16:15, host: ID 7.",normal
+"77493178    2025-04-23 14:36:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 14:36:43, host: ID 6.",normal
+N/A.,normal
+"77492630    2025-04-23 14:16:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 14:16:15, host: ID 7.",normal
+N/A.,normal
+"77492606    2025-04-23 14:15:42    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 14:15:42, host: ID 6.",normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+N/A.,normal
+"77490863    2025-04-23 13:05:26    0xF0060004    Fault    Major    Unrecovered    None    FC host port (controller enclosure CTE0, -- controller A, port number H0) is disconnected.",normal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+77489730    2025-04-23 12:19:34    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.227) succeeded.,normal
+77493290    2025-04-23 14:40:47    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,abnormal
+N/A.,normal
+"77490897    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab9476b) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 14.",normal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+N/A.,normal
+N/A.,normal
+Step2 Check whether optical modules of the peer port are damaged.,normal
+"77493082    2025-04-23 14:33:07    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 14:33:7, host: ID 7.",normal
+N/A.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+N/A.,normal
+Step1 Check cable connections.,normal
+N/A.,normal
+N/A.,normal
+N/A.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+"77492732    2025-04-23 14:20:09    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 14:20:9, host: ID 6.",abnormal
+Step2 Collect related information and contact technical support engineers.,normal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+"77490892    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10b340) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 11.",normal
+"77490871    2025-04-23 13:05:29    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ae38) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:29, host: ID 8.",normal
+77492874    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,abnormal
+"77490857    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10b340) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 11.",normal
+N/A.,normal
+"77490894    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f63a2) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 10.",normal
+1.4 If no exceptions are detected=>[Step3].,normal
+Step2 Collect related information and contact technical support engineers.,normal
+"77490848    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090faac6c2f) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 3.",normal
+N/A.,normal
+N/A.,normal
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4].,normal
+"77490854    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1cc7e3) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 5.",normal
+N/A.,normal
+N/A.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+"77490866    2025-04-23 13:05:29    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:29, host: ID 6.",normal
+N/A.,normal
+"77493249    2025-04-23 14:39:21    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 14:39:21, host: ID 6.",normal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+77492436    2025-04-23 14:08:47    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.,normal
+77492918    2025-04-23 14:26:45    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+"77493248    2025-04-23 14:39:20    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 14:39:20, host: ID 6.",normal
+N/A.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4].,normal
+N/A.,normal
+N/A.,normal
+N/A.,normal
+"3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4].",normal
+N/A.,UNKNOWN
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,abnormal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,abnormal
+N/A.,normal
+"77493177    2025-04-23 14:36:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 14:36:43, host: ID 6.",normal
+N/A.,normal
+"77492728    2025-04-23 14:20:06    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 14:20:6, host: ID 6.",normal
+N/A.,normal
+N/A.,normal
+"77490855    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab9476b) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 14.",normal
+"77490885    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 1.",normal
+"77490877    2025-04-23 13:05:30    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:30, host: ID 16.",normal
+"77490876    2025-04-23 13:05:30    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:30, host: ID 17.",normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,abnormal
+N/A.,normal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,abnormal
+"77490869    2025-04-23 13:05:29    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06423) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:29, host: ID 2.",normal
+77492940    2025-04-23 14:27:30    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.227) succeeded.,normal
+"77492609    2025-04-23 14:15:42    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 14:15:42, host: ID 6.",normal
+77493384    2025-04-23 14:44:17    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+"77490874    2025-04-23 13:05:29    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06442) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:29, host: ID 15.",normal
+77493337    2025-04-23 14:42:37    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,abnormal
+N/A.,normal
+77493289    2025-04-23 14:40:47    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,abnormal
+"77490875    2025-04-23 13:05:29    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f63a2) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:29, host: ID 10.",normal
+N/A.,normal
+"77490870    2025-04-23 13:05:29    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6531) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:29, host: ID 9.",normal
+"77490881    2025-04-23 13:05:30    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff15ace5) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:30, host: ID 4.",normal
+"77493149    2025-04-23 14:35:51    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 14:35:51, host: ID 7.",normal
+"77490879    2025-04-23 13:05:30    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:30, host: ID 0.",normal
+N/A.,normal
+"77493076    2025-04-23 14:33:07    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 14:33:7, host: ID 7.",normal
+N/A.,normal
+N/A.,normal
+"77492757    2025-04-23 14:20:45    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 14:20:45, host: ID 7.",normal
+N/A.,normal
+77490978    2025-04-23 13:08:43    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,abnormal
+"77492754    2025-04-23 14:20:45    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 14:20:45, host: ID 7.",normal
+N/A.,normal
+Step3 Check the port configuration.,abnormal
+N/A.,normal
+N/A.,normal
+N/A.,normal
+"1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2].",abnormal
+N/A.,normal
+N/A.,normal
+N/A.,normal
+77490710    2025-04-23 12:59:56    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.227) succeeded.,normal
+"77492627    2025-04-23 14:16:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 14:16:15, host: ID 7.",normal
+Step2 Collect related information and contact technical support engineers.,abnormal
+N/A.,normal
+"77490899    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 16.",normal
+"77492633    2025-04-23 14:16:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 14:16:15, host: ID 7.",normal
+77492828    2025-04-23 14:23:37    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.227) succeeded.,normal
+"1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2].",abnormal
+"77490851    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff15ace5) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 4.",normal
+"77490856    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f63a2) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 10.",normal
+N/A.,normal
+"77492608    2025-04-23 14:15:42    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 14:15:42, host: ID 6.",normal
+N/A.,normal
+77493339    2025-04-23 14:42:37    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,abnormal
+77493710    2025-04-23 14:57:26    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.227) succeeded.,normal
+77493382    2025-04-23 14:44:17    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+"77493081    2025-04-23 14:33:07    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 14:33:7, host: ID 7.",normal
+77493340    2025-04-23 14:42:37    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,abnormal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+N/A.,normal
+"77492734    2025-04-23 14:20:09    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 14:20:9, host: ID 6.",normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3].,normal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+Step2 Check whether optical modules of the peer port are damaged.,normal
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3].,normal
+"77493183    2025-04-23 14:36:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 14:36:43, host: ID 6.",normal
+N/A.,normal
+N/A.,normal
+"77490867    2025-04-23 13:05:29    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090faac6c2f) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:29, host: ID 3.",normal
+"77492605    2025-04-23 14:15:42    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 14:15:42, host: ID 6.",normal
+"77490884    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06423) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 2.",normal
+N/A.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+N/A.,normal
+"3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2].",normal
+"77492751    2025-04-23 14:20:42    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module B, port number H2) is linked up, time: 14:20:42, host: ID 7.",normal
+"77490847    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 6.",normal
+77492747    2025-04-23 14:20:38    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.227) succeeded.,normal
+N/A.,normal
+"77493154    2025-04-23 14:35:54    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 14:35:54, host: ID 7.",normal
+"77490846    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 7.",normal
+"77492750    2025-04-23 14:20:42    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 14:20:42, host: ID 7.",normal
+"77493148    2025-04-23 14:35:51    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 14:35:51, host: ID 7.",normal
+"77492755    2025-04-23 14:20:45    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 14:20:45, host: ID 7.",normal
+"77493080    2025-04-23 14:33:07    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 14:33:7, host: ID 7.",normal
+Step2 Collect related information and contact technical support engineers.,normal
+"77490898    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06442) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 15.",normal
+"77490845    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ae38) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 8.",normal
+77492921    2025-04-23 14:26:45    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,abnormal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+"1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3].",normal
+N/A.,normal
+77492868    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,abnormal
+77492916    2025-04-23 14:26:45    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+77493819    2025-04-23 15:01:50    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.,normal
+"77492632    2025-04-23 14:16:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module A, port number H3) is disconnected, time: 14:16:15, host: ID 7.",normal
+"77493150    2025-04-23 14:35:51    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module A, port number H2) is linked up, time: 14:35:51, host: ID 7.",normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+N/A.,normal
+"1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3].",normal
+77492656    2025-04-23 14:17:11    0x200F01080036    Event    Informational    --    None    admin:10.33.36.227 succeeded in clearing bit error statistics for a port.,normal
+"77492628    2025-04-23 14:16:15    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module B, port number H3) is disconnected, time: 14:16:15, host: ID 7.",normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+System Name : Huawei.Storage    SN : 2102351LVM9WK3800007    Product Model : 5500 V5    Product Version : V500R007C10    Export time : 2025-04-23 15:01:56,normal
+N/A.,normal
+N/A.,normal
+"Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5].",normal
+"77493255    2025-04-23 14:39:24    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 14:39:24, host: ID 6.",normal
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2].,normal
+"Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5].",normal
+Step5 Contact technical support engineers.,normal
+"77493254    2025-04-23 14:39:24    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 14:39:24, host: ID 6.",normal
+1.4 If no exceptions are detected=>[Step3].,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+"77490858    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abab) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 16.",normal
+N/A.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+Fault list,normal
+N/A.,UNKNOWN
+77492306    2025-04-23 14:03:30    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.,normal
+N/A.,normal
+"77490868    2025-04-23 13:05:29    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:29, host: ID 7.",normal
+"77490872    2025-04-23 13:05:29    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fab9476b) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:29, host: ID 14.",normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+"77490863    2025-04-23 13:05:26    0xF0060004    Fault    Major    Unrecovered    None    FC host port (controller enclosure CTE0, -- controller A, port number H0) is disconnected.",abnormal
+N/A.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+Step3 Check the port configuration.,normal
+N/A.,UNKNOWN
+"77492610    2025-04-23 14:15:42    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 14:15:42, host: ID 6.",normal
+N/A.,normal
+77492872    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,abnormal
+77490746    2025-04-23 13:01:21    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.227) succeeded.,abnormal
+N/A.,abnormal
+77493291    2025-04-23 14:40:47    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,UNKNOWN
+"77492607    2025-04-23 14:15:42    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module B, port number H2) is disconnected, time: 14:15:42, host: ID 6.",normal
+"77493153    2025-04-23 14:35:54    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module A, port number H3) is linked up, time: 14:35:54, host: ID 7.",normal
+"77493078    2025-04-23 14:33:07    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 14:33:7, host: ID 7.",normal
+Step2 Collect related information and contact technical support engineers.,normal
+"77493079    2025-04-23 14:33:07    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 14:33:7, host: ID 7.",normal
+N/A.,normal
+N/A.,normal
+N/A.,normal
+"77490850    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6531) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 9.",normal
+Step2 Collect related information and contact technical support engineers.,normal
+"77493250    2025-04-23 14:39:21    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f6492) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 14:39:21, host: ID 6.",normal
+"77490873    2025-04-23 13:05:29    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10b340) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:29, host: ID 11.",normal
+N/A.,normal
+"77490895    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ae38) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 8.",normal
+"77490849    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x10000090fac06423) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 2.",normal
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2].,normal
+"77493156    2025-04-23 14:35:55    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 14:35:55, host: ID 7.",normal
+Step2 Collect related information and contact technical support engineers.,normal
+77493677    2025-04-23 14:56:04    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.,normal
+N/A.,normal
+"77493256    2025-04-23 14:39:24    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 14:39:24, host: ID 6.",normal
+"77490896    2025-04-23 13:05:35    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff13abad) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:35, host: ID 17.",normal
+"77492756    2025-04-23 14:20:45    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10aa8e) of a host and the host port (Engine 0, expansion module B, port number H3) is linked up, time: 14:20:45, host: ID 7.",normal
+N/A.,normal
+N/A.,normal
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].,normal
+"77490859    2025-04-23 13:05:22    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 13:5:22, host: ID 0.",normal
+N/A.,normal
+"77493077    2025-04-23 14:33:07    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b10ad9c) of a host and the host port (Engine 0, expansion module A, port number H2) is disconnected, time: 14:33:7, host: ID 7.",normal
+N/A.,normal
+N/A.,UNKNOWN
+"77493182    2025-04-23 14:36:43    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 14:36:43, host: ID 6.",normal
+N/A.,normal
+77493433    2025-04-23 14:46:08    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+77492873    2025-04-23 14:25:05    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 6) is not received at the preset time point or fails to be processed.,abnormal
+Step2 Collect related information and contact technical support engineers.,normal
+Step2 Collect related information and contact technical support engineers.,normal
+N/A.,normal
+"77493253    2025-04-23 14:39:24    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x100000109b2f648f) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 14:39:24, host: ID 6.",normal
+77490799    2025-04-23 13:03:30    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.,normal
+N/A.,normal
+"77490880    2025-04-23 13:05:30    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1cc7e3) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 13:5:30, host: ID 5.",normal
+N/A.,UNKNOWN
+"3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2].",UNKNOWN
+77492919    2025-04-23 14:26:45    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 7) is not received at the preset time point or fails to be processed.,UNKNOWN

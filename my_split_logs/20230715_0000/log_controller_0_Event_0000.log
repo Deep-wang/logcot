@@ -1,0 +1,138 @@
+54767543    2023-07-15 04:07:34    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+54767542    2023-07-15 04:07:34    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+54767382    2023-07-15 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+54767381    2023-07-15 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+54764274    2023-07-15 01:53:23    0xF000A0014    Fault    Major    Recovered    2023-07-27 13:13:41    The system failed to monitor disk (controller enclosure CTE0, slot ID 14). Error code: 0x40400292.
+Step1 Check whether an alarm is generated indicating disk faults.
+1.1 If yes, replace the faulty disk. If the alarm persists=>[Step2].
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+54764273    2023-07-15 01:53:23    0x200F000A005B    Fault    Major    Recovered    2023-07-27 13:13:27    Disk (Controller Enclosure CTE0, controller 0B, slot 14, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+54764266    2023-07-15 01:53:08    0x100F00A0010    Event    Informational    --    None    Disk (controller enclosure CTE0, slot ID 14, serial number WBM0ZYW90000K92814S3) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+54764259    2023-07-15 01:52:52    0x200F000A005B    Fault    Major    Recovered    2023-07-27 13:13:41    Disk (Controller Enclosure CTE0, controller 0A, slot 14, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+54764244    2023-07-15 01:52:18    0x1000010A000D    Event    Informational    --    None    The precopy of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+54763763    2023-07-15 01:32:33    0x1000010A000C    Event    Informational    --    None    The precopy of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+54763762    2023-07-15 01:32:33    0xF000A0121    Fault    Major    Recovered    2023-07-27 13:13:41    Disk (Controller Enclosure CTE0, slot ID 14, controller 0A, serial number WBM0ZYW90000K92814S3, bar code 2102351SGF9WK3800217) responds slowly. The disk will be isolated. Error code: 0x40400291. This may cause the storage pool that houses the disk to degrade and the system read/write performance to deteriorate.
+Step1 Check whether alarms are generated indicating disk faults.
+    1.1 If yes, replace the faulty disks. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether any expansion port is faulty.
+    2.1 If yes, replace the interface module where the faulty port resides. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Check whether the disk is firmly inserted.
+    3.1 If no, reinsert the disk. If the alarm persists=>[Step4].
+    3.2 If yes=>[Step4].
+Step4 Check whether alarms are generated indicating expansion module faults.
+    4.1 If yes, replace the faulty expansion modules. If the alarm persists=>[Step5].
+    4.2 If no=>[Step5].
+Step5 Collect related information and contact technical support engineers.
+
+54763760    2023-07-15 01:32:31    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) completed. The check result is successfully.
+N/A
+
+54763719    2023-07-15 01:30:51    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) started. Check type: 0x6673736563637573.
+N/A
+
+54763681    2023-07-15 01:29:22    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+54763680    2023-07-15 01:29:21    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+54763675    2023-07-15 01:29:11    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) completed. The check result is successfully.
+N/A
+
+54763633    2023-07-15 01:27:30    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) started. Check type: 0x6673736563637573.
+N/A
+
+54763587    2023-07-15 01:25:41    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+54763585    2023-07-15 01:25:38    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+54763580    2023-07-15 01:25:28    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) completed. The check result is successfully.
+N/A
+
+54763538    2023-07-15 01:23:49    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) started. Check type: 0x6673736563637573.
+N/A
+
+54763479    2023-07-15 01:21:24    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+54763478    2023-07-15 01:21:22    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+54763472    2023-07-15 01:21:12    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) completed. The check result is successfully.
+N/A
+
+54763431    2023-07-15 01:19:33    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) started. Check type: 0x6673736563637573.
+N/A
+
+54763415    2023-07-15 01:19:00    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+54763413    2023-07-15 01:18:56    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+54763408    2023-07-15 01:18:46    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) completed. The check result is successfully.
+N/A
+
+54763366    2023-07-15 01:17:02    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) started. Check type: 0x6673736563637573.
+N/A
+
+54763288    2023-07-15 01:13:52    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+54763285    2023-07-15 01:13:50    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+54763280    2023-07-15 01:13:40    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) completed. The check result is successfully.
+N/A
+
+54763240    2023-07-15 01:12:00    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) started. Check type: 0x6673736563637573.
+N/A
+
+54763154    2023-07-15 01:08:34    0x1000010A0010    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) completed.
+N/A
+
+54763149    2023-07-15 01:08:23    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+
+54763148    2023-07-15 01:08:23    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+54763147    2023-07-15 01:08:22    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 14, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+54763142    2023-07-15 01:08:12    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) completed. The check result is successfully.
+N/A
+
+54763102    2023-07-15 01:06:33    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 14) started. Check type: 0x6673736563637573.
+N/A
+

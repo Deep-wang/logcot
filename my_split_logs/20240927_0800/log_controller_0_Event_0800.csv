@@ -1,0 +1,13 @@
+log
+70204337    2024-09-27 14:52:36    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.227) succeeded.
+N/A
+70203583    2024-09-27 14:21:46    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.227) succeeded.
+N/A
+70197305    2024-09-27 10:03:40    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.227) succeeded.
+N/A
+70196366    2024-09-27 09:25:13    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+70196239    2024-09-27 09:20:02    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+70196138    2024-09-27 09:15:57    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.227) succeeded.
+N/A

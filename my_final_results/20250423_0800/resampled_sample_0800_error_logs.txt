@@ -1,0 +1,837 @@
+=== resampled_sample_0800 异常日志 ===
+文件路径: ./my_split_logs/20250423_0800/resampled_sample_0800.csv
+异常日志数量: 832
+生成时间: 2025-06-16 15:14:09
+
+1. 2025-04-23T12:38:00.767460+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+2. 2025-04-23T15:02:01.482575+08:00 Dky_app_00 linx[8866]: Node 2, zone   Normal   4005   1511    626    288    152    565   6374   6427   2193    605    677
+3. 2025-04-23T13:06:00.010444+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdaw, sector 0
+4. 2025-04-23T13:30:00.132489+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+5. 2025-04-23T13:50:00.060988+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+6. 2025-04-23T12:36:00.672456+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+7. 2025-04-23T15:48:01.130993+08:00 Dky_app_00 linx[76719]: Wed Apr 23 15:48:01 CST 2025
+8. 2025-04-23T12:18:01.864424+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+9. 2025-04-23T15:42:01.440890+08:00 Dky_app_00 linx[68171]: sdax              0.00     0.00    0.10    4.38     2.46  2871.71   642.09     0.00    0.85   1.66   0.74
+10. 2025-04-23T15:12:01.945028+08:00 Dky_app_00 linx[24122]: sdar              0.00     0.00    9.11   71.70   597.33  4602.27    64.34     0.02    0.19   0.30   2.39
+11. 2025-04-23T12:10:01.516420+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+12. 2025-04-23T14:54:01.705286+08:00 Dky_app_00 linx[141720]: sdar              0.00     0.00    9.11   71.70   597.33  4602.31    64.34     0.02    0.19   0.30   2.39
+13. 2025-04-23T12:16:01.782441+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+14. 2025-04-23T14:40:01.266440+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+15. 2025-04-23T12:18:01.271375+08:00 Dky_app_00 linx[16760]: sdaj              0.00     0.00    0.10    4.38     2.46  2868.57   641.35     0.00    0.51   1.57   0.70
+16. 2025-04-23T13:36:00.400450+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+17. 2025-04-23T13:30:00.132409+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+18. 2025-04-23T13:46:00.864475+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+19. 2025-04-23T12:48:00.197432+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+20. 2025-04-23T14:50:01.937095+08:00 Dky_app_00 linx[135118]: sdl               0.00     0.00    9.10   43.13   569.60  1000.56    30.06     0.02    0.37   0.37   1.93
+21. 2025-04-23T12:34:00.583780+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+22. 2025-04-23T12:54:00.461425+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+23. 2025-04-23T12:44:00.032431+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+24. 2025-04-23T13:04:00.920455+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+25. 2025-04-23T14:06:00.775453+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+26. 2025-04-23T15:26:01.840638+08:00 Dky_app_00 linx[44839]:      2 root      20   0     0    0    0 S    0  0.0   0:02.80 kthreadd
+27. 2025-04-23T12:42:00.946802+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+28. 2025-04-23T15:34:01.633954+08:00 Dky_app_00 linx[56608]: iostat -x
+29. 2025-04-23T13:30:00.132486+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+30. 2025-04-23T15:54:01.807559+08:00 Dky_app_00 linx[85527]: Node 2, zone   Normal   5302   4972   3127   1708   1353   1494   5322   5704   1888      0      0
+31. 2025-04-23T12:54:00.461421+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+32. 2025-04-23T12:02:01.151470+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+33. 2025-04-23T13:28:00.034186+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+34. 2025-04-23T15:14:01.819093+08:00 Dky_app_00 linx[27011]: Filesystem            Inodes   IUsed   IFree IUse% Mounted on
+35. 2025-04-23T15:58:01.484477+08:00 Dky_app_00 linx[91366]: uptime
+36. 2025-04-23T15:48:01.128655+08:00 Dky_app_00 linx[76715]: 1039
+37. 2025-04-23T13:56:00.331440+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+38. 2025-04-23T13:48:00.963444+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+39. 2025-04-23T13:38:00.494463+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+40. 2025-04-23T12:42:00.947468+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+41. 2025-04-23T13:44:00.771469+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+42. 2025-04-23T12:56:00.552434+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+43. 2025-04-23T15:46:01.224007+08:00 Dky_app_00 linx[73840]: sdaz              0.00     0.00    7.48   35.35   475.90  2281.42    64.39     0.00    0.83   0.70   2.99
+44. 2025-04-23T12:12:01.507497+08:00 Dky_app_00 linx[5945]: tmpfs                    64M      13     64M    1% /tmp/smp
+45. 2025-04-23T12:12:01.606430+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+46. 2025-04-23T15:06:01.243397+08:00 Dky_app_00 linx[15022]: sdbb              0.00     0.00    9.34   42.89   586.93   987.35    30.14     0.01    0.28   0.28   1.45
+47. 2025-04-23T12:30:00.416077+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+48. 2025-04-23T12:12:01.605432+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+49. 2025-04-23T15:26:01.162967+08:00 Dky_app_00 linx[44820]: sdau              0.00     0.00    9.22   43.01   577.54  1008.68    30.37     0.02    0.31   0.30   1.59
+50. 2025-04-23T13:52:00.155461+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+51. 2025-04-23T14:48:01.051320+08:00 Dky_app_00 linx[131302]: sdr               0.00     0.00    5.52    5.92   350.22   389.43    64.69     0.02    1.78   1.57   1.80
+52. 2025-04-23T13:38:00.493735+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+53. 2025-04-23T13:58:00.420439+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+54. 2025-04-23T12:04:01.235459+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+55. 2025-04-23T13:46:00.865422+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+56. 2025-04-23T13:04:00.920443+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+57. 2025-04-23T14:04:00.689505+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+58. 2025-04-23T14:50:01.937448+08:00 Dky_app_00 linx[135118]: sdam              0.00     0.00    5.51    5.92   350.14   389.50    64.69     0.02    1.78   1.57   1.79
+59. 2025-04-23T12:18:01.863474+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+60. 2025-04-23T13:34:00.313450+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+61. 2025-04-23T15:12:01.944879+08:00 Dky_app_00 linx[24122]: sdan              0.00     0.00    9.17   43.06   574.91  1006.78    30.28     0.02    0.36   0.36   1.86
+62. 2025-04-23T12:12:01.606433+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+63. 2025-04-23T12:10:01.515458+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+64. 2025-04-23T14:58:01.538727+08:00 Dky_app_00 linx[2440]: sdl               0.00     0.00    9.10   43.13   569.60  1000.55    30.06     0.02    0.37   0.37   1.93
+65. 2025-04-23T13:40:00.584483+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+66. 2025-04-23T15:26:01.163258+08:00 Dky_app_00 linx[44820]: dm-6              0.00     0.00   25.49    3.00   333.40     3.00    11.81     0.01    0.36   0.36   1.02
+67. 2025-04-23T13:42:00.673426+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+68. 2025-04-23T12:40:00.857064+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdn - directio checker reports path is down
+69. 2025-04-23T15:22:01.458089+08:00 Dky_app_00 linx[38819]: sdax              0.00     0.00    0.10    4.38     2.46  2871.73   642.09     0.00    0.85   1.66   0.74
+70. 2025-04-23T12:08:01.414873+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+71. 2025-04-23T14:44:01.971482+08:00 Dky_app_00 linx[124457]:  41212 sysadmin  20   0 1095m  30m 2944 S    3  0.0  29081:33 linx_smp
+72. 2025-04-23T14:10:00.953459+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+73. 2025-04-23T15:32:01.837689+08:00 Dky_app_00 linx[53679]: cat   /proc/buddyinfo
+74. 2025-04-23T13:28:00.035419+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+75. 2025-04-23T13:18:00.549106+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdaw - directio checker reports path is down
+76. 2025-04-23T13:50:00.061461+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+77. 2025-04-23T15:30:01.885288+08:00 Dky_app_00 linx[50727]: sdj               0.00     0.00    7.47   35.35   475.65  2281.71    64.39     0.01    0.93   0.02   0.08
+78. 2025-04-23T14:38:01.188445+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+79. 2025-04-23T13:34:00.313368+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+80. 2025-04-23T12:54:00.461428+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+81. 2025-04-23T13:22:00.742445+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdaw, sector 0
+82. 2025-04-23T13:32:00.222423+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+83. 2025-04-23T13:28:00.034446+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+84. 2025-04-23T15:46:01.224093+08:00 Dky_app_00 linx[73840]: sdbe              0.00     0.00    0.10    4.38     2.46  2843.94   635.88     0.00    0.82   1.65   0.74
+85. 2025-04-23T12:04:01.235463+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+86. 2025-04-23T12:12:01.606554+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+87. 2025-04-23T14:08:00.864438+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+88. 2025-04-23T15:22:01.457372+08:00 Dky_app_00 linx[38819]: sda1              0.00     0.00    0.00    0.00     0.00     0.00    40.85     0.00    2.01   2.01   0.00
+89. 2025-04-23T13:38:00.494468+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+90. 2025-04-23T14:08:00.864422+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+91. 2025-04-23T12:14:01.697420+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+92. 2025-04-23T15:08:01.590410+08:00 Dky_app_00 pmcagent[96228]: login_pmc: post req fail(28)
+93. 2025-04-23T13:18:00.549454+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+94. 2025-04-23T14:12:00.043055+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+95. 2025-04-23T13:28:00.034569+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+96. 2025-04-23T15:34:01.645763+08:00 Dky_app_00 linx[56610]: sdg               0.00     0.00    0.20    0.00     1.56     0.00     8.00     0.00    0.10   0.10   0.00
+97. 2025-04-23T13:52:00.155456+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+98. 2025-04-23T12:10:01.515117+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+99. 2025-04-23T14:16:00.216439+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+100. 2025-04-23T13:18:00.549429+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+101. 2025-04-23T14:40:01.871151+08:00 Dky_app_00 linx[117562]: sdba              0.00     0.00    5.51    5.92   349.91   389.74    64.69     0.02    1.90   1.65   1.89
+102. 2025-04-23T13:28:00.034452+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+103. 2025-04-23T12:36:00.671613+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdn - directio checker reports path is down
+104. 2025-04-23T13:04:00.920453+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+105. 2025-04-23T14:44:01.265623+08:00 Dky_app_00 linx[124438]: sda               0.02   223.59    0.15   13.30    17.67  1895.15   142.21     0.01    0.68   0.13   0.18
+106. 2025-04-23T12:50:00.282447+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+107. 2025-04-23T12:10:01.516417+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+108. 2025-04-23T14:04:00.689460+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+109. 2025-04-23T12:18:01.864432+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+110. 2025-04-23T14:10:00.953458+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+111. 2025-04-23T13:54:00.239447+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+112. 2025-04-23T13:46:00.865430+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+113. 2025-04-23T13:36:00.400475+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+114. 2025-04-23T12:18:01.863175+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+115. 2025-04-23T13:32:00.221466+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+116. 2025-04-23T15:50:01.971836+08:00 Dky_app_00 linx[79651]: Filesystem            Inodes   IUsed   IFree IUse% Mounted on
+117. 2025-04-23T12:38:00.767445+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Sense Key : Illegal Request [current]
+118. 2025-04-23T12:02:01.151468+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+119. 2025-04-23T12:28:00.321433+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+120. 2025-04-23T12:10:01.516418+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+121. 2025-04-23T13:06:00.010436+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Sense Key : Illegal Request [current]
+122. 2025-04-23T12:36:00.672445+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Add. Sense: Logical unit not supported
+123. 2025-04-23T12:02:01.151479+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+124. 2025-04-23T12:02:01.151486+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+125. 2025-04-23T13:32:00.221457+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+126. 2025-04-23T12:14:01.695034+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+127. 2025-04-23T13:28:00.034434+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+128. 2025-04-23T14:14:00.130527+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+129. 2025-04-23T13:20:00.648484+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdaw, sector 0
+130. 2025-04-23T14:02:00.595933+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+131. 2025-04-23T12:36:00.672455+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+132. 2025-04-23T14:16:00.216342+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+133. 2025-04-23T14:40:01.848615+08:00 Dky_app_00 linx[117551]: /dev/sda2             185G   75G  101G  43% /
+134. 2025-04-23T15:22:01.458227+08:00 Dky_app_00 linx[38819]:
+135. 2025-04-23T12:42:00.947455+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdn, sector 0
+136. 2025-04-23T13:28:00.034448+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+137. 2025-04-23T12:10:01.515670+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+138. 2025-04-23T13:40:00.584462+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+139. 2025-04-23T15:46:01.224023+08:00 Dky_app_00 linx[73840]: sdba              0.00     0.00    5.51    5.92   349.90   389.73    64.69     0.02    1.90   1.65   1.89
+140. 2025-04-23T13:34:00.313474+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+141. 2025-04-23T15:22:01.457384+08:00 Dky_app_00 linx[38819]: sda2              0.02    18.33    0.06    1.67     8.47   159.99    97.22     0.00    0.54   0.35   0.06
+142. 2025-04-23T15:16:00.631579+08:00 Dky_app_00 pmcagent[96228]: Pmcagent login error.
+143. 2025-04-23T15:12:01.944087+08:00 Dky_app_00 linx[24122]: sdj               0.00     0.00    7.47   35.35   475.65  2281.73    64.39     0.01    0.93   0.02   0.08
+144. 2025-04-23T12:14:01.694436+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+145. 2025-04-23T13:12:00.279126+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdaw, sector 0
+146. 2025-04-23T12:12:01.605427+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+147. 2025-04-23T13:14:00.370442+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Add. Sense: Logical unit not supported
+148. 2025-04-23T12:36:00.672459+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+149. 2025-04-23T13:56:00.331454+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+150. 2025-04-23T15:36:01.528939+08:00 Dky_app_00 linx[59552]: sdag              0.00     0.00    9.34   42.89   587.82   983.15    30.08     0.02    0.36   0.36   1.89
+151. 2025-04-23T12:24:00.131432+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+152. 2025-04-23T12:32:00.498422+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+153. 2025-04-23T12:10:01.229481+08:00 Dky_app_00 linx[147270]: sdas              0.00     0.00    7.47   35.36   475.24  2282.14    64.39     0.00    0.85   0.72   3.07
+154. 2025-04-23T12:30:00.416449+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+155. 2025-04-23T12:44:00.032419+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+156. 2025-04-23T15:58:01.522275+08:00 Dky_app_00 linx[91398]: sdk               0.00     0.00    5.51    5.92   350.03   389.59    64.69     0.02    1.78   1.58   1.80
+157. 2025-04-23T12:58:00.650441+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+158. 2025-04-23T13:38:00.494050+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+159. 2025-04-23T14:42:01.339442+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+160. 2025-04-23T14:24:00.582549+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+161. 2025-04-23T12:02:01.151475+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+162. 2025-04-23T13:30:00.132468+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+163. 2025-04-23T14:04:00.689461+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+164. 2025-04-23T12:36:00.672451+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+165. 2025-04-23T13:14:00.370440+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Sense Key : Illegal Request [current]
+166. 2025-04-23T13:58:00.420456+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+167. 2025-04-23T13:28:00.034436+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+168. 2025-04-23T12:32:00.497460+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+169. 2025-04-23T12:02:01.151251+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+170. 2025-04-23T13:58:00.420437+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+171. 2025-04-23T15:44:01.974991+08:00 Dky_app_00 linx[71024]:      6 root      RT   0     0    0    0 S    0  0.0   2:55.88 watchdog/0
+172. 2025-04-23T12:16:01.782435+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+173. 2025-04-23T15:24:01.304510+08:00 Dky_app_00 linx[41875]: sdar              0.00     0.00    9.11   71.70   597.33  4602.25    64.34     0.02    0.19   0.30   2.39
+174. 2025-04-23T14:40:01.266449+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+175. 2025-04-23T14:20:00.391441+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+176. 2025-04-23T12:34:00.584447+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+177. 2025-04-23T15:02:01.398036+08:00 Dky_app_00 /usr/sbin/cron[8809]: (sysadmin) CMD (/usr/sbin/get_max_mem_process.sh)
+178. 2025-04-23T13:38:00.494456+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+179. 2025-04-23T15:54:01.766208+08:00 Dky_app_00 linx[85509]: sdat              0.00     0.00    5.52    5.92   350.25   389.37    64.69     0.02    1.96   1.70   1.94
+180. 2025-04-23T13:44:00.771467+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdn, sector 0
+181. 2025-04-23T15:12:01.945458+08:00 Dky_app_00 linx[24122]: sdbc              0.00     0.00    0.00    0.00     0.00     0.00    28.55     0.00    0.21   0.21   0.00
+182. 2025-04-23T12:38:00.767456+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+183. 2025-04-23T12:16:01.783449+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+184. 2025-04-23T14:58:01.523286+08:00 Dky_app_00 linx[2428]: -/+ buffers/cache:     289526     227378
+185. 2025-04-23T13:48:00.963453+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+186. 2025-04-23T13:56:00.331063+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+187. 2025-04-23T15:42:01.481995+08:00 Dky_app_00 linx[68190]: Node 6, zone   Normal   2477   4607   4972   4475   3805   2968   4176   2937   1463     12      0
+188. 2025-04-23T13:44:00.770654+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdn - directio checker reports path is down
+189. 2025-04-23T12:04:01.235123+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+190. 2025-04-23T13:14:00.370447+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdaw, sector 0
+191. 2025-04-23T13:44:00.770885+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+192. 2025-04-23T13:30:00.132465+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+193. 2025-04-23T13:16:00.461444+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdaw, sector 0
+194. 2025-04-23T15:16:00.631519+08:00 Dky_app_00 pmcagent[96228]: login_pmc: post req fail(28)
+195. 2025-04-23T14:22:00.486426+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+196. 2025-04-23T16:00:01.445748+08:00 Dky_app_00 linx[94378]: sdax              0.00     0.00    0.10    4.38     2.46  2871.68   642.09     0.00    0.85   1.66   0.74
+197. 2025-04-23T12:08:01.415250+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+198. 2025-04-23T13:58:00.420445+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+199. 2025-04-23T14:30:00.854751+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+200. 2025-04-23T15:00:01.469916+08:00 Dky_app_00 linx[5721]: sde               0.00     0.00    9.33   42.90   586.70   984.40    30.08     0.02    0.29   0.29   1.50
+201. 2025-04-23T12:46:00.119426+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+202. 2025-04-23T13:46:00.864465+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdn, sector 0
+203. 2025-04-23T15:20:01.514222+08:00 Dky_app_00 linx[35817]: dm-2              0.01     0.04   43.70   47.37  2797.08  3116.79    64.94     0.01    0.46   0.18   1.60
+204. 2025-04-23T14:08:00.865430+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+205. 2025-04-23T14:02:00.596452+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+206. 2025-04-23T12:08:01.415439+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+207. 2025-04-23T14:40:01.868760+08:00 Dky_app_00 linx[117562]: sdm               0.00     0.00    0.00    0.00     0.00     0.00    28.53     0.00    0.20   0.20   0.00
+208. 2025-04-23T13:34:00.313476+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+209. 2025-04-23T15:30:01.870542+08:00 Dky_app_00 linx[50719]: /dev/mapper/dmarch_22-arch
+210. 2025-04-23T12:54:00.461330+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+211. 2025-04-23T13:40:00.584476+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+212. 2025-04-23T13:42:00.673452+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+213. 2025-04-23T12:16:01.783437+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+214. 2025-04-23T13:14:00.369715+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdaw - directio checker reports path is down
+215. 2025-04-23T15:34:01.646817+08:00 Dky_app_00 linx[56610]: sdai              0.00     0.00    0.20    0.00     1.56     0.00     8.00     0.00    0.08   0.08   0.00
+216. 2025-04-23T12:14:01.696415+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+217. 2025-04-23T13:26:00.940447+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Sense Key : Illegal Request [current]
+218. 2025-04-23T12:04:01.235472+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+219. 2025-04-23T12:08:01.415430+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+220. 2025-04-23T14:10:00.953164+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+221. 2025-04-23T14:54:01.705204+08:00 Dky_app_00 linx[141720]: sdaj              0.00     0.00    0.10    4.38     2.46  2868.50   641.34     0.00    0.51   1.57   0.70
+222. 2025-04-23T12:02:01.151457+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+223. 2025-04-23T14:56:01.619860+08:00 Dky_app_00 linx[144651]: sdd               0.00     0.00    5.51    5.92   349.88   389.76    64.69     0.02    1.89   1.65   1.89
+224. 2025-04-23T13:28:00.034444+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+225. 2025-04-23T15:34:01.647594+08:00 Dky_app_00 linx[56610]: sdbd              0.00     0.00    0.20    0.00     1.56     0.00     8.00     0.00    0.07   0.07   0.00
+226. 2025-04-23T13:32:00.221529+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+227. 2025-04-23T14:50:01.937402+08:00 Dky_app_00 linx[135118]: sdaj              0.00     0.00    0.10    4.38     2.46  2868.50   641.34     0.00    0.51   1.57   0.70
+228. 2025-04-23T12:16:01.783436+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+229. 2025-04-23T13:16:00.461440+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Add. Sense: Logical unit not supported
+230. 2025-04-23T14:18:00.300158+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+231. 2025-04-23T13:52:00.154957+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+232. 2025-04-23T14:04:00.689444+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+233. 2025-04-23T15:08:01.124201+08:00 Dky_app_00 linx[18062]: dm-0              0.00     0.70   72.34  573.74  4766.24 36827.44    64.38     0.03    0.04   0.04   2.82
+234. 2025-04-23T12:56:00.552437+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+235. 2025-04-23T13:44:00.771484+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+236. 2025-04-23T15:28:01.983516+08:00 Dky_app_00 linx[47774]: Filesystem            Size  Used Avail Use% Mounted on
+237. 2025-04-23T12:14:01.695417+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+238. 2025-04-23T15:24:01.345090+08:00 Dky_app_00 linx[41893]: Node 0, zone   Normal   1483   1869   1054    259   1412    268  20934  12620   4973    163    170
+239. 2025-04-23T14:12:00.043450+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+240. 2025-04-23T13:36:00.400473+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+241. 2025-04-23T12:48:00.196454+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+242. 2025-04-23T15:26:01.163173+08:00 Dky_app_00 linx[44820]: dm-1              0.00     0.34   59.40  282.80  3802.26 18253.37    64.45     0.01    0.04   0.05   1.69
+243. 2025-04-23T12:18:01.863644+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+244. 2025-04-23T13:50:00.061457+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+245. 2025-04-23T12:12:01.605457+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+246. 2025-04-23T15:18:01.584918+08:00 Dky_app_00 linx[32875]: sdar              0.00     0.00    9.11   71.70   597.33  4602.26    64.34     0.02    0.19   0.30   2.39
+247. 2025-04-23T12:12:01.606432+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+248. 2025-04-23T12:42:00.947465+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+249. 2025-04-23T14:20:00.391449+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+250. 2025-04-23T14:00:00.510816+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+251. 2025-04-23T14:04:00.689520+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+252. 2025-04-23T13:30:00.133437+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+253. 2025-04-23T14:42:01.338793+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+254. 2025-04-23T13:52:00.155047+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+255. 2025-04-23T13:44:00.771472+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+256. 2025-04-23T12:16:01.782433+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+257. 2025-04-23T12:36:00.672453+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+258. 2025-04-23T12:08:01.415431+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+259. 2025-04-23T13:28:00.034450+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+260. 2025-04-23T13:28:00.034460+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+261. 2025-04-23T13:08:00.104319+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdaw - directio checker reports path is down
+262. 2025-04-23T13:36:00.400470+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+263. 2025-04-23T14:02:00.596475+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+264. 2025-04-23T12:42:00.946752+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdn - directio checker reports path is down
+265. 2025-04-23T13:38:00.494464+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+266. 2025-04-23T14:06:00.775439+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+267. 2025-04-23T14:10:00.953447+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+268. 2025-04-23T12:58:00.649539+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+269. 2025-04-23T13:16:00.460601+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdaw - directio checker reports path is down
+270. 2025-04-23T15:00:01.471250+08:00 Dky_app_00 linx[5721]: sdah              0.00     0.00    0.00    0.00     0.00     0.00    28.59     0.00    0.12   0.12   0.00
+271. 2025-04-23T12:42:00.947467+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+272. 2025-04-23T12:16:01.039914+08:00 Dky_app_00 linx[13027]: Swap:        61034          0      61034
+273. 2025-04-23T14:36:01.105440+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+274. 2025-04-23T14:48:01.745092+08:00 Dky_app_00 linx[131325]:      2 root      20   0     0    0    0 S    0  0.0   0:02.80 kthreadd
+275. 2025-04-23T12:38:00.767447+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Add. Sense: Logical unit not supported
+276. 2025-04-23T13:00:00.739451+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+277. 2025-04-23T14:24:00.583451+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+278. 2025-04-23T12:04:01.235471+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+279. 2025-04-23T13:40:00.584485+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+280. 2025-04-23T13:10:00.193876+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdaw - directio checker reports path is down
+281. 2025-04-23T12:44:00.032433+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+282. 2025-04-23T13:18:00.549442+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Sense Key : Illegal Request [current]
+283. 2025-04-23T12:16:01.783453+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+284. 2025-04-23T12:28:00.321445+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+285. 2025-04-23T12:50:00.282419+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+286. 2025-04-23T14:10:00.953457+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+287. 2025-04-23T13:38:00.494430+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+288. 2025-04-23T13:30:00.132483+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+289. 2025-04-23T14:42:01.339433+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+290. 2025-04-23T13:32:00.221460+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+291. 2025-04-23T14:34:01.025311+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+292. 2025-04-23T13:56:00.331452+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+293. 2025-04-23T13:12:00.279082+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Sense Key : Illegal Request [current]
+294. 2025-04-23T13:38:00.494439+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+295. 2025-04-23T13:38:00.494455+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+296. 2025-04-23T13:44:00.771147+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+297. 2025-04-23T12:56:00.552431+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+298. 2025-04-23T14:14:00.131425+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+299. 2025-04-23T12:10:01.515455+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+300. 2025-04-23T14:02:00.596461+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+301. 2025-04-23T15:20:01.510585+08:00 Dky_app_00 linx[35817]: sda2              0.02    18.33    0.06    1.67     8.47   159.99    97.22     0.00    0.54   0.35   0.06
+302. 2025-04-23T12:42:00.947453+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+303. 2025-04-23T13:54:00.239240+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+304. 2025-04-23T14:42:01.115200+08:00 Dky_app_00 linx[121039]: sdaz              0.00     0.00    7.48   35.35   475.91  2281.48    64.39     0.00    0.83   0.70   2.99
+305. 2025-04-23T13:54:00.239445+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+306. 2025-04-23T13:00:00.738827+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+307. 2025-04-23T15:58:01.522455+08:00 Dky_app_00 linx[91398]: sdaa              0.00     0.00    0.00    0.00     0.00     0.00    28.48     0.00    0.22   0.22   0.00
+308. 2025-04-23T13:46:00.864588+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+309. 2025-04-23T14:08:00.865426+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+310. 2025-04-23T12:28:00.321443+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+311. 2025-04-23T14:24:00.583438+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+312. 2025-04-23T12:04:01.235451+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+313. 2025-04-23T12:16:01.783451+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+314. 2025-04-23T13:32:00.221468+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+315. 2025-04-23T14:06:00.775434+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+316. 2025-04-23T15:20:01.514077+08:00 Dky_app_00 linx[35817]: dm-0              0.00     0.70   72.34  573.74  4766.21 36827.24    64.38     0.03    0.04   0.04   2.82
+317. 2025-04-23T12:08:01.414464+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+318. 2025-04-23T14:10:00.953454+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+319. 2025-04-23T14:02:00.596473+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+320. 2025-04-23T14:00:00.511446+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+321. 2025-04-23T14:30:00.855438+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+322. 2025-04-23T15:50:01.982257+08:00 Dky_app_00 linx[79655]: sdaq              0.00     0.00    0.10    4.38     2.46  2847.02   636.56     0.00    0.51   1.57   0.70
+323. 2025-04-23T12:40:00.857457+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+324. 2025-04-23T14:52:01.803885+08:00 Dky_app_00 linx[138482]:              total       used       free     shared    buffers     cached
+325. 2025-04-23T12:08:01.414466+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+326. 2025-04-23T12:16:01.782740+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+327. 2025-04-23T15:04:01.335698+08:00 Dky_app_00 linx[11840]: sday              0.00     0.00    9.08   71.73   595.64  4603.97    64.34     0.01    0.17   0.29   2.31
+328. 2025-04-23T12:50:00.282431+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+329. 2025-04-23T12:08:01.979973+08:00 Dky_app_00 /usr/sbin/cron[143697]: (sysadmin) CMD (/usr/sbin/get_max_mem_process.sh)
+330. 2025-04-23T13:12:00.279122+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+331. 2025-04-23T13:14:00.370445+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+332. 2025-04-23T12:30:00.416447+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+333. 2025-04-23T14:08:00.865424+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+334. 2025-04-23T12:18:01.863461+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+335. 2025-04-23T13:58:00.420453+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+336. 2025-04-23T13:00:00.739450+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+337. 2025-04-23T12:04:01.589266+08:00 Dky_app_00 linx[136993]: Mem:        516904     290556     226347          0          4       4249
+338. 2025-04-23T12:18:01.864430+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+339. 2025-04-23T15:04:01.334546+08:00 Dky_app_00 linx[11840]: sdq               0.00     0.00    7.47   35.36   475.34  2282.05    64.39     0.01    0.92   0.02   0.07
+340. 2025-04-23T12:04:01.235480+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+341. 2025-04-23T12:08:01.414451+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+342. 2025-04-23T13:46:00.864472+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+343. 2025-04-23T12:34:00.584435+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+344. 2025-04-23T13:02:00.828441+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+345. 2025-04-23T12:30:00.416441+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+346. 2025-04-23T12:42:00.947457+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+347. 2025-04-23T12:04:01.235474+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+348. 2025-04-23T14:42:01.339440+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+349. 2025-04-23T12:36:00.671696+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+350. 2025-04-23T14:04:00.689507+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+351. 2025-04-23T12:42:00.947459+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+352. 2025-04-23T14:36:01.577568+08:00 Dky_app_00 linx[110735]: date
+353. 2025-04-23T13:38:00.494461+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+354. 2025-04-23T12:40:00.857447+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdn, sector 0
+355. 2025-04-23T13:50:00.061469+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+356. 2025-04-23T13:48:00.963446+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+357. 2025-04-23T12:18:01.261688+08:00 Dky_app_00 linx[16754]: Filesystem            Inodes   IUsed   IFree IUse% Mounted on
+358. 2025-04-23T14:40:01.266442+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+359. 2025-04-23T13:42:00.672399+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+360. 2025-04-23T14:40:01.844790+08:00 Dky_app_00 linx[117547]:              total       used       free     shared    buffers     cached
+361. 2025-04-23T12:18:01.863476+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+362. 2025-04-23T12:02:01.151469+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+363. 2025-04-23T14:06:00.775447+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+364. 2025-04-23T14:00:00.511458+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+365. 2025-04-23T12:02:01.150833+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+366. 2025-04-23T14:58:01.525671+08:00 Dky_app_00 linx[2432]:                       886G  680G  162G  81% /dbarch
+367. 2025-04-23T13:54:00.239448+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+368. 2025-04-23T14:12:00.043464+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+369. 2025-04-23T14:12:00.043434+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+370. 2025-04-23T12:40:00.857188+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+371. 2025-04-23T12:32:00.497453+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+372. 2025-04-23T12:04:01.235456+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+373. 2025-04-23T16:00:01.445218+08:00 Dky_app_00 linx[94378]: sdah              0.00     0.00    0.00    0.00     0.00     0.00    28.56     0.00    0.12   0.12   0.00
+374. 2025-04-23T12:32:00.497450+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+375. 2025-04-23T15:50:01.983710+08:00 Dky_app_00 linx[79657]: netstat -an |grep -i 'established'|wc -l
+376. 2025-04-23T13:46:00.864429+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+377. 2025-04-23T13:46:00.864323+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+378. 2025-04-23T13:10:00.194438+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Sense Key : Illegal Request [current]
+379. 2025-04-23T13:42:00.672436+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+380. 2025-04-23T14:16:00.216432+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+381. 2025-04-23T12:46:00.119429+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+382. 2025-04-23T12:16:01.783455+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+383. 2025-04-23T13:42:00.672431+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+384. 2025-04-23T14:40:01.266448+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+385. 2025-04-23T12:44:00.032428+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+386. 2025-04-23T15:36:01.529319+08:00 Dky_app_00 linx[59552]: sdbc              0.00     0.00    0.00    0.00     0.00     0.00    28.53     0.00    0.21   0.21   0.00
+387. 2025-04-23T13:12:00.279060+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+388. 2025-04-23T13:54:00.239432+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+389. 2025-04-23T14:26:00.674438+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+390. 2025-04-23T13:44:00.771480+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+391. 2025-04-23T13:52:00.155439+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+392. 2025-04-23T13:52:00.155458+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+393. 2025-04-23T13:50:00.061449+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+394. 2025-04-23T13:34:00.313439+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+395. 2025-04-23T13:40:00.584466+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+396. 2025-04-23T13:58:00.419836+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+397. 2025-04-23T13:04:00.920458+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+398. 2025-04-23T14:12:00.043459+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+399. 2025-04-23T12:50:00.282452+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+400. 2025-04-23T14:02:00.266343+08:00 Dky_app_00 pmcagent[96228]: 10.33.1.200,GetSrcIP conn fail
+401. 2025-04-23T13:02:00.828436+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+402. 2025-04-23T13:54:00.239439+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+403. 2025-04-23T15:36:01.528621+08:00 Dky_app_00 linx[59552]: sdo               0.00     0.00    0.10    4.38     2.46  2855.88   638.54     0.00    0.52   1.57   0.70
+404. 2025-04-23T13:48:00.963434+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Add. Sense: Logical unit not supported
+405. 2025-04-23T15:24:01.304532+08:00 Dky_app_00 linx[41875]: sdat              0.00     0.00    5.52    5.92   350.26   389.37    64.69     0.02    1.96   1.70   1.94
+406. 2025-04-23T12:34:00.584450+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+407. 2025-04-23T13:40:00.583892+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+408. 2025-04-23T12:20:00.993137+08:00 Dky_app_00 pmcagent[96228]: 10.33.1.200,GetSrcIP conn fail
+409. 2025-04-23T12:14:01.697419+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+410. 2025-04-23T12:14:01.697668+08:00 Dky_app_00 linx[9472]: tmpfs                  20M   40K   20M   1% /tmp/smp
+411. 2025-04-23T12:38:00.767453+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+412. 2025-04-23T15:46:01.265870+08:00 Dky_app_00 linx[73858]: Node 0, zone      DMA      1      1      1      1      2      1      0      0      1      1      3
+413. 2025-04-23T13:10:00.194426+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+414. 2025-04-23T14:34:01.025447+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+415. 2025-04-23T12:54:00.461427+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+416. 2025-04-23T12:16:01.783440+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+417. 2025-04-23T13:40:00.583573+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+418. 2025-04-23T12:34:00.583560+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+419. 2025-04-23T13:36:00.400468+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+420. 2025-04-23T13:16:00.461425+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+421. 2025-04-23T15:42:01.403879+08:00 Dky_app_00 /usr/sbin/cron[68134]: (dmdba) CMD (sh /home/dmdba/dm/db_sessmon.sh)
+422. 2025-04-23T12:26:00.225995+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+423. 2025-04-23T13:42:00.673438+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+424. 2025-04-23T12:12:01.976107+08:00 Dky_app_00 pmcagent[96228]: 10.33.1.200,GetSrcIP conn fail
+425. 2025-04-23T13:40:00.584442+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+426. 2025-04-23T12:04:01.235453+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+427. 2025-04-23T13:30:00.132241+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+428. 2025-04-23T15:12:01.928914+08:00 Dky_app_00 linx[24110]: Swap:        61034          0      61034
+429. 2025-04-23T13:32:00.221134+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+430. 2025-04-23T12:52:00.377424+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+431. 2025-04-23T13:02:00.828432+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+432. 2025-04-23T15:14:01.829478+08:00 Dky_app_00 linx[27015]: sdi               0.00     0.00    9.09   71.72   596.33  4603.26    64.34     0.01    0.08   0.24   1.91
+433. 2025-04-23T13:12:00.279064+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdaw - directio checker reports path is down
+434. 2025-04-23T14:40:01.266199+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+435. 2025-04-23T12:10:01.515460+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+436. 2025-04-23T12:24:00.130794+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+437. 2025-04-23T12:42:00.947450+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Add. Sense: Logical unit not supported
+438. 2025-04-23T15:18:01.585088+08:00 Dky_app_00 linx[32875]: sdau              0.00     0.00    9.22   43.01   577.54  1008.69    30.37     0.02    0.31   0.30   1.59
+439. 2025-04-23T12:10:01.515462+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+440. 2025-04-23T13:46:00.865420+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+441. 2025-04-23T12:12:01.606426+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+442. 2025-04-23T12:02:01.347366+08:00 Dky_app_00 linx[133707]: sdv               0.00     0.00    0.10    4.38     2.46  2844.71   636.02     0.00    0.52   1.57   0.70
+443. 2025-04-23T14:22:00.486310+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+444. 2025-04-23T14:46:00.499982+08:00 Dky_app_00 pmcagent[96228]: 10.33.1.200,GetSrcIP conn fail
+445. 2025-04-23T12:10:01.515450+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+446. 2025-04-23T14:10:00.953082+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+447. 2025-04-23T14:06:00.774833+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+448. 2025-04-23T14:38:01.187631+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+449. 2025-04-23T15:42:01.440334+08:00 Dky_app_00 linx[68171]: sdad              0.00     0.00    9.08   71.73   595.15  4604.38    64.34     0.01    0.08   0.23   1.89
+450. 2025-04-23T12:18:01.863926+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+451. 2025-04-23T13:54:00.239435+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+452. 2025-04-23T15:08:01.110929+08:00 Dky_app_00 linx[18054]: /dev/sda3             585G  296G  260G  54% /home
+453. 2025-04-23T14:04:00.689477+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+454. 2025-04-23T12:08:01.414461+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+455. 2025-04-23T12:40:00.857451+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+456. 2025-04-23T12:12:01.605849+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+457. 2025-04-23T14:00:00.511450+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+458. 2025-04-23T14:56:01.620340+08:00 Dky_app_00 linx[144651]: sdaw              0.00     0.00    0.20    0.00     1.56     0.00     8.00     0.00    0.08   0.08   0.00
+459. 2025-04-23T12:26:00.226431+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+460. 2025-04-23T14:32:00.939444+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+461. 2025-04-23T12:04:01.235470+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+462. 2025-04-23T13:00:00.739445+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+463. 2025-04-23T14:28:00.764444+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+464. 2025-04-23T14:22:00.486452+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+465. 2025-04-23T12:06:00.956500+08:00 Dky_app_00 pmcagent[96228]: login_pmc: post req fail(28)
+466. 2025-04-23T12:06:00.956565+08:00 Dky_app_00 pmcagent[96228]: Pmcagent login error.
+467. 2025-04-23T13:28:00.034449+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+468. 2025-04-23T12:14:01.695416+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+469. 2025-04-23T12:16:01.055661+08:00 Dky_app_00 linx[13041]: dm-4              0.00     0.00    0.00    0.00     0.00     0.00    15.59     0.00   17.28  17.28   0.00
+470. 2025-04-23T14:08:00.865414+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+471. 2025-04-23T13:50:00.060862+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+472. 2025-04-23T13:46:00.863964+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdn - directio checker reports path is down
+473. 2025-04-23T13:38:00.494451+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+474. 2025-04-23T14:08:00.864434+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+475. 2025-04-23T12:14:01.696995+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+476. 2025-04-23T12:30:00.416456+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+477. 2025-04-23T12:56:00.552438+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+478. 2025-04-23T12:16:01.782371+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+479. 2025-04-23T13:24:00.840435+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdaw, sector 0
+480. 2025-04-23T12:48:00.197435+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+481. 2025-04-23T12:18:01.864423+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+482. 2025-04-23T12:08:01.415437+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+483. 2025-04-23T14:06:00.775432+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+484. 2025-04-23T13:38:00.494459+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+485. 2025-04-23T13:36:00.400457+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+486. 2025-04-23T13:36:00.400474+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+487. 2025-04-23T14:44:01.265829+08:00 Dky_app_00 linx[124438]: sdb               0.00     0.00    9.08   71.73   595.37  4604.30    64.34     0.01    0.18   0.29   2.33
+488. 2025-04-23T12:18:01.863477+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+489. 2025-04-23T14:06:00.775441+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+490. 2025-04-23T15:36:01.528368+08:00 Dky_app_00 linx[59552]: sdd               0.00     0.00    5.51    5.92   349.87   389.75    64.69     0.02    1.89   1.65   1.89
+491. 2025-04-23T12:04:01.235461+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+492. 2025-04-23T16:00:01.444721+08:00 Dky_app_00 linx[94378]: sdk               0.00     0.00    5.51    5.92   350.03   389.59    64.69     0.02    1.78   1.58   1.80
+493. 2025-04-23T13:42:00.672440+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+494. 2025-04-23T13:48:00.963432+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Sense Key : Illegal Request [current]
+495. 2025-04-23T12:10:01.515466+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+496. 2025-04-23T13:40:00.584469+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+497. 2025-04-23T12:38:00.767462+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+498. 2025-04-23T12:36:00.672444+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Sense Key : Illegal Request [current]
+499. 2025-04-23T12:12:01.605428+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+500. 2025-04-23T14:32:00.419880+08:00 Dky_app_00 pmcagent[96228]: login_pmc: post req fail(28)
+501. 2025-04-23T12:38:00.767451+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdn, sector 0
+502. 2025-04-23T13:50:00.061464+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+503. 2025-04-23T12:14:01.696422+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+504. 2025-04-23T12:38:00.767459+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+505. 2025-04-23T15:48:01.089717+08:00 Dky_app_00 linx[76709]: sdb               0.00     0.00    9.08   71.73   595.36  4604.17    64.34     0.01    0.18   0.29   2.33
+506. 2025-04-23T12:28:00.321439+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+507. 2025-04-23T14:20:00.391437+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+508. 2025-04-23T12:34:00.584453+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+509. 2025-04-23T15:24:01.304519+08:00 Dky_app_00 linx[41875]: sdas              0.00     0.00    7.47   35.36   475.27  2282.08    64.39     0.00    0.85   0.72   3.07
+510. 2025-04-23T13:22:00.742437+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Sense Key : Illegal Request [current]
+511. 2025-04-23T15:50:01.981622+08:00 Dky_app_00 linx[79655]: sda2              0.02    18.33    0.06    1.67     8.49   160.02    97.25     0.00    0.54   0.35   0.06
+512. 2025-04-23T12:24:00.131434+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+513. 2025-04-23T14:20:00.391445+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+514. 2025-04-23T12:36:00.672452+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+515. 2025-04-23T12:50:00.282413+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+516. 2025-04-23T12:40:00.857454+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+517. 2025-04-23T13:48:00.963440+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+518. 2025-04-23T15:04:01.334435+08:00 Dky_app_00 linx[11840]: sdm               0.00     0.00    0.00    0.00     0.00     0.00    28.53     0.00    0.20   0.20   0.00
+519. 2025-04-23T12:16:01.783443+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+520. 2025-04-23T14:36:01.541828+08:00 Dky_app_00 linx[110722]: sdl               0.00     0.00    9.10   43.13   569.60  1000.56    30.06     0.02    0.37   0.37   1.93
+521. 2025-04-23T12:52:00.377425+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+522. 2025-04-23T15:18:01.534900+08:00 Dky_app_00 linx[32840]: uptime
+523. 2025-04-23T14:08:00.864430+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+524. 2025-04-23T13:20:00.648437+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdaw - directio checker reports path is down
+525. 2025-04-23T14:56:01.620363+08:00 Dky_app_00 linx[144651]: sdba              0.00     0.00    5.51    5.92   349.91   389.73    64.69     0.02    1.90   1.65   1.89
+526. 2025-04-23T12:08:01.415434+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+527. 2025-04-23T13:56:00.331455+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+528. 2025-04-23T13:42:00.672425+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+529. 2025-04-23T13:42:00.673443+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+530. 2025-04-23T14:08:00.864437+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+531. 2025-04-23T13:06:00.010021+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdaw - directio checker reports path is down
+532. 2025-04-23T12:40:00.858425+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+533. 2025-04-23T15:56:01.661064+08:00 Dky_app_00 linx[88463]: sdai              0.00     0.00    0.20    0.00     1.56     0.00     8.00     0.00    0.08   0.08   0.00
+534. 2025-04-23T13:38:00.494442+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+535. 2025-04-23T13:32:00.221453+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+536. 2025-04-23T15:14:01.830518+08:00 Dky_app_00 linx[27015]: dm-8              0.00     0.00    2.38  340.77    24.97  7971.90    23.30     0.01    0.03   0.03   1.04
+537. 2025-04-23T15:28:01.996573+08:00 Dky_app_00 linx[47782]: sdr               0.00     0.00    5.52    5.92   350.21   389.42    64.69     0.02    1.78   1.57   1.80
+538. 2025-04-23T14:20:00.391425+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+539. 2025-04-23T13:38:00.494449+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+540. 2025-04-23T14:22:00.486448+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+541. 2025-04-23T12:02:01.151011+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+542. 2025-04-23T13:28:00.034454+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+543. 2025-04-23T13:54:00.239446+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+544. 2025-04-23T12:26:00.226437+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+545. 2025-04-23T14:18:00.300435+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+546. 2025-04-23T13:34:00.313257+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+547. 2025-04-23T12:16:01.783448+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+548. 2025-04-23T15:20:01.513626+08:00 Dky_app_00 linx[35817]: sday              0.00     0.00    9.08   71.73   595.64  4603.93    64.34     0.01    0.17   0.29   2.31
+549. 2025-04-23T12:12:01.606437+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+550. 2025-04-23T13:42:00.672811+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+551. 2025-04-23T13:42:00.673435+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+552. 2025-04-23T12:04:01.235476+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+553. 2025-04-23T13:44:00.771482+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+554. 2025-04-23T13:46:00.865413+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+555. 2025-04-23T12:14:01.693673+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+556. 2025-04-23T12:14:01.695420+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+557. 2025-04-23T14:48:01.051093+08:00 Dky_app_00 linx[131302]:
+558. 2025-04-23T12:26:00.226434+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+559. 2025-04-23T12:04:01.235000+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+560. 2025-04-23T13:00:00.739454+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+561. 2025-04-23T13:40:00.584491+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+562. 2025-04-23T12:32:00.497473+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+563. 2025-04-23T12:26:00.226429+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+564. 2025-04-23T15:56:01.661034+08:00 Dky_app_00 linx[88463]: sdae              0.00     0.00    7.48   35.34   476.15  2281.16    64.39     0.01    0.92   0.01   0.06
+565. 2025-04-23T12:42:00.947064+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+566. 2025-04-23T12:42:00.947470+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+567. 2025-04-23T12:10:01.515446+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+568. 2025-04-23T13:36:00.399983+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+569. 2025-04-23T13:00:00.739437+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+570. 2025-04-23T12:08:01.415442+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+571. 2025-04-23T13:16:00.461437+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Sense Key : Illegal Request [current]
+572. 2025-04-23T12:46:00.119427+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+573. 2025-04-23T13:46:00.864451+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Sense Key : Illegal Request [current]
+574. 2025-04-23T12:54:00.461429+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+575. 2025-04-23T13:40:00.584453+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+576. 2025-04-23T12:18:01.864434+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+577. 2025-04-23T12:02:01.151477+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+578. 2025-04-23T12:32:00.498421+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+579. 2025-04-23T13:18:00.549456+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdaw, sector 0
+580. 2025-04-23T13:30:00.132450+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+581. 2025-04-23T12:08:01.415428+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+582. 2025-04-23T13:28:00.035427+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+583. 2025-04-23T14:02:00.596470+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+584. 2025-04-23T13:36:00.400466+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+585. 2025-04-23T15:30:01.885805+08:00 Dky_app_00 linx[50727]: sdu               0.00     0.00    0.20    0.00     1.56     0.00     8.00     0.00    0.09   0.09   0.00
+586. 2025-04-23T13:34:00.313479+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+587. 2025-04-23T13:26:00.940454+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Add. Sense: Logical unit not supported
+588. 2025-04-23T14:48:01.051863+08:00 Dky_app_00 linx[131302]: dm-9              0.00     0.00    0.37 2856.81    16.45 22854.45     8.00     0.02    0.00   0.00   1.03
+589. 2025-04-23T13:24:00.840430+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Sense Key : Illegal Request [current]
+590. 2025-04-23T12:52:00.377427+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+591. 2025-04-23T13:08:00.104429+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Add. Sense: Logical unit not supported
+592. 2025-04-23T15:10:01.984994+08:00 Dky_app_00 linx[21189]: tmpfs                  20M   48K   20M   1% /tmp/smp
+593. 2025-04-23T12:16:01.782605+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+594. 2025-04-23T15:56:01.660962+08:00 Dky_app_00 linx[88463]: sdad              0.00     0.00    9.08   71.73   595.14  4604.35    64.34     0.01    0.08   0.23   1.89
+595. 2025-04-23T14:34:01.025438+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+596. 2025-04-23T13:48:00.962821+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+597. 2025-04-23T14:54:01.705622+08:00 Dky_app_00 linx[141720]: dm-5              0.00  2821.75    0.37   35.04    16.46 22854.39   645.84     0.01    0.38   0.29   1.02
+598. 2025-04-23T12:22:00.037426+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+599. 2025-04-23T14:02:00.596467+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+600. 2025-04-23T14:36:01.543591+08:00 Dky_app_00 linx[110722]: sdar              0.00     0.00    9.11   71.70   597.34  4602.34    64.34     0.02    0.19   0.30   2.39
+601. 2025-04-23T12:14:01.697424+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+602. 2025-04-23T12:22:00.036951+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+603. 2025-04-23T15:36:01.492043+08:00 Dky_app_00 /usr/sbin/cron[59514]: (root) CMD (sh /usr/bin/msmp >> /var/log/msmp.log )
+604. 2025-04-23T14:02:00.595849+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+605. 2025-04-23T13:06:00.010438+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Add. Sense: Logical unit not supported
+606. 2025-04-23T12:24:00.131439+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+607. 2025-04-23T13:28:00.034424+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+608. 2025-04-23T12:12:01.607419+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+609. 2025-04-23T15:44:01.290213+08:00 Dky_app_00 linx[70997]: 192.168.9.23:/dbarch/arch_rac1
+610. 2025-04-23T12:40:00.857443+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Add. Sense: Logical unit not supported
+611. 2025-04-23T12:14:01.695661+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+612. 2025-04-23T12:18:01.863482+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+613. 2025-04-23T13:32:00.221473+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+614. 2025-04-23T14:04:00.689510+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+615. 2025-04-23T12:42:00.947461+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+616. 2025-04-23T15:44:01.300101+08:00 Dky_app_00 linx[71001]: sde               0.00     0.00    9.33   42.90   586.70   984.38    30.08     0.02    0.29   0.29   1.50
+617. 2025-04-23T13:20:00.648460+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Sense Key : Illegal Request [current]
+618. 2025-04-23T14:32:00.419963+08:00 Dky_app_00 pmcagent[96228]: Pmcagent login error.
+619. 2025-04-23T12:10:01.515300+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+620. 2025-04-23T13:38:00.494464+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+621. 2025-04-23T12:08:01.414751+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+622. 2025-04-23T12:32:00.498426+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+623. 2025-04-23T13:32:00.222421+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+624. 2025-04-23T13:30:00.133424+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+625. 2025-04-23T13:30:00.133426+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+626. 2025-04-23T12:36:00.672447+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdn, sector 0
+627. 2025-04-23T13:52:00.155437+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+628. 2025-04-23T15:52:01.795888+08:00 Dky_app_00 pmcagent[96228]: login_pmc: post req fail(28)
+629. 2025-04-23T14:00:00.511442+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+630. 2025-04-23T14:14:00.131444+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+631. 2025-04-23T12:46:00.118867+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+632. 2025-04-23T12:18:01.271058+08:00 Dky_app_00 linx[16760]: sdk               0.00     0.00    5.51    5.92   350.01   389.61    64.69     0.02    1.78   1.58   1.80
+633. 2025-04-23T13:44:00.771453+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Sense Key : Illegal Request [current]
+634. 2025-04-23T12:58:00.650436+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+635. 2025-04-23T14:40:01.852540+08:00 Dky_app_00 linx[117557]: /dev/sda2                12M    2.1M    9.7M   18% /
+636. 2025-04-23T14:06:00.774935+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+637. 2025-04-23T14:30:00.855445+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+638. 2025-04-23T15:40:01.295158+08:00 Dky_app_00 linx[65409]: sdav              0.00    11.20    0.30    0.11    75.39    90.50   406.11     0.01   12.52   0.70   0.03
+639. 2025-04-23T12:04:01.235430+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+640. 2025-04-23T12:18:01.864433+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+641. 2025-04-23T12:16:01.783445+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+642. 2025-04-23T14:16:00.216430+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+643. 2025-04-23T14:32:00.939370+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+644. 2025-04-23T13:34:00.313453+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+645. 2025-04-23T14:00:00.511452+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+646. 2025-04-23T13:24:00.840359+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdaw - directio checker reports path is down
+647. 2025-04-23T12:38:00.766772+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+648. 2025-04-23T13:48:00.963448+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+649. 2025-04-23T13:34:00.313467+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+650. 2025-04-23T15:32:01.796609+08:00 Dky_app_00 linx[53667]: sda               0.02   223.59    0.15   13.30    17.72  1895.12   142.21     0.01    0.68   0.13   0.18
+651. 2025-04-23T13:36:00.400449+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+652. 2025-04-23T13:56:00.331458+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+653. 2025-04-23T14:50:01.937816+08:00 Dky_app_00 linx[135118]: dm-9              0.00     0.00    0.37 2856.80    16.45 22854.43     8.00     0.02    0.00   0.00   1.03
+654. 2025-04-23T13:52:00.155447+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+655. 2025-04-23T14:26:00.674450+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+656. 2025-04-23T14:32:00.939435+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+657. 2025-04-23T14:36:01.105442+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+658. 2025-04-23T12:28:00.320899+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+659. 2025-04-23T12:44:00.032339+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+660. 2025-04-23T12:40:00.858421+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+661. 2025-04-23T12:16:01.045588+08:00 Dky_app_00 linx[13037]: /dev/sda3                37M     28K     37M    1% /home
+662. 2025-04-23T12:22:00.037423+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+663. 2025-04-23T13:46:00.864469+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+664. 2025-04-23T12:14:01.696417+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+665. 2025-04-23T12:42:00.947447+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Sense Key : Illegal Request [current]
+666. 2025-04-23T14:18:00.300440+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+667. 2025-04-23T12:38:00.767021+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+668. 2025-04-23T14:24:00.583440+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+669. 2025-04-23T15:34:01.647930+08:00 Dky_app_00 linx[56610]: dm-6              0.00     0.00   25.49    3.00   333.40     3.00    11.81     0.01    0.36   0.36   1.02
+670. 2025-04-23T12:18:01.864427+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+671. 2025-04-23T13:28:00.035422+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+672. 2025-04-23T12:36:00.672450+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+673. 2025-04-23T13:08:00.104428+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Sense Key : Illegal Request [current]
+674. 2025-04-23T12:38:00.766718+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdn - directio checker reports path is down
+675. 2025-04-23T12:28:00.321435+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+676. 2025-04-23T14:00:00.511453+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+677. 2025-04-23T12:04:01.640690+08:00 Dky_app_00 linx[137030]: Node 3, zone   Normal  68728 151845 142242 118408  91283  61127  32814  12307   3044     76      5
+678. 2025-04-23T15:22:01.655963+08:00 Dky_app_00 pmcagent[96228]: 10.33.1.200,GetSrcIP conn fail
+679. 2025-04-23T12:04:01.235445+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+680. 2025-04-23T14:38:01.188438+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+681. 2025-04-23T14:38:01.751057+08:00 Dky_app_00 linx[114201]: Node 4, zone   Normal   3460   2196  68870 121986  96178  64354  33131  10318   1571      5      0
+682. 2025-04-23T12:58:00.650433+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+683. 2025-04-23T13:32:00.221328+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+684. 2025-04-23T12:26:00.226441+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+685. 2025-04-23T13:10:00.194442+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Add. Sense: Logical unit not supported
+686. 2025-04-23T12:16:01.783013+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+687. 2025-04-23T13:38:00.493941+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+688. 2025-04-23T14:02:00.596465+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+689. 2025-04-23T12:38:00.767452+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+690. 2025-04-23T13:56:00.331158+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+691. 2025-04-23T12:56:00.552120+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+692. 2025-04-23T13:48:00.962505+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdn - directio checker reports path is down
+693. 2025-04-23T15:18:01.631833+08:00 Dky_app_00 linx[32896]: Node 6, zone   Normal  26887  20202  18062  17061  16483   2688   8389   4590   1379      5      0
+694. 2025-04-23T12:34:00.584449+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+695. 2025-04-23T15:28:01.996618+08:00 Dky_app_00 linx[47782]: sdu               0.00     0.00    0.20    0.00     1.56     0.00     8.00     0.00    0.09   0.09   0.00
+696. 2025-04-23T14:00:00.510684+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+697. 2025-04-23T15:24:01.996473+08:00 Dky_app_00 linx[41898]:     10 root      RT   0     0    0    0 S    0  0.0   5:34.41 watchdog/1
+698. 2025-04-23T13:02:00.828097+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+699. 2025-04-23T14:52:01.819516+08:00 Dky_app_00 linx[138494]: sdah              0.00     0.00    0.00    0.00     0.00     0.00    28.59     0.00    0.12   0.12   0.00
+700. 2025-04-23T12:36:00.671956+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+701. 2025-04-23T13:34:00.313437+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+702. 2025-04-23T13:56:00.331448+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+703. 2025-04-23T12:28:00.321444+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+704. 2025-04-23T15:42:01.440536+08:00 Dky_app_00 linx[68171]: sdaq              0.00     0.00    0.10    4.38     2.46  2847.03   636.56     0.00    0.51   1.57   0.70
+705. 2025-04-23T15:52:01.795951+08:00 Dky_app_00 pmcagent[96228]: Pmcagent login error.
+706. 2025-04-23T14:58:01.539086+08:00 Dky_app_00 linx[2440]: sdak              0.00     0.00    9.10   71.71   596.68  4602.94    64.34     0.01    0.08   0.23   1.88
+707. 2025-04-23T12:34:00.584439+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+708. 2025-04-23T13:56:00.331446+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+709. 2025-04-23T12:40:00.857575+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+710. 2025-04-23T15:04:01.380781+08:00 Dky_app_00 linx[11856]: top-detail:
+711. 2025-04-23T15:50:01.982542+08:00 Dky_app_00 linx[79655]: dm-3              0.00     0.00   73.67  343.77  4645.41  7974.80    30.23     0.01    0.10   0.01   0.60
+712. 2025-04-23T12:16:01.783430+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+713. 2025-04-23T12:26:00.225703+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+714. 2025-04-23T12:40:00.857439+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Sense Key : Illegal Request [current]
+715. 2025-04-23T14:52:01.818874+08:00 Dky_app_00 linx[138494]:
+716. 2025-04-23T12:10:01.515464+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+717. 2025-04-23T12:04:01.235471+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+718. 2025-04-23T13:44:00.771489+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+719. 2025-04-23T14:06:00.775449+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+720. 2025-04-23T14:50:01.924631+08:00 Dky_app_00 linx[135110]: 192.168.9.23:/dbarch/arch_rac1
+721. 2025-04-23T12:04:01.235466+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+722. 2025-04-23T13:48:00.963441+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdn, sector 0
+723. 2025-04-23T13:56:00.331443+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+724. 2025-04-23T15:02:01.436981+08:00 Dky_app_00 linx[8848]: sdz               0.00     0.00    9.36   42.87   587.87   996.04    30.33     0.02    0.29   0.29   1.50
+725. 2025-04-23T12:26:00.226439+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+726. 2025-04-23T13:36:00.400463+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Sense Key : Illegal Request [current]
+727. 2025-04-23T13:30:00.132494+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+728. 2025-04-23T13:30:00.132555+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+729. 2025-04-23T12:18:01.863456+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+730. 2025-04-23T13:22:00.742441+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Add. Sense: Logical unit not supported
+731. 2025-04-23T13:58:00.420452+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+732. 2025-04-23T12:18:01.863452+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+733. 2025-04-23T12:10:01.515453+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+734. 2025-04-23T12:04:01.235457+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+735. 2025-04-23T14:42:01.339437+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+736. 2025-04-23T15:02:01.437550+08:00 Dky_app_00 linx[8848]: sdas              0.00     0.00    7.47   35.36   475.27  2282.11    64.39     0.00    0.85   0.72   3.07
+737. 2025-04-23T12:16:01.782438+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+738. 2025-04-23T13:44:00.771461+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Add. Sense: Logical unit not supported
+739. 2025-04-23T13:30:00.132475+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+740. 2025-04-23T14:34:01.025440+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+741. 2025-04-23T13:38:00.494466+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+742. 2025-04-23T14:18:00.300432+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+743. 2025-04-23T15:40:01.295300+08:00 Dky_app_00 linx[65409]: sdba              0.00     0.00    5.51    5.92   349.90   389.73    64.69     0.02    1.90   1.65   1.89
+744. 2025-04-23T12:08:01.415443+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+745. 2025-04-23T15:02:01.435895+08:00 Dky_app_00 linx[8848]: Device:         rrqm/s   wrqm/s     r/s     w/s   rsec/s   wsec/s avgrq-sz avgqu-sz   await  svctm  %util
+746. 2025-04-23T12:08:01.414428+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+747. 2025-04-23T14:08:00.865432+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+748. 2025-04-23T12:44:00.032426+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+749. 2025-04-23T14:38:01.188449+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+750. 2025-04-23T12:34:00.584446+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdab, sector 0
+751. 2025-04-23T12:04:01.234934+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+752. 2025-04-23T15:32:01.797344+08:00 Dky_app_00 linx[53667]: sdu               0.00     0.00    0.20    0.00     1.56     0.00     8.00     0.00    0.09   0.09   0.00
+753. 2025-04-23T13:50:00.061466+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+754. 2025-04-23T14:26:00.674446+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+755. 2025-04-23T13:58:00.419759+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+756. 2025-04-23T14:32:00.939440+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Add. Sense: Logical unit not supported
+757. 2025-04-23T15:28:01.997134+08:00 Dky_app_00 linx[47782]: sdba              0.00     0.00    5.51    5.92   349.90   389.73    64.69     0.02    1.90   1.65   1.89
+758. 2025-04-23T12:30:00.416445+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Add. Sense: Logical unit not supported
+759. 2025-04-23T14:08:00.864525+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdai - directio checker reports path is down
+760. 2025-04-23T12:30:00.416453+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Add. Sense: Logical unit not supported
+761. 2025-04-23T12:12:01.606424+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+762. 2025-04-23T13:54:00.239132+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+763. 2025-04-23T13:46:00.864460+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn]  Add. Sense: Logical unit not supported
+764. 2025-04-23T15:12:01.944133+08:00 Dky_app_00 linx[24122]: sdm               0.00     0.00    0.00    0.00     0.00     0.00    28.53     0.00    0.20   0.20   0.00
+765. 2025-04-23T13:32:00.221462+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdu, sector 0
+766. 2025-04-23T15:40:01.340055+08:00 Dky_app_00 linx[65433]: Node 3, zone   Normal    832   4208   5355    952     62  53180  32865  12334   3069      4      0
+767. 2025-04-23T13:36:00.399771+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+768. 2025-04-23T13:36:00.400140+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdbd - directio checker reports path is down
+769. 2025-04-23T13:04:00.920421+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+770. 2025-04-23T13:36:00.400477+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+771. 2025-04-23T12:02:01.151454+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+772. 2025-04-23T12:38:00.767461+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+773. 2025-04-23T13:06:00.010427+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+774. 2025-04-23T14:56:01.620426+08:00 Dky_app_00 linx[144651]: dm-1              0.00     0.34   59.40  282.81  3802.31 18253.61    64.45     0.01    0.04   0.05   1.69
+775. 2025-04-23T12:02:01.151464+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+776. 2025-04-23T13:34:00.313470+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdap, sector 0
+777. 2025-04-23T13:46:00.864463+08:00 Dky_app_00 kernel: sd 7:0:1:6: [sdn] CDB: Read(10): 28 00 00 00 00 00 00 00 08 00
+778. 2025-04-23T13:36:00.400447+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+779. 2025-04-23T13:32:00.222433+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+780. 2025-04-23T12:02:01.151484+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+781. 2025-04-23T12:30:00.416452+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+782. 2025-04-23T12:36:00.672454+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+783. 2025-04-23T12:08:01.415429+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+784. 2025-04-23T15:30:01.887723+08:00 Dky_app_00 linx[50727]: sdbd              0.00     0.00    0.20    0.00     1.56     0.00     8.00     0.00    0.07   0.07   0.00
+785. 2025-04-23T15:50:01.969383+08:00 Dky_app_00 linx[79647]: /dev/sda2             185G   75G  101G  43% /
+786. 2025-04-23T13:40:00.583772+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+787. 2025-04-23T13:42:00.672640+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+788. 2025-04-23T12:42:00.947473+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdai, sector 0
+789. 2025-04-23T13:26:00.939535+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdaw - directio checker reports path is down
+790. 2025-04-23T12:18:01.271633+08:00 Dky_app_00 linx[16760]: dm-1              0.00     0.34   59.40  282.81  3802.00 18253.85    64.45     0.01    0.04   0.05   1.69
+791. 2025-04-23T12:10:01.515456+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+792. 2025-04-23T12:48:00.197430+08:00 Dky_app_00 kernel: sd 7:0:0:6: [sdg]  Sense Key : Illegal Request [current]
+793. 2025-04-23T13:08:00.104431+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdaw, sector 0
+794. 2025-04-23T13:10:00.194445+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdaw, sector 0
+795. 2025-04-23T12:16:01.783450+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+796. 2025-04-23T13:24:00.840432+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Add. Sense: Logical unit not supported
+797. 2025-04-23T14:36:01.105457+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+798. 2025-04-23T13:20:00.648479+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Add. Sense: Logical unit not supported
+799. 2025-04-23T12:12:01.606008+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdap - directio checker reports path is down
+800. 2025-04-23T12:02:01.151483+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Sense Key : Illegal Request [current]
+801. 2025-04-23T13:34:00.313049+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+802. 2025-04-23T14:28:00.763484+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+803. 2025-04-23T12:22:00.037422+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+804. 2025-04-23T12:08:01.415445+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+805. 2025-04-23T12:10:01.514811+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdg - directio checker reports path is down
+806. 2025-04-23T14:10:00.953445+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+807. 2025-04-23T15:14:01.829257+08:00 Dky_app_00 linx[27015]: sda               0.02   223.59    0.15   13.30    17.72  1895.13   142.21     0.01    0.68   0.13   0.18
+808. 2025-04-23T14:14:00.131448+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+809. 2025-04-23T12:12:01.607420+08:00 Dky_app_00 kernel: sd 8:0:3:6: [sdbd]  Add. Sense: Logical unit not supported
+810. 2025-04-23T13:50:00.061444+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+811. 2025-04-23T13:12:00.279087+08:00 Dky_app_00 kernel: sd 8:0:2:6: [sdaw]  Add. Sense: Logical unit not supported
+812. 2025-04-23T12:28:00.320553+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+813. 2025-04-23T13:22:00.741783+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdaw - directio checker reports path is down
+814. 2025-04-23T15:48:01.073563+08:00 Dky_app_00 linx[76701]: Filesystem            Size  Used Avail Use% Mounted on
+815. 2025-04-23T14:56:01.571913+08:00 Dky_app_00 /usr/sbin/cron[144602]: (sysadmin) CMD (/usr/sbin/get_max_mem_process.sh)
+816. 2025-04-23T12:02:01.150884+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdu - directio checker reports path is down
+817. 2025-04-23T13:48:00.963445+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Sense Key : Illegal Request [current]
+818. 2025-04-23T16:00:01.444825+08:00 Dky_app_00 linx[94378]: sdo               0.00     0.00    0.10    4.38     2.46  2855.85   638.54     0.00    0.52   1.57   0.70
+819. 2025-04-23T12:02:01.151461+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+820. 2025-04-23T13:44:00.771485+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+821. 2025-04-23T15:58:01.503627+08:00 Dky_app_00 linx[91384]: free -m
+822. 2025-04-23T12:12:01.607423+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdbd, sector 0
+823. 2025-04-23T12:10:01.515465+08:00 Dky_app_00 kernel: sd 8:0:1:6: [sdap]  Add. Sense: Logical unit not supported
+824. 2025-04-23T12:30:00.415716+08:00 Dky_app_00 multipathd: 363c7843100c5453e3fb2197100000035: sdab - directio checker reports path is down
+825. 2025-04-23T14:36:01.105446+08:00 Dky_app_00 kernel: end_request: I/O error, dev sdg, sector 0
+826. 2025-04-23T12:40:00.858420+08:00 Dky_app_00 kernel: sd 8:0:0:6: [sdai]  Sense Key : Illegal Request [current]
+827. 2025-04-23T15:42:01.440904+08:00 Dky_app_00 linx[68171]: dm-0              0.00     0.70   72.34  573.73  4766.17 36826.87    64.38     0.03    0.04   0.04   2.82
+828. 2025-04-23T14:58:01.525697+08:00 Dky_app_00 linx[2432]: 192.168.9.23:/dbarch/arch_rac1
+829. 2025-04-23T14:08:00.864432+08:00 Dky_app_00 kernel: sd 7:0:3:6: [sdab]  Sense Key : Illegal Request [current]
+830. 2025-04-23T13:44:00.771474+08:00 Dky_app_00 kernel: sd 7:0:2:6: [sdu]  Add. Sense: Logical unit not supported
+831. 2025-04-23T14:38:01.697335+08:00 Dky_app_00 linx[114174]:                       788G  681G   68G  91% /dbarch/arch_dsc1_kafka
+832. 2025-04-23T15:40:01.295331+08:00 Dky_app_00 linx[65409]: sdbc              0.00     0.00    0.00    0.00     0.00     0.00    28.53     0.00    0.21   0.21   0.00

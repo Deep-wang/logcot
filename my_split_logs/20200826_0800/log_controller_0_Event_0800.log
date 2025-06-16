@@ -1,0 +1,33 @@
+17874736    2020-08-26 15:12:24    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+17874563    2020-08-26 15:05:20    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+17874432    2020-08-26 15:00:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+17874124    2020-08-26 14:47:19    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+17873995    2020-08-26 14:42:07    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+17873768    2020-08-26 14:32:52    0x200F00F50026    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN group (ID 17) to the mapping view (ID 18).
+N/A
+
+17873767    2020-08-26 14:32:52    0x200F00F5003E    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the host group (ID 17) to the mapping view (ID 18).
+N/A
+
+17873766    2020-08-26 14:32:52    0x200F00F50014    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the mapping view (name zhejiangku-kr-6T , ID 18).
+N/A
+
+17873688    2020-08-26 14:29:41    0x200F0100001D    Event    Informational    --    None    admin:10.33.36.225 succeeded in adding the LUN (49) to the LUN group (ID 17).
+N/A
+
+17873662    2020-08-26 14:28:42    0x200F000B019B    Event    Informational    --    None    admin:10.33.36.225 succeeded in creating the thick LUN (name zhejiangku-kr-6T, type thick, capacity 6TB, storage pool ID 0, ID 49, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0A, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e8b6e5d7600000031).
+N/A.
+
+17873614    2020-08-26 14:26:43    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+

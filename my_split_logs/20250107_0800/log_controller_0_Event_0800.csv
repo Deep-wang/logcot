@@ -1,0 +1,17 @@
+log
+"73776718    2025-01-07 13:43:11    0x100F00310004    Event    Informational    --    None    The replacement of disk (disk enclosure DAE050, slot ID 6, type SAS) in disk domain (ID 7, name SAS) is completed."
+N/A
+"73776717    2025-01-07 13:43:11    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 6) is inserted."
+N/A
+"73776716    2025-01-07 13:43:11    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started."
+N/A
+"73776702    2025-01-07 13:42:38    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE050, slot ID 6, serial number 19H0A0UPFE6G) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance."
+Reinsert the disk.
+73770985    2025-01-07 09:47:35    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+73770902    2025-01-07 09:44:10    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A
+73770840    2025-01-07 09:41:37    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+73770169    2025-01-07 09:14:08    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.228) succeeded.
+N/A

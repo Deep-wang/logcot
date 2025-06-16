@@ -1,0 +1,18 @@
+55479    2019-03-26 16:58:05    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.2) succeeded.
+N/A
+
+54754    2019-03-26 16:21:26    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+54753    2019-03-26 16:21:26    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.2) succeeded.
+N/A
+
+54649    2019-03-26 16:16:11    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.2) succeeded.
+N/A
+
+54647    2019-03-26 16:16:03    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+54645    2019-03-26 16:16:02    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.2) succeeded.
+N/A
+

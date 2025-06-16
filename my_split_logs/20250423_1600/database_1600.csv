@@ -1,0 +1,9 @@
+log
+"2025-04-23 16:00:37.442 [INFO] database P0000095243 T0000000000000095243  INI parameter DW_PORT changed, the original value 0, new value 4566"
+"2025-04-23 16:00:37.446 [INFO] database P0000095243 T0000000000000095243  INI parameter DPC_2PC changed, the original value 1, new value 0"
+"2025-04-23 16:00:38.822 [INFO] database P0000095243 T0000000000000095243  info get from dcr disk, asm_host = localhost, asm_port = 1288713792, global_dcr_ep_host = , global_dcr_ep_port = 5236, global_dcr_css_host = 192.168.9.22, global_dcr_css_port = 91362752"
+"2025-04-23 16:00:38.835 [INFO] database P0000095243 T0000000000000095243  dmshm2_attach, success, shm id 294913"
+"2025-04-23 16:00:38.836 [INFO] database P0000095243 T0000000000000095243  os_asm_env_init success(dest host:localhost, dest port:9351), conn info: comm port:9351, host:localhost, port:9351"
+2025-04-23 16:00:38.844 [INFO] database P0000095243 T0000000000000095243  version info: enterprise
+"2025-04-23 16:01:48.491 [INFO] database P0000097032 T0000000000000097032  INI parameter DW_PORT changed, the original value 0, new value 4566"
+"2025-04-23 16:01:48.494 [INFO] database P0000097032 T0000000000000097032  INI parameter DPC_2PC changed, the original value 1, new value 0"

@@ -1,0 +1,54 @@
+76742973    2025-04-02 04:58:00    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 1) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely.
+N/A
+
+76741735    2025-04-02 04:07:13    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+76741734    2025-04-02 04:07:13    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+76741585    2025-04-02 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+76741584    2025-04-02 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+76739748    2025-04-02 02:45:36    0x100F00D20017    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 1) was charging.
+N/A
+
+76739353    2025-04-02 02:29:24    0x100F0D20006    Event    Informational    --    None    BBU module (controller enclosure CTE0, BBU module PSU 1) has insufficient power. When a power failure occurs, the BBU module cannot provide sufficient power to save data.
+Step 1 Check whether the BBU module is faulty.
+    1.1 If yes, replace the BBU module. 
+    1.2 If no=>[step 2].
+Step 2 Wait until the BBU module is fully charged.
+
+76739324    2025-04-02 02:28:16    0x100F00D20015    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 1) was in periodic discharge test.
+N/A
+
+76739323    2025-04-02 02:28:16    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 0) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely.
+N/A
+
+76737250    2025-04-02 01:03:02    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+76737221    2025-04-02 01:01:51    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.78) succeeded.
+N/A
+
+76737117    2025-04-02 00:57:39    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+76736470    2025-04-02 00:31:07    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.78) succeeded.
+N/A
+
+76736139    2025-04-02 00:17:35    0x100F00D20017    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 0) was charging.
+N/A
+
+76735745    2025-04-02 00:01:28    0x100F0D20006    Event    Informational    --    None    BBU module (controller enclosure CTE0, BBU module PSU 0) has insufficient power. When a power failure occurs, the BBU module cannot provide sufficient power to save data.
+Step 1 Check whether the BBU module is faulty.
+    1.1 If yes, replace the BBU module. 
+    1.2 If no=>[step 2].
+Step 2 Wait until the BBU module is fully charged.
+
+76735713    2025-04-02 00:00:12    0x100F00D20015    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 0) was in periodic discharge test.
+N/A
+

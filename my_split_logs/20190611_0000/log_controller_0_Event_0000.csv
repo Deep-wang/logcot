@@ -1,0 +1,11 @@
+log
+2457374    2019-06-11 04:07:05    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+2457373    2019-06-11 04:07:05    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+2457226    2019-06-11 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+2457225    2019-06-11 04:01:00    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"2455901    2019-06-11 03:06:11    0xF00CA000E    Fault    Major    Recovered    2019-06-12 03:06:11    The password of user (admin) is about to expire in 5 days, please reset the password."
+Find a system user sharing the same name with the user in the alarm and reset the password of the found user.

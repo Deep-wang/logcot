@@ -1,0 +1,33 @@
+3445638    2019-07-09 15:59:51    0x200F00CA0031    Event    Informational    --    None    admin:10.33.34.50 succeeded in configuring the user security policy (minimum password length 8 (bytes), maximum password length 16 (bytes), password complexity (normal), maximum number of consecutive repeated characters in a password 3 (times), whether to enable the password lock True, password lock time 15 (minutes) (0 indicates that password is locked permanently.), maximum number of incorrect password attempts 5 (times), session expiration time 30 (minutes), minimum validity period 0 (minutes) (0 indicates that no restrictions are imposed.), maximum validity period 0 (Days) (0 indicates that the password is valid permanently.), prompt time before password expiration 7 (days), number of recorded historical passwords 0 (counts), whether to enable the user account audit mechanism False, user account audit period 120 (days), whether to enable the inactive lock False, inactive lock interval 60 (days), minimum user name length 6 (bytes), whether to enable user login notification False, whether to enable the user-defined login notification False, user-defined login notification ..., whether to reject the default password False).
+N/A
+
+3445627    2019-07-09 15:59:25    0x200F002A002A    Event    Informational    --    None    admin:10.33.34.50 failed to change its password. The error code is 0x4040329c.
+N/A
+
+3445610    2019-07-09 15:58:49    0x200F00CA0031    Event    Informational    --    None    admin:10.33.34.50 succeeded in configuring the user security policy (minimum password length 8 (bytes), maximum password length 16 (bytes), password complexity (normal), maximum number of consecutive repeated characters in a password 3 (times), whether to enable the password lock True, password lock time 15 (minutes) (0 indicates that password is locked permanently.), maximum number of incorrect password attempts 5 (times), session expiration time 30 (minutes), minimum validity period 5 (minutes) (0 indicates that no restrictions are imposed.), maximum validity period 0 (Days) (0 indicates that the password is valid permanently.), prompt time before password expiration 7 (days), number of recorded historical passwords 0 (counts), whether to enable the user account audit mechanism False, user account audit period 120 (days), whether to enable the inactive lock False, inactive lock interval 60 (days), minimum user name length 6 (bytes), whether to enable user login notification False, whether to enable the user-defined login notification False, user-defined login notification ..., whether to reject the default password False).
+N/A
+
+3445586    2019-07-09 15:57:46    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.50) succeeded.
+N/A
+
+3445581    2019-07-09 15:57:35    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.50) succeeded.
+N/A
+
+3445578    2019-07-09 15:57:34    0x200F002A0029    Event    Informational    --    None    admin:10.33.34.50 succeeded in changing its password.
+N/A
+
+3445543    2019-07-09 15:56:12    0x200F002A002A    Event    Informational    --    None    admin:10.33.34.50 failed to change its password. The error code is 0x4040329d.
+N/A
+
+3445526    2019-07-09 15:55:30    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.50) succeeded.
+N/A
+
+3445483    2019-07-09 15:53:38    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+
+3445482    2019-07-09 15:53:35    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+3445477    2019-07-09 15:53:27    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+

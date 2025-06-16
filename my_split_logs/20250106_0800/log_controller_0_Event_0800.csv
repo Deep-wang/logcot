@@ -1,0 +1,37 @@
+log
+73744001    2025-01-06 15:18:56    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.227) succeeded.
+N/A
+73743576    2025-01-06 15:01:28    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+73743449    2025-01-06 14:56:18    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+73743255    2025-01-06 14:48:26    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.227) succeeded.
+N/A
+73743206    2025-01-06 14:46:27    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+73743205    2025-01-06 14:46:27    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+73743081    2025-01-06 14:41:25    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+73743065    2025-01-06 14:40:48    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+73742432    2025-01-06 14:14:50    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.227) succeeded.
+N/A
+73742427    2025-01-06 14:14:40    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.227) succeeded.
+N/A
+73742276    2025-01-06 14:08:28    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.227) succeeded.
+N/A
+73742274    2025-01-06 14:08:27    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.227) succeeded.
+N/A
+73742270    2025-01-06 14:08:19    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.227 succeeded in switching from a mode (developer view) to the user view.
+N/A
+73742269    2025-01-06 14:08:19    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.227 succeeded in switching from the user view to developer view.
+N/A
+73742268    2025-01-06 14:08:19    0x200F00C90082    Event    Informational    --    None    admin:10.33.36.227 succeeded in switching from a mode (developer view) to the user view.
+N/A
+73742267    2025-01-06 14:08:19    0x200F00CA0005    Event    Informational    --    None    admin:10.33.36.227 succeeded in switching from the user view to developer view.
+N/A
+73742264    2025-01-06 14:08:16    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.227) succeeded.
+N/A
+73742263    2025-01-06 14:08:16    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.227) succeeded.
+N/A

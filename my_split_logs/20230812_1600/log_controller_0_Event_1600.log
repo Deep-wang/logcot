@@ -1,0 +1,31 @@
+55776474    2023-08-12 23:03:17    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+
+55776473    2023-08-12 23:03:17    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE040, slot ID 11, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+55775272    2023-08-12 22:13:57    0xF000A011C    Fault    Critical    Recovered    2023-08-16 07:57:01    Disk (Disk Enclosure DAE040, slot 11, serial number WBM0ZXS20000K9271R7H, item --, BarCode --) is faulty. The bad sector is --. Error code: 0x40000a58.
+Step1 Replace the disk. If the alarm persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+55775271    2023-08-12 22:13:57    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE040, slot ID 11) completed. The check result is unsuccessfully.
+N/A
+
+55775268    2023-08-12 22:13:54    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE040, slot ID 11, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+55775267    2023-08-12 22:13:54    0x10A0001    Fault    Major    Recovered    2023-08-12 23:03:17    Disk domain (name SAS, ID 7) degrades, and the service performance of hosts may decrease.
+Step1 Check whether alarms are generated indicating disk removal.
+    1.1 If yes, reinsert the removed disks. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether alarms are generated indicating disk faults.
+    2.1 If yes, replace faulty disks. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Collect all related information and contact technical support engineers.
+
+55775266    2023-08-12 22:13:54    0x1000010A001F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) stopped.
+N/A
+
+55775213    2023-08-12 22:11:44    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE040, slot ID 11) started. Check type: 0x6673736563637573.
+N/A
+

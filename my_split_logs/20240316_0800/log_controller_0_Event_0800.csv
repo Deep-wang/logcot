@@ -1,0 +1,27 @@
+log
+"63361346    2024-03-16 10:03:17    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started."
+N/A
+"63361345    2024-03-16 10:03:17    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 7, type SAS) in the disk domain (ID 7, name SAS) completed."
+N/A
+"63361344    2024-03-16 10:03:17    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE011, slot ID 7, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain."
+N/A
+"63361343    2024-03-16 10:03:17    0x1000010A001F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) stopped."
+N/A
+"63361338    2024-03-16 10:03:07    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 7) completed. The check result is successfully."
+N/A
+63361323    2024-03-16 10:02:28    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+"63361299    2024-03-16 10:01:29    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE011, slot ID 7) started. Check type: 0x6673736563637573."
+N/A
+63360686    2024-03-16 09:36:24    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+63360539    2024-03-16 09:30:30    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"63360518    2024-03-16 09:29:42    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started."
+N/A
+"63360517    2024-03-16 09:29:42    0x100F00310004    Event    Informational    --    None    The replacement of disk (disk enclosure DAE011, slot ID 7, type SAS) in disk domain (ID 7, name SAS) is completed."
+N/A
+"63360516    2024-03-16 09:29:41    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 7) is inserted."
+N/A
+63360295    2024-03-16 09:20:34    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A

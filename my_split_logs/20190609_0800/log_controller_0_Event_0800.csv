@@ -1,0 +1,3 @@
+log
+"2403761    2019-06-09 15:06:11    0xF00CA000E    Fault    Major    Recovered    2019-06-10 03:06:11    The password of user (admin) is about to expire in 7 days, please reset the password."
+Find a system user sharing the same name with the user in the alarm and reset the password of the found user.

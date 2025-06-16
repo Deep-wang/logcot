@@ -1,0 +1,7 @@
+log
+"76966409    2025-04-08 13:59:33    0x100F00310004    Event    Informational    --    None    The replacement of disk (disk enclosure DAE060, slot ID 5, type SAS) in disk domain (ID 7, name SAS) is completed."
+N/A
+"76966407    2025-04-08 13:59:33    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 5) is inserted."
+N/A
+"76966406    2025-04-08 13:59:33    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started."
+N/A

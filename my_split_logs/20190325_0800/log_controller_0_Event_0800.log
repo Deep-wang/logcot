@@ -1,0 +1,821 @@
+45191    2019-03-25 14:45:58    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+45189    2019-03-25 14:45:53    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+45128    2019-03-25 14:41:10    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 14:41:10, host: ID 1.
+N/A.
+
+45127    2019-03-25 14:41:10    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 14:41:10, host: ID 1.
+N/A.
+
+45061    2019-03-25 14:33:44    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 14:33:44, host: ID 1.
+N/A.
+
+45060    2019-03-25 14:33:44    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 14:33:44, host: ID 1.
+N/A.
+
+45050    2019-03-25 14:31:56    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+45047    2019-03-25 14:31:52    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+45033    2019-03-25 14:30:15    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 14:30:15, host: ID 1.
+N/A.
+
+45032    2019-03-25 14:30:15    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 14:30:15, host: ID 1.
+N/A.
+
+45023    2019-03-25 14:28:03    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 14:28:3, host: ID 0.
+N/A.
+
+45022    2019-03-25 14:28:03    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 14:28:3, host: ID 0.
+N/A.
+
+45017    2019-03-25 14:18:34    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 14:18:34, host: ID 1.
+N/A.
+
+45016    2019-03-25 14:18:33    0xF0060004    Fault    Major    Cleared    2019-04-08 17:07:32    FC host port (controller enclosure CTE0, -- controller A, port number H1) is disconnected.
+Step1 Check cable connections.
+1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]. 
+1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]. 
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4]. 
+1.4 If no exceptions are detected=>[Step3]. 
+Step2 Check whether optical modules of the peer port are damaged. 
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2]. 
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3]. 
+Step3 Check the port configuration. 
+3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]. 
+3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]. 
+Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]. 
+Step5 Contact technical support engineers.
+
+45015    2019-03-25 14:18:08    0xF0060004    Fault    Major    Cleared    2019-04-08 17:07:33    FC host port (controller enclosure CTE0, -- controller B, port number H1) is disconnected.
+Step1 Check cable connections.
+1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]. 
+1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]. 
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4]. 
+1.4 If no exceptions are detected=>[Step3]. 
+Step2 Check whether optical modules of the peer port are damaged. 
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2]. 
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3]. 
+Step3 Check the port configuration. 
+3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]. 
+3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]. 
+Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]. 
+Step5 Contact technical support engineers.
+
+45014    2019-03-25 14:18:06    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 14:18:6, host: ID 1.
+N/A.
+
+45013    2019-03-25 14:17:49    0xF0060004    Fault    Major    Recovered    2019-03-25 14:21:01    FC host port (controller enclosure CTE0, -- controller B, port number H0) is disconnected.
+Step1 Check cable connections.
+1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]. 
+1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]. 
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4]. 
+1.4 If no exceptions are detected=>[Step3]. 
+Step2 Check whether optical modules of the peer port are damaged. 
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2]. 
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3]. 
+Step3 Check the port configuration. 
+3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]. 
+3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]. 
+Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]. 
+Step5 Contact technical support engineers.
+
+45012    2019-03-25 14:17:45    0xF0060004    Fault    Major    Recovered    2019-03-25 14:20:58    FC host port (controller enclosure CTE0, -- controller A, port number H0) is disconnected.
+Step1 Check cable connections.
+1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]. 
+1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]. 
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4]. 
+1.4 If no exceptions are detected=>[Step3]. 
+Step2 Check whether optical modules of the peer port are damaged. 
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2]. 
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3]. 
+Step3 Check the port configuration. 
+3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]. 
+3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]. 
+Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]. 
+Step5 Contact technical support engineers.
+
+45011    2019-03-25 14:17:41    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 14:17:41, host: ID 0.
+N/A.
+
+45010    2019-03-25 14:17:41    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 14:17:41, host: ID 0.
+N/A.
+
+41725    2019-03-25 10:12:24    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+41724    2019-03-25 10:12:20    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+41719    2019-03-25 10:11:38    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+41706    2019-03-25 10:09:55    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+41699    2019-03-25 10:08:54    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+41698    2019-03-25 10:08:49    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+41684    2019-03-25 10:07:02    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 10:7:2, host: ID 1.
+N/A.
+
+41683    2019-03-25 10:07:00    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 10:7:0, host: ID 1.
+N/A.
+
+41682    2019-03-25 10:05:41    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+41680    2019-03-25 10:05:03    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+41678    2019-03-25 10:04:55    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 10:4:55, host: ID 0.
+N/A.
+
+41677    2019-03-25 10:04:45    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+41676    2019-03-25 10:04:43    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+41675    2019-03-25 10:04:39    0x100F0C90066    Event    Informational    --    None    Powering on the system succeeded.
+N/A
+
+41674    2019-03-25 10:04:30    0x100F0C90064    Event    Informational    --    None    The Engine 0 has restored to work in dual-controller mode.
+N/A
+
+41673    2019-03-25 10:04:28    0x100F00CF0027    Event    Major    --    None    Controller (engine ENG0, controller A) restarts or powers on successfully. Error code: 0x404033DB.
+Step1 Check whether the controller is manually powered off or restarted.
+1.1 If yes, ignore this fault.
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+41672    2019-03-25 10:04:26    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE040) has been inserted.
+N/A
+
+41671    2019-03-25 10:04:26    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE060) has been inserted.
+N/A
+
+41670    2019-03-25 10:04:26    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE050) has been inserted.
+N/A
+
+41669    2019-03-25 10:04:26    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE021) has been inserted.
+N/A
+
+41668    2019-03-25 10:04:26    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE020) has been inserted.
+N/A
+
+41667    2019-03-25 10:04:26    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE030) has been inserted.
+N/A
+
+41666    2019-03-25 10:04:26    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE011) has been inserted.
+N/A
+
+41665    2019-03-25 10:04:25    0x100F0CE000B    Event    Informational    --    None    Disk Enclosure(ID DAE010) has been inserted.
+N/A
+
+41664    2019-03-25 10:04:25    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 1) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely.
+N/A
+
+41663    2019-03-25 10:04:25    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 0) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely.
+N/A
+
+41662    2019-03-25 10:04:24    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+41661    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 13) is inserted.
+N/A
+
+41660    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 15) is inserted.
+N/A
+
+41659    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 21) is inserted.
+N/A
+
+41658    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 20) is inserted.
+N/A
+
+41657    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 14) is inserted.
+N/A
+
+41656    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 24) is inserted.
+N/A
+
+41655    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 22) is inserted.
+N/A
+
+41654    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 18) is inserted.
+N/A
+
+41653    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 19) is inserted.
+N/A
+
+41652    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 17) is inserted.
+N/A
+
+41651    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 23) is inserted.
+N/A
+
+41650    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 16) is inserted.
+N/A
+
+41649    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 8) is inserted.
+N/A
+
+41648    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 7) is inserted.
+N/A
+
+41647    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 6) is inserted.
+N/A
+
+41646    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 11) is inserted.
+N/A
+
+41645    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 5) is inserted.
+N/A
+
+41644    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 10) is inserted.
+N/A
+
+41643    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 12) is inserted.
+N/A
+
+41642    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 9) is inserted.
+N/A
+
+41641    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 4) is inserted.
+N/A
+
+41640    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 8) is inserted.
+N/A
+
+41639    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 22) is inserted.
+N/A
+
+41638    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 11) is inserted.
+N/A
+
+41637    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 2) is inserted.
+N/A
+
+41636    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 21) is inserted.
+N/A
+
+41635    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 0) is inserted.
+N/A
+
+41634    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 16) is inserted.
+N/A
+
+41633    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 6) is inserted.
+N/A
+
+41632    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 1) is inserted.
+N/A
+
+41631    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 14) is inserted.
+N/A
+
+41630    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 24) is inserted.
+N/A
+
+41629    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 18) is inserted.
+N/A
+
+41628    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 10) is inserted.
+N/A
+
+41627    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 20) is inserted.
+N/A
+
+41626    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 23) is inserted.
+N/A
+
+41625    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 24) is inserted.
+N/A
+
+41624    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 4) is inserted.
+N/A
+
+41623    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 20) is inserted.
+N/A
+
+41622    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 17) is inserted.
+N/A
+
+41621    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 17) is inserted.
+N/A
+
+41620    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 24) is inserted.
+N/A
+
+41619    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 14) is inserted.
+N/A
+
+41618    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 24) is inserted.
+N/A
+
+41617    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 12) is inserted.
+N/A
+
+41616    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 19) is inserted.
+N/A
+
+41615    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 21) is inserted.
+N/A
+
+41614    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 10) is inserted.
+N/A
+
+41613    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 9) is inserted.
+N/A
+
+41612    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 22) is inserted.
+N/A
+
+41611    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 11) is inserted.
+N/A
+
+41610    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 7) is inserted.
+N/A
+
+41609    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 12) is inserted.
+N/A
+
+41608    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 10) is inserted.
+N/A
+
+41607    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 15) is inserted.
+N/A
+
+41606    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 21) is inserted.
+N/A
+
+41605    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 3) is inserted.
+N/A
+
+41604    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 16) is inserted.
+N/A
+
+41603    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 23) is inserted.
+N/A
+
+41602    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 20) is inserted.
+N/A
+
+41601    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 14) is inserted.
+N/A
+
+41600    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 14) is inserted.
+N/A
+
+41599    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 13) is inserted.
+N/A
+
+41598    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 21) is inserted.
+N/A
+
+41597    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 15) is inserted.
+N/A
+
+41596    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 13) is inserted.
+N/A
+
+41595    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 19) is inserted.
+N/A
+
+41594    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 18) is inserted.
+N/A
+
+41593    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 16) is inserted.
+N/A
+
+41592    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 10) is inserted.
+N/A
+
+41591    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 19) is inserted.
+N/A
+
+41590    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 17) is inserted.
+N/A
+
+41589    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 16) is inserted.
+N/A
+
+41588    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 8) is inserted.
+N/A
+
+41587    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 7) is inserted.
+N/A
+
+41586    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 20) is inserted.
+N/A
+
+41585    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 22) is inserted.
+N/A
+
+41584    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 1) is inserted.
+N/A
+
+41583    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 23) is inserted.
+N/A
+
+41582    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 13) is inserted.
+N/A
+
+41581    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 5) is inserted.
+N/A
+
+41580    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 18) is inserted.
+N/A
+
+41579    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 22) is inserted.
+N/A
+
+41578    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 11) is inserted.
+N/A
+
+41577    2019-03-25 10:04:57    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 10:4:57, host: ID 0.
+N/A.
+
+41576    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 4) is inserted.
+N/A
+
+41575    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 17) is inserted.
+N/A
+
+41574    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 1) is inserted.
+N/A
+
+41573    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 13) is inserted.
+N/A
+
+41572    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 15) is inserted.
+N/A
+
+41571    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 12) is inserted.
+N/A
+
+41570    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 12) is inserted.
+N/A
+
+41569    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 19) is inserted.
+N/A
+
+41568    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 8) is inserted.
+N/A
+
+41567    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 7) is inserted.
+N/A
+
+41566    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 11) is inserted.
+N/A
+
+41565    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 23) is inserted.
+N/A
+
+41564    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 6) is inserted.
+N/A
+
+41563    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 6) is inserted.
+N/A
+
+41562    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 4) is inserted.
+N/A
+
+41561    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 10) is inserted.
+N/A
+
+41560    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 3) is inserted.
+N/A
+
+41559    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 18) is inserted.
+N/A
+
+41558    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 9) is inserted.
+N/A
+
+41557    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 15) is inserted.
+N/A
+
+41556    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 15) is inserted.
+N/A
+
+41555    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 2) is inserted.
+N/A
+
+41554    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 5) is inserted.
+N/A
+
+41553    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 0) is inserted.
+N/A
+
+41552    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 3) is inserted.
+N/A
+
+41551    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 3) is inserted.
+N/A
+
+41550    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 4) is inserted.
+N/A
+
+41549    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 2) is inserted.
+N/A
+
+41548    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 5) is inserted.
+N/A
+
+41547    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 9) is inserted.
+N/A
+
+41546    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 1) is inserted.
+N/A
+
+41545    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE010, slot ID 2) is inserted.
+N/A
+
+41544    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 24) is inserted.
+N/A
+
+41543    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 9) is inserted.
+N/A
+
+41542    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 7) is inserted.
+N/A
+
+41541    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 6) is inserted.
+N/A
+
+41540    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 7) is inserted.
+N/A
+
+41539    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE020, slot ID 8) is inserted.
+N/A
+
+41538    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 23) is inserted.
+N/A
+
+41537    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 14) is inserted.
+N/A
+
+41536    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 13) is inserted.
+N/A
+
+41535    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 6) is inserted.
+N/A
+
+41534    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 3) is inserted.
+N/A
+
+41533    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 5) is inserted.
+N/A
+
+41532    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 20) is inserted.
+N/A
+
+41531    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 9) is inserted.
+N/A
+
+41530    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 1) is inserted.
+N/A
+
+41529    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 2) is inserted.
+N/A
+
+41528    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 5) is inserted.
+N/A
+
+41527    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 22) is inserted.
+N/A
+
+41526    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 4) is inserted.
+N/A
+
+41525    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 9) is inserted.
+N/A
+
+41524    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 19) is inserted.
+N/A
+
+41523    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 18) is inserted.
+N/A
+
+41522    2019-03-25 10:04:04    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 17) is inserted.
+N/A
+
+41521    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 2) is inserted.
+N/A
+
+41520    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 6) is inserted.
+N/A
+
+41519    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 10) is inserted.
+N/A
+
+41518    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 21) is inserted.
+N/A
+
+41517    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 7) is inserted.
+N/A
+
+41516    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 5) is inserted.
+N/A
+
+41515    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 18) is inserted.
+N/A
+
+41514    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 24) is inserted.
+N/A
+
+41513    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 16) is inserted.
+N/A
+
+41512    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 12) is inserted.
+N/A
+
+41511    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 17) is inserted.
+N/A
+
+41510    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 11) is inserted.
+N/A
+
+41509    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 8) is inserted.
+N/A
+
+41508    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 16) is inserted.
+N/A
+
+41507    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 22) is inserted.
+N/A
+
+41506    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 8) is inserted.
+N/A
+
+41505    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 19) is inserted.
+N/A
+
+41504    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 12) is inserted.
+N/A
+
+41503    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 19) is inserted.
+N/A
+
+41502    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 7) is inserted.
+N/A
+
+41501    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 15) is inserted.
+N/A
+
+41500    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 20) is inserted.
+N/A
+
+41499    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 12) is inserted.
+N/A
+
+41498    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 14) is inserted.
+N/A
+
+41497    2019-03-25 10:04:28    0x200F0D1000F    Event    Informational    --    None    System succeeded in powering on the interface module (controller enclosure CTE0, FC interface module B.IOM1).
+N/A
+
+41496    2019-03-25 10:04:28    0x200F0D1000F    Event    Informational    --    None    System succeeded in powering on the interface module (controller enclosure CTE0, SAS interface module B.IOM0).
+N/A
+
+41495    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 13) is inserted.
+N/A
+
+41494    2019-03-25 10:04:28    0x100F00CF0027    Event    Major    --    None    Controller (engine ENG0, controller B) restarts or powers on successfully. Error code: 0x404033DB.
+Step1 Check whether the controller is manually powered off or restarted.
+1.1 If yes, ignore this fault.
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+41493    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 24) is inserted.
+N/A
+
+41492    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 8) is inserted.
+N/A
+
+41491    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 10) is inserted.
+N/A
+
+41490    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 4) is inserted.
+N/A
+
+41489    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 6) is inserted.
+N/A
+
+41488    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 23) is inserted.
+N/A
+
+41487    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 5) is inserted.
+N/A
+
+41486    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 13) is inserted.
+N/A
+
+41485    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 16) is inserted.
+N/A
+
+41484    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 11) is inserted.
+N/A
+
+41483    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 20) is inserted.
+N/A
+
+41482    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 4) is inserted.
+N/A
+
+41481    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 2) is inserted.
+N/A
+
+41480    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 23) is inserted.
+N/A
+
+41479    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 3) is inserted.
+N/A
+
+41478    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 14) is inserted.
+N/A
+
+41477    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 1) is inserted.
+N/A
+
+41476    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 21) is inserted.
+N/A
+
+41475    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 9) is inserted.
+N/A
+
+41474    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 21) is inserted.
+N/A
+
+41473    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 22) is inserted.
+N/A
+
+41472    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 3) is inserted.
+N/A
+
+41471    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE040, slot ID 0) is inserted.
+N/A
+
+41470    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 1) is inserted.
+N/A
+
+41469    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 0) is inserted.
+N/A
+
+41468    2019-03-25 10:04:25    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller B, port number MGMT) has been disconnected.
+N/A
+
+41467    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 18) is inserted.
+N/A
+
+41466    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE050, slot ID 0) is inserted.
+N/A
+
+41465    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 15) is inserted.
+N/A
+
+41464    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE060, slot ID 0) is inserted.
+N/A
+
+41463    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 0) is inserted.
+N/A
+
+41462    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 11) is inserted.
+N/A
+
+41461    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE030, slot ID 17) is inserted.
+N/A
+
+41460    2019-03-25 10:04:03    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE021, slot ID 0) is inserted.
+N/A
+
+41459    2019-03-25 10:03:49    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 1) is inserted.
+N/A
+
+41458    2019-03-25 10:03:49    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 3) is inserted.
+N/A
+
+41457    2019-03-25 10:03:49    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 2) is inserted.
+N/A
+
+41456    2019-03-25 10:03:49    0x100F00A000F    Event    Informational    --    None    The disk (controller enclosure CTE0, slot ID 0) is inserted.
+N/A
+

@@ -1,0 +1,39 @@
+34404011    2021-12-11 04:07:54    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+34404010    2021-12-11 04:07:54    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+34403840    2021-12-11 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+34403839    2021-12-11 04:01:01    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+34402325    2021-12-11 02:58:50    0x100F00310002    Event    Informational    --    None    Succeeded in deleting the key of application ISCSI_INI (application ID 7, key ID 11).
+N/A
+
+34402323    2021-12-11 02:58:50    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application ISCSI_INI (application ID 7, key ID 12).
+N/A
+
+34402320    2021-12-11 02:58:44    0x100F00310002    Event    Informational    --    None    Succeeded in deleting the key of application ISCSI_TGT (application ID 6, key ID 11).
+N/A
+
+34402319    2021-12-11 02:58:44    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application ISCSI_TGT (application ID 6, key ID 12).
+N/A
+
+34402316    2021-12-11 02:58:38    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_NDMP (application ID 4, key ID 12).
+N/A
+
+34402312    2021-12-11 02:58:32    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_LDAPS (application ID 3, key ID 12).
+N/A
+
+34402309    2021-12-11 02:58:26    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_AD (application ID 2, key ID 12).
+N/A
+
+34402306    2021-12-11 02:58:20    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_USER (application ID 1, key ID 12).
+N/A
+
+34402302    2021-12-11 02:58:14    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application KMM (application ID 0, key ID 12).
+N/A
+

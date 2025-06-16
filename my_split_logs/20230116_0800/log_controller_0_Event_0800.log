@@ -1,0 +1,75 @@
+48470763    2023-01-16 11:51:11    0xF000A0014    Fault    Major    Recovered    2023-01-19 10:45:21    The system failed to monitor disk (controller enclosure CTE0, slot ID 13). Error code: 0x40400292.
+Step1 Check whether an alarm is generated indicating disk faults.
+1.1 If yes, replace the faulty disk. If the alarm persists=>[Step2].
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+48470762    2023-01-16 11:51:11    0x200F000A005B    Fault    Major    Recovered    2023-01-19 10:45:21    Disk (Controller Enclosure CTE0, controller 0B, slot 13, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+48470756    2023-01-16 11:51:00    0x100F00A0010    Event    Informational    --    None    Disk (controller enclosure CTE0, slot ID 13, serial number WBM0YTZL0000K9289YNK) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+48470745    2023-01-16 11:50:36    0x200F000A005B    Fault    Major    Recovered    2023-01-19 10:45:21    Disk (Controller Enclosure CTE0, controller 0A, slot 13, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+48470733    2023-01-16 11:50:08    0x1000010A000D    Event    Informational    --    None    The precopy of the disk (disk enclosure CTE0, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+48470239    2023-01-16 11:29:50    0x1000010A000C    Event    Informational    --    None    The precopy of the disk (disk enclosure CTE0, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+48470238    2023-01-16 11:29:50    0xF000A0121    Fault    Major    Recovered    2023-01-19 10:45:21    Disk (Controller Enclosure CTE0, slot ID 13, controller 0A, serial number WBM0YTZL0000K9289YNK, bar code 2102351SGF9WK3800214) responds slowly. The disk will be isolated. Error code: 0x40400291. This may cause the storage pool that houses the disk to degrade and the system read/write performance to deteriorate.
+Step1 Check whether alarms are generated indicating disk faults.
+    1.1 If yes, replace the faulty disks. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether any expansion port is faulty.
+    2.1 If yes, replace the interface module where the faulty port resides. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Check whether the disk is firmly inserted.
+    3.1 If no, reinsert the disk. If the alarm persists=>[Step4].
+    3.2 If yes=>[Step4].
+Step4 Check whether alarms are generated indicating expansion module faults.
+    4.1 If yes, replace the faulty expansion modules. If the alarm persists=>[Step5].
+    4.2 If no=>[Step5].
+Step5 Collect related information and contact technical support engineers.
+
+48470236    2023-01-16 11:29:48    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 13) completed. The check result is successfully.
+N/A
+
+48470195    2023-01-16 11:28:09    0x100F000B0017    Event    Major    --    None    An unrepairable sector was discovered on the disk (Disk Enclosure CTE0, slot 13).
+Collect related information and contact technical support engineers.
+
+48470193    2023-01-16 11:28:06    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 13) started. Check type: 0x6673736563637573.
+N/A
+
+48468770    2023-01-16 10:29:34    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+48468768    2023-01-16 10:29:33    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+48468763    2023-01-16 10:29:23    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 13) completed. The check result is successfully.
+N/A
+
+48468722    2023-01-16 10:27:45    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 13) started. Check type: 0x6673736563637573.
+N/A
+
+48467301    2023-01-16 09:29:20    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+48467299    2023-01-16 09:29:18    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+48467294    2023-01-16 09:29:08    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 13) completed. The check result is successfully.
+N/A
+
+48467253    2023-01-16 09:27:30    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 13) started. Check type: 0x6673736563637573.
+N/A
+

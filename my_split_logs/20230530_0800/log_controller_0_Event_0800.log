@@ -1,0 +1,24 @@
+53164970    2023-05-30 10:42:35    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+53164953    2023-05-30 10:41:57    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+53164829    2023-05-30 10:36:49    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+53164221    2023-05-30 10:11:54    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.36.225) succeeded.
+N/A
+
+53164218    2023-05-30 10:11:49    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.36.225).The error code is 0x40403285.
+N/A
+
+53164094    2023-05-30 10:06:48    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+
+53164093    2023-05-30 10:06:48    0x100F00310004    Event    Informational    --    None    The replacement of disk (disk enclosure DAE011, slot ID 2, type SAS) in disk domain (ID 7, name SAS) is completed.
+N/A
+
+53164092    2023-05-30 10:06:48    0x100F00A000F    Event    Informational    --    None    The disk (disk enclosure DAE011, slot ID 2) is inserted.
+N/A
+

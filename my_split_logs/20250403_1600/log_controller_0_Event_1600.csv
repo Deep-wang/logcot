@@ -1,0 +1,13 @@
+log
+"76798440    2025-04-03 18:56:38    0x1000010A0010    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) completed."
+N/A
+"76798433    2025-04-03 18:56:23    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started."
+N/A
+"76798432    2025-04-03 18:56:23    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE060, slot ID 5, type SAS) in the disk domain (ID 7, name SAS) completed."
+N/A
+"76798430    2025-04-03 18:56:23    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure DAE060, slot ID 5, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain."
+N/A
+"76798425    2025-04-03 18:56:13    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE060, slot ID 5) completed. The check result is successfully."
+N/A
+"76798411    2025-04-03 18:55:42    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (disk enclosure DAE060, slot ID 5) started. Check type: 0x6673736563637573."
+N/A

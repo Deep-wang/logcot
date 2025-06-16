@@ -1,0 +1,125 @@
+132925    2019-03-29 15:58:07    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 15:58:7, host: ID 1.
+N/A.
+
+132924    2019-03-29 15:58:07    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 15:58:7, host: ID 1.
+N/A.
+
+132922    2019-03-29 15:57:20    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 15:57:20, host: ID 0.
+N/A.
+
+132921    2019-03-29 15:57:20    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 15:57:20, host: ID 0.
+N/A.
+
+132844    2019-03-29 15:52:44    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 15:52:44, host: ID 1.
+N/A.
+
+132843    2019-03-29 15:52:44    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 15:52:44, host: ID 1.
+N/A.
+
+132342    2019-03-29 15:21:28    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.100) succeeded.
+N/A
+
+132127    2019-03-29 15:08:29    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+132124    2019-03-29 15:08:24    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2]. 
+Step2 Collect related information and contact technical support engineers.
+
+132013    2019-03-29 15:02:37    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 15:2:37, host: ID 1.
+N/A.
+
+132012    2019-03-29 15:02:37    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 15:2:37, host: ID 1.
+N/A.
+
+131904    2019-03-29 14:55:09    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 14:55:9, host: ID 1.
+N/A.
+
+131903    2019-03-29 14:55:09    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 14:55:9, host: ID 1.
+N/A.
+
+131825    2019-03-29 14:50:53    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+131638    2019-03-29 14:40:43    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.100) succeeded.
+N/A
+
+131630    2019-03-29 14:40:18    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+
+131402    2019-03-29 14:28:04    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+131340    2019-03-29 14:24:41    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+
+130700    2019-03-29 13:50:11    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+130682    2019-03-29 13:49:25    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.100) succeeded.
+N/A
+
+130230    2019-03-29 13:28:30    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+130112    2019-03-29 13:23:07    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+130020    2019-03-29 13:18:45    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+
+129707    2019-03-29 13:01:53    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+129129    2019-03-29 12:31:35    0x200F000B001F    Event    Informational    --    None    admin:10.33.34.100 succeeded in expanding the capacity of the LUN (name sas-test, ID 1) to 1000GB.
+N/A
+
+129122    2019-03-29 12:31:14    0x200F000B001F    Event    Informational    --    None    admin:10.33.34.100 succeeded in expanding the capacity of the LUN (name ssd-test, ID 0) to 600GB.
+N/A
+
+129068    2019-03-29 12:28:26    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+128949    2019-03-29 12:23:07    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+128929    2019-03-29 12:22:11    0x200F000B001F    Event    Informational    --    None    admin:10.33.34.100 succeeded in expanding the capacity of the LUN (name sas-test, ID 1) to 600GB.
+N/A
+
+128647    2019-03-29 12:09:04    0x200F00F50026    Event    Informational    --    None    admin:10.33.34.100 succeeded in adding the LUN group (ID 1) to the mapping view (ID 2).
+N/A
+
+128646    2019-03-29 12:09:04    0x200F00F5003E    Event    Informational    --    None    admin:10.33.34.100 succeeded in adding the host group (ID 0) to the mapping view (ID 2).
+N/A
+
+128645    2019-03-29 12:09:04    0x200F00F50014    Event    Informational    --    None    admin:10.33.34.100 succeeded in creating the mapping view (name test , ID 2).
+N/A
+
+128631    2019-03-29 12:08:32    0x200F0100001D    Event    Informational    --    None    admin:10.33.34.100 succeeded in adding the LUN (1) to the LUN group (ID 1).
+N/A
+
+128630    2019-03-29 12:08:32    0x200F0100001D    Event    Informational    --    None    admin:10.33.34.100 succeeded in adding the LUN (0) to the LUN group (ID 1).
+N/A
+
+128629    2019-03-29 12:08:32    0x200F01000014    Event    Informational    --    None    admin:10.33.34.100 succeeded in creating the LUN group (name test).
+N/A
+
+128606    2019-03-29 12:07:36    0x200F000B019B    Event    Informational    --    None    admin:10.33.34.100 succeeded in creating the thick LUN (name sas-test, type thick, capacity 500GB, storage pool ID 1, ID 1, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0A, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e0275306000000001).
+N/A.
+
+128594    2019-03-29 12:07:04    0x200F000B019B    Event    Informational    --    None    admin:10.33.34.100 succeeded in creating the thick LUN (name ssd-test, type thick, capacity 500GB, storage pool ID 0, ID 0, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0B, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e027511cc00000000).
+N/A.
+
+128573    2019-03-29 12:06:10    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.100) succeeded.
+N/A
+
+128568    2019-03-29 12:05:58    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.34.100).The error code is 0x40403285.
+N/A
+
+128556    2019-03-29 12:05:31    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+
+128554    2019-03-29 12:05:24    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+

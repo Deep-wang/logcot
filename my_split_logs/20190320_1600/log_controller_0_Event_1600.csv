@@ -1,0 +1,221 @@
+log
+9816    2019-03-20 20:51:04    0x200F00C90045    Event    Informational    --    None    admin:10.33.34.100 started to power off the system.
+N/A
+"9815    2019-03-20 20:50:49    0xF0060004    Fault    Major    Recovered    2019-03-21 10:20:21    FC host port (controller enclosure CTE0, -- controller A, port number H1) is disconnected."
+Step1 Check cable connections.
+"1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]."
+"1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]."
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4].
+1.4 If no exceptions are detected=>[Step3].
+Step2 Check whether optical modules of the peer port are damaged.
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2].
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3].
+Step3 Check the port configuration.
+"3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]."
+"3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]."
+"Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]."
+Step5 Contact technical support engineers.
+"9814    2019-03-20 20:50:48    0xF0060004    Fault    Major    Recovered    2019-03-21 10:20:19    FC host port (controller enclosure CTE0, -- controller B, port number H1) is disconnected."
+Step1 Check cable connections.
+"1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]."
+"1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]."
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4].
+1.4 If no exceptions are detected=>[Step3].
+Step2 Check whether optical modules of the peer port are damaged.
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2].
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3].
+Step3 Check the port configuration.
+"3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]."
+"3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]."
+"Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]."
+Step5 Contact technical support engineers.
+"9813    2019-03-20 20:50:46    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 20:50:46, host: ID 1."
+N/A.
+"9812    2019-03-20 20:50:46    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 20:50:46, host: ID 1."
+N/A.
+"9811    2019-03-20 20:50:10    0xF0060004    Fault    Major    Recovered    2019-03-21 10:18:07    FC host port (controller enclosure CTE0, -- controller A, port number H0) is disconnected."
+Step1 Check cable connections.
+"1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]."
+"1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]."
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4].
+1.4 If no exceptions are detected=>[Step3].
+Step2 Check whether optical modules of the peer port are damaged.
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2].
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3].
+Step3 Check the port configuration.
+"3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]."
+"3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]."
+"Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]."
+Step5 Contact technical support engineers.
+"9810    2019-03-20 20:50:10    0xF0060004    Fault    Major    Recovered    2019-03-21 10:18:13    FC host port (controller enclosure CTE0, -- controller B, port number H0) is disconnected."
+Step1 Check cable connections.
+"1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]."
+"1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]."
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4].
+1.4 If no exceptions are detected=>[Step3].
+Step2 Check whether optical modules of the peer port are damaged.
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2].
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3].
+Step3 Check the port configuration.
+"3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]."
+"3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]."
+"Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]."
+Step5 Contact technical support engineers.
+"9809    2019-03-20 20:50:07    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 20:50:7, host: ID 0."
+N/A.
+"9808    2019-03-20 20:50:07    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 20:50:7, host: ID 0."
+N/A.
+9776    2019-03-20 20:47:19    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.100) succeeded.
+N/A
+"9746    2019-03-20 20:45:38    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"9744    2019-03-20 20:45:35    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+"9741    2019-03-20 20:45:32    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"9740    2019-03-20 20:45:30    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+"9736    2019-03-20 20:45:24    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+6484    2019-03-20 18:01:29    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+6480    2019-03-20 18:01:22    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"6370    2019-03-20 17:54:46    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 17:54:46, host: ID 0."
+N/A.
+"6368    2019-03-20 17:54:44    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 17:54:44, host: ID 0."
+N/A.
+"6294    2019-03-20 17:49:21    0xF0060004    Fault    Major    Recovered    2019-03-20 17:54:48    FC host port (controller enclosure CTE0, -- controller A, port number H0) is disconnected."
+Step1 Check cable connections.
+"1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]."
+"1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]."
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4].
+1.4 If no exceptions are detected=>[Step3].
+Step2 Check whether optical modules of the peer port are damaged.
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2].
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3].
+Step3 Check the port configuration.
+"3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]."
+"3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]."
+"Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]."
+Step5 Contact technical support engineers.
+"6293    2019-03-20 17:49:21    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 17:49:21, host: ID 0."
+N/A.
+"6292    2019-03-20 17:49:21    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 17:49:21, host: ID 0."
+N/A.
+"6291    2019-03-20 17:49:19    0xF0060004    Fault    Major    Recovered    2019-03-20 17:54:55    FC host port (controller enclosure CTE0, -- controller B, port number H0) is disconnected."
+Step1 Check cable connections.
+"1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]."
+"1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]."
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4].
+1.4 If no exceptions are detected=>[Step3].
+Step2 Check whether optical modules of the peer port are damaged.
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2].
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3].
+Step3 Check the port configuration.
+"3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]."
+"3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]."
+"Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]."
+Step5 Contact technical support engineers.
+5713    2019-03-20 17:21:36    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.100) succeeded.
+N/A
+5560    2019-03-20 17:12:38    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+5464    2019-03-20 17:07:25    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"5195    2019-03-20 16:51:20    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+4971    2019-03-20 16:34:34    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.100) succeeded.
+N/A
+4887    2019-03-20 16:27:41    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.100) succeeded.
+N/A
+4778    2019-03-20 16:12:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+4777    2019-03-20 16:12:46    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+4775    2019-03-20 16:12:38    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+4774    2019-03-20 16:12:38    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+4773    2019-03-20 16:12:34    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"4748    2019-03-20 16:08:35    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H1) is linked up, time: 16:8:35, host: ID 1."
+N/A.
+"4747    2019-03-20 16:08:33    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H1) is linked up, time: 16:8:33, host: ID 1."
+N/A.
+4737    2019-03-20 16:07:25    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"4730    2019-03-20 16:06:37    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is linked up, time: 16:6:37, host: ID 0."
+N/A.
+"4729    2019-03-20 16:06:35    0x100F02440006    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H0) is linked up, time: 16:6:35, host: ID 0."
+N/A.
+"4726    2019-03-20 16:01:18    0xF0060004    Fault    Major    Recovered    2019-03-20 16:06:40    FC host port (controller enclosure CTE0, -- controller A, port number H0) is disconnected."
+Step1 Check cable connections.
+"1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]."
+"1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]."
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4].
+1.4 If no exceptions are detected=>[Step3].
+Step2 Check whether optical modules of the peer port are damaged.
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2].
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3].
+Step3 Check the port configuration.
+"3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]."
+"3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]."
+"Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]."
+Step5 Contact technical support engineers.
+"4725    2019-03-20 16:01:12    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d81d0) of a host and the host port (Engine 0, expansion module A, port number H0) is disconnected, time: 16:1:12, host: ID 0."
+N/A.
+"4724    2019-03-20 16:01:12    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8159) of a host and the host port (Engine 0, expansion module B, port number H0) is disconnected, time: 16:1:12, host: ID 0."
+N/A.
+"4723    2019-03-20 16:01:11    0xF0060004    Fault    Major    Recovered    2019-03-20 16:08:35    FC host port (controller enclosure CTE0, -- controller B, port number H1) is disconnected."
+Step1 Check cable connections.
+"1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]."
+"1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]."
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4].
+1.4 If no exceptions are detected=>[Step3].
+Step2 Check whether optical modules of the peer port are damaged.
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2].
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3].
+Step3 Check the port configuration.
+"3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]."
+"3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]."
+"Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]."
+Step5 Contact technical support engineers.
+"4722    2019-03-20 16:01:11    0xF0060004    Fault    Major    Recovered    2019-03-20 16:06:39    FC host port (controller enclosure CTE0, -- controller B, port number H0) is disconnected."
+Step1 Check cable connections.
+"1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]."
+"1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]."
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4].
+1.4 If no exceptions are detected=>[Step3].
+Step2 Check whether optical modules of the peer port are damaged.
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2].
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3].
+Step3 Check the port configuration.
+"3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]."
+"3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]."
+"Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]."
+Step5 Contact technical support engineers.
+"4721    2019-03-20 16:01:08    0xF0060004    Fault    Major    Recovered    2019-03-20 16:08:45    FC host port (controller enclosure CTE0, -- controller A, port number H1) is disconnected."
+Step1 Check cable connections.
+"1.1 If the cable is removed, reinsert it. If the alarm persists=>[1.2]."
+"1.2 If the cable is damaged, replace it. If the alarm persists=>[1.3]."
+1.3 If the port has an optical module=>[Step2]. If no=>[1.4].
+1.4 If no exceptions are detected=>[Step3].
+Step2 Check whether optical modules of the peer port are damaged.
+2.1 Remove and reinsert optical modules of the peer port and reinsert the cables. If the alarm persists=>[2.2].
+2.2 Replace the optical module of the peer port one by one and reinsert the cables. If the alarm persists=>[Step3].
+Step3 Check the port configuration.
+"3.1 Check whether the topology mode of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[3.2]."
+"3.2 Check whether the rate of the port matches that of its peer port. If no, make adaptation adjustment. If the alarm persists=>[Step4]."
+"Step4 Check whether the port and interface module of the two ends connected by the cable are faulty. If yes, rectify the faults. If the alarm persists=>[Step5]."
+Step5 Contact technical support engineers.
+"4720    2019-03-20 16:01:08    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d813c) of a host and the host port (Engine 0, expansion module A, port number H1) is disconnected, time: 16:1:8, host: ID 1."
+N/A.
+"4719    2019-03-20 16:01:08    0x100F02440004    Event    Informational    --    None    The link between initiator (type FC, identifier 0x21000024ff1d8163) of a host and the host port (Engine 0, expansion module B, port number H1) is disconnected, time: 16:1:8, host: ID 1."
+N/A.

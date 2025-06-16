@@ -1,0 +1,152 @@
+log
+"37988017    2022-03-23 09:47:02    0xF00170019    Fault    Major    Recovered    2022-03-23 09:47:11    Power module (Disk Enclosure DAE050, power module PSU 1, item 02311DEP, SN 2102311DEPHVK1005902) is faulty. Error code: --."
+"Step1 Check whether the power cable is securely connected. If not, reinsert the power cable. If the alarm persists=>[Step2]."
+Step2 Replace the power module. If the alarm persists=>[Step3].
+Step3 Collect related information and contact technical support engineers.
+"37988016    2022-03-23 09:47:02    0xF00170019    Fault    Major    Recovered    2022-03-23 09:47:11    Power module (Disk Enclosure DAE040, power module PSU 1, item 02311DEP, SN 2102311DEPHVJC011737) is faulty. Error code: --."
+"Step1 Check whether the power cable is securely connected. If not, reinsert the power cable. If the alarm persists=>[Step2]."
+Step2 Replace the power module. If the alarm persists=>[Step3].
+Step3 Collect related information and contact technical support engineers.
+"37988015    2022-03-23 09:47:01    0xF00170019    Fault    Major    Recovered    2022-03-23 09:47:11    Power module (Disk Enclosure DAE020, power module PSU 1, item 02311DEP, SN 2102311DEPHVK1003653) is faulty. Error code: --."
+"Step1 Check whether the power cable is securely connected. If not, reinsert the power cable. If the alarm persists=>[Step2]."
+Step2 Replace the power module. If the alarm persists=>[Step3].
+Step3 Collect related information and contact technical support engineers.
+"37988014    2022-03-23 09:47:01    0xF00170019    Fault    Major    Recovered    2022-03-23 09:47:11    Power module (Disk Enclosure DAE011, power module PSU 1, item 02311DEP, SN 2102311DEPHVK1006638) is faulty. Error code: --."
+"Step1 Check whether the power cable is securely connected. If not, reinsert the power cable. If the alarm persists=>[Step2]."
+Step2 Replace the power module. If the alarm persists=>[Step3].
+Step3 Collect related information and contact technical support engineers.
+"37987337    2022-03-23 09:19:13    0xF00170014    Fault    Major    Recovered    2022-03-23 09:47:05    No power is input to power module (disk enclosure DAE010, power module PSU 1)."
+Step1 Check whether power cables are connected correctly.
+1.1 If yes=>[Step2].
+"1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2]."
+Step2 Check power cables.
+"2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2]."
+2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+3.1 If yes=>[Step4].
+"3.2 If no, reinsert the power module. If the alarm persists=>[Step4]."
+Step4 Check whether any external power is input to the power module.
+4.1 If yes=>[Step5].
+"4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5]."
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+"37987336    2022-03-23 09:19:13    0xF00170014    Fault    Major    Recovered    2022-03-23 09:47:04    No power is input to power module (disk enclosure DAE060, power module PSU 1)."
+Step1 Check whether power cables are connected correctly.
+1.1 If yes=>[Step2].
+"1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2]."
+Step2 Check power cables.
+"2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2]."
+2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+3.1 If yes=>[Step4].
+"3.2 If no, reinsert the power module. If the alarm persists=>[Step4]."
+Step4 Check whether any external power is input to the power module.
+4.1 If yes=>[Step5].
+"4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5]."
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+"37987335    2022-03-23 09:19:13    0xF00170014    Fault    Major    Recovered    2022-03-23 09:47:02    No power is input to power module (disk enclosure DAE050, power module PSU 1)."
+Step1 Check whether power cables are connected correctly.
+1.1 If yes=>[Step2].
+"1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2]."
+Step2 Check power cables.
+"2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2]."
+2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+3.1 If yes=>[Step4].
+"3.2 If no, reinsert the power module. If the alarm persists=>[Step4]."
+Step4 Check whether any external power is input to the power module.
+4.1 If yes=>[Step5].
+"4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5]."
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+"37987334    2022-03-23 09:19:13    0xF00170014    Fault    Major    Recovered    2022-03-23 09:47:04    No power is input to power module (disk enclosure DAE040, power module PSU 1)."
+Step1 Check whether power cables are connected correctly.
+1.1 If yes=>[Step2].
+"1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2]."
+Step2 Check power cables.
+"2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2]."
+2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+3.1 If yes=>[Step4].
+"3.2 If no, reinsert the power module. If the alarm persists=>[Step4]."
+Step4 Check whether any external power is input to the power module.
+4.1 If yes=>[Step5].
+"4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5]."
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+"37987333    2022-03-23 09:19:13    0xF00170014    Fault    Major    Recovered    2022-03-23 09:47:04    No power is input to power module (disk enclosure DAE030, power module PSU 1)."
+Step1 Check whether power cables are connected correctly.
+1.1 If yes=>[Step2].
+"1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2]."
+Step2 Check power cables.
+"2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2]."
+2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+3.1 If yes=>[Step4].
+"3.2 If no, reinsert the power module. If the alarm persists=>[Step4]."
+Step4 Check whether any external power is input to the power module.
+4.1 If yes=>[Step5].
+"4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5]."
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+"37987332    2022-03-23 09:19:13    0xF00170014    Fault    Major    Recovered    2022-03-23 09:47:04    No power is input to power module (disk enclosure DAE021, power module PSU 1)."
+Step1 Check whether power cables are connected correctly.
+1.1 If yes=>[Step2].
+"1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2]."
+Step2 Check power cables.
+"2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2]."
+2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+3.1 If yes=>[Step4].
+"3.2 If no, reinsert the power module. If the alarm persists=>[Step4]."
+Step4 Check whether any external power is input to the power module.
+4.1 If yes=>[Step5].
+"4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5]."
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+"37987331    2022-03-23 09:19:13    0xF00170014    Fault    Major    Recovered    2022-03-23 09:47:01    No power is input to power module (disk enclosure DAE020, power module PSU 1)."
+Step1 Check whether power cables are connected correctly.
+1.1 If yes=>[Step2].
+"1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2]."
+Step2 Check power cables.
+"2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2]."
+2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+3.1 If yes=>[Step4].
+"3.2 If no, reinsert the power module. If the alarm persists=>[Step4]."
+Step4 Check whether any external power is input to the power module.
+4.1 If yes=>[Step5].
+"4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5]."
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+"37987330    2022-03-23 09:19:13    0xF00170014    Fault    Major    Recovered    2022-03-23 09:47:01    No power is input to power module (disk enclosure DAE011, power module PSU 1)."
+Step1 Check whether power cables are connected correctly.
+1.1 If yes=>[Step2].
+"1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2]."
+Step2 Check power cables.
+"2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2]."
+2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+3.1 If yes=>[Step4].
+"3.2 If no, reinsert the power module. If the alarm persists=>[Step4]."
+Step4 Check whether any external power is input to the power module.
+4.1 If yes=>[Step5].
+"4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5]."
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+"37987329    2022-03-23 09:19:13    0xF00170014    Fault    Major    Recovered    2022-03-23 09:47:04    No power is input to power module (controller enclosure CTE0, power module PSU 1)."
+Step1 Check whether power cables are connected correctly.
+1.1 If yes=>[Step2].
+"1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2]."
+Step2 Check power cables.
+"2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2]."
+2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+3.1 If yes=>[Step4].
+"3.2 If no, reinsert the power module. If the alarm persists=>[Step4]."
+Step4 Check whether any external power is input to the power module.
+4.1 If yes=>[Step5].
+"4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5]."
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.

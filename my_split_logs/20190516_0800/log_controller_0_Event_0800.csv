@@ -1,0 +1,60 @@
+log
+1575039    2019-05-16 15:53:30    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.100) succeeded.
+N/A
+1574722    2019-05-16 15:40:29    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.100) succeeded.
+N/A
+"1574322    2019-05-16 15:23:45    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+"1574319    2019-05-16 15:23:39    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"1574316    2019-05-16 15:23:35    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+"1574295    2019-05-16 15:22:43    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"1574292    2019-05-16 15:22:40    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+1574285    2019-05-16 15:22:23    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+1574284    2019-05-16 15:22:23    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+1574282    2019-05-16 15:22:19    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+1574235    2019-05-16 15:20:24    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.100) succeeded.
+N/A
+"1574224    2019-05-16 15:19:58    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"1574221    2019-05-16 15:19:53    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+"1574220    2019-05-16 15:19:51    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+1574144    2019-05-16 15:16:50    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+1574109    2019-05-16 15:15:22    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 1) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+1574106    2019-05-16 15:15:18    0x100F0015001C    Event    Major    --    None    UltraPath push information from host (ID 0) is not received at the preset time point or fails to be processed.
+Step1 Install UltraPath of the latest version on the host. If the fault persists=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+1574007    2019-05-16 15:11:19    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"1573976    2019-05-16 15:10:03    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+1573951    2019-05-16 15:09:05    0x200F0100001D    Event    Informational    --    None    admin:10.33.34.100 succeeded in adding the LUN (24) to the LUN group (ID 0).
+N/A
+1573950    2019-05-16 15:09:05    0x200F0100001D    Event    Informational    --    None    admin:10.33.34.100 succeeded in adding the LUN (23) to the LUN group (ID 0).
+N/A
+1573929    2019-05-16 15:08:13    0x200F000B0022    Event    Informational    --    None    admin:10.33.34.100 succeeded in modifying the name of the LUN (ID 24) to LUN0040013.
+N/A
+1573922    2019-05-16 15:08:00    0x200F000B0022    Event    Informational    --    None    admin:10.33.34.100 succeeded in modifying the name of the LUN (ID 23) to LUN0040014.
+N/A
+"1573907    2019-05-16 15:07:24    0x200F000B019B    Event    Informational    --    None    admin:10.33.34.100 succeeded in creating the thick LUN (name LUN00400013, type thick, capacity 3TB, storage pool ID 0, ID 24, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0B, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e30eec71000000018)."
+N/A.
+"1573885    2019-05-16 15:06:36    0x200F000B019B    Event    Informational    --    None    admin:10.33.34.100 succeeded in creating the thick LUN (name LUN024, type thick, capacity 3TB, storage pool ID 0, ID 23, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0A, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e30ee986700000017)."
+N/A.
+1573768    2019-05-16 15:01:47    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.100) succeeded.
+N/A
+"1573750    2019-05-16 15:01:06    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A

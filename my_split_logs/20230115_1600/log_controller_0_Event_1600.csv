@@ -1,0 +1,9 @@
+log
+"48446090    2023-01-15 18:58:00    0x1000010A000A    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) completed."
+N/A
+"48446089    2023-01-15 18:57:59    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 13, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain."
+N/A
+"48446084    2023-01-15 18:57:49    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 13) completed. The check result is successfully."
+N/A
+"48446042    2023-01-15 18:56:10    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 13) started. Check type: 0x6673736563637573."
+N/A

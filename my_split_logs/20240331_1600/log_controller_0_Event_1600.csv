@@ -1,0 +1,20 @@
+log
+"63896256    2024-03-31 16:17:00    0xF000A0015    Fault    Major    Recovered    2024-04-02 07:33:13    The system failed to monitor disk (disk enclosure DAE020, slot ID 12). Error code:0x40400293."
+Step1 Check whether alarms are generated indicating disk faults.
+"1.1 If yes, replace the faulty disks. If alarm The System Failed to Monitor a Disk persists=>[Step2]."
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"63896255    2024-03-31 16:17:00    0x200F000A005B    Fault    Major    Recovered    2024-04-02 07:33:13    Disk (Disk Enclosure DAE020, controller 0B, slot 12, serial number --) is isolated."
+Step1 Check whether an alarm is generated indicating disk faults.
+"1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2]."
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"63896250    2024-03-31 16:16:48    0x100F00A0010    Event    Informational    --    None    Disk (disk enclosure DAE020, slot ID 12, serial number WBM0ZX3P0000K9284SDT) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance."
+Reinsert the disk.
+"63896201    2024-03-31 16:14:54    0x200F000A005B    Fault    Major    Recovered    2024-04-02 07:33:13    Disk (Disk Enclosure DAE020, controller 0A, slot 12, serial number --) is isolated."
+Step1 Check whether an alarm is generated indicating disk faults.
+"1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2]."
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+"63896154    2024-03-31 16:12:58    0x1000010A000D    Event    Informational    --    None    The precopy of the disk (disk enclosure DAE020, slot ID 12, type SAS) in the disk domain (ID 7, name SAS) completed."
+N/A

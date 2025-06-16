@@ -1,0 +1,31 @@
+log
+"6392093    2019-10-02 06:37:23    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 1) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely."
+N/A
+6388476    2019-10-02 04:07:37    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+6388475    2019-10-02 04:07:37    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+6388314    2019-10-02 04:01:02    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+6388313    2019-10-02 04:01:02    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"6387851    2019-10-02 03:41:58    0x100F00D20017    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 1) was charging."
+N/A
+"6387414    2019-10-02 03:24:00    0x100F0D20006    Event    Informational    --    None    BBU module (controller enclosure CTE0, BBU module PSU 1) has insufficient power. When a power failure occurs, the BBU module cannot provide sufficient power to save data."
+Step 1 Check whether the BBU module is faulty.
+"1.1 If yes, replace the BBU module."
+1.2 If no=>[step 2].
+Step 2 Wait until the BBU module is fully charged.
+"6387373    2019-10-02 03:22:21    0x100F00D20015    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 1) was in periodic discharge test."
+N/A
+"6387372    2019-10-02 03:22:21    0x100F00E00037    Event    Informational    --    None    The BBU module (Controller Enclosure CTE0, BBU module PSU 0) has sufficient power. When a power failure occurs, the BBU can supply sufficient power for powering off the system safely."
+N/A
+"6382952    2019-10-02 00:19:45    0x100F00D20017    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 0) was charging."
+N/A
+"6382515    2019-10-02 00:01:44    0x100F0D20006    Event    Informational    --    None    BBU module (controller enclosure CTE0, BBU module PSU 0) has insufficient power. When a power failure occurs, the BBU module cannot provide sufficient power to save data."
+Step 1 Check whether the BBU module is faulty.
+"1.1 If yes, replace the BBU module."
+1.2 If no=>[step 2].
+Step 2 Wait until the BBU module is fully charged.
+"6382476    2019-10-02 00:00:09    0x100F00D20015    Event    Informational    --    None    The BBU module (controller enclosure CTE0, BBU module PSU 0) was in periodic discharge test."
+N/A

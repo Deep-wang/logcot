@@ -1,0 +1,66 @@
+64668900    2024-04-22 17:16:54    0xF000A0014    Fault    Major    Recovered    2024-04-24 09:18:45    The system failed to monitor disk (controller enclosure CTE0, slot ID 16). Error code: 0x40400292.
+Step1 Check whether an alarm is generated indicating disk faults.
+1.1 If yes, replace the faulty disk. If the alarm persists=>[Step2].
+1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+64668899    2024-04-22 17:16:54    0x200F000A005B    Fault    Major    Recovered    2024-04-24 09:18:44    Disk (Controller Enclosure CTE0, controller 0B, slot 16, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+64668896    2024-04-22 17:16:50    0x100F00A0010    Event    Informational    --    None    Disk (controller enclosure CTE0, slot ID 16, serial number WBM100X40000K927EKTC) is removed. The storage pool where the disk resides may be degraded, decreasing the system read/write performance.
+Reinsert the disk.
+
+64668895    2024-04-22 17:16:46    0x200F000A005B    Fault    Major    Recovered    2024-04-24 09:18:45    Disk (Controller Enclosure CTE0, controller 0A, slot 16, serial number --) is isolated.
+Step1 Check whether an alarm is generated indicating disk faults.
+  1.1 If yes, replace the isolated disk. If the alarm persists=>[Step2].
+  1.2 If no=>[Step2].
+Step2 Collect related information and contact technical support engineers.
+
+64668876    2024-04-22 17:16:10    0x1000010A0010    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) completed.
+N/A
+
+64668871    2024-04-22 17:15:58    0x1000010A000F    Event    Informational    --    None    The data balancing of the performance tier of the disk domain (ID 7, name SAS, engine 0) started.
+N/A
+
+64668870    2024-04-22 17:15:58    0x1000010A000D    Event    Informational    --    None    The precopy of the disk (disk enclosure CTE0, slot ID 16, type SAS) in the disk domain (ID 7, name SAS) completed.
+N/A
+
+64668473    2024-04-22 16:59:45    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 16) completed. The check result is successfully.
+N/A
+
+64668419    2024-04-22 16:57:31    0x1000010A000C    Event    Informational    --    None    The precopy of the disk (disk enclosure CTE0, slot ID 16, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+64668418    2024-04-22 16:57:31    0x1000010A001D    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 16, type SAS) in the disk domain (ID 7, name SAS) stopped.
+N/A
+
+64668417    2024-04-22 16:57:31    0xF000A0121    Fault    Major    Recovered    2024-04-24 09:18:45    Disk (Controller Enclosure CTE0, slot ID 16, controller 0A, serial number WBM100X40000K927EKTC, bar code 2102351SGF9WK3800158) responds slowly. The disk will be isolated. Error code: 0x40400291. This may cause the storage pool that houses the disk to degrade and the system read/write performance to deteriorate.
+Step1 Check whether alarms are generated indicating disk faults.
+    1.1 If yes, replace the faulty disks. If the alarm persists=>[Step2].
+    1.2 If no=>[Step2].
+Step2 Check whether any expansion port is faulty.
+    2.1 If yes, replace the interface module where the faulty port resides. If the alarm persists=>[Step3].
+    2.2 If no=>[Step3].
+Step3 Check whether the disk is firmly inserted.
+    3.1 If no, reinsert the disk. If the alarm persists=>[Step4].
+    3.2 If yes=>[Step4].
+Step4 Check whether alarms are generated indicating expansion module faults.
+    4.1 If yes, replace the faulty expansion modules. If the alarm persists=>[Step5].
+    4.2 If no=>[Step5].
+Step5 Collect related information and contact technical support engineers.
+
+64668416    2024-04-22 16:57:31    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 16) started. Check type: 0x6673736563637573.
+N/A
+
+64668414    2024-04-22 16:57:27    0x1000010A0009    Event    Informational    --    None    The reconstruction of the disk (disk enclosure CTE0, slot ID 16, type SAS) in the disk domain (ID 7, name SAS) started. Do not remove other member disks in the disk domain.
+N/A
+
+64668406    2024-04-22 16:57:11    0x100F000A004C    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 16) completed. The check result is successfully.
+N/A
+
+64668398    2024-04-22 16:56:53    0x100F000A0115    Event    Informational    --    None    The self-check of the disk (controller enclosure CTE0, slot ID 16) started. Check type: 0x6673736563637573.
+N/A
+

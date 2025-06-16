@@ -1,0 +1,24 @@
+6127212    2019-09-24 15:58:57    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+6127021    2019-09-24 15:51:11    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.200) succeeded.
+N/A
+
+6127017    2019-09-24 15:51:02    0x200F002A0016    Event    Informational    --    None    The user (user name admin) failed to login from the source (10.33.34.200).The error code is 0x40403285.
+N/A
+
+6126945    2019-09-24 15:48:05    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+
+6126944    2019-09-24 15:48:02    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+6126935    2019-09-24 15:47:46    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+
+6126934    2019-09-24 15:47:42    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected.
+N/A
+
+6126928    2019-09-24 15:47:31    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected.
+N/A
+

@@ -1,0 +1,21 @@
+395617    2019-04-12 10:12:56    0xF00170019    Fault    Major    Recovered    2019-04-12 10:13:03    Power module (Disk Enclosure DAE050, power module PSU 0, item 02311DEP, SN 2102311DEPHVK1006013) is faulty. Error code: --.
+Step1 Check whether the power cable is securely connected. If not, reinsert the power cable. If the alarm persists=>[Step2].
+Step2 Replace the power module. If the alarm persists=>[Step3].
+Step3 Collect related information and contact technical support engineers.
+
+395610    2019-04-12 10:12:39    0xF00170014    Fault    Major    Recovered    2019-04-12 10:12:56    No power is input to power module (disk enclosure DAE050, power module PSU 0).
+Step1 Check whether power cables are connected correctly.
+    1.1 If yes=>[Step2].
+    1.2 If no, connect the power cables correctly. If the alarm persists=>[Step2].
+Step2 Check power cables.
+    2.1 If any power cable is removed, reinsert it. If the alarm persists=>[2.2].
+    2.2 Replace the power cable. If the alarm persists=>[Step3].
+Step3 Check whether the power module is inserted.
+    3.1 If yes=>[Step4].
+    3.2 If no, reinsert the power module. If the alarm persists=>[Step4].
+Step4 Check whether any external power is input to the power module.
+    4.1 If yes=>[Step5].
+    4.2 If no, supply power to the storage system correctly. If the alarm persists=>[Step5].
+Step5 Replace the power module. If the alarm persists=>[Step6].
+Step6 Collect related information and contact technical support engineers.
+

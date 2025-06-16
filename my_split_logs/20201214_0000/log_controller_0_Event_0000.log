@@ -1,0 +1,39 @@
+21713891    2020-12-14 04:07:31    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+21713890    2020-12-14 04:07:31    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+21713730    2020-12-14 04:01:00    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+21713729    2020-12-14 04:01:00    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+
+21712240    2020-12-14 02:59:42    0x100F00310002    Event    Informational    --    None    Succeeded in deleting the key of application ISCSI_INI (application ID 7, key ID 7).
+N/A
+
+21712239    2020-12-14 02:59:42    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application ISCSI_INI (application ID 7, key ID 8).
+N/A
+
+21712236    2020-12-14 02:59:37    0x100F00310002    Event    Informational    --    None    Succeeded in deleting the key of application ISCSI_TGT (application ID 6, key ID 7).
+N/A
+
+21712235    2020-12-14 02:59:36    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application ISCSI_TGT (application ID 6, key ID 8).
+N/A
+
+21712230    2020-12-14 02:59:30    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_NDMP (application ID 4, key ID 8).
+N/A
+
+21712227    2020-12-14 02:59:24    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_LDAPS (application ID 3, key ID 8).
+N/A
+
+21712223    2020-12-14 02:59:18    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_AD (application ID 2, key ID 8).
+N/A
+
+21712220    2020-12-14 02:59:13    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application PROTO_USER (application ID 1, key ID 8).
+N/A
+
+21712217    2020-12-14 02:59:07    0x100F00310002    Event    Informational    --    None    Succeeded in updating the key of application KMM (application ID 0, key ID 8).
+N/A
+

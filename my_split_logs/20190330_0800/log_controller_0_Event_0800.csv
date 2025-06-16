@@ -1,0 +1,37 @@
+log
+160103    2019-03-30 15:04:20    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.20) succeeded.
+N/A
+"159986    2019-03-30 14:58:54    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"159949    2019-03-30 14:57:27    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+159375    2019-03-30 14:29:00    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+159234    2019-03-30 14:22:36    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+158880    2019-03-30 14:06:42    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.20) succeeded.
+N/A
+158824    2019-03-30 14:03:49    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name admin) from the source (10.33.34.20) succeeded.
+N/A
+158197    2019-03-30 13:28:56    0x200F002A0019    Event    Informational    --    None    The logout of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+158104    2019-03-30 13:23:24    0x200F002A0015    Event    Informational    --    None    The login of the user (user name mm_user) from the source (127.0.0.1) succeeded.
+N/A
+"158022    2019-03-30 13:19:18    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"158019    2019-03-30 13:19:15    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+"158014    2019-03-30 13:19:06    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"158013    2019-03-30 13:19:03    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
+157984    2019-03-30 13:17:48    0x200F01000014    Event    Informational    --    None    admin:10.33.34.20 succeeded in creating the LUN group (name hzs_Group_test).
+N/A
+"157973    2019-03-30 13:17:17    0x200F000B019B    Event    Informational    --    None    admin:10.33.34.20 succeeded in creating the thick LUN (name hzs_test, type thick, capacity 1TB, storage pool ID 0, ID 2, write policy write back, prefetch policy intelligent, prefetch multiple 0, prefetch value 0KB, relocation policy none, allocation policy automatic, owner controller 0B, read cache policy Default, write cache policy Default, io priority Low, DIF switch no, smart cache state off, mirror policy Enable, Usage type Internal, cow grain size 64KB, WWN 63c7843100c5453e03cebac400000002)."
+N/A.
+157895    2019-03-30 13:13:50    0x200F002A0015    Event    Informational    --    None    The login of the user (user name admin) from the source (10.33.34.20) succeeded.
+N/A
+"157849    2019-03-30 13:11:55    0x100F0108005B    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been connected."
+N/A
+"157828    2019-03-30 13:11:00    0x100F0108005A    Event    Informational    --    None    The management network port (Controller Enclosure CTE0, controller A, port number MGMT) has been disconnected."
+N/A
